@@ -1,0 +1,7 @@
+{
+  "decision": "continue_acquisition",
+  "next_worker": "antigravity",
+  "next_action": "Continue Pass602 acquisition-only search for new code-side evidence.",
+  "decoder_success": false,
+  "reason": "No concrete new artifact obtained yet."
+}

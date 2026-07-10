@@ -1,0 +1,6 @@
+{
+  "active_task": "Pass602 acquisition-only search",
+  "task_for_antigravity": "Find new candidate artifacts only: unpacked/less-protected Aion 4.6/4.7.5 Game.dll/aion.bin, non-public transform/key source, verified modified comparator. Reject public AionEmu/RageZone crypto, CE scripts, hacks, injection, bot offsets.",
+  "task_for_codex": "Wait until a concrete candidate artifact is obtained in inbox/new_samples. Then run static/offline triage only.",
+  "task_for_openclaw": "Summarize acquisition reports and flag candidate URLs or artifacts. Do not make final decoder claims."
+}

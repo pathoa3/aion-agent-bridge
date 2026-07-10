@@ -1,0 +1,17 @@
+*.pcap
+*.pcapng
+*.dll
+*.bin
+*.exe
+*.zip
+*.7z
+*.rar
+*.key
+*.pem
+.env
+secrets*
+captures/
+binaries/
+private/
+__pycache__/
+*.pyc

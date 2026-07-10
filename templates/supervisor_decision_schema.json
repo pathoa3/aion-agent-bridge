@@ -1,0 +1,17 @@
+{
+  "decision": "continue_acquisition | no_artifact_obtained | run_codex_static_triage | archive_branch | blocked_need_new_code_evidence",
+  "branch": "string",
+  "reason": "string",
+  "next_worker": "Antigravity | OpenClaw | Codex | none",
+  "next_task_file": "path or null",
+  "artifact_obtained": false,
+  "local_artifact_path": null,
+  "hard_rules_observed": [
+    "no_live_process",
+    "no_debugger",
+    "no_memory_dump",
+    "no_injection",
+    "no_anticheat_bypass",
+    "no_packet_injection"
+  ]
+}

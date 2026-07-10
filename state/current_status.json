@@ -1,0 +1,13 @@
+{
+  "project": "EuroAion 7785 decoder",
+  "decoder_success": false,
+  "packet_sink_found": false,
+  "oracle_plaintext_recovered": false,
+  "current_state": "blocked_need_new_code_evidence",
+  "latest_clean_passes": [
+    "Pass599",
+    "Pass600",
+    "Pass601"
+  ],
+  "next_goal": "Pass602 acquisition-only search for new code-side transform/key evidence"
+}
