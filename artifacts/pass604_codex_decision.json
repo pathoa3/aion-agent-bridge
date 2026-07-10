@@ -1,0 +1,20 @@
+{
+  "decision": "blocked_static_binary_exhausted",
+  "decoder_success": false,
+  "packet_sink_found": false,
+  "static_offline_only": true,
+  "files_scanned": 11,
+  "target_candidates": [],
+  "decoder_tests_run": false,
+  "decoder_test_reason": "no target file-backed decrypt/encrypt/key candidate existed",
+  "reason": "independent Codex scan found no new file-backed EuroAion/Destiny decrypt/encrypt/key candidate beyond public Aion4.9/Gamez controls",
+  "hard_rules_observed": [
+    "no_live_process",
+    "no_debugger",
+    "no_memory_dump",
+    "no_injection",
+    "no_anti_cheat_bypass",
+    "no_packet_injection",
+    "did_not_run_unknown_binaries"
+  ]
+}
