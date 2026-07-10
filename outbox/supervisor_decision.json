@@ -1,7 +1,7 @@
 {
   "decision": "continue_acquisition",
   "next_worker": "antigravity",
-  "next_action": "Continue Pass602 acquisition-only search for new code-side evidence.",
+  "next_action": "Pass603 targeted acquisition only. Do not repeat broad Pass602 source-code searches.\n\nFind concrete downloadable candidate artifacts only:\n1. Aion 4.6 / 4.7.5 client archive containing Game.dll or aion.bin.\n2. Unpacked / less-protected Game.dll or aion.bin.\n3. Forum attachment or mirror that contains actual client binaries.\n4. Decompiled/static source with a non-public game-channel packet transform/key schedule.\n\nReject AionEmu/RageZone/NewCrypt/Crypt public reference crypto, zzsort/version.dll redirector-only code, Cheat Engine scripts, bot offsets, memory hacks, injection/debugging/anti-cheat bypass instructions, and packet injection tools.\n\nWrite:\n- inbox/antigravity_report.md\n- artifacts/pass603_candidates.md\n- artifacts/pass603_candidates.csv\n- artifacts/pass603_decision.json\n\nIf no concrete downloadable artifact is found:\ndecision = no_artifact_obtained\nnext = stop_repeating_same_search\n\nIf a candidate artifact is found:\ndecision = candidate_artifact_found\nnext = manual_download_to_local_new_samples\n\nDo not commit binaries, PCAPs, archives, API keys, or private files to GitHub.",
   "decoder_success": false,
   "reason": "No concrete new artifact obtained yet."
 }
