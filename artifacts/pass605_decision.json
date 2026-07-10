@@ -1,0 +1,15 @@
+{
+  "decision": "blocked_until_new_artifact",
+  "decoder_success": false,
+  "packet_sink_found": false,
+  "public_control_asm_reconstructed": true,
+  "target_file_backed_candidate_found": false,
+  "decoder_tests_run": true,
+  "reason": "public 4.x crypto reconstructed and grounded variants tested, but no current static/offline file-backed EuroAion evidence produced clear text",
+  "next_required_artifact": [
+    "unpacked_or_less_protected_EuroAion_Game.dll_or_aion.bin",
+    "different_4.6_4.7.5_client_with_visible_packet_crypto",
+    "source_or_decompile_of_custom_7785_transform",
+    "legitimate_static_file_backed_decrypt_encrypt_callsite"
+  ]
+}
