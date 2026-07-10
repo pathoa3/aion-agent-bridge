@@ -1,0 +1,6 @@
+"source_type","source_link","source_description","source_classification","source_safety","source_relevance"
+"EuroAion 4.6 Client (Official Torrent)","https://euroaion.com/en-US/Home/Download","EuroAion_Client.torrent","weak_candidate","Safe for offline analysis only; do not execute the binaries","Potentially exposes packet crypto if unpacked"
+"Aion Nova 4.6 Client (Official Installer)","https://aion-nova.com/","Aion Nova client installer","weak_candidate","Safe for offline analysis only; do not run","Likely contains the same Themida packing on core binaries"
+"GoldAion 4.6 Client","https://goldaion.com/","GoldAion client files","weak_candidate","Safe for offline analysis only; do not run","Protected by active client-side shields/packers"
+"Unpacked Aion 4.6 Client Binaries","N/A","game.dll / aion.bin (Unpacked)","unavailable","Safe for static review","Provides clean code paths to reconstruct packet transformation layout"
+"Custom 4.6 Packet Transform Specification / Source Leak","N/A","Decompiled/static custom transform source","unavailable","Safe for static review","Would contain modified XOR constants or custom rolling logic"

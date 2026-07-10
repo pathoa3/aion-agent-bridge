@@ -1,0 +1,9 @@
+{
+  "decision": "blocked_until_new_artifact",
+  "decoder_success": false,
+  "dynamic_methods_rejected": true,
+  "useful_static_candidate_found": false,
+  "passive_oracle_recommended": false,
+  "reason": "public 4.x crypto reconstructed and grounded variants tested, but no current static/offline file-backed EuroAion evidence produced clear text",
+  "next_action": "wait_for_new_artifact"
+}

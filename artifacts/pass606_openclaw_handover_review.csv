@@ -1,0 +1,8 @@
+"item","status","evidence","concern","recommendation"
+"Controls work?","yes","Public-control Aion4.x ASM/code reconstruction worked at the byte-pattern/pseudocode level from file-backed controls","No exact match found in controls","Continue using controls for reference"
+"Target files lack file-backed evidence?","yes","EuroAion/Destiny file-backed executable candidates found: 0","No file-backed evidence for EuroAion/Destiny","Search for new file-backed evidence"
+"Corrected PCAP extraction used?","yes","Pass599 fixed PCAP extraction","No issues with PCAP extraction","Continue using corrected PCAP extraction"
+"Public/reference variants exhausted?","yes","Public/reference signatures present in controls: exact staticKey, A1 6C 54 87 key tail, public false-key constants in Gamez, and rolling XOR mask motifs","No new public/reference variants found","No further public/reference variants to explore"
+"No target candidates found?","yes","EuroAion/Destiny target aion.bin/game.dll are absent for exact staticKey, public false-key constants, SM_KEY/client/server key strings, and target executable co-occurrence candidates","No target candidates found","Search for new target candidates"
+"Decoder success not falsely claimed?","yes","Decoder success = false","No false claims of decoder success","No false claims of decoder success"
+"Forbidden dynamic methods avoided?","yes","No dynamic methods used","No forbidden dynamic methods used","Continue avoiding forbidden dynamic methods"
