@@ -1,0 +1,6 @@
+id,url_source,filename_version,artifact_type,downloadable,public_reference,why_it_might_expose_packet_crypto,safety_risk_note,classification
+1,https://euroaion.com/en-US/Home/Download,EuroAion_Client.torrent,archive/torrent,yes,no,Contains official EuroAion binaries that connect to the game server.,Safe for offline analysis; do not execute.,weak_candidate
+2,https://aion-nova.com/,Aion Nova client installer,archive,yes,no,Standard 4.6 client files but packed/protected.,Safe for offline analysis; do not execute.,weak_candidate
+3,https://goldaion.com/,GoldAion client files,archive,yes,no,Alternative 4.6 client with similar protection layers.,Safe for offline analysis; do not execute.,weak_candidate
+4,None,game.dll / aion.bin (Unpacked),binary,no,no,Exposes unprotected machine instructions to map the packet transform.,Safe for static analysis.,unavailable
+5,None,Custom 4.6 transform leak,source,no,no,Exposes the exact modified constants or key schedules.,Safe for static analysis.,unavailable
