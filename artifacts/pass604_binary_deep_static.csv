@@ -1,0 +1,7 @@
+file,classification,exact_staticKey,false_key_constants,known_match,next_action
+inbox/euroaion/Aion/EuroAion/game.dll,known_duplicate,no,no,EuroAion_Game_dll_Pass590,archive_if_known_or_no_new_signal
+inbox/euroaion/Aion/EuroAion/aion.bin,pe_no_crypto_signal,no,no,,archive_if_known_or_no_new_signal
+inbox/euroaion/Aion/EuroAion/libeay32.dll,pe_no_crypto_signal,no,no,,archive_if_known_or_no_new_signal
+inbox/euroaion/Aion/EuroAion/ssleay32.dll,pe_no_crypto_signal,no,no,,archive_if_known_or_no_new_signal
+inbox/euroaion/Aion/EuroAion/version.dll,pe_no_crypto_signal,no,no,,archive_if_known_or_no_new_signal
+inbox/euroaion/Aion/Gamez/game.dll,public_crypto_reference,yes,yes,,manual_review

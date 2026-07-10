@@ -1,0 +1,4 @@
+{
+  "decision": "blocked_static_binary_exhausted",
+  "reason": "protected/virtualized EuroAion code not recoverable from current file-backed bytes under allowed methods."
+}
