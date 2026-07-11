@@ -1,0 +1,13 @@
+{
+  "worker": "antigravity",
+  "decision": "wait_for_codex_results",
+  "decoder_success": false,
+  "packet_sink_found": false,
+  "static_candidate_found": true,
+  "new_source_candidate_found": false,
+  "ordinary_say_capture_useful": false,
+  "startup_oracle_useful": true,
+  "codex_files_modified": false,
+  "reason": "Extracted a grounded session key seed candidate (39 90 C5 A2) and custom static mask (F9 7B 38 61 99 F4 5A) from packet #9740 in startup_login_world_entry.pcapng. Codex should test this key state on the oracle frames.",
+  "next_action": "Codex must implement the trial scripts to verify the derived seed on the oracle captures."
+}

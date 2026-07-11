@@ -1,0 +1,7 @@
+source_name,type,classification,evidence_found,verdict,comment
+Rydiik/Aion-Server-4.6,GitHub Repository,public-reference duplicate,Standard Crypt.java and SM_KEY.java implementations.,REJECT,Does not contain custom EuroAion packet transform or key constants.
+ZON3DEV/AionLightning (4.6.0),GitHub Repository,public-reference duplicate,Aion emulator core. Standard XORpass and staticKey logic.,REJECT,Generic open-source Aion emulator network package.
+Aion-Unique PacketSamurai NewCrypt.java,GitHub Repository,generic public crypto,"encXORPass and decXORPass methods, BlowfishEngine usage.",REJECT,"Provides reference framework, but keys are standard defaults."
+Ragezone 2020 Aion 5.8 Troubleshooting Notes,Forum Thread,off-version candidate,"opXor, opAdd, false_key, staticServerPacketCode = 0x56.",REJECT,Tested against corrected Pass574 oracle frames with 0 matches.
+Elitepvpers EuroAion Client Attachments,Forum Mirror,protected target,Installer files and client launchers.,REJECT,Requires execution of unknown binary assets or contains packed code.
+EuroAion Game.dll / aion.bin (inbox),Local Target Binary,protected target,"Themida-protected blocks (.aion1, .aion2).",REJECT,Virtualization prevents static recovery of decryption constants.

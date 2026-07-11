@@ -1,0 +1,16 @@
+file,owner,status,comment
+inbox/codex_report.md,Codex,codex_owned,Real Codex analysis results will be written here. Do not touch or modify.
+inbox/antigravity_report.md,Antigravity,antigravity_owned,Main summary report of Antigravity's acquisition/audit work.
+artifacts/pass607_antigravity_coordination_audit.md,Antigravity,antigravity_owned,This audit coordination log.
+artifacts/pass607_antigravity_coordination_audit.csv,Antigravity,antigravity_owned,This CSV list of coordination properties.
+artifacts/pass607_decision.json,General,stale,Placeholder JSON from previous generic run. Replaced by pass607_antigravity_decision.json.
+artifacts/pass607_inventory.csv,General,stale,"Stale inventory list, replaced by pass607_antigravity_inventory log."
+artifacts/pass607_public_control_reconstruction.md,General,stale,Stale reconstruction report. Codex will override with custom code results.
+artifacts/pass607_public_control_signatures.csv,General,stale,Stale signatures list.
+artifacts/pass607_target_static_search.md,General,stale,Stale search log.
+artifacts/pass607_target_static_candidates.csv,General,stale,Stale candidate list.
+artifacts/pass607_protected_boundary.md,General,stale,Stale PE structure boundary report.
+artifacts/pass607_pcap_oracle_analysis.md,General,stale,Stale PCAP analysis.
+artifacts/pass607_pcap_oracle_frames.csv,General,stale,Stale oracle frames table.
+artifacts/pass607_decoder_attempts.csv,General,stale,Stale decoder attempts CSV.
+artifacts/pass607_decoder_attempt_summary.md,General,stale,Stale decoder attempt summary.
