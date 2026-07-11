@@ -1,25 +1,19 @@
-# Antigravity Parallel Evidence Audit Report - Pass607
+# Antigravity Parallel Evidence Audit Report - Pass607 Followup
 
-## 1. Audit Coordination & Ownership
-We completed an audit of the current artifacts to separate ownership and identify stale files:
-- **Codex-owned**: `inbox/codex_report.md` and any future `artifacts/pass607_codex_*` or `tools/pass607/` are reserved exclusively for Codex code verification.
-- **Antigravity-owned**: This report (`inbox/antigravity_report.md`) and files `artifacts/pass607_antigravity_*` represent Antigravity evidence acquisition logs.
-- **Stale**: All previous summary-style `pass607_*` files that lack the `_antigravity_` or `_codex_` tag are marked as stale placeholders.
+## 1. Timing Audit & Discovery
+We conducted a deep audit of the `startup_login_world_entry.pcapng` capture:
+- **No KSTART_001:** `KSTART_001` was not found. Instead, the typed messages are `KXBOOT_SAY_01`, `KXBOOT_SAY_02_AAAAAAAAAAAAAAAA`, and `KXBOOT_SAY_03_1234567890`.
+- **Dual SM_KEY Events on a Single Connection:** We discovered that the TCP connection was never closed. Instead, the server sent `SM_KEY` twice:
+  1. `Pkt # 7522` at `17:01:52.960992` (Lobby Session, seed **`73 5A 12 08`** decrypted via `Aion75Mask`).
+  2. `Pkt # 9741` at `17:04:45.197172` (Re-Key/World Entry, seed **`39 90 C5 A2`** decrypted via custom mask `F9 7B 38 61 99 F4 5A`).
+- **Chat Packet Location:** The target chat packets are located at indices **8745, 8844, and 8974** (sent around `17:03`). Because these packets occur BEFORE `Pkt # 9741`, they are encrypted using the lobby seed **`73 5A 12 08`**.
+- **Actionable Advice for Codex:** Codex must prioritize testing the lobby seed **`73 5A 12 08`** (both big and little endian) on packets 8745-8974.
 
-## 2. Source Hunt Results
-Targeted search for custom EuroAion packet key configurations or public source leaks returned zero hits:
-- Generic `Aion-unique` and `ZON3DEV` repositories are public-reference duplicates using standard templates.
-- Off-version keys (Ragezone 2020) are incorrect for this client.
-- The target binaries (`game.dll` and `aion.bin`) are protected with Themida virtualization, preventing static recovery.
+## 2. Blowfish Options for Codex
+Since Codex recorded Blowfish as unavailable, we identified:
+- The standard `cryptography` Python library is **already installed** in the virtual environment at `C:\AionTools\aion_decoder_agent\.venv`.
+- Codex should use the virtual environment interpreter to execute trials.
+- We provided test vectors and bounded hypotheses under `artifacts/pass607_antigravity_blowfish_options.md` and `artifacts/pass607_antigravity_bounded_hypotheses_for_codex.md`.
 
-## 3. Passive Startup Capture Analysis
-We parsed the `startup_login_world_entry.pcapng` capture and successfully isolated TCP flow 59085 (port 7785).
-- **Custom SM_KEY Identified**: Packet #9740 is a 11-byte S2C packet with raw hex `f27bc160cff2a4c0ebfdc3`.
-- **Custom Mask Derived**: Assuming a standard `0B 00 F9...` SM_KEY header, we derived a custom static XOR mask: `F9 7B 38 61 99 F4 5A`.
-- **Grounded Session Seed Extracted**: Applying the mask to the remainder of the packet yields the candidate game server seed: `39 90 C5 A2`.
-- **Recommendation**: A startup capture is **highly useful** as it contains the key exchange block. Without it, decoding subsequent frames is statically impossible.
-
-## 4. Handoff to Codex
-Codex should prioritize executing script tests on:
-1. **Hypothesis 1**: Test standard Blowfish ECB decryption using the derived candidate session key: `39 90 C5 A2 A1 6C 54 87` (both little and big endian representations).
-2. **Hypothesis 2**: Verify if the game packet opcodes satisfy the complement relation: `decrypted[2] == ~decrypted[3]`.
+## 3. Codex Alignment & Files
+- No Codex-owned files (`tools/pass607/`, `artifacts/pass607_codex_*`, `inbox/codex_report.md`) were modified.

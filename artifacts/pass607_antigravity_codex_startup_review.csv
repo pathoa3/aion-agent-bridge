@@ -1,0 +1,6 @@
+parameter,value,status,impact
+packet_9741_correction,Confirmed,Correct,Aligned to packet 9741 for post-world entry key exchange
+smkey_decode_validity,Confirmed,Correct,Handoff headers are valid and match Aion protocol specifications
+blowfish_availability,Unavailable,Missing,Codex could not run Blowfish decryption trials
+rekey_timing_mismatch,Confirmed,Discovered,Chat packets occurred before 9741; they require the lobby seed 73 5A 12 08
+blowfish_provider_needed,Required,Actionable,Provide standard Python Blowfish decryption options for Codex

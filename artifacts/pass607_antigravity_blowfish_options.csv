@@ -1,0 +1,4 @@
+provider,type,availability,action_required
+cryptography,Standard Library,Installed in .venv,Run Python scripts using the virtual environment interpreter
+pycryptodome,Third Party Package,Not Installed,Fallback option if cryptography is unusable
+pure_python,Source Snippet,Can write in-script,Only use if no binary packages can be imported
