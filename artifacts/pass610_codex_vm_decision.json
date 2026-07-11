@@ -1,0 +1,31 @@
+{
+  "worker": "codex",
+  "phase": "pass610_vm_handler_execution_trace_validation",
+  "vm_table_verified": false,
+  "handler_count": 256,
+  "handler_formula_verified": true,
+  "handler_classification_done": true,
+  "transform_candidate_handlers_found": true,
+  "top_candidate_handlers": [
+    "0x11B57796",
+    "0x11B5932F",
+    "dispatcher:0x11B562BD/0x11B5630F"
+  ],
+  "execution_model_reconstructed": false,
+  "vm_emulation_possible_from_current_exports": false,
+  "missing_inputs": [
+    "pass8b_handler_table_from_ghidra.csv",
+    "pass8b_target_pcode.txt",
+    "pass8b_target_disassembly.txt",
+    "pass8b_target_flows.csv",
+    "file-backed VM bytecode/instruction-stream slice",
+    "proven packet buffer pointer/length field mapping"
+  ],
+  "decoder_success": false,
+  "exact_plaintext_recovered": false,
+  "forbidden_methods_used": false,
+  "raw_binary_committed": false,
+  "private_payload_committed": false,
+  "reason": "EA_VM_TargetDumpJava verifies the table constants, formula, and 256-opcode dumper, but the generated handler table and p-code exports are absent locally; therefore the full 256 handler address set and semantic execution trace cannot be independently validated from current files.",
+  "next_action": "Provide or regenerate the Ghidra text exports listed in missing_inputs, then run the Pass610 parsers to classify actual handler p-code and trace dispatcher-to-handler-to-buffer effects."
+}
