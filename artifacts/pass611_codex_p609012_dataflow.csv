@@ -1,0 +1,7 @@
+edge_va,source_register,target_register,memory_ref,operation,possible_meaning,confidence,next_step
+0x114731E0,none,DL,[rip + 0x49aacf2c],OR,Themida obfuscation noise or unaligned instruction,medium,reject_edge
+0x114731E1,none,DL,[rip + 0x49aacf2c],OR,Instruction misalignment or packing artifacts,medium,reject_edge
+0x114731E2,none,EAX,none,ADC,Arithmetic obfuscation noise,medium,reject_edge
+0x114731E8,none,none,[rdi],INSD,I/O port assembly stub (invalid for world socket),high,reject_edge
+0x114731F2,none,none,[rsi],MOV,Obfuscated scratch write (no link to packet buffer),high,reject_edge
+0x114731E0..0x114731F5,RSI/RBX,packet buffer/length,none confirmed,dataflow check,No programmatic RSI/RBX-to-packet-buffer bridge is present in available static exports; prior bytes parse as obfuscation/noise or unaligned code.,medium,do_not_use_edge_as_transform_source

@@ -1,0 +1,11 @@
+offset_or_register,meaning,evidence,confidence,notes
+RSI,VM instruction pointer / encrypted bytecode stream pointer,Pass610 execution model says VIP fetches raw byte from [RSI] then increments RSI,high,"Bytecode stream, not proven packet buffer"
+BL,rolling VM opcode decode key,Opcode decode formula uses BL; BL updates as (BL - opcode) & 0xff,high,Lower byte of RBX
+RBX,VM state/key carrier at dispatcher entry,Prior model maps BL to RBX low byte and says RBX is set from RSI at dispatcher entry,medium,Exact full struct role needs p-code
+RBP,VM scratch stack/frame base,Pass610 execution model identifies scratch temporaries via [RBP + delta],medium,Offsets not fully exported
+0x11B54E6F,VM handler dispatch table base,EA_VM_TargetDumpJava constants and Pass610 table progress,high,256 opcode entries
+0x15F664FE,handler-address add constant,handler_va = int64([table + opcode*8]) + constant,high,"Formula only, not transform"
+[RSI + 0x18],bytecode base pointer,Antigravity P609 edge notes,medium,Not independently confirmed by p-code in Codex
+[RSI + 0x24],candidate packet buffer pointer,Antigravity P609 edge notes,low-medium,Rejected edge does not prove writes to this field
+[RBX + 0x48],candidate rolling crypto/session state,Antigravity P609 edge notes,low-medium,Needs full handler p-code
+[RBX + 0x50],candidate packet length variable,Antigravity P609 edge notes,low-medium,Needs write-side dataflow

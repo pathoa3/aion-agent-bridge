@@ -1,0 +1,27 @@
+handler_va,handler_index,behavior_class,connects_to_p609012,packet_buffer_relevance,bounded_transform_possible,tested,result,next_step
+0x11B588A3,1,shift_rotate,no,medium: possible rolling state/key-byte mutation,partial,no,not_tested_insufficient_semantics,provide full p-code/dataflow for handler
+0x11B57FCF,2,add_sub,no,medium: possible rolling state/key-byte mutation,partial,no,not_tested_insufficient_semantics,provide full p-code/dataflow for handler
+0x11B57EFD,3,shift_rotate,no,medium: possible rolling state/key-byte mutation,partial,no,not_tested_insufficient_semantics,provide full p-code/dataflow for handler
+0x11B57488,4,shift_rotate,no,medium: possible rolling state/key-byte mutation,partial,no,not_tested_insufficient_semantics,provide full p-code/dataflow for handler
+0x11B5805A,5,add_sub,no,medium: possible rolling state/key-byte mutation,partial,no,not_tested_insufficient_semantics,provide full p-code/dataflow for handler
+0x11B556DA,6,add_sub,no,medium: possible rolling state/key-byte mutation,partial,no,not_tested_insufficient_semantics,provide full p-code/dataflow for handler
+0x11B57796,7,shift_rotate,no,high: prior matrix reports VM payload read but direct derived trial failed,partial,yes,failed_prior,do_not_repeat_prior_failed_direct_test
+0x11B58D41,8,shift_rotate,no,medium: possible rolling state/key-byte mutation,partial,no,not_tested_insufficient_semantics,provide full p-code/dataflow for handler
+0x11B57D11,9,shift_rotate,no,medium: possible rolling state/key-byte mutation,partial,no,not_tested_insufficient_semantics,provide full p-code/dataflow for handler
+0x11B5972C,10,shift_rotate,no,medium: possible rolling state/key-byte mutation,partial,no,not_tested_insufficient_semantics,provide full p-code/dataflow for handler
+0x11B55CAF,11,shift_rotate,no,medium: possible rolling state/key-byte mutation,partial,no,not_tested_insufficient_semantics,provide full p-code/dataflow for handler
+0x11B57B90,12,shift_rotate,no,medium: possible rolling state/key-byte mutation,partial,no,not_tested_insufficient_semantics,provide full p-code/dataflow for handler
+0x11B57CDE,13,shift_rotate,no,medium: possible rolling state/key-byte mutation,partial,no,not_tested_insufficient_semantics,provide full p-code/dataflow for handler
+0x11B56A65,14,add_sub,no,medium: possible rolling state/key-byte mutation,partial,no,not_tested_insufficient_semantics,provide full p-code/dataflow for handler
+0x11B556EA,15,shift_rotate,no,medium: possible rolling state/key-byte mutation,partial,no,not_tested_insufficient_semantics,provide full p-code/dataflow for handler
+0x11B572EC,16,add_sub,no,medium: possible rolling state/key-byte mutation,partial,no,not_tested_insufficient_semantics,provide full p-code/dataflow for handler
+0x11B59528,17,add_sub,no,medium: possible rolling state/key-byte mutation,partial,no,not_tested_insufficient_semantics,provide full p-code/dataflow for handler
+0x11B59629,18,add_sub,no,medium: possible rolling state/key-byte mutation,partial,no,not_tested_insufficient_semantics,provide full p-code/dataflow for handler
+0x11B5818D,19,shift_rotate,no,medium: possible rolling state/key-byte mutation,partial,no,not_tested_insufficient_semantics,provide full p-code/dataflow for handler
+0x11B58EA4,20,add_sub,no,medium: possible rolling state/key-byte mutation,partial,no,not_tested_insufficient_semantics,provide full p-code/dataflow for handler
+0x11B5932F,21,constant_load,no,low: structural or constant operation without packet buffer proof,no,no,not_tested_insufficient_semantics,provide full p-code/dataflow for handler
+0x11B54C47,22,add_sub,no,medium: possible rolling state/key-byte mutation,partial,no,not_tested_insufficient_semantics,provide full p-code/dataflow for handler
+0x11B55B22,23,shift_rotate,no,medium: possible rolling state/key-byte mutation,partial,no,not_tested_insufficient_semantics,provide full p-code/dataflow for handler
+0x11B55D11,24,shift_rotate,no,medium: possible rolling state/key-byte mutation,partial,no,not_tested_insufficient_semantics,provide full p-code/dataflow for handler
+0x11B572BD,25,shift_rotate,no,medium: possible rolling state/key-byte mutation,partial,no,not_tested_insufficient_semantics,provide full p-code/dataflow for handler
+0x11B56941,26,shift_rotate,no,medium: possible rolling state/key-byte mutation,partial,no,not_tested_insufficient_semantics,provide full p-code/dataflow for handler
