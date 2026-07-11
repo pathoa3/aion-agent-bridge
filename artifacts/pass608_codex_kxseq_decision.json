@@ -1,0 +1,43 @@
+{
+  "worker": "codex",
+  "phase": "pass608_kxseq_startup_capture",
+  "capture": "startup_world_open_kxseq",
+  "blowfish_provider": "cryptography",
+  "known_messages_count": 11,
+  "target_packets_found": true,
+  "smkey_before_first_message_found": true,
+  "intermediate_c2s_packets_before_first_message_count": 22,
+  "direct_seed_tested": true,
+  "sequential_state_tested": true,
+  "update_rules_tested": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "offsets_tested": [
+    0,
+    2,
+    4,
+    6,
+    8
+  ],
+  "trial_rows_local_only": 79200,
+  "decoder_success": false,
+  "exact_plaintext_recovered": false,
+  "matched_messages_count": 0,
+  "matched_messages_labels": [],
+  "best_candidate_label": "formula_238e9c30+tail_87546ca1",
+  "best_update_rule": "D",
+  "best_transform": "Blowfish_then_decXORPass offset=0",
+  "best_score": 10.966,
+  "raw_payload_committed": false,
+  "payload_hash_committed": false,
+  "forbidden_methods_used": false,
+  "reason": "KXSEQ targets were found and 79200 local-only direct/sequential rows were tested, but no exact UTF-16LE KXSEQ plaintext was recovered.",
+  "next_action": "Provide file-backed code/decompile/source evidence for the custom world-open game-channel transform, key update, or framing variant. Do not use memory dumps, attach/debug, live process, injection, anti-cheat bypass, or packet injection."
+}

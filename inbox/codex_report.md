@@ -1,16 +1,17 @@
-# Codex Pass607 Lobby Sequential State Report
+# Codex Pass608 KXSEQ Startup Capture Report
 
-Decision: `blocked_lobby_seq_no_plaintext_recovery`
+Decision: `blocked_kxseq_no_plaintext_recovery`
 
-- 31 intermediate C2S packets processed: yes (31 C2S data packets through first target 8745)
-- sequential key-state simulation tested: yes
-- exact KXBOOT plaintext recovered: no
+- KXSEQ target packets found: yes
+- intermediate C2S packets before KXSEQ_001: 22
+- direct seed worked: no
+- sequential state tested: yes
+- exact KXSEQ plaintext recovered: no
 - matched messages: (none)
-- best update rule: G
-- best transform: decXORPass_then_Blowfish offset=0
-- best candidate label: formula_a9ea2bc5_tail_00000000
-- best score: 12.574
-- detailed results stayed local-only: yes
-- raw payload/hash data excluded from Git outputs: yes
+- best update rule: D
+- best transform: Blowfish_then_decXORPass offset=0
+- best candidate label: formula_238e9c30+tail_87546ca1
+- detailed outputs stayed local-only: yes
+- Git contains no raw payload/hash/decrypted data: yes
 
-No forbidden methods were used. Next action is file-backed code/decompile/source evidence for the custom lobby/game-channel key update, transform, or framing variant. Memory dumps are not recommended.
+No forbidden methods were used. Next action is file-backed code/decompile/source evidence for the custom world-open game-channel transform, key update, or framing variant. Memory dumps are not recommended.
