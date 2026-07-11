@@ -1,14 +1,14 @@
 {
   "worker": "antigravity",
   "phase": "pass608_stream_review",
-  "codex_stream_run_found": false,
-  "repeat_oracle_tested": false,
-  "stream_hypotheses_tested": false,
+  "codex_stream_run_found": true,
+  "repeat_oracle_tested": true,
+  "stream_hypotheses_tested": true,
   "decoder_success": false,
   "codex_files_modified": false,
   "raw_payload_committed_by_antigravity": false,
-  "best_next_hypothesis": "RC4_or_Blowfish_CTR_sequential_15_packets",
-  "decision": "wait_for_codex_stream_run",
-  "reason": "Audited Codex stream run status. Verified that Codex stream run artifacts do not exist yet. Bounded stream hypotheses (RC4, Blowfish CTR/CFB/OFB, pure XORpass) have been prepared for Codex.",
-  "next_action": "Wait for Codex to execute the stream-hypothesis trials using world seed 2D 66 BD 65 and lobby seed 19 1A 76 23."
+  "best_next_hypothesis": "virtualized_vm_transform_source_candidate_hunt",
+  "decision": "review_done",
+  "reason": "Audited Codex stream-hypothesis run. Confirmed that cryptography Blowfish self-tests passed and 19,008 stream/block trials across offsets 4/6/8/10, world/lobby seeds, and bidirectional/sequential states were executed. No exact KXSEQ plaintext was recovered. Redaction and local-only trial rules were strictly maintained.",
+  "next_action": "Hunt for custom EuroAion packet transform source/decompile candidates or perform deeper symbolic emulation of the virtualized .aion1 VM handlers."
 }

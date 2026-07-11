@@ -1,7 +1,11 @@
 field,value,status,notes
-codex_stream_run_found,false,Confirmed,Codex stream run has not executed or been committed yet
-tested_stream_hypotheses,false,Confirmed,RC4 and Blowfish CFB/OFB/CTR stream modes are untested
-tested_repeat_oracle,false,Confirmed,KXSEQ_010_REPEAT differential analysis is pending
-tested_offsets_4_6_8_10,false,Confirmed,Offsets have not been tested on stream cipher states
+codex_stream_run_found,true,Confirmed,The Codex stream run report is present in the repository
+tested_repeat_oracle,true,Confirmed,Tested frames 4429/4435 for differential analysis
+tested_non_ecb_stream_modes,true,Confirmed,CFB/OFB/CTR/RC4-like models were tested
+tested_offsets_4_6_8_10,true,Confirmed,Offsets 4/6/8/10 were covered
+tested_world_seed_2D_66_BD_65,true,Confirmed,World seed was tested in sequential and bidirectional modes
+local_only_trial_integrity,true,Confirmed,All 19008 trial rows kept local-only
+git_safety_compliance,true,Confirmed,No raw hex or decrypted data committed to Git
 exact_plaintext_recovered,false,Confirmed,Decoder success remains false
+best_partial_candidate,B_Blowfish_OFB_like offset_6,Confirmed,Highest score of 16.0 achieved
 antigravity_modified_codex_files,false,Confirmed,No Codex-owned files were touched
