@@ -1,25 +1,21 @@
-# Pass610 Antigravity VM Cleartext Summary
+# Pass610 Antigravity VM Cleartext Progress
 
-We completed the execution model verification, VM handler classification, and built a safe offline VM emulator skeleton:
+We resumed from the previous checkpoint and executed Task 1-4:
 
-## 1. Verified VM Properties
-- **Table Base Address:** `0x11B54E6F`.
-- **Unique Handlers:** 70 unique handler VAs verified from 256 mapped opcodes.
-- **Handler Classification:** Classified into operational groups (`branch_dispatch`, `shift_rotate`, `add_sub`, `pointer_update`, `xor`, `constant_load`).
+## 1. Task 1: Checkpoint Resume Summary
+- **Tested:** Tested direct Blowfish OFB-like decoder in the previous run. It failed to recover exact plaintext ( containment score: 0).
+- **Untested Surface:** Exactly 69 of the 70 classified unique VM handlers remained untested.
+- **Action:** We mapped and prioritized the top 10 handlers of interest in `pass610_antigravity_handler_trace_matrix.csv`.
 
-## 2. VM Execution Model
-- **Instruction Pointer:** `RSI` register (VIP).
-- **Opcode Decryption:** Decoded via rolling key `BL` and byte rotations:
-  `opcode = rol8(((raw - BL + 0x86) ^ 0x34), 5)`
-  `BL = (BL - opcode) & 0xff`
+## 2. Task 2: Codex P609-012 Edge Triage (`0x114731E0..0x114731F5`)
+- **Status:** **REJECTED.**
+- **Details:** Under Capstone and symbolic disassembly, the address resolves to `or dl, byte ptr [rip + 0x49aacf2c]` or `adc eax, 0x49aacf2c`. Bounded tracing shows there is no programmatic bridge linking the active VM context registers (`RSI`, `RBX`) to memory writes or loops in this block. This address region represents dead/unmapped virtualized packing stubs. We have documented the dataflow mapping in `pass610_antigravity_p609012_dataflow.csv`.
 
-## 3. Emulator Skeleton Implementation
-- Built `tools/pass610_antigravity_vm_cleartext/` equipped with:
-  - `parse_vm_table.py` for VM mapping verification.
-  - `classify_vm_handlers.py` for handler categorization.
-  - `vm_model_notes.py` for emulator parameters.
-  - `vm_emulator_skeleton.py` to trace VM opcodes dynamically.
+## 3. Task 3 & 4: Top 10 Handler Trace Matrix & Bounded Transforms
+- **Matrix Mapping:** Mapped the top 10 handlers (e.g. `0x11B57437` [XOR DL, 0xc7], `0x11B57796` [MOV EAX, [RSI]]) in `pass610_antigravity_handler_trace_matrix.csv`.
+- **Transforms Tested:** Executed 240 trials testing bytewise XOR masks (specifically `0xC7`) and index offset shifts over body offsets 4, 6, 8, and 10 against the startup PCAP.
+- **Plaintext Recovered:** **0 matches.** Bounded static transforms derived from handler semantics alone are insufficient.
 
-## 4. Current Blockers & Next Action
-The offline VM emulation and cryptanalysis paths are currently blocked because the VM code utilizes custom obfuscated native handlers (`0x11B57796`, `0x11B5932F`) to translate the decrypted byte blocks. Standard stream cipher trials did not recover plaintext. The next required step is:
-- Hunt for custom EuroAion client decompile/source-code evidence or perform deep symbolic tracing of the isolated VM handler blocks.
+## 4. Hard Blocker & Next Step
+- **Best Remaining Blocker:** **`Missing_2106_handshake_crypto_seed`**. Standard stream transforms fail because the world port 7785 session key requires cryptographic handshake negotiation bytes passed from port 2106.
+- **Next Autonomous Step:** Acquire or compare legitimate unpacked/less-protected 4.6 client binaries to isolate the exact key seed extraction routine.

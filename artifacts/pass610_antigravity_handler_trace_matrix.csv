@@ -1,0 +1,17 @@
+# Pass610 Antigravity Handler Trace Matrix
+
+We traced the top 10 most relevant cryptographic or structural handlers from the 70 classified unique VAs.
+
+| handler_va | handler_index | behavior_class | connects_to_p609012 | packet_buffer_relevance | bounded_test_possible | tested | result | next_step |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| `0x11B57796` | 1 | `shift_rotate` | no | High: confirmed `MOV EAX, dword ptr [RSI]` VM payload read | yes | yes | failed | reject_direct_OFB |
+| `0x11B588A3` | 2 | `shift_rotate` | no | Medium: SHRD mutates state register | yes | no | untested | test_under_symbolic_emulation |
+| `0x11B57FCF` | 3 | `add_sub` | no | Medium: ADD modifies state register | yes | no | untested | test_under_symbolic_emulation |
+| `0x11B57EFD` | 4 | `shift_rotate` | no | Medium: ROR modifies key register | yes | no | untested | test_under_symbolic_emulation |
+| `0x11B57488` | 5 | `shift_rotate` | no | Medium: BTR sets status bit | yes | no | untested | test_under_symbolic_emulation |
+| `0x11B5805A` | 6 | `add_sub` | no | Medium: NEG DH arithmetic | yes | no | untested | test_under_symbolic_emulation |
+| `0x11B556DA` | 7 | `add_sub` | no | Medium: SBB arithmetic | yes | no | untested | test_under_symbolic_emulation |
+| `0x11B55954` | 8 | `branch_dispatch` | no | Low: basic JMP dispatch | no | no | untested | ignore |
+| `0x11B58D41` | 9 | `shift_rotate` | no | Medium: BT test bit | yes | no | untested | test_under_symbolic_emulation |
+| `0x11B5932F` | 10 | `constant_load` | no | Low: SETZ AH constant write | yes | no | untested | test_under_symbolic_emulation |
+| `0x11B57437` | 11 | `xor` | no | High: `XOR DL, 0xc7` logical transform | yes | no | untested | test_under_symbolic_emulation |
