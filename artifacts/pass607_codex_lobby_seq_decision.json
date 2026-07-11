@@ -2,22 +2,42 @@
   "worker": "codex",
   "phase": "pass607_lobby_sequential_state",
   "lobby_seed": "73 5A 12 08",
-  "intermediate_c2s_packets_count": 30,
-  "target_packets": [
+  "intermediate_c2s_packets_count": 31,
+  "target_packets_tested": [
     8745,
     8844,
     8974
   ],
   "sequential_state_tested": true,
+  "update_rules_tested": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "offsets_tested": [
+    0,
+    2,
+    4,
+    6,
+    8
+  ],
+  "trial_rows_local_only": 3360,
   "decoder_success": false,
   "exact_plaintext_recovered": false,
-  "matched_messages": [],
-  "best_candidate_key": "lobby_le_tail_ffffffff",
-  "best_transform": "previous_best_decXORPass_then_Blowfish_ECB_xor_offset_4 offset=4",
-  "best_update_rule": "F_no_update_negative_control",
-  "best_score": 6.0,
+  "matched_messages_count": 0,
+  "matched_messages_labels": [],
+  "best_candidate_label": "formula_a9ea2bc5_tail_00000000",
+  "best_update_rule": "G",
+  "best_transform": "decXORPass_then_Blowfish offset=0",
+  "best_score": 12.574,
   "raw_payload_committed": false,
+  "payload_hash_committed": false,
   "forbidden_methods_used": false,
-  "reason": "Sequential key-state simulation processed 30 intermediate C2S packets before packet 8745 and tested 2646 target decrypt rows, but no exact UTF-16LE KXBOOT plaintext was recovered.",
+  "reason": "Sequential key-state simulation tested 3360 local-only rows across the 31 C2S data packets through first target 8745, but no exact UTF-16LE KXBOOT plaintext was recovered.",
   "next_action": "Provide file-backed code/decompile/source evidence for the custom lobby/game-channel key update, transform, or framing variant. Do not use memory dumps, attach/debug, live process, injection, anti-cheat bypass, or packet injection."
 }
