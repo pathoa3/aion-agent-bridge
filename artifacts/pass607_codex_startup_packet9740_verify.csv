@@ -1,0 +1,3 @@
+row_type,packet_no,packet_exists,tcp_stream,flow,direction,src,dst,seq,ack,tcp_header_len,raw_payload_length,raw_payload_hex,raw_payload_spaced_hex,matches_antigravity_hex
+requested_packet_9740,9740,yes,152,192.168.178.127:58145<->192.168.178.94:7680,unknown,192.168.178.94:7680,192.168.178.127:58145,2913377496,842233764,20,0,,,no
+matching_antigravity_ciphertext,9741,yes,105,192.168.178.127:59085<->54.37.197.248:7785,S2C,54.37.197.248:7785,192.168.178.127:59085,3954810319,3703318243,20,11,f27bc160cff2a4c0ebfdc3,F2 7B C1 60 CF F2 A4 C0 EB FD C3,yes
