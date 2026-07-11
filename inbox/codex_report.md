@@ -1,17 +1,15 @@
-﻿# Codex Pass607 Startup Blowfish Report
+# Codex Pass607 Lobby Seed Blowfish Report
 
-Decision: `blocked_startup_blowfish_no_plaintext_recovery`
+Decision: `blocked_lobby_seed_no_plaintext_recovery`
 
-- Blowfish provider used: `pure_python`
-- Blowfish self-tests passed: yes
-- packet 9741 SM_KEY stayed confirmed: yes
-- candidate seed: `39 90 C5 A2`
-- candidate mask: `F9 7B 38 61 99 F4 5A`
-- startup packets tested after packet 9741: 51
-- trial rows: 11,628
-- KSTART_001 recovered: no
-- any known plaintext recovered: no
-- decoder_success: false
-- Pass574 UTF-16LE + 10 recheck after Blowfish implementation: yes
+- Blowfish provider: `cryptography`
+- Blowfish self-test passed: yes
+- packet 7522 lobby SM_KEY source checked: yes
+- lobby seed: `73 5A 12 08`
+- later world seed `39 90 C5 A2` tested only as negative control: yes
+- packets 8745/8844/8974 tested: yes
+- exact KXBOOT plaintext recovered: no
+- matched messages: (none)
+- best candidate: lobby_seed_le+tail_ff / 735a1208ffffffff with decXORPass_then_Blowfish_ECB_xor_offset_4 offset=0
 
-No forbidden methods were used. Next action is file-backed code/decompile/source evidence for the custom startup/game-channel transform or framing/key schedule variant. Memory dumps are not recommended.
+No forbidden methods were used. Next action is file-backed code/decompile/source evidence for the custom lobby/game-channel transform, key schedule, or framing variant. Memory dumps are not recommended.
