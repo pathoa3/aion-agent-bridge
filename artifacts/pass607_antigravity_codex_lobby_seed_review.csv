@@ -1,0 +1,8 @@
+parameter,value,status,impact
+codex_lobby_run_found,true,Confirmed,The Codex lobby seed run artifacts exist in the repository
+tested_lobby_seed_73_5A_12_08,true,Confirmed,Lobby seed key prefixes were successfully tested
+targeted_packets_tested,true,Confirmed,Packets 8745/8844/8974 were targeted
+blowfish_selftest_status,Passed,Confirmed,Pure-Python Blowfish implementation is cryptographically correct
+offsets_tested,0_2_4,Partial,Offsets 6 and 8 were not covered
+key_mutation_factor,31_packets,Discovered,31 intermediate C2S packets mutated the state before the first chat
+antigravity_modified_codex_files,false,Confirmed,No Codex-owned files were touched
