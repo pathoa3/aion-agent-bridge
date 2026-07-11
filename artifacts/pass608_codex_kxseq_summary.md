@@ -1,22 +1,22 @@
-# Pass608 Codex KXSEQ Startup Capture Summary
+# Pass608 Codex KXSEQ World Seed Sequential Summary
 
-- Git-safe summary only; detailed alignment and trials are local-only.
+- Git-safe summary only; detailed trials are local-only.
 - raw payload committed: false
 - payload hash committed: false
-- known messages: 11
 - target packets found: yes
-- SM_KEY before first message found: yes
-- intermediate C2S packets before KXSEQ_001: 22
-- direct seed tested: yes
+- lobby seed: `19 1A 76 23`
+- world seed tested: `2D 66 BD 65`
+- world SM_KEY frame: 4119
+- first message frame: 4329
+- intermediate C2S packets before first message: 15
+- direct world seed tested: yes
 - sequential state tested: yes
 - update rules tested: A, B, C, D, E, F, G, H
 - offsets tested: 0, 2, 4, 6, 8
-- local-only trial rows: 79200
-- Blowfish provider: cryptography
+- local-only trial rows: 12320
 - exact UTF-16LE KXSEQ matches: 0
-- repeated KXSEQ_010_REPEAT matches: 0
 - matched message labels: (none)
-- best candidate label: formula_238e9c30+tail_87546ca1
-- best update rule: D
+- best candidate label: world_seed_tail_87546ca1
+- best update rule: direct
 - best transform: Blowfish_then_decXORPass offset=0
-- best score: 10.966
+- best score: 10.917

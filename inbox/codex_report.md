@@ -1,16 +1,14 @@
-# Codex Pass608 KXSEQ Startup Capture Report
+# Codex Pass608 KXSEQ World Seed Sequential Report
 
-Decision: `blocked_kxseq_no_plaintext_recovery`
+Decision: `blocked_kxseq_world_seed_no_plaintext_recovery`
 
-- KXSEQ target packets found: yes
-- intermediate C2S packets before KXSEQ_001: 22
-- direct seed worked: no
-- sequential state tested: yes
+- frame 4119 world seed `2D 66 BD 65` tested: yes
+- 15 intermediate C2S packets processed: yes (15)
 - exact KXSEQ plaintext recovered: no
 - matched messages: (none)
-- best update rule: D
+- best update rule: direct
 - best transform: Blowfish_then_decXORPass offset=0
-- best candidate label: formula_238e9c30+tail_87546ca1
+- best candidate label: world_seed_tail_87546ca1
 - detailed outputs stayed local-only: yes
 - Git contains no raw payload/hash/decrypted data: yes
 
