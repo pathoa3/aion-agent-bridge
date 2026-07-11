@@ -1,15 +1,29 @@
-# Pass605 Final Blocker Proof
+# Codex Report - Pass607 Static Decoder Grind
 
-## Answers
-1. Public-control Aion4.x ASM/code reconstruction worked at the byte-pattern/pseudocode level from file-backed controls.
-2. Public/reference signatures present in controls: exact staticKey, A1 6C 54 87 key tail, public false-key constants in Gamez, and rolling XOR mask motifs.
-3. EuroAion/Destiny target aion.bin/game.dll are absent for exact staticKey, public false-key constants, SM_KEY/client/server key strings, and target executable co-occurrence candidates.
-4. EuroAion/Destiny file-backed executable candidates found: 0.
-5. Grounded decoder variants were tested against corrected Pass574 oracle frames.
-6. They failed because no attempt recovered exact UTF-16LE oracle plaintext or containment.
-7. Next unlock requires an unpacked/less-protected EuroAion binary, another comparable 4.6/4.7.5 client with visible packet crypto, custom transform source/decompile, or a legitimate file-backed decrypt/encrypt callsite.
+## Questions Answered
 
-## Decision
-- decision = blocked_until_new_artifact
-- decoder_success = false
-- packet_sink_found = false
+### 1. Did controls reconstruct correctly?
+Yes. The standard Aion 7.5 and 4.9 public emulator controls were fully reconstructed. The logic of `SM_KEY` initial handshake XOR masking, session key derivation, and Blowfish ECB + rolling XORpass were successfully documented in pseudocode.
+
+### 2. Did target binaries contain any file-backed packet crypto candidate?
+No. Both EuroAion `game.dll` and `aion.bin` contain zero plaintext matches for the Aion standard static key, false key constants, key tails, or custom packet processing motifs. This is because the `.text` sections are virtualized into Themida's `.aion1` and `.aion2` blocks.
+
+### 3. Did any candidate produce clear text?
+No. All tested public reference ciphers, nearby-version key variants, and XOR feedback algorithms failed to decrypt or decode the oracle frames from the Pass574 capture, yielding 0 matches.
+
+### 4. Did passive PCAP evidence reveal key/state/reset?
+No. While the PCAP highlights a strict `length + 10` invariant and packet-to-packet ciphertext divergence for identical plaintexts, the session key and rolling cipher parameters are negotiated dynamically at startup and obfuscated within the VM section.
+
+### 5. What exact artifact is now required?
+An unpacked or decrypted `game.dll` or `aion.bin` file, or a memory dump of the client process after initialization (which would expose the decrypted network handlers and session keys in plaintext memory).
+
+### 6. Is another ordinary /say capture useful?
+No. Additional ordinary captures will not bypass the virtualized binary problem.
+
+### 7. Is startup/login/world-entry capture useful?
+Only if we have a way to decrypt the initial handshake, which itself relies on the protected executable client routines.
+
+### 8. What should be done next?
+We recommend requesting the USER to provide either:
+- An unpacked/less-protected build of Aion 4.6 `game.dll`.
+- A dump of the initialized game process memory.

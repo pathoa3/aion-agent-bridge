@@ -1,0 +1,5 @@
+signature_name,pattern_hex,offset_in_control,comment
+Aion75Mask,CA667AF68320A3,0x148000,Aion 7.5 Server Packet XOR Mask
+staticKey,6e4b4f2f576374513041564c62707a66,0x31cd60,Aion standard staticKey (nKO/WctQ...)
+false_key_csharp_48,DFE492CDCFCCF23F,0x159820,Ragezone 2023 C# false key constants
+key_tail_A1_6C_54_87,A16C5487,0x32c7c0,Aion packet key tail static constant

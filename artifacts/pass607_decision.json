@@ -1,0 +1,12 @@
+{
+  "decision": "blocked_until_new_artifact",
+  "decoder_success": false,
+  "partial_oracle_recovery": false,
+  "packet_sink_found": false,
+  "static_candidate_found": false,
+  "passive_startup_oracle_needed": true,
+  "dynamic_methods_rejected": true,
+  "forbidden_methods_used": false,
+  "reason": "EuroAion's binary is protected with Themida virtualization. Pure offline static analysis has exhausted all public ciphers and nearby-version candidates with 0 matches.",
+  "next_action": "Wait for user to provide a clean memory dump of the running client or an unpacked game.dll/aion.bin."
+}

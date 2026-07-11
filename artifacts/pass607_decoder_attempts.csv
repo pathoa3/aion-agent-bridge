@@ -1,0 +1,4 @@
+attempt_id,method,evidence,frames_tested,oracle_matches,utf16_containment_matches,status,reason
+1,Public Aion 7.5 ECB Blowfish Decrypt,Aion4.9/Gamez reference emulation structures,"7166, 7200, 7250",0,0,failed,Mismatched keys or modified block mode on EuroAion client
+2,Standard Feedback XOR Cipher,L2J/Aion-Emu NewCrypt rolling XORpass implementation,"7166, 7200, 7250",0,0,failed,XORpass logic requires Blowfish block alignment first
+3,EuroAion Custom Key Derivation Scenarios,Ragezone 2020 / 2023 nearby-version constants,"7166, 7200, 7250",0,0,failed,Obfuscated virtualized dll prevents static recovery of target session key constants
