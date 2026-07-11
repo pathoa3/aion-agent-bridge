@@ -1,0 +1,32 @@
+{
+  "worker": "codex",
+  "phase": "pass608_kxseq_stream_hypotheses",
+  "world_seed": "2D 66 BD 65",
+  "lobby_seed": "19 1A 76 23",
+  "target_packets_tested": true,
+  "repeat_plaintext_oracle_tested": true,
+  "stream_hypotheses_tested": true,
+  "body_only_offsets_tested": [
+    4,
+    6,
+    8,
+    10
+  ],
+  "sequential_15_packets_tested": true,
+  "bidirectional_state_tested": true,
+  "trial_rows_local_only": 19008,
+  "decoder_success": false,
+  "exact_plaintext_recovered": false,
+  "matched_messages_count": 0,
+  "matched_messages_labels": [],
+  "best_candidate_label": "world_seed_tail_a16c5487",
+  "best_stream_model": "B_Blowfish_OFB_like / bidirectional_state",
+  "best_body_offset": 6,
+  "best_score": 16.0,
+  "raw_payload_committed": false,
+  "payload_hash_committed": false,
+  "decrypted_blob_committed": false,
+  "forbidden_methods_used": false,
+  "reason": "Expanded RC4/CTR/CFB/OFB/body-only stream hypotheses were tested against the corrected KXSEQ oracle, including sequential and bidirectional state, but no exact UTF-16LE KXSEQ plaintext was recovered.",
+  "next_action": "Use file-backed code/decompile/source evidence for the custom game-channel transform, key schedule, stream IV/counter source, or header/body boundary. Do not use live process, debugger, memory dump, injection, anti-cheat bypass, or packet injection."
+}
