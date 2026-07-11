@@ -1,0 +1,13 @@
+{
+    "forbidden_methods_used":  false,
+    "packet_sink_found":  false,
+    "real_codex_run":  true,
+    "next_action":  "Provide file-backed new evidence: unpacked or less-protected EuroAion game.dll/aion.bin, source/decompile of the custom 7785 transform/key schedule, or a comparable clean 4.6/4.7.5 binary with visible packet crypto. Do not use memory dumps, attach/debug, live process, injection, anti-cheat bypass, or packet injection.",
+    "static_candidate_found":  false,
+    "reason":  "Corrected oracle extraction is validated, but EuroAion/Destiny file-backed static analysis exposes no decrypt/encrypt/key candidate beyond import strings; public Aion4.9/Gamez reference hits are controls only; 1215 bounded decoder attempts across all 15 oracle frames recovered 0 exact UTF-16LE oracle strings and 0 containment matches.",
+    "passive_startup_oracle_needed":  false,
+    "decision":  "blocked_static_binary_exhausted",
+    "partial_oracle_recovery":  false,
+    "ordinary_say_capture_useful":  false,
+    "decoder_success":  false
+}
