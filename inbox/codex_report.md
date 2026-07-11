@@ -1,16 +1,17 @@
-# Codex Pass604 Deep Static Binary Analysis Report
+﻿# Codex Pass607 Startup Blowfish Report
 
-Decision: `blocked_static_binary_exhausted`
+Decision: `blocked_startup_blowfish_no_plaintext_recovery`
 
-- target candidates found: 0
-- PE section check completed: yes
-- code section .aion1 contains virtualized VM dispatch: yes
-- static patterns (staticKey/public keys) present in EuroAion binaries: no
-- Aion4.9 / Gamez public controls matched: yes
-- decoder tests run against Pass574 oracle frames: yes (180 attempts, 0 matches)
-- exact plaintext recovered: no
+- Blowfish provider used: `pure_python`
+- Blowfish self-tests passed: yes
+- packet 9741 SM_KEY stayed confirmed: yes
+- candidate seed: `39 90 C5 A2`
+- candidate mask: `F9 7B 38 61 99 F4 5A`
+- startup packets tested after packet 9741: 51
+- trial rows: 11,628
+- KSTART_001 recovered: no
+- any known plaintext recovered: no
 - decoder_success: false
-- packet_sink_found: false
+- Pass574 UTF-16LE + 10 recheck after Blowfish implementation: yes
 
-Reason:
-The protected/virtualized EuroAion code is not recoverable from current file-backed bytes under allowed offline/static methods.
+No forbidden methods were used. Next action is file-backed code/decompile/source evidence for the custom startup/game-channel transform or framing/key schedule variant. Memory dumps are not recommended.

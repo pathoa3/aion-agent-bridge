@@ -1,0 +1,19 @@
+{
+    "worker":  "codex",
+    "packet_9741_smkey_confirmed":  true,
+    "candidate_seed":  "39 90 C5 A2",
+    "candidate_mask":  "F9 7B 38 61 99 F4 5A",
+    "blowfish_provider":  "pure_python",
+    "blowfish_selftest_passed":  true,
+    "startup_packets_tested":  51,
+    "decoder_success":  false,
+    "partial_oracle_recovery":  false,
+    "exact_plaintext_recovered":  false,
+    "matched_messages":  [
+
+                         ],
+    "packet_sink_found":  false,
+    "forbidden_methods_used":  false,
+    "reason":  "Pure-Python Blowfish self-tests passed and packet 9741 SM_KEY remained confirmed, but 11,628 bounded startup-flow trials across 51 subsequent packets recovered 0 exact known plaintext strings and 0 UTF-16LE/ASCII containment markers.",
+    "next_action":  "Provide file-backed code/decompile/source evidence for the custom startup/game-channel transform or framing/key schedule variant. Do not use memory dumps, attach/debug, live process, injection, anti-cheat bypass, or packet injection."
+}
