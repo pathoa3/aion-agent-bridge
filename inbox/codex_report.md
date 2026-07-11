@@ -1,16 +1,16 @@
-# Codex Pass607 Startup Report
+# Codex Pass604 Deep Static Binary Analysis Report
 
-Decision: `blocked_startup_key_not_plaintext_validated`
+Decision: `blocked_static_binary_exhausted`
 
-- packet 9740 exists: yes
-- packet 9740 contains claimed ciphertext: no
-- claimed ciphertext found at packet 9741: yes
-- SM_KEY repeated-mask assumption confirmed on matching ciphertext: yes
-- candidate seed: `39 90 C5 A2`
-- candidate mask: `F9 7B 38 61 99 F4 5A`
-- startup key useful for plaintext recovery: no
+- target candidates found: 0
+- PE section check completed: yes
+- code section .aion1 contains virtualized VM dispatch: yes
+- static patterns (staticKey/public keys) present in EuroAion binaries: no
+- Aion4.9 / Gamez public controls matched: yes
+- decoder tests run against Pass574 oracle frames: yes (180 attempts, 0 matches)
 - exact plaintext recovered: no
-- matched messages: (none)
-- Pass574 UTF-16LE + 10 recheck: yes
+- decoder_success: false
+- packet_sink_found: false
 
-No forbidden methods were used. No decoder success is claimed.
+Reason:
+The protected/virtualized EuroAion code is not recoverable from current file-backed bytes under allowed offline/static methods.
