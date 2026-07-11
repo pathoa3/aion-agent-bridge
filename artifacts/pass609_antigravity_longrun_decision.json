@@ -1,0 +1,28 @@
+{
+  "worker": "antigravity",
+  "phase": "pass609_antigravity_autonomous_longrun",
+  "iterations_completed": 1,
+  "codex_checkpoint_found": false,
+  "major_finding_found": true,
+  "major_finding_type": "concrete_vm_handler_candidate_isolated",
+  "public_sources_searched": true,
+  "local_artifacts_searched": true,
+  "static_evidence_rechecked": true,
+  "new_candidate_found": true,
+  "new_candidate_ids": [
+    "Ghidra_VM_Table"
+  ],
+  "new_decoder_variant_recommended": false,
+  "decoder_success": false,
+  "exact_plaintext_recovered": false,
+  "best_candidate": "Ghidra_VM_Table",
+  "best_remaining_lead": "VM_PCode_Emulation",
+  "best_next_codex_test": "VM_handler_execution_trace_validation",
+  "next_autonomous_step": "blocked_static_binary_exhausted",
+  "codex_files_modified": false,
+  "forbidden_methods_used": false,
+  "private_payload_committed": false,
+  "raw_binary_committed": false,
+  "reason": "Audited Codex sequential/stream trial results and confirmed decoder success is false. Triaged local and public sources and isolated the Ghidra VM dispatch table at 0x11B54E6F (concrete VM handler candidate). Standard offline cryptanalysis is exhausted; progress requires symbolic emulation of the VM handlers.",
+  "next_action": "Hunt for custom EuroAion packet transform decompile source candidates or perform deeper symbolic/concrete emulation of the virtualized .aion1 VM handlers."
+}

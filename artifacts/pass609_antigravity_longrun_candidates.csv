@@ -1,0 +1,5 @@
+candidate_id,iteration,source_type,source_name,url_or_local_ref,terms_matched,classification,is_new_variant,codex_overlap,next_action,notes
+Ghidra_VM_Table,1,local,EA_VM_TargetDumpJava,C:\AionTools\EA_VM_TargetDumpJava.java,aion1;dispatcher;table,exact_custom_candidate,true,false,analyze_pcode,Actionable VM dispatch table dump of 256 handlers
+AE_PacketSamurai_Crypt,1,public_github,NewCrypt.java,https://raw.githubusercontent.com/Aion-server/Aion-unique/master/tools/AE_PacketSamurai/src/com/aionemu/packetsamurai/crypt/NewCrypt.java,NewCrypt;decXORPass,duplicate_public_reference,false,true,archive,Standard public Aion packet encryption reference
+AION_Proxy,1,public_github,AION-Proxy,https://github.com/AION-Proxy,aion;proxy;decrypt,related_but_no_crypto,false,false,archive,Proxy modding framework
+EuroAion_Support_Forum,1,public_forum,EuroAion support,https://euroaion.com,euroaion;error;7785,irrelevant,false,false,archive,Forum discussion of connectivity issues
