@@ -1,0 +1,11 @@
+field,value,status,notes
+main_7785_flow,192.168.178.127:58361 <-> 54.37.197.248:7785,Confirmed,Main game-session TCP connection
+lobby_smkey_frame,4094,Confirmed,Initial login/lobby key handoff
+lobby_seed,19 1A 76 23,Confirmed,Extracted using standard Aion75Mask
+world_smkey_frame,4119,Confirmed,Second world-entry re-key handshake
+world_seed,2D 66 BD 65,Confirmed,Extracted using custom mask 8E 37 81 4B E3 F5 43
+first_chat_frame,4329,Confirmed,Matches KXSEQ_001 packet
+intermediate_c2s_count,15,Confirmed,Number of state-mutating packets before first chat
+length_alignment_check,11_of_11_match,Confirmed,All packet lengths match UTF-16LE + 10 exactly
+repeated_payload_different,true,Confirmed,Keystream feedback mutation confirmed on KXSEQ_010_REPEAT
+capture_cleaner,true,Confirmed,Reduced intermediate count from 31 to 15

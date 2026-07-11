@@ -1,0 +1,21 @@
+{
+  "worker": "antigravity",
+  "phase": "pass608_kxseq_capture_audit",
+  "capture": "startup_world_open_kxseq",
+  "target_messages_count": 11,
+  "target_packets_found": true,
+  "smkey_before_first_message_found": true,
+  "intermediate_c2s_before_first_message_count": 15,
+  "new_capture_cleaner_than_old": true,
+  "codex_kxseq_run_found": false,
+  "codex_seq_success": false,
+  "raw_payload_committed_by_antigravity": false,
+  "codex_files_modified": false,
+  "ordinary_say_capture_useful": false,
+  "startup_oracle_useful": true,
+  "decoder_success": false,
+  "best_next_codex_test": "world_seed_sequential_state_mutation_15_packets",
+  "decision": "capture_audit_done",
+  "reason": "Audited new kxseq capture startup_world_open_kxseq.pcapng. Confirmed main flow 58361 to 7785 and identified lobby SM_KEY at frame 4094 and world SM_KEY at frame 4119. Counted 15 intermediate C2S packets mutating the key state, which is 51.6% cleaner than the old capture. Codex run has not been found yet.",
+  "next_action": "Wait for Codex to execute the Blowfish and XORpass decoder trials using the new world seed 2D 66 BD 65 and sequential key update over the 15 intermediate packets."
+}

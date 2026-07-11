@@ -1,0 +1,8 @@
+field,value,status,notes
+codex_kxseq_run_found,false,Confirmed,Codex lobby seed trials have not yet executed or been committed
+codex_files_modified_by_antigravity,false,Confirmed,No Codex-owned files were touched
+exact_plaintext_recovered,false,Confirmed,Lobby seed trials have not run yet
+tested_world_seed_2D_66_BD_65,false,Confirmed,World seed trials have not run yet
+tested_chat_packets,false,Confirmed,Chat packets have not been processed
+tested_15_intermediate_packets,false,Confirmed,Intermediate packets remain untested
+blowfish_selftest_status,Pending,Confirmed,Awaiting Codex run execution

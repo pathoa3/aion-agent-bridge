@@ -1,18 +1,20 @@
-# Antigravity Parallel Evidence Audit Report - Pass607 Deep Key-State Audit
+# Antigravity Parallel Evidence Audit Report - Pass608 Capture Audit
 
-## 1. Redacted Intermediate C2S Inventory
-- **Intermediate C2S Data Packets:** Confirmed **31 C2S packets** between lobby SM_KEY handshake (`Pkt # 7522`) and the first chat packet (`Pkt # 8745`).
-- **Safety Compliance:** The inventory contains only packet numbers, direction, lengths, SHA256 payload hashes, relative indices, and phase labels. No raw hex or plaintext bytes have been committed.
+## 1. Capture Quality Audit Summary
+- **Main 7785 Flow:** `192.168.178.127:58361 <-> 54.37.197.248:7785`.
+- **Target Chat Packets:** Framed at 4329, 4353, 4360, 4389, 4399, 4402, 4412, 4417, 4422, 4429, and 4435.
+- **Dual SM_KEY Handoffs Detected:**
+  - Lobby SM_KEY at `Frame # 4094` (lobby seed extracted).
+  - World/Re-key SM_KEY at `Frame # 4119` (world seed extracted).
+- **Intermediate C2S Packets:** Exactly **15 intermediate C2S data packets** exist between the world SM_KEY (`Frame # 4119`) and the first chat packet `KXSEQ_001` (`Frame # 4329`).
+- **Capture Quality comparison:** This new capture is significantly cleaner than the old one (which had 31 intermediate C2S packets), reducing the state mutation search space by 51.6%.
+- **Keystream Feedback Mutation:** Confirmed on the two consecutive `KXSEQ_010_REPEAT` packets (Frames 4429 and 4435) which have identical lengths but completely different encrypted byte behavior.
 
-## 2. Key Update Research & Derivation
-- Based on Aion emulator `NewCrypt.java` reference:
-  - **Blowfish Key:** Static.
-  - **XORpass Key (`ecx`):** Dynamic.
-  - **Best Candidate Update Rule:** `Rule_A_C2S_Forward` (`ecx = ecx + decrypted_dword` sequentially after decrypting each packet payload).
+## 2. Old vs. New Capture Strategy
+- **Direct Decrypt:** Unlikely to succeed due to the 15 automatic C2S packets.
+- **Sequential Decrypt:** Highly preferred. Simulating 15 packets is a bounded search space that Codex can easily run.
 
-## 3. Codex Sequential Run Cross-Check
-- **Status:** Codex has not yet executed or committed the sequential state run (`codex_seq_run_found = false`).
-- **Integrity Check:** No Codex-owned files were modified by Antigravity.
-
-## 4. Minimal Capture Recommendation
-- **Assessment:** Highly recommended. A targeted capture where the user types `/say KXSEQ_001` immediately upon entering the game world (without movement or UI interactions) will reduce the intermediate packet count from 31 to near zero, making the key updates trivial to align.
+## 3. Codex Run Check
+- **Status:** Codex has not yet executed or committed its trials on the new capture (`codex_kxseq_run_found = false`).
+- **Integrity:** No Codex-owned files were modified by Antigravity.
+- **Next Action:** Recommend Codex run sequential Blowfish/XORpass trials using the world seed `2D 66 BD 65` over the 15 intermediate C2S packets.
