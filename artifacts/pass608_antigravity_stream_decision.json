@@ -1,0 +1,14 @@
+{
+  "worker": "antigravity",
+  "phase": "pass608_stream_review",
+  "codex_stream_run_found": false,
+  "repeat_oracle_tested": false,
+  "stream_hypotheses_tested": false,
+  "decoder_success": false,
+  "codex_files_modified": false,
+  "raw_payload_committed_by_antigravity": false,
+  "best_next_hypothesis": "RC4_or_Blowfish_CTR_sequential_15_packets",
+  "decision": "wait_for_codex_stream_run",
+  "reason": "Audited Codex stream run status. Verified that Codex stream run artifacts do not exist yet. Bounded stream hypotheses (RC4, Blowfish CTR/CFB/OFB, pure XORpass) have been prepared for Codex.",
+  "next_action": "Wait for Codex to execute the stream-hypothesis trials using world seed 2D 66 BD 65 and lobby seed 19 1A 76 23."
+}

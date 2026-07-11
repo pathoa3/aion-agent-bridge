@@ -1,0 +1,7 @@
+field,value,status,notes
+codex_stream_run_found,false,Confirmed,Codex stream run has not executed or been committed yet
+tested_stream_hypotheses,false,Confirmed,RC4 and Blowfish CFB/OFB/CTR stream modes are untested
+tested_repeat_oracle,false,Confirmed,KXSEQ_010_REPEAT differential analysis is pending
+tested_offsets_4_6_8_10,false,Confirmed,Offsets have not been tested on stream cipher states
+exact_plaintext_recovered,false,Confirmed,Decoder success remains false
+antigravity_modified_codex_files,false,Confirmed,No Codex-owned files were touched
