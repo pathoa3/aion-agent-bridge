@@ -1,0 +1,21 @@
+{
+  "worker": "codex",
+  "phase": "pass609_source_decompile_hunt",
+  "search_exhaustive": true,
+  "public_sources_searched": true,
+  "local_artifacts_searched": true,
+  "binary_static_evidence_rechecked": true,
+  "new_candidate_found": false,
+  "new_candidate_ids": [],
+  "new_decoder_variant_tested": false,
+  "decoder_success": false,
+  "exact_plaintext_recovered": false,
+  "matched_messages_count": 0,
+  "best_candidate": "P609-012 protected .aion1 VM context to packet buffer/length write bridge",
+  "best_next_action": "Bounded symbolic/static emulation of .aion1 VM handler edges around 0x114731E0..0x114731F5, proving or rejecting RSI/RBX context to packet buffer/length write; alternate path is a legitimate unpacked/less-protected 4.6/4.7.5 client or custom source leak.",
+  "forbidden_methods_used": false,
+  "private_payload_committed": false,
+  "raw_binary_committed": false,
+  "reason": "Local artifacts, private workspace reports, public PacketSamurai/AionEmu-family sources, and existing static binary reports were searched. All concrete public formulas are duplicate public reference crypto already tested or irrelevant login crypto; EuroAion file-backed bytes remain protected .aion1 without an isolated transform handler.",
+  "next_action": "Do not repeat public/staticKey or packet-only decoder tests. Pursue bounded static symbolic emulation of the protected .aion1 VM edge, or acquire legitimate file-backed custom source/decompile/unpacked comparator evidence."
+}

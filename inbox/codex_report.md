@@ -1,16 +1,11 @@
-# Codex Pass608 KXSEQ Stream Hypotheses Report
+# Codex Pass609 Source/Decompile Hunt Report
 
-Decision: `blocked_kxseq_stream_no_plaintext_recovery`
+Decision: `blocked_no_new_source_or_decompile_candidate`
 
-- repeated KXSEQ_010_REPEAT differential tested: yes
-- RC4/CTR/CFB/OFB/body-only models tested: yes
-- exact KXSEQ plaintext recovered: no
-- matched messages: (none)
-- best candidate label: world_seed_tail_a16c5487
-- best stream model/state: B_Blowfish_OFB_like / bidirectional_state
-- best body offset: 6
-- best score: 16.000
-- detailed outputs stayed local-only: yes
-- Git contains no raw packet/hash/decrypted data: yes
+- new source/decompile candidate found: no
+- new decoder variant tested: no
+- exact plaintext recovered: no
+- best remaining lead: protected `.aion1` VM handler bridge around `0x114731E0..0x114731F5` to packet buffer/length write, or a legitimate unpacked/less-protected comparator/source leak
+- no private packet/binary data committed: yes
 
 No forbidden methods were used. Memory dumps are not recommended.
