@@ -1,0 +1,27 @@
+candidate_id,handler_va,handler_index,behavior_class,why_relevant,confidence,next_step
+cand_11B588A3,0x0000000011B588A3,1,shift_rotate,Shared shift/rotate handler likely mutating key bytes,medium,symbolic_trace
+cand_11B57FCF,0x0000000011B57FCF,2,add_sub,Arithmetic mutation candidate,medium,symbolic_trace
+cand_11B57EFD,0x0000000011B57EFD,3,shift_rotate,Shared shift/rotate handler likely mutating key bytes,medium,symbolic_trace
+cand_11B57488,0x0000000011B57488,4,shift_rotate,Shared shift/rotate handler likely mutating key bytes,medium,symbolic_trace
+cand_11B5805A,0x0000000011B5805A,5,add_sub,Arithmetic mutation candidate,medium,symbolic_trace
+cand_11B556DA,0x0000000011B556DA,6,add_sub,Arithmetic mutation candidate,medium,symbolic_trace
+cand_11B57796,0x0000000011B57796,7,shift_rotate,"Handler 71: confirmed complex spaghetti handler with xchg, rol, ror, bswap, sub",high,symbolic_trace
+cand_11B58D41,0x0000000011B58D41,8,shift_rotate,Shared shift/rotate handler likely mutating key bytes,medium,symbolic_trace
+cand_11B57D11,0x0000000011B57D11,9,shift_rotate,Shared shift/rotate handler likely mutating key bytes,medium,symbolic_trace
+cand_11B5972C,0x0000000011B5972C,10,shift_rotate,Shared shift/rotate handler likely mutating key bytes,medium,symbolic_trace
+cand_11B55CAF,0x0000000011B55CAF,11,shift_rotate,Shared shift/rotate handler likely mutating key bytes,medium,symbolic_trace
+cand_11B57B90,0x0000000011B57B90,12,shift_rotate,Shared shift/rotate handler likely mutating key bytes,medium,symbolic_trace
+cand_11B57CDE,0x0000000011B57CDE,13,shift_rotate,Shared shift/rotate handler likely mutating key bytes,medium,symbolic_trace
+cand_11B56A65,0x0000000011B56A65,14,add_sub,Arithmetic mutation candidate,medium,symbolic_trace
+cand_11B556EA,0x0000000011B556EA,15,shift_rotate,Shared shift/rotate handler likely mutating key bytes,medium,symbolic_trace
+cand_11B572EC,0x0000000011B572EC,16,add_sub,Arithmetic mutation candidate,medium,symbolic_trace
+cand_11B59528,0x0000000011B59528,17,add_sub,Arithmetic mutation candidate,medium,symbolic_trace
+cand_11B59629,0x0000000011B59629,18,add_sub,Arithmetic mutation candidate,medium,symbolic_trace
+cand_11B5818D,0x0000000011B5818D,19,shift_rotate,Shared shift/rotate handler likely mutating key bytes,medium,symbolic_trace
+cand_11B58EA4,0x0000000011B58EA4,20,add_sub,Arithmetic mutation candidate,medium,symbolic_trace
+cand_11B5932F,0x0000000011B5932F,21,constant_load,Target handler associated with VM launch stubs,medium,symbolic_trace
+cand_11B54C47,0x0000000011B54C47,22,add_sub,Arithmetic mutation candidate,medium,symbolic_trace
+cand_11B55B22,0x0000000011B55B22,23,shift_rotate,Shared shift/rotate handler likely mutating key bytes,medium,symbolic_trace
+cand_11B55D11,0x0000000011B55D11,24,shift_rotate,Shared shift/rotate handler likely mutating key bytes,medium,symbolic_trace
+cand_11B572BD,0x0000000011B572BD,25,shift_rotate,Shared shift/rotate handler likely mutating key bytes,medium,symbolic_trace
+cand_11B56941,0x0000000011B56941,26,shift_rotate,Shared shift/rotate handler likely mutating key bytes,medium,symbolic_trace

@@ -1,18 +1,19 @@
-# Antigravity Parallel Evidence Audit Report - Pass609 Autonomous Longrun Checkpoint
+# Antigravity Parallel Evidence Audit Report - Pass610 VM Cleartext Checkpoint
 
-## 1. Audit of Codex Pass609 State
-- Checked latest outputs: Codex trials on sequential and stream hypotheses (CFB/OFB/CTR/RC4/XORpass, offsets 0-10, lobby/world seeds) are finished and have yielded no plaintext.
-- No raw binary or packet hex has been committed.
+## 1. VM Table & Handler Mapping Verification
+- **Table Base Address:** `0x11B54E6F`.
+- **Add Constant:** `0x15F664FE`.
+- **Opcodes and Unique Handlers:** Verified 256 opcodes map to 70 unique native handlers inside `.aion1` range. Mapped major handlers of interest (`0x11B57796`, `0x11B5932F`).
 
-## 2. Independent Source & Transform Hunt
-We triaged public and local sources for EuroAion packet transform candidates:
-- **`Ghidra_VM_Table`** (Local): Isolated the post-processed Ghidra dispatch table of 256 handlers at `0x11B54E6F` using formula `handler_va = int64([0x11B54E6F + opcode * 8]) + 0x15F664FE`.
-- Other scanned public repositories (`NewCrypt.java` variants, proxy frameworks) are public duplicates or unrelated to EuroAion custom crypt.
+## 2. Handler Classification
+- Mapped 70 unique handlers into behavioral categories (`branch_dispatch`, `shift_rotate`, `add_sub`, `pointer_update`, `xor`, `constant_load`) based on their entry instructions.
 
-## 3. Local Evidence Synthesis
-- Evaluated the Ghidra headless P-code output of the virtualized Themida `.aion1` segment stubs (`pass8b_target_pcode.txt`).
-- The launch path (`0x11B566B4`) and dispatcher loops consist of heavily obfuscated VM stubs that dynamically decode the byte stream in memory.
-- **Major Finding:** Isolated the concrete VM handler candidate table (`0x11B54E6F`) and mapped major handler entrypoints (e.g. `0x11B57796`, `0x11B5932F`).
+## 3. Reconstructed VM Execution Model
+- Reconstructed registers (`RSI` = VIP, `BL` = rolling obfuscation key, `RBP` = stack context, `RDI` = context offsets) and the dynamic opcode decode loop:
+  `opcode = rol8(((raw - BL + 0x86) ^ 0x34), 5)`
+  `BL = (BL - opcode) & 0xff`
 
-## 4. Rationale & Bounded Hypotheses
-Standard packet cryptanalysis on offline PCAPs is exhausted. Progress requires reverse-engineering the byte translation inside the VM handlers, or locating source/decompile evidence of the custom EuroAion launcher/client modifications.
+## 4. Emulator Skeleton & Cleartext Status
+- Built the VM emulator skeleton under `tools/pass610_antigravity_vm_cleartext/` to trace VM stubs.
+- Bounded trials against KXSEQ payloads using direct/sequential Blowfish OFB transformations on the candidate handlers did not recover plaintext (`exact_plaintext_recovered = false`).
+- Progress is blocked by virtualized Themida VM handler obfuscation. The next step is to search for custom client source leaks or perform deeper symbolic tracing.
