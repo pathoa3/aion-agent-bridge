@@ -1,0 +1,5 @@
+candidate_id,source_or_reason,update_input,update_formula,update_timing,direction_scope,confidence,notes
+Rule_A_C2S_Forward,Standard Aion Emulator,Decrypted DWORDs,ecx = ecx + decrypted_dword,After decrypt,C2S,High,Most likely candidate for C2S chat packets
+Rule_B_S2C_Backward,Standard Aion Emulator,Decrypted DWORDs,ecx = ecx - decrypted_dword,After decrypt,S2C,Medium,Used for Server-to-Client packet stream
+Rule_C_Ciphertext_Forward,Variant Aion Emulator,Ciphertext DWORDs,ecx = ecx + ciphertext_dword,Before decrypt,C2S,Low,Alternative implementation where key updates from raw bytes
+Rule_D_Length_Accumulate,Generic Stream,Packet Length,ecx = ecx + len,Post packet,C2S/S2C,Low,Simplistic fallback if no payload dependency exists

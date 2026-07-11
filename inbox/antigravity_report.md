@@ -1,13 +1,18 @@
-# Antigravity Parallel Evidence Audit Report - Pass607 Lobby Seed Review
+# Antigravity Parallel Evidence Audit Report - Pass607 Deep Key-State Audit
 
-## 1. Audit & Verification of Codex Run
-- **Codex Lobby Seed Run Found:** Yes. Codex successfully executed Blowfish ECB trials with lobby seed **`73 5A 12 08`** and targeted packets **8745, 8844, and 8974**.
-- **Blowfish Self-Tests:** Passed using pure Python.
-- **Offsets Tested:** 0, 2, 4. Offsets 6 and 8 were not tested.
-- **Outcome:** 0 exact known plaintext KXBOOT matches.
-- **Antigravity Modification:** No Codex-owned files were modified by Antigravity.
+## 1. Redacted Intermediate C2S Inventory
+- **Intermediate C2S Data Packets:** Confirmed **31 C2S packets** between lobby SM_KEY handshake (`Pkt # 7522`) and the first chat packet (`Pkt # 8745`).
+- **Safety Compliance:** The inventory contains only packet numbers, direction, lengths, SHA256 payload hashes, relative indices, and phase labels. No raw hex or plaintext bytes have been committed.
 
-## 2. Key Mutation Discovery & Recommendation
-- **The Blocker:** We counted **31 intermediate C2S data packets** sent by the client between the lobby handshake `Pkt # 7522` and the first chat packet `Pkt # 8745`.
-- **The Key Cause:** In Aion protocol, every C2S packet sent mutates the running C2S key state. Attempting to decrypt the 32nd packet (`Pkt # 8745`) using the *initial* key state directly is mathematically incorrect.
-- **Next Action:** Codex must sequentially decrypt and update the key state through the 31 intermediate C2S packets to reach the correct key state at packet 8745.
+## 2. Key Update Research & Derivation
+- Based on Aion emulator `NewCrypt.java` reference:
+  - **Blowfish Key:** Static.
+  - **XORpass Key (`ecx`):** Dynamic.
+  - **Best Candidate Update Rule:** `Rule_A_C2S_Forward` (`ecx = ecx + decrypted_dword` sequentially after decrypting each packet payload).
+
+## 3. Codex Sequential Run Cross-Check
+- **Status:** Codex has not yet executed or committed the sequential state run (`codex_seq_run_found = false`).
+- **Integrity Check:** No Codex-owned files were modified by Antigravity.
+
+## 4. Minimal Capture Recommendation
+- **Assessment:** Highly recommended. A targeted capture where the user types `/say KXSEQ_001` immediately upon entering the game world (without movement or UI interactions) will reduce the intermediate packet count from 31 to near zero, making the key updates trivial to align.

@@ -1,0 +1,8 @@
+parameter,status,notes
+codex_seq_run_found,false,Sequential state run files are missing from the repository
+processed_31_intermediate_packets,false,Codex did not process intermediate packets yet
+tested_sequential_mutation,false,Codex did not run key-state accumulation over packet boundaries
+tested_rules_A_to_G,false,Update rules have not been tested in sequence
+tested_offsets_6_and_8,false,Offsets 6 and 8 remain untested on sequential state
+raw_payload_committed,false,No raw hex has been committed
+exact_plaintext_recovered,false,Decoder success is currently false

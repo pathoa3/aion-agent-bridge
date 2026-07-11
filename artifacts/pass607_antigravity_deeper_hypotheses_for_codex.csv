@@ -1,0 +1,5 @@
+hypothesis_id,packet_range,key_start,update_rule,decrypt_order,validation_rule,stop_condition
+Hypothesis_1_Decrypted_Val,7526-8745,73 5A 12 08,ecx = ecx + decrypted_dword,Blowfish_then_XOR,utf16_containment,match_or_exhausted
+Hypothesis_2_Ciphertext_Val,7526-8745,73 5A 12 08,ecx = ecx + ciphertext_dword,XOR_then_Blowfish,utf16_containment,match_or_exhausted
+Hypothesis_3_Counter_Val,7526-8745,73 5A 12 08,ecx = ecx + relative_index,Blowfish_then_XOR,utf16_containment,match_or_exhausted
+Hypothesis_4_Full_Stream,7522-8745,73 5A 12 08,ecx_updates_on_both_directions,Blowfish_then_XOR,utf16_containment,match_or_exhausted
