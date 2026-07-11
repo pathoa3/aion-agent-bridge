@@ -1,0 +1,4 @@
+packet_no,timestamp,direction,raw_len,expected_plaintext,utf16_len_bytes,expected_base_len,padding_bytes,is_before_rekey
+8745,2026-07-08 17:03:02.166166,C2S,36,KXBOOT_SAY_01,26,36,0,true
+8844,2026-07-08 17:03:11.267519,C2S,70,KXBOOT_SAY_02_AAAAAAAAAAAAAAAA,58,68,2,true
+8974,2026-07-08 17:03:21.688937,C2S,58,KXBOOT_SAY_03_1234567890,46,56,2,true

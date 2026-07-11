@@ -1,0 +1,7 @@
+parameter,status,finding
+codex_lobby_run_executed,false,Codex lobby seed trials have not yet executed or been committed
+tested_seed_73_5A_12_08,false,Codex did not test the lobby seed yet
+tested_chat_packets,false,Codex did not target packets 8745/8844/8974 yet
+pure_python_blowfish_selftest,true,Codex verified its pure Python Blowfish implementation via self-test
+key_trial_seed_mixup,true,Codex previously tested only world seed 39 90 C5 A2 after packet 9741
+venv_cryptography_available,true,The virtual environment has cryptography installed and available

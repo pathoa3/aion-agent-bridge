@@ -1,0 +1,8 @@
+parameter,value,type,derivation_status
+packet_no,7522,Metadata,Confirmed index in startup PCAP
+ciphertext_hex,c16683f7d5265db93c68fe,Raw bytes,Extracted from packet payload
+mask_used,CA 66 7A F6 83 20 A3,Static Key,Standard Aion75Mask verified
+decoded_header,0B 00 F9 01 56 06 FE,Decrypted prefix,Valid SM_KEY protocol header structure
+derived_seed,73 5A 12 08,Derived Seed,Unambiguous 4-byte session key seed
+is_standard_mask,true,Boolean,Confirmed matching standard game client behavior
+is_unambiguous,true,Boolean,No other mask or seed permutation is possible
