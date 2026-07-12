@@ -1,6 +1,28 @@
 target_id,function_or_address,source_reason,recv_related,vm_related,keyslot_write_related,confidence,next_export_or_trace
-P622-EXP-001,WS2_32.recv / WSARecv / recvfrom import callers,"Pass621 missing native receive caller path; start at concrete receive APIs and wrapper callers, not VM dispatcher summaries",true,false,unknown,high,Run ghidra_export_s2c_receive_path.py and walk callers/callees depth 3 until receive buffer ownership and packet context pointer are visible
-P622-EXP-002,functions comparing/routing world port 7785 and login port 2106,Need to distinguish world-server receive path from login/control paths and false positive address substrings,true,false,unknown,high,Export decompile/p-code around receive wrappers and any constants/callers that select 7785/world connection state
-P622-EXP-003,VM launch/caller functions that initialize RSI/RBP/R12/R13 before 0x11B566B4 or 0x11B56C63,Pass621 proves dispatcher internals but not native caller that sets VM context registers for receive/decode,unknown,true,unknown,high,"Walk xrefs/callers to 0x11B566B4, 0x11B56C63, 0x11B562BD, 0x11B5630F, and 0x11B54E6F; export caller decompile and p-code"
-P622-EXP-004,candidate handlers 0x11B57796 / 0x11B5932F / 0x11B55DF6 plus native continuations,"Known VM handler/table addresses may participate after VM dispatch, but need caller/context mapping before key claims",unknown,true,unknown,medium,Export xrefs/dataflow and memory writes; classify VM stack writes separately from packet/session key slot writes
-P622-EXP-005,context/session struct memory writes: 8-byte stores or adjacent 4-byte stores,S2C key state is expected to be an 8-byte rolling key slot or two adjacent dword slots reachable from receive handshake setup,unknown,unknown,true,high,"Use write_hints.json and local p-code to verify base pointer, offset, seed arithmetic, and direction-specific recv/send slot selection"
+P622-GH-001,0x11B5625B FUN_11b5625b,contains VM anchor 0x11B562BD;0x11B5630F;0x11B54E6F,true,true,false,low,keep as graph context only
+P622-GH-002,0x11B45846 FUN_11b45846,contains VM anchor 0x11B566B4,true,true,false,low,keep as graph context only
+P622-GH-003,0x11B56C63 thunk_FUN_11b57075,contains VM anchor 0x11B56C63,true,true,false,low,keep as graph context only
+P622-GH-004,0x11B56F43 FUN_11b56f43,within caller/callee walk,true,false,false,low,keep as graph context only
+P622-GH-005,0x11B5863D FUN_11b5863d,contains 8-byte/key-arithmetic write hint,true,false,true,low,keep as graph context only
+P622-GH-006,0x11B559CD FUN_11b559cd,contains 8-byte/key-arithmetic write hint,true,false,true,low,keep as graph context only
+P622-GH-007,0x11B59392 FUN_11b59392,contains 8-byte/key-arithmetic write hint,true,false,true,low,keep as graph context only
+P622-GH-008,0x11B5591A FUN_11b5591a,within caller/callee walk,true,false,false,low,keep as graph context only
+P622-GH-009,0x11B581C1 FUN_11b581c1,contains 8-byte/key-arithmetic write hint,true,false,true,low,keep as graph context only
+P622-GH-010,0x11B57BDB FUN_11b57bdb,contains 8-byte/key-arithmetic write hint,true,false,true,low,keep as graph context only
+P622-GH-011,0x11B5586B FUN_11b5586b,within caller/callee walk,true,false,false,low,keep as graph context only
+P622-GH-012,0x11B56696 FUN_11b56696,within caller/callee walk,true,false,false,low,keep as graph context only
+P622-GH-013,0x11B56B2C FUN_11b56b2c,contains 8-byte/key-arithmetic write hint,true,false,true,low,keep as graph context only
+P622-GH-014,0x11B564BE FUN_11b564be,contains 8-byte/key-arithmetic write hint,true,false,true,low,keep as graph context only
+P622-GH-015,0x1195D94A entry,within caller/callee walk,true,false,false,low,keep as graph context only
+P622-GH-016,0x11B59838 FUN_11b59838,within caller/callee walk,true,false,false,low,keep as graph context only
+P622-GH-017,0x11B503FD tls_callback_0,within caller/callee walk,true,false,false,low,keep as graph context only
+P622-GH-018,0x11B57075 FUN_11b57075,contains 8-byte/key-arithmetic write hint,true,false,true,low,keep as graph context only
+P622-GH-019,0x11B52CE5 thunk_FUN_11b45846,within caller/callee walk,true,false,false,low,keep as graph context only
+P622-GH-020,0x11B50330 FUN_11b50330,contains VM anchor 0x11B56C63,true,true,false,low,keep as graph context only
+P622-GH-021,0x1195DA7B thunk_FUN_11b50330,within caller/callee walk,true,false,false,low,keep as graph context only
+P622-GH-022,0x11B59337 FUN_11b59337,within caller/callee walk,false,false,false,low,keep as graph context only
+P622-GH-023,0x11B59765 FUN_11b59765,contains 8-byte/key-arithmetic write hint,false,false,true,low,keep as graph context only
+P622-GH-024,0x11B566DD FUN_11b566dd,contains VM anchor 0x11B566B4,false,true,false,low,keep as graph context only
+P622-GH-025,0x11B56999 FUN_11b56999,within caller/callee walk,false,false,false,low,keep as graph context only
+P622-GH-026,0x11B56075 thunk_FUN_11b59337,within caller/callee walk,false,false,false,low,keep as graph context only
+P622-GH-027,0x11B58D6C FUN_11b58d6c,contains 8-byte/key-arithmetic write hint,false,false,true,low,keep as graph context only
