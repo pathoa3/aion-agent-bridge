@@ -1,0 +1,21 @@
+api,import_address,caller_entry,caller_name,ref_type,path_b_intersection,notes
+recv,0x119FD108,,,,false,blank caller means import thunk/symbol row only
+WSARecv,0x119FD040,,,,false,blank caller means import thunk/symbol row only
+recvfrom,0x119FD138,,,,false,blank caller means import thunk/symbol row only
+send,0x119FD0D8,,,,false,blank caller means import thunk/symbol row only
+WSASend,0x119FD050,,,,false,blank caller means import thunk/symbol row only
+closesocket,0x119FD0F0,,,,false,blank caller means import thunk/symbol row only
+connect,0x119FD178,,,,false,blank caller means import thunk/symbol row only
+select,0x119FD130,,,,false,blank caller means import thunk/symbol row only
+ioctlsocket,0x119FD170,,,,false,blank caller means import thunk/symbol row only
+InternetReadFile,0x119FE6C0,,,,false,blank caller means import thunk/symbol row only
+ReadFile,0x119FD4F8,,,,false,blank caller means import thunk/symbol row only
+recv,0x119FD108,,,,false,blank caller means import thunk/symbol row only
+WSARecv,0x119FD040,,,,false,blank caller means import thunk/symbol row only
+recvfrom,0x119FD138,,,,false,blank caller means import thunk/symbol row only
+send,0x119FD0D8,,,,false,blank caller means import thunk/symbol row only
+WSASend,0x119FD050,,,,false,blank caller means import thunk/symbol row only
+select,0x119FD130,,,,false,blank caller means import thunk/symbol row only
+ioctlsocket,0x119FD170,,,,false,blank caller means import thunk/symbol row only
+connect,0x119FD178,,,,false,blank caller means import thunk/symbol row only
+closesocket,0x119FD0F0,,,,false,blank caller means import thunk/symbol row only

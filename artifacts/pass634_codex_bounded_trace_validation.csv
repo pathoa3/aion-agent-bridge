@@ -1,0 +1,2 @@
+trace_id,bounded_vm_trace_run,valid_trace_candidate,rsi_base_known,pc_offset_known,effective_bl_known,blocker,next_step
+PASS634-S2C-TRACE-001,false,false,false,false,false,"RSI base, [RBP+0] PC offset, and effective BL are not concrete in current static exports",obtain targeted recv-wrapper/code-xref export that reaches Path B and shows register setup

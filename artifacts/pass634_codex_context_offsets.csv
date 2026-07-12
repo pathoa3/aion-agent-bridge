@@ -1,0 +1,14 @@
+offset,base_register,function,source_file,line_number,access,source_value_or_target,possible_role,confidence,notes
++0,RSI,0x11B5625B,11B5625B_FUN_11b5625b.disasm.txt,1,disasm_read_from_base_offset,not_resolved,register scratch/helper,low,address/label summary only
+unknown,RBP,0x11B45846,11B45846_FUN_11b45846.pcode.txt,1,pcode_write,not_resolved,context/pc candidate,low,pcode register-space access; exact struct offset not recoverable from current summary
+unknown,RDX,0x11B5625B,11B5625B_FUN_11b5625b.pcode.txt,1,pcode_read,not_resolved,context/pc candidate,low,pcode register-space access; exact struct offset not recoverable from current summary
+unknown,RBP,0x11B56999,11B56999_FUN_11b56999.pcode.txt,1,pcode_write,not_resolved,context/pc candidate,low,pcode register-space access; exact struct offset not recoverable from current summary
+unknown,RBP,0x11B5863D,11B5863D_FUN_11b5863d.pcode.txt,1,pcode_write,not_resolved,context/pc candidate,low,pcode register-space access; exact struct offset not recoverable from current summary
+unknown,RBP,0x11B59337,11B59337_FUN_11b59337.pcode.txt,1,pcode_write,not_resolved,context/pc candidate,low,pcode register-space access; exact struct offset not recoverable from current summary
+unknown,RBP,0x11B59765,11B59765_FUN_11b59765.pcode.txt,1,pcode_write,not_resolved,context/pc candidate,low,pcode register-space access; exact struct offset not recoverable from current summary
++0,RBP,0x11B5625B,11B5625B_FUN_11b5625b.disasm.txt,22,disasm_read_or_write,not_resolved,context/pc candidate,medium,address/label summary only
++0,RSI,0x11B5625B,11B5625B_FUN_11b5625b.disasm.txt,25,disasm_read_or_write,not_resolved,register scratch/helper,low,address/label summary only
+unknown,RBP,0x11B5625B,11B5625B_FUN_11b5625b.pcode.txt,182,pcode_read,not_resolved,context/pc candidate,low,pcode register-space access; exact struct offset not recoverable from current summary
+unknown,RBP,0x11B5625B,11B5625B_FUN_11b5625b.pcode.txt,184,pcode_read,not_resolved,context/pc candidate,low,pcode register-space access; exact struct offset not recoverable from current summary
+unknown,RBP,0x11B5625B,11B5625B_FUN_11b5625b.pcode.txt,186,pcode_read,not_resolved,context/pc candidate,low,pcode register-space access; exact struct offset not recoverable from current summary
+unknown,RSI,0x11B5625B,11B5625B_FUN_11b5625b.pcode.txt,216,pcode_read,not_resolved,register scratch/helper,low,pcode register-space access; exact struct offset not recoverable from current summary

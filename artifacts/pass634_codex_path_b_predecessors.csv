@@ -1,0 +1,59 @@
+from_entry,from_name,to_entry,to_name,edge_type,source_file,role,useful_for_s2c,reason
+0x11B45846,FUN_11b45846,0x11B566DD,FUN_11b566dd,csv_edge,C:\AionTools\aion_decoder_agent\outbox\pass622_ghidra_s2c_receive_exports\call_edges.csv,path_b_internal,false,Path B internal/helper edge only
+0x11B45846,FUN_11b45846,0x11B45846,FUN_11b45846,csv_edge,C:\AionTools\aion_decoder_agent\outbox\pass622_ghidra_s2c_receive_exports\call_edges.csv,path_b_internal,false,Path B internal/helper edge only
+0x11B45846,FUN_11b45846,0x11B56999,FUN_11b56999,csv_edge,C:\AionTools\aion_decoder_agent\outbox\pass622_ghidra_s2c_receive_exports\call_edges.csv,path_b_internal,false,Path B internal/helper edge only
+0x11B559CD,FUN_11b559cd,0x11B59838,FUN_11b59838,csv_edge,C:\AionTools\aion_decoder_agent\outbox\pass622_ghidra_s2c_receive_exports\call_edges.csv,predecessor_to_path_b,possible,"non-Path-B predecessor, but no recv/register evidence established"
+0x11B5591A,FUN_11b5591a,0x11B5625B,FUN_11b5625b,csv_edge,C:\AionTools\aion_decoder_agent\outbox\pass622_ghidra_s2c_receive_exports\call_edges.csv,predecessor_to_path_b,possible,"non-Path-B predecessor, but no recv/register evidence established"
+0x11B56696,FUN_11b56696,0x11B5625B,FUN_11b5625b,csv_edge,C:\AionTools\aion_decoder_agent\outbox\pass622_ghidra_s2c_receive_exports\call_edges.csv,predecessor_to_path_b,possible,"non-Path-B predecessor, but no recv/register evidence established"
+0x11B56B2C,FUN_11b56b2c,0x11B5625B,FUN_11b5625b,csv_edge,C:\AionTools\aion_decoder_agent\outbox\pass622_ghidra_s2c_receive_exports\call_edges.csv,predecessor_to_path_b,possible,"non-Path-B predecessor, but no recv/register evidence established"
+0x1195D94A,entry,0x11B52CE5,thunk_FUN_11b45846,csv_edge,C:\AionTools\aion_decoder_agent\outbox\pass622_ghidra_s2c_receive_exports\call_edges.csv,predecessor_to_path_b,possible,"non-Path-B predecessor, but no recv/register evidence established"
+0x11B59838,FUN_11b59838,0x11B5625B,FUN_11b5625b,csv_edge,C:\AionTools\aion_decoder_agent\outbox\pass622_ghidra_s2c_receive_exports\call_edges.csv,path_b_internal,false,Path B internal/helper edge only
+0x11B57075,FUN_11b57075,0x11B5625B,FUN_11b5625b,csv_edge,C:\AionTools\aion_decoder_agent\outbox\pass622_ghidra_s2c_receive_exports\call_edges.csv,predecessor_to_path_b,false,rejected_path_d_startup_tls
+0x11B52CE5,thunk_FUN_11b45846,0x11B45846,FUN_11b45846,csv_edge,C:\AionTools\aion_decoder_agent\outbox\pass622_ghidra_s2c_receive_exports\call_edges.csv,path_b_internal,false,Path B internal/helper edge only
+0x11B59337,FUN_11b59337,0x11B59832,FUN_11b59832,csv_edge,C:\AionTools\aion_decoder_agent\outbox\pass622_ghidra_s2c_receive_exports\call_edges.csv,path_b_internal,false,Path B internal/helper edge only
+0x11B566DD,FUN_11b566dd,0x11B45846,FUN_11b45846,csv_edge,C:\AionTools\aion_decoder_agent\outbox\pass622_ghidra_s2c_receive_exports\call_edges.csv,path_b_internal,false,Path B internal/helper edge only
+0x11B56999,FUN_11b56999,0x11B56075,thunk_FUN_11b59337,csv_edge,C:\AionTools\aion_decoder_agent\outbox\pass622_ghidra_s2c_receive_exports\call_edges.csv,path_b_internal,false,Path B internal/helper edge only
+0x11B56075,thunk_FUN_11b59337,0x11B59337,FUN_11b59337,csv_edge,C:\AionTools\aion_decoder_agent\outbox\pass622_ghidra_s2c_receive_exports\call_edges.csv,path_b_internal,false,Path B internal/helper edge only
+0x1195D94A,entry,0x11B52CE5,thunk_FUN_11b45846,tail_branch_or_call,1195D94A_entry.pcode.txt,predecessor_to_path_b,possible,"non-Path-B predecessor, but no recv/register evidence established"
+0x11B45846,FUN_11b45846,0x11B56999,FUN_11b56999,tail_branch_or_call,11B45846_FUN_11b45846.pcode.txt,path_b_internal,false,Path B internal/helper edge only
+0x11B52CE5,thunk_FUN_11b45846,0x11B45846,FUN_11b45846,tail_branch_or_call,11B52CE5_thunk_FUN_11b45846.pcode.txt,path_b_internal,false,Path B internal/helper edge only
+0x11B5591A,FUN_11b5591a,0x11B5625B,FUN_11b5625b,tail_branch_or_call,11B5591A_FUN_11b5591a.pcode.txt,predecessor_to_path_b,possible,"non-Path-B predecessor, but no recv/register evidence established"
+0x11B559CD,FUN_11b559cd,0x11B59838,FUN_11b59838,tail_branch_or_call,11B559CD_FUN_11b559cd.pcode.txt,predecessor_to_path_b,possible,"non-Path-B predecessor, but no recv/register evidence established"
+0x11B56075,thunk_FUN_11b59337,0x11B59337,FUN_11b59337,tail_branch_or_call,11B56075_thunk_FUN_11b59337.pcode.txt,path_b_internal,false,Path B internal/helper edge only
+0x11B5625B,FUN_11b5625b,0x11B56329,,indirect_branch_or_call,11B5625B_FUN_11b5625b.pcode.txt,successor_from_path_b,false,Path B internal/helper edge only
+0x11B56696,FUN_11b56696,0x11B5625B,FUN_11b5625b,tail_branch_or_call,11B56696_FUN_11b56696.pcode.txt,predecessor_to_path_b,possible,"non-Path-B predecessor, but no recv/register evidence established"
+0x11B566DD,FUN_11b566dd,0x11B566B4,,tail_branch_or_call,11B566DD_FUN_11b566dd.pcode.txt,path_b_internal,false,Path B internal/helper edge only
+0x11B56999,FUN_11b56999,0x11B56075,thunk_FUN_11b59337,tail_branch_or_call,11B56999_FUN_11b56999.pcode.txt,path_b_internal,false,Path B internal/helper edge only
+0x11B56B2C,FUN_11b56b2c,0x11B5625B,FUN_11b5625b,tail_branch_or_call,11B56B2C_FUN_11b56b2c.pcode.txt,predecessor_to_path_b,possible,"non-Path-B predecessor, but no recv/register evidence established"
+0x11B59337,FUN_11b59337,0x11B59832,FUN_11b59832,tail_branch_or_call,11B59337_FUN_11b59337.pcode.txt,path_b_internal,false,Path B internal/helper edge only
+0x11B59838,FUN_11b59838,0x11B5625B,FUN_11b5625b,tail_branch_or_call,11B59838_FUN_11b59838.pcode.txt,path_b_internal,false,Path B internal/helper edge only
+0x1195D94A,entry,0x11B52CE5,thunk_FUN_11b45846,tail_branch_or_call,1195D94A_entry.disasm.txt,predecessor_to_path_b,possible,"non-Path-B predecessor, but no recv/register evidence established"
+0x11B45846,FUN_11b45846,0x11B56999,FUN_11b56999,tail_branch_or_call,11B45846_FUN_11b45846.disasm.txt,path_b_internal,false,Path B internal/helper edge only
+0x11B52CE5,thunk_FUN_11b45846,0x11B45846,FUN_11b45846,tail_branch_or_call,11B52CE5_thunk_FUN_11b45846.disasm.txt,path_b_internal,false,Path B internal/helper edge only
+0x11B5591A,FUN_11b5591a,0x11B5625B,FUN_11b5625b,tail_branch_or_call,11B5591A_FUN_11b5591a.disasm.txt,predecessor_to_path_b,possible,"non-Path-B predecessor, but no recv/register evidence established"
+0x11B559CD,FUN_11b559cd,0x11B59838,FUN_11b59838,tail_branch_or_call,11B559CD_FUN_11b559cd.disasm.txt,predecessor_to_path_b,possible,"non-Path-B predecessor, but no recv/register evidence established"
+0x11B56075,thunk_FUN_11b59337,0x11B59337,FUN_11b59337,tail_branch_or_call,11B56075_thunk_FUN_11b59337.disasm.txt,path_b_internal,false,Path B internal/helper edge only
+0x11B5625B,FUN_11b5625b,0x11B56329,,tail_branch_or_call,11B5625B_FUN_11b5625b.disasm.txt,successor_from_path_b,false,Path B internal/helper edge only
+0x11B56696,FUN_11b56696,0x11B5625B,FUN_11b5625b,tail_branch_or_call,11B56696_FUN_11b56696.disasm.txt,predecessor_to_path_b,possible,"non-Path-B predecessor, but no recv/register evidence established"
+0x11B566DD,FUN_11b566dd,0x11B566B4,,tail_branch_or_call,11B566DD_FUN_11b566dd.disasm.txt,path_b_internal,false,Path B internal/helper edge only
+0x11B56999,FUN_11b56999,0x11B56075,thunk_FUN_11b59337,tail_branch_or_call,11B56999_FUN_11b56999.disasm.txt,path_b_internal,false,Path B internal/helper edge only
+0x11B56B2C,FUN_11b56b2c,0x11B5625B,FUN_11b5625b,tail_branch_or_call,11B56B2C_FUN_11b56b2c.disasm.txt,predecessor_to_path_b,possible,"non-Path-B predecessor, but no recv/register evidence established"
+0x11B59337,FUN_11b59337,0x11B59832,FUN_11b59832,tail_branch_or_call,11B59337_FUN_11b59337.disasm.txt,path_b_internal,false,Path B internal/helper edge only
+0x11B59838,FUN_11b59838,0x11B5625B,FUN_11b5625b,tail_branch_or_call,11B59838_FUN_11b59838.disasm.txt,path_b_internal,false,Path B internal/helper edge only
+0x11B45846,FUN_11b45846,0x11B566DD,FUN_11b566dd,csv_edge,C:\AionTools\aion_decoder_agent\outbox\pass631_path_b_xrefs\path_b_call_edges.csv,path_b_internal,false,Path B internal/helper edge only
+0x11B45846,FUN_11b45846,0x11B45846,FUN_11b45846,csv_edge,C:\AionTools\aion_decoder_agent\outbox\pass631_path_b_xrefs\path_b_call_edges.csv,path_b_internal,false,Path B internal/helper edge only
+0x11B45846,FUN_11b45846,0x11B56999,FUN_11b56999,csv_edge,C:\AionTools\aion_decoder_agent\outbox\pass631_path_b_xrefs\path_b_call_edges.csv,path_b_internal,false,Path B internal/helper edge only
+0x11B52CE5,thunk_FUN_11b45846,0x11B45846,FUN_11b45846,csv_edge,C:\AionTools\aion_decoder_agent\outbox\pass631_path_b_xrefs\path_b_call_edges.csv,path_b_internal,false,Path B internal/helper edge only
+0x1195D94A,entry,0x11B52CE5,thunk_FUN_11b45846,csv_edge,C:\AionTools\aion_decoder_agent\outbox\pass631_path_b_xrefs\path_b_call_edges.csv,predecessor_to_path_b,possible,"non-Path-B predecessor, but no recv/register evidence established"
+0x11B56999,FUN_11b56999,0x11B56075,thunk_FUN_11b59337,csv_edge,C:\AionTools\aion_decoder_agent\outbox\pass631_path_b_xrefs\path_b_call_edges.csv,path_b_internal,false,Path B internal/helper edge only
+0x11B59337,FUN_11b59337,0x11B59832,FUN_11b59832,csv_edge,C:\AionTools\aion_decoder_agent\outbox\pass631_path_b_xrefs\path_b_call_edges.csv,path_b_internal,false,Path B internal/helper edge only
+0x11B59832,FUN_11b59832,0x11B568D5,FUN_11b568d5,csv_edge,C:\AionTools\aion_decoder_agent\outbox\pass631_path_b_xrefs\path_b_call_edges.csv,successor_from_path_b,false,Path B internal/helper edge only
+0x11B59838,FUN_11b59838,0x11B5625B,FUN_11b5625b,csv_edge,C:\AionTools\aion_decoder_agent\outbox\pass631_path_b_xrefs\path_b_call_edges.csv,path_b_internal,false,Path B internal/helper edge only
+0x11B566DD,FUN_11b566dd,0x11B45846,FUN_11b45846,csv_edge,C:\AionTools\aion_decoder_agent\outbox\pass631_path_b_xrefs\path_b_call_edges.csv,path_b_internal,false,Path B internal/helper edge only
+0x11B45846,FUN_11b45846,0x11B566DD,FUN_11b566dd,tail_branch_or_call,11B45846_FUN_11b45846.pcode.txt,path_b_internal,false,Path B internal/helper edge only
+0x11B45846,FUN_11b45846,0x119B97FE,,tail_branch_or_call,11B45846_FUN_11b45846.pcode.txt,successor_from_path_b,false,Path B internal/helper edge only
+0x11B45846,FUN_11b45846,0x119F0AE0,,tail_branch_or_call,11B45846_FUN_11b45846.pcode.txt,successor_from_path_b,false,Path B internal/helper edge only
+0x11B59832,FUN_11b59832,0x11B568D5,FUN_11b568d5,tail_branch_or_call,11B59832_FUN_11b59832.pcode.txt,successor_from_path_b,false,Path B internal/helper edge only
+0x11B45846,FUN_11b45846,0x11B566DD,FUN_11b566dd,tail_branch_or_call,11B45846_FUN_11b45846.disasm.txt,path_b_internal,false,Path B internal/helper edge only
+0x11B45846,FUN_11b45846,0x119B97FE,,tail_branch_or_call,11B45846_FUN_11b45846.disasm.txt,successor_from_path_b,false,Path B internal/helper edge only
+0x11B59832,FUN_11b59832,0x11B568D5,FUN_11b568d5,tail_branch_or_call,11B59832_FUN_11b59832.disasm.txt,successor_from_path_b,false,Path B internal/helper edge only

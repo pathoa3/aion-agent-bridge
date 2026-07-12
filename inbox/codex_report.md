@@ -1,11 +1,11 @@
-# Codex Report - Pass633 Java Path B Xref Review
+# Codex Report - Pass634 Overnight S2C Solve
 
-Reviewed the Java Path B xref output folder directly. It contains `49` files, including usable Java-exported CSVs and per-function pcode/decompile/disassembly exports.
+Terminal outcome: `hard_blocker`.
 
-The stale Pass632 diagnostic wording was corrected in the Pass633 review: the current Java export is not empty. The earlier empty state applied only to the failed Python/PyGhidra export.
+Using only existing local static/exported files, I built and ran the Pass634 offline analyzers. The callgraph/tail-branch scan found `111` edges and `6` unique predecessor entries into Path B, but none is a useful recv-related predecessor with register handoff evidence.
 
-Strictly new compared to Pass622: `2` rows, consisting of `FUN_11b59832` and its branch/helper edge to `FUN_11b568d5`. The Java direct-caller rows missing from the Pass632 9-row summary are VM branch/thunk/helper paths, not recv-related callers.
+Current import rows are thunk/symbol-only for recv/WSARecv/send-family APIs; no caller function is linked to Path B. Register provenance remains unresolved for RDX, RSI, `[RBP+0]`, and BL/RBX, so the bounded VM trace gate did not run.
 
-A Pass632 parser bug was found and fixed: Java `path_b_functions.csv` rows with `direct_caller` labels were filtered out because their addresses were not in the old Path B term list. The parser now keeps Java-exported function rows.
+Created the requested tool suite under `tools/pass634_codex_overnight_s2c_solve/`, including a future Ghidra Java import-wrapper exporter and a future S2C oracle scaffold. No S2C key or decoder success was claimed.
 
-No S2C initial key or receive-handshake key derivation path was found.
+Exact missing artifact: a targeted Ghidra export of code references to recv/WSARecv/recvfrom import thunk addresses, with wrapper functions and one-level callers/callees, sufficient to prove or reject a receive-wrapper path into Path B and recover RDX/RSI/[RBP+0]/BL setup.
