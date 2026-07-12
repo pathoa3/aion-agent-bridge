@@ -1,0 +1,25 @@
+{
+  "worker": "antigravity",
+  "phase": "pass615_full_kxseq_c2s_decode",
+  "start_frame": 4329,
+  "target_frames_total": 10,
+  "target_frames_processed": 10,
+  "messages_recovered_count": 10,
+  "messages_recovered_labels": [
+    "KXSEQ_002_A",
+    "KXSEQ_003_AA",
+    "KXSEQ_004_AAA",
+    "KXSEQ_005_AAAA",
+    "KXSEQ_006_AAAAAAAA",
+    "KXSEQ_007_AAAAAAAAAAAAAAAA",
+    "KXSEQ_008_0123456789",
+    "KXSEQ_009_ABABABABABABABAB",
+    "KXSEQ_010_REPEAT",
+    "KXSEQ_010_REPEAT"
+  ],
+  "all_kxseq_plaintext_recovered": true,
+  "decoder_success": true,
+  "first_divergence_frame": null,
+  "best_remaining_blocker": "none",
+  "next_action": "decode S2C world packet stream and identify crypt transform parameters or close analysis"
+}
