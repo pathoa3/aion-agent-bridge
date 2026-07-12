@@ -1,0 +1,4 @@
+candidate_id,source,accessible,file_offset,aion1_va_start,aion1_va_end,bytes_available,notes
+BS-001,4.7.5.Game.dll.bin PE .reloc section,TRUE,0x1471000,0x11472000,0x114E2000,455184,"First 455 KB of .aion1 present in .reloc section on disk. Contains VM bytecode data starting at VA 0x11472000. Shannon entropy 6.51 confirms structured bytecode not random data."
+BS-002,Handler table at 0x11B54E6F,FALSE,OUTSIDE_FILE,0x11B54E6F,0x11B59A00,0,"Handler code and handler table are in the upper .aion1 range (0x114E2000+) which is not present in the packed binary. Handler table verified via Ghidra CSV (256 entries all valid)."
+BS-003,FUN_11b5625b dispatcher (runtime RSI init),RUNTIME_ONLY,N/A,runtime,runtime,N/A,"RSI (bytecode ptr) = RSI_base + LOAD[RBP]. RBP = RDX from caller. Cannot resolve without running or unpacking. The bytecode BASE (RSI_base) is likely 0x11472000 (.aion1 start)."

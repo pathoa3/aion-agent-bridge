@@ -1,0 +1,9 @@
+status,value,note
+handler_table_loaded,TRUE,"256 entries loaded from pass8b_handler_table_from_ghidra.csv"
+handler_table_entries,256,"All 256 opcodes (0x00..0xFF) have mapped handler VAs"
+all_in_aion1,TRUE,"100% of handler VAs are within 0x11472000..0x11B59A00"
+handler_table_base_va,0x11B54E6F,"Confirmed from pcode at 0x11B56278: R12 = const 0x11B54E6F"
+handler_formula_k,0x15F664FE,"int64([table + op*8]) + 0x15F664FE = handler VA"
+verify_from_binary,FALSE,"Handler table at 0x11B54E6F is NOT accessible from packed binary (above available .aion1 range)"
+verify_from_ghidra_csv,TRUE,"Ghidra CSV is authoritative source; cross-verified with dispatcher pcode constants"
+dispatcher_pcode_confirmed,TRUE,"FUN_11b5625b pcode confirms: R12=0x11B54E6F, BRANCHIND to handler via table lookup at 0x11B5630F"
