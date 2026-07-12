@@ -1,0 +1,19 @@
+{
+  "worker": "sonnet",
+  "phase": "pass617_c2s_chat_extractor",
+  "chat_extractor_created": true,
+  "input_capture": "startup_world_open_kxseq.pcapng",
+  "c2s_packets_processed": 30,
+  "cm_chat_packets_seen": 11,
+  "chat_texts_extracted": 11,
+  "kxseq_expected_messages_found": 11,
+  "all_kxseq_expected_messages_found": true,
+  "decoder_success": true,
+  "first_failure_frame": null,
+  "s2c_attempted": false,
+  "antigravity_files_modified": false,
+  "private_payload_committed": false,
+  "raw_binary_committed": false,
+  "reason": "All 11 KXSEQ messages recovered in order with exact UTF-16LE text. 30 C2S packets decoded, 11 are CM_CHAT. Oracle exit code 0.",
+  "next_action": "Decode S2C world stream (independent key, not yet solved) or apply decoder to a new capture session."
+}

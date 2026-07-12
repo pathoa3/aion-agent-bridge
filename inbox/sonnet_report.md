@@ -1,38 +1,47 @@
-# Sonnet Report: pass616 Reusable C2S Decoder
+# Sonnet Report: pass617 C2S Chat Extractor
 
-## Result: DECODER SUCCESS – 11/11 KXSEQ messages recovered
+## Result: SUCCESS – 11/11 KXSEQ messages found, exit code 0
 
-A clean, reusable offline C2S decoder was built and validated against
-`startup_world_open_kxseq.pcapng`.  Oracle exit code: **0**.
+---
 
-## Decoder location
+## Tool location
 
 ```
-tools/pass616_sonnet_c2s_decoder/
-  euroaion_c2s_decoder.py   – core library
-  run_decode_kxseq.py       – CLI runner
-  validate_kxseq_oracle.py  – strict oracle validator
-  README.md                 – algorithm documentation
+tools/pass617_sonnet_c2s_chat_extractor/
+  euroaion_c2s_chat_extractor.py   – core library
+  run_extract_chat.py              – CLI runner + KXSEQ oracle
+  README.md                        – usage and architecture
 ```
 
-## What was done
+## Run statistics
 
-1. Ported the verified Antigravity key-rolling logic into a standalone,
-   importable Python library (`euroaion_c2s_decoder.py`) with no dependency
-   on any pass607 internal module.
-2. Implemented a self-contained PCAPNG parser (no external libs required).
-3. Implemented automatic world flow detection by anchor frame.
-4. Implemented dual-mode key-roll inference: linear and VM-formula.
-5. Ran `validate_kxseq_oracle.py` locally – **11/11 PASS**, no divergence.
+| Metric | Value |
+|---|---|
+| C2S packets processed | 30 |
+| CM_CHAT packets seen | 11 |
+| Chat texts extracted | 11 |
+| KXSEQ oracle | 11/11 PASS |
+| First failure | none |
+
+## What was built
+
+A practical offline C2S chat extraction tool that:
+1. Parses PCAPNG without external dependencies.
+2. Detects the world TCP flow (port 7785) by anchor frame.
+3. Rolls the C2S key sequentially across all 30 C2S packets.
+4. Identifies CM_CHAT packets (decoded opcode 0x53).
+5. Extracts UTF-16LE chat text stripped of trailing NULs.
+6. Prints a clean frame/time/opcode/text timeline.
+7. Validates against the 11-message KXSEQ oracle.
+8. Writes local-only CSVs (not committed to git).
 
 ## Safety compliance
 
 - Antigravity files: **not modified**.
-- No raw packet hex, byte blobs, or ciphertext committed to git.
-- No EuroAion binary executed or attached.
-- S2C stream: not attempted (documented as future work).
+- S2C stream: **not attempted**.
+- No raw hex, byte blobs, or ciphertext committed to git.
 
 ## Next recommended step
 
-Decode the S2C world stream.  The S2C key rolls independently and its
-initial value and rolling rule are not yet determined.
+Decode the S2C world stream (independent key schedule, not yet solved),
+or apply this decoder to a new capture session to confirm generalizability.
