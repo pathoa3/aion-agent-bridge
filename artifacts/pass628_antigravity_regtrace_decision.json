@@ -1,0 +1,35 @@
+{
+  "worker": "antigravity",
+  "phase": "pass628_dispatcher_entry_register_trace",
+  "caller_functions_reviewed": 7,
+  "functions_reviewed": [
+    "FUN_11b45846", "FUN_11b566dd", "FUN_11b56999",
+    "FUN_11b59337", "FUN_11b59838", "FUN_11b56b2c", "FUN_11b5625b"
+  ],
+  "rdx_context_source_found": true,
+  "rdx_context_source_detail": "FUN_11b59337 @ 0x11B59343: RBP = RDX (2nd call argument, Windows x64 ABI). RBX/BL is PUSH-preserved on entry. RDX value at callsite is still runtime-unknown.",
+  "rbp_pc_offset_found": false,
+  "rbp_pc_offset_detail": "LOAD[RBP] at 0x11B562AE reads PC offset from context struct field 0. Context struct layout not in Ghidra exports.",
+  "rsi_base_found": true,
+  "rsi_base_detail": "PATH A: RSI = RBP at 0x11B56B4B in FUN_11b56b2c (context pointer). PATH B: RSI source not found in exported functions.",
+  "rbx_bl_source_found": true,
+  "rbx_bl_source_detail": "PUSH RBX at FUN_11b59337 entry (0x11B59337). BL comes from caller's RBX. Exact initial value not resolved.",
+  "dispatcher_entry_candidate_count": 3,
+  "bounded_vm_trace_run": false,
+  "bounded_vm_trace_reason": "RDX (context pointer) and [RBP+0] (PC offset) are runtime-only. Cannot run bounded trace without knowing initial RSI base and BL.",
+  "partial_validation_run": true,
+  "partial_validation_result": "RSI_base=0x11472000, BL=0x00, PC_offset=0 produces 100% valid handlers, 4 promoted hits in first 32 bytes. Not confirmed as S2C path.",
+  "valid_trace_candidates": 0,
+  "s2c_initial_key_found": false,
+  "s2c_key_derivation_path_found": false,
+  "missing_exports": [
+    "FUN_11b5863d @ 0x11B5863D (PATH A: need RBP value at entry to FUN_11b56b2c)",
+    "FUN_11b5591a @ 0x11B5591A (third dispatcher entry path)",
+    "FUN_11b50330 @ 0x11B50330 (TLS callback path via FUN_11b57075)",
+    "Entry thunk 0x1195D94A caller pcode (to see RDX at FUN_11b45846 callsite)"
+  ],
+  "private_payload_committed": false,
+  "raw_binary_committed": false,
+  "reason": "Traced all 7 exported pcode files through both dispatcher entry paths. Confirmed: (1) RBP = RDX at FUN_11b59337@0x11B59343 (PATH B context source); (2) RSI = RBP at FUN_11b56b2c@0x11B56B4B (PATH A bytecode base); (3) BL preserved from caller via PUSH at FUN_11b59337 entry; (4) R12=0x11B54E6F hardcoded. Blocked on: RDX actual value (runtime), [RBP+0] PC offset field (runtime struct), RSI base in PATH B (not in exports), initial BL (not in exports).",
+  "next_action": "Export Ghidra pcode for FUN_11b5863d (0x11B5863D) to determine what RBP holds when it calls FUN_11b56b2c. Also export FUN_11b50330 (TLS callback path) to see if it sets RSI/RBX statically before calling into the VM."
+}

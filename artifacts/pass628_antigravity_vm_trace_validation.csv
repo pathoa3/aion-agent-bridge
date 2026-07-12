@@ -1,0 +1,5 @@
+validation_id,candidate_id,path,rsi_base_assumed,bl_assumed,pc_offset_assumed,trace_run,result,reason
+VT-001,EC-001,A,RBP_at_FUN_11b56b2c_entry,UNKNOWN,UNKNOWN,false,BLOCKED,"RBP at FUN_11b56b2c entry is not exported. Cannot assume RSI_base without knowing RBP value passed by FUN_11b5863d."
+VT-002,EC-002,B,UNKNOWN,UNKNOWN,UNKNOWN,false,BLOCKED,"RDX at FUN_11b59337 callsite is runtime network-receive buffer struct pointer. Not statically derivable."
+VT-003,EC-001-partial,A,0x11472000,0x00,0,true,PARTIAL,"Assumed RSI_base = .aion1 start VA (0x11472000) and BL=0x00 and PC_offset=0. Trace of first 32 bytes produces 4 promoted handler hits. Cannot confirm without real context struct."
+VT-004,EC-003,A_alt,UNKNOWN,UNKNOWN,UNKNOWN,false,BLOCKED,"FUN_11b5591a pcode not exported. Cannot trace RSI/RBX setup for this path."

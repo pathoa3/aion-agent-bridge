@@ -1,0 +1,4 @@
+candidate_id,rdx_context_source,rbp_pc_offset,rsi_base,rbx_bl_source,static_resolved,confidence,next_test
+EC-001,RBP at entry to FUN_11b56b2c = caller-provided context,LOAD[RBP] in dispatcher: value from context struct offset 0,RSI = RBP (set at 0x11B56B4B) = VM context pointer,BL from prior handler chain (not directly traceable),False,medium,Inspect FUN_11b5863d pcode for what RBP holds at entry
+EC-002,RDX = 2nd arg to FUN_11b59337 = 2nd arg of FUN_11b45846 (network recv buffer context),LOAD[BSWAP32(RDX)] from context struct at offset 0,RSI = unknown (from caller chain of FUN_11b45846),RBX preserved from FUN_11b45846 caller (PUSH at FUN_11b59337 entry),False,medium,Find what FUN_11b45846 receives as RDX (network receive buffer struct?)
+EC-003,N/A - different path,N/A,RSI = set in FUN_11b5591a (see call_edges: 0x11B5591A -> FUN_11b5625b),Unknown,False,low,Export FUN_11b5591a pcode to inspect RSI/RBX setup

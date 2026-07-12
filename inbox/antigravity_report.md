@@ -1,43 +1,46 @@
-# Antigravity Report: pass627 VM trace runner
+# Antigravity Report: pass628 Dispatcher Entry Register Trace
 
-## Status: REAL BYTECODE FOUND — VM trace operative
-
----
-
-## Breakthrough
-
-The first **455,184 bytes** of the `.aion1` VM bytecode data region are readable directly from `4.7.5.Game.dll.bin` via the `.reloc` section on disk (file offset `0x1471000`). This is the VM bytecode stream interpreted by the dispatcher at `FUN_11b5625b`. Shannon entropy is **6.51 bits** — confirming structured bytecode, not compressed data.
+## Status: REGISTER SOURCES MAPPED — KEY BLOCKERS IDENTIFIED
 
 ---
 
-## Confirmed Findings
+## What Was Done
 
-### Dispatcher Mechanics (from FUN_11b5625b.pcode.txt)
-- `0x11B56278`: `R12 = 0x11B54E6F` — handler table base (hardcoded constant)
-- `0x11B562AE`: `RSI += LOAD[RBP]` — bytecode pointer initialized from VM context
-- `0x11B562BD`: `AL = LOAD[RSI]` — fetch raw opcode byte
-- `0x11B5630F`: `RAX = LOAD[R12 + AL*8]` — handler VA table lookup
-- `0x11B56329`: `BRANCHIND RAX` — dispatch to handler
-
-### Handler Table
-- 256/256 entries valid, all within `.aion1`
-- Source: Ghidra CSV from pass611 (authoritative)
-- Not directly readable from packed binary (handler table area not in file)
-
-### Real Bytecode Trace (BL=0x00, first 32 bytes)
-- 100% valid handler VAs
-- 4 promoted handler hits (0x11B5832F, 0x11B57796 ×2, 0x11B5932F)
-- BL sweep: all 256 initial BL values tested, all produce valid results
+Traced all 7 locally exported Ghidra pcode files through both VM dispatcher entry paths:
+- `FUN_11b45846`, `FUN_11b566dd`, `FUN_11b56999` (PATH B network receive chain)
+- `FUN_11b59337`, `FUN_11b59838` (PATH B context/wrapper)
+- `FUN_11b56b2c` (PATH A direct dispatch)
+- `FUN_11b5625b` (dispatcher)
 
 ---
 
-## What Is Still Blocked
+## Confirmed Register Sources
 
-- **S2C initial key**: Stored in runtime VM context struct (`[RBP+offset]`). Context passed as `RDX` to `FUN_11b59337`. Not statically resolvable.
-- **S2C key derivation bytecode offset**: Need to find which PC offset in `.aion1` handles S2C key setup during network receive.
+| Register | Source | Evidence |
+|---|---|---|
+| **R12** (handler table) | `0x11B54E6F` — hardcoded constant | `0x11B56278` pcode |
+| **RSI** (PATH A) | `RSI = RBP` at `0x11B56B4B` in `FUN_11b56b2c` | pcode COPY reg0x30=reg0x28 |
+| **RBP** (PATH B) | `RBP = RDX` (2nd call arg) at `0x11B59343` | pcode COPY reg0x28=reg0x10 |
+| **BL** | Caller's RBX, PUSH-preserved at `FUN_11b59337` entry | pcode STORE RSP, RBX |
+| **Decode formula** | `opcode = rol8(((raw - BL + 0x86) ^ 0x34), 5)` | pcode confirmed |
+
+---
+
+## Blocked Items
+
+| Item | Why Blocked | Export Needed |
+|---|---|---|
+| RDX actual value (PATH B) | Runtime argument | pcode of entry caller (0x1195D94A) |
+| RSI base (PATH B) | Not set in any exported PATH B function | N/A |
+| `[RBP+0]` PC offset | Runtime context struct field | Context struct definition |
+| Initial BL value | Caller of FUN_11b45846 chain not exported | FUN_11b50330 / entry thunk pcode |
+| PATH A RBP at FUN_11b56b2c entry | Not exported | FUN_11b5863d pcode |
 
 ---
 
 ## Next Action
 
-Trace `FUN_11b59337` callers to identify what `RDX` value (VM context struct pointer) is passed during S2C packet receipt. This will resolve the bytecode PC offset for the S2C key derivation routine.
+Export Ghidra pcode for:
+1. `FUN_11b5863d` (`0x11B5863D`) — to get PATH A RSI base (RBP at FUN_11b56b2c entry)
+2. `FUN_11b50330` (`0x11B50330`) — TLS callback path that may set RSI/RBX statically
+3. Entry thunk `0x1195D94A` — to get RDX at FUN_11b45846 callsite (PATH B context pointer)
