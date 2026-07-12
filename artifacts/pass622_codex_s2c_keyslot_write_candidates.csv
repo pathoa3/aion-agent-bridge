@@ -1,0 +1,2 @@
+candidate_id,function_or_address,write_pattern,evidence,possible_role,confidence,next_test
+P622-KS-REQUEST-001,unknown until Ghidra export is run,8-byte write or two adjacent 4-byte writes to packet/session context,Pass621 found no concrete key-slot write in existing VM-only exports; this row defines the required evidence shape,S2C rolling-key slot initialization if reachable from receive/world-handshake path,pending_export,"Run exporter, inspect write_hints.json, and only validate S2C frames if seed/key derivation is concrete"
