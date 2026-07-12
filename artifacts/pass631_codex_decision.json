@@ -2,7 +2,7 @@
   "worker": "codex",
   "phase": "pass631_path_b_xref_trace",
   "path_b_reviewed": true,
-  "callers_reviewed": 9,
+  "callers_reviewed": 0,
   "real_non_entry_caller_found": false,
   "recv_related_caller_found": false,
   "rdx_context_source_found": false,
