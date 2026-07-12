@@ -1,0 +1,21 @@
+{
+  "worker": "codex",
+  "phase": "pass621_s2c_receive_handshake_trace",
+  "real_static_exports_found": true,
+  "static_exports_count": 48,
+  "s2c_initial_key_found": false,
+  "s2c_key_write_path_found": false,
+  "recv_handshake_path_found": false,
+  "best_candidate_id": "RHS-001",
+  "bounded_s2c_validation_run": false,
+  "s2c_decoder_success": false,
+  "missing_export_needed": "Focused p-code/disassembly/flow slice for the native 7785 receive/world-handshake path that initializes VM context registers and writes the S2C 8-byte rolling key slot; current Pass8B/Pass8C exports cover VM dispatcher/handlers but not the receive handshake caller/path.",
+  "c2s_tools_modified": false,
+  "sonnet_files_modified": false,
+  "antigravity_files_modified": false,
+  "forbidden_methods_used": false,
+  "private_payload_committed": false,
+  "raw_binary_committed": false,
+  "reason": "Actual static exports were found and traced. They confirm VM dispatcher/handler slices but do not include native receive/world-handshake parsing or any concrete S2C key-state write path.",
+  "next_action": "Generate targeted Ghidra p-code/flow export for native 7785 receive/world-handshake caller path and context/key-slot writes, then rerun Pass621 trace."
+}

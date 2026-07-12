@@ -1,0 +1,49 @@
+path,file_size,matched_terms,relevance,notes
+C:\AionTools\aion-agent-bridge\artifacts\pass610_antigravity_handler_derived_trials_summary.md,924,2106;handshake;key,medium,text export with requested address/key terms
+C:\AionTools\aion-agent-bridge\artifacts\pass610_antigravity_handler_trace_matrix.csv,1745,0x11B57796;0x11B5932F;11B57796;11B5932F;key;RSI,medium,text export with requested address/key terms
+C:\AionTools\aion-agent-bridge\artifacts\pass610_antigravity_p609012_dataflow.csv,600,RSI,medium,text export with requested address/key terms
+C:\AionTools\aion-agent-bridge\artifacts\pass610_antigravity_vm_handler_classification.csv,6652,11B55DF6;11B57796;11B5932F;RSI,medium,text export with requested address/key terms
+C:\AionTools\aion-agent-bridge\artifacts\pass610_antigravity_vm_handler_classification.md,1003,key,medium,text export with requested address/key terms
+C:\AionTools\aion-agent-bridge\artifacts\pass610_antigravity_vm_table_handlers.csv,5817,11B55DF6;11B57796;11B5932F;RSI,medium,text export with requested address/key terms
+C:\AionTools\aion-agent-bridge\artifacts\pass610_antigravity_vm_table_progress.md,654,0x11B57796;0x11B5932F;11B57796;11B5932F,medium,text export with requested address/key terms
+C:\AionTools\aion-agent-bridge\artifacts\pass610_codex_vm_handler_classification.csv,4945,11B57796;11B5932F,medium,text export with requested address/key terms
+C:\AionTools\aion-agent-bridge\artifacts\pass610_codex_vm_handler_classification.md,958,0x11B57796;0x11B5932F;11B57796;11B5932F,medium,text export with requested address/key terms
+C:\AionTools\aion-agent-bridge\artifacts\pass610_codex_vm_table_handlers.csv,42081,11B57796;11B5932F,medium,text export with requested address/key terms
+C:\AionTools\aion-agent-bridge\artifacts\pass610_codex_vm_table_verification.md,1131,0x11B562BD;0x11B5630F;0x11B57796;0x11B5932F;11B562BD;11B5630F;11B57796;11B5932F,medium,text export with requested address/key terms
+C:\AionTools\aion-agent-bridge\artifacts\pass611_codex_ghidra_followup_decision.json,1935,0x11B562BD;0x11B57796;11B562BD;11B57796;R12;RBP;RSI,medium,text export with requested address/key terms
+C:\AionTools\aion-agent-bridge\artifacts\pass611_codex_ghidra_followup_dispatcher.csv,524,0x11B562BD;0x11B5630F;11B562BD;11B5630F;R12;RSI,medium,text export with requested address/key terms
+C:\AionTools\aion-agent-bridge\artifacts\pass611_codex_ghidra_followup_handlers.csv,1215,0x11B57796;0x11B5932F;11B57796;11B5932F;RBP;RSI,medium,text export with requested address/key terms
+C:\AionTools\aion-agent-bridge\artifacts\pass611_codex_ghidra_followup_summary.md,1817,0x11B57796;11B57796;R12;RBP;RSI,medium,text export with requested address/key terms
+C:\AionTools\aion-agent-bridge\artifacts\pass611_codex_handler_trace_matrix.csv,4415,0x11B57796;0x11B5932F;11B57796;11B5932F;key,medium,text export with requested address/key terms
+C:\AionTools\aion-agent-bridge\artifacts\pass611_codex_p609012_dataflow.csv,870,RSI,medium,text export with requested address/key terms
+C:\AionTools\aion-agent-bridge\tools\pass610_antigravity_vm_cleartext\classify_vm_handlers.py,2221,,low,static text file matching export naming pattern
+C:\AionTools\aion-agent-bridge\tools\pass610_antigravity_vm_cleartext\parse_vm_table.py,2848,key,medium,text export with requested address/key terms
+C:\AionTools\aion-agent-bridge\tools\pass610_codex_vm_analysis\classify_handlers.py,77,,low,static text file matching export naming pattern
+C:\AionTools\aion-agent-bridge\tools\pass610_codex_vm_analysis\parse_vm_table.py,18026,0x11B562BD;0x11B5630F;0x11B57796;0x11B5932F;11B562BD;11B5630F;11B57796;11B5932F;client;key;R12;RSI,medium,text export with requested address/key terms
+C:\AionTools\aion-agent-bridge\tools\pass611_codex_vm_solve\classify_transform_handlers.py,2645,0x11B57796;11B57796;key,medium,text export with requested address/key terms
+C:\AionTools\aion-agent-bridge\tools\pass611_codex_vm_solve\handler_derived_transform_tests.py,1810,,low,static text file matching export naming pattern
+C:\AionTools\aion-agent-bridge\tools\pass611_codex_vm_solve\summarize_ghidra_followup.py,9498,0x11B562BD;0x11B5630F;0x11B57796;0x11B5932F;11B562BD;11B5630F;11B57796;11B5932F;R12;RBP;RSI,medium,text export with requested address/key terms
+C:\AionTools\aion_decoder_agent\inbox\pass8b_handler_table_from_ghidra.csv,35033,11B55DF6;11B57796;11B5932F;RSI,high,VM opcode-to-handler table export
+C:\AionTools\aion_decoder_agent\inbox\pass8b_target_disassembly.txt,25098,11B562BD;11B5630F;11B57796;R12;RBP;RSI,high,primary Ghidra target export covering dispatcher/handler slices
+C:\AionTools\aion_decoder_agent\inbox\pass8b_target_flows.csv,30367,11B562BD;11B5630F;11B57796,high,primary Ghidra target export covering dispatcher/handler slices
+C:\AionTools\aion_decoder_agent\inbox\pass8b_target_pcode.txt,238763,11B562BD;11B5630F;11B57796;R12;RBP;RSI,high,primary Ghidra target export covering dispatcher/handler slices
+C:\AionTools\aion_decoder_agent\outbox\pass610_antigravity_vm_cleartext_local\handler_derived_trials_full.csv,8043,,low,static text file matching export naming pattern
+C:\AionTools\aion_decoder_agent\outbox\pass610_antigravity_vm_cleartext_local\handler_notes_full.csv,120,0x11B57796;0x11B5932F;11B57796;11B5932F,medium,text export with requested address/key terms
+C:\AionTools\aion_decoder_agent\outbox\pass611_codex_vm_solve_local\ghidra_pass8b\pass8b_export_log.txt,131,,low,static text file matching export naming pattern
+C:\AionTools\aion_decoder_agent\outbox\pass611_codex_vm_solve_local\ghidra_pass8b\pass8b_handler_table_from_ghidra.csv,35033,11B55DF6;11B57796;11B5932F;RSI,high,VM opcode-to-handler table export
+C:\AionTools\aion_decoder_agent\outbox\pass611_codex_vm_solve_local\ghidra_pass8b\pass8b_handler_table_from_ghidra.md,162,,high,VM opcode-to-handler table export
+C:\AionTools\aion_decoder_agent\outbox\pass611_codex_vm_solve_local\ghidra_pass8b\pass8b_pcode_launch_state_report.md,492,0x11B562BD;0x11B5630F;11B562BD;11B5630F;R12;RBP;RSI,medium,text export with requested address/key terms
+C:\AionTools\aion_decoder_agent\outbox\pass611_codex_vm_solve_local\ghidra_pass8b\pass8b_target_disassembly.txt,25098,11B562BD;11B5630F;11B57796;R12;RBP;RSI,high,primary Ghidra target export covering dispatcher/handler slices
+C:\AionTools\aion_decoder_agent\outbox\pass611_codex_vm_solve_local\ghidra_pass8b\pass8b_target_flows.csv,30367,11B562BD;11B5630F;11B57796,high,primary Ghidra target export covering dispatcher/handler slices
+C:\AionTools\aion_decoder_agent\outbox\pass611_codex_vm_solve_local\ghidra_pass8b\pass8b_target_pcode.txt,238763,11B562BD;11B5630F;11B57796;R12;RBP;RSI,high,primary Ghidra target export covering dispatcher/handler slices
+C:\AionTools\aion_decoder_agent\outbox\pass611_codex_vm_solve_local\ghidra_pass8c\pass8c_export_log.txt,131,,low,static text file matching export naming pattern
+C:\AionTools\aion_decoder_agent\outbox\pass611_codex_vm_solve_local\ghidra_pass8c\pass8c_flow_graph.csv,28991,11B562BD;11B5630F;R12;RBP;RSI,high,recursive Ghidra flow export covering VM launch/dispatcher state
+C:\AionTools\aion_decoder_agent\outbox\pass611_codex_vm_solve_local\ghidra_pass8c\pass8c_flow_summary.md,346,R12;RBP;RSI,high,recursive Ghidra flow export covering VM launch/dispatcher state
+C:\AionTools\aion_decoder_agent\outbox\pass611_codex_vm_solve_local\ghidra_pass8c\pass8c_interesting_state_instructions.csv,13667,11B562BD;11B5630F;R12;RBP;RSI,high,recursive Ghidra flow export covering VM launch/dispatcher state
+C:\AionTools\aion_decoder_agent\outbox\pass611_codex_vm_solve_local\ghidra_pass8c\pass8c_recursive_flow_disassembly.txt,28926,11B562BD;11B5630F;R12;RBP;RSI,high,recursive Ghidra flow export covering VM launch/dispatcher state
+C:\AionTools\aion_decoder_agent\outbox\pass611_codex_vm_solve_local\ghidra_pass8c\pass8c_recursive_flow_pcode.txt,304610,11B562BD;11B5630F;R12;RBP;RSI,high,recursive Ghidra flow export covering VM launch/dispatcher state
+C:\AionTools\aion_decoder_agent\outbox\pass611_codex_vm_solve_local\handler_trace_full.csv,4415,0x11B57796;0x11B5932F;11B57796;11B5932F;key,medium,text export with requested address/key terms
+C:\AionTools\EA_VM_FlowDumpJava.java,9812,0x11B562BD;0x11B5630F;11B562BD;11B5630F;R12;RBP;RSI,medium,"Ghidra export script, not result data"
+C:\AionTools\EA_VM_TargetDump.py,9860,0x11B562BD;0x11B5630F;11B562BD;11B5630F;R12;RBP;RSI,medium,text export with requested address/key terms
+C:\AionTools\EA_VM_TargetDumpJava.java,11873,0x11B562BD;0x11B5630F;0x11B57796;11B562BD;11B5630F;11B57796;R12;RBP;RSI,medium,"Ghidra export script, not result data"
+C:\AionTools\pass8b_manual_without_codex_notes.txt,1468,RBP,medium,text export with requested address/key terms
