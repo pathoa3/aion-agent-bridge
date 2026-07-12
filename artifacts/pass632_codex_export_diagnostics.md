@@ -8,7 +8,7 @@ Yes, Ghidra attempted to execute it. The local log contains `Execute script: exp
 
 2. Did it write files to `C:\AionTools\aion_decoder_agent\outbox\pass631_path_b_xrefs`?
 
-No usable export files were found. The folder contained `1` file(s), and the only observed required output was the log file.
+No usable export files were found. The folder contained `49` file(s), and the only observed required output was the log file.
 
 3. Did the log contain exceptions?
 
@@ -32,6 +32,6 @@ Created `ghidra_export_path_b_xrefs.java` so headless Ghidra can export Path B x
 
 ## Current Fixed Result
 
-- source used: `fallback_pass622_known_good`
+- source used: `pass631_or_pass632_export`
 - restored/found caller rows: `9`
 - Python unavailable in Ghidra log: `true`
