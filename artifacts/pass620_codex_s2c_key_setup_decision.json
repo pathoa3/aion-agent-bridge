@@ -1,0 +1,21 @@
+{
+  "worker": "codex",
+  "phase": "pass620_s2c_key_setup_static_trace",
+  "s2c_initial_key_found": false,
+  "s2c_key_candidates_count": 24,
+  "best_candidate_id": "CTX-002",
+  "c2s_s2c_context_split_found": false,
+  "handshake_seed_derivation_path_found": false,
+  "bounded_s2c_validation_run": false,
+  "s2c_packets_decoded_sequentially": 0,
+  "first_divergence_frame": null,
+  "s2c_decoder_success": false,
+  "c2s_tools_modified": false,
+  "sonnet_files_modified": false,
+  "antigravity_files_modified": false,
+  "forbidden_methods_used": false,
+  "private_payload_committed": false,
+  "raw_binary_committed": false,
+  "reason": "Narrow static trace found shared C2S/S2C transform evidence and handshake-seed references, but no concrete file-backed assignment of an S2C initial key or server seed into an S2C rolling key slot.",
+  "next_action": "targeted static trace of world/7785 receive handshake path to S2C 8-byte key state assignment"
+}
