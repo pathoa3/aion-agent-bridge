@@ -1,0 +1,21 @@
+{
+  "worker": "codex",
+  "phase": "pass631_path_b_xref_trace",
+  "path_b_reviewed": true,
+  "callers_reviewed": 9,
+  "real_non_entry_caller_found": false,
+  "recv_related_caller_found": false,
+  "rdx_context_source_found": false,
+  "rsi_base_found": false,
+  "pc_offset_found": false,
+  "initial_bl_found": false,
+  "targeted_exports_created": true,
+  "bounded_vm_trace_run": false,
+  "valid_trace_candidates": 0,
+  "s2c_initial_key_found": false,
+  "s2c_key_derivation_path_found": false,
+  "private_payload_committed": false,
+  "raw_binary_committed": false,
+  "reason": "Existing exports show Path B internals and entry/thunk edges, but no real non-entry caller or recv-related caller that supplies RDX/RSI/RBP/BL. RDX remains decisive because FUN_11b59337 copies RDX into RBP and dispatcher [RBP+0] depends on it.",
+  "next_action": "Run tools/pass631_codex_path_b_xref_trace/export_path_b_xrefs.py in Ghidra to export direct xrefs/callers around 0x11B52CE5, 0x11B45846, 0x11B56999, 0x11B59337, 0x11B59832, 0x11B59838, plus recv/WSARecv wrappers."
+}

@@ -1,0 +1,2 @@
+trace_id,path,input_requirements_available,bounded_vm_trace_run,valid_trace_candidate,blocker,next_validation_step
+P631-TRACE-001,Path B dispatcher entry,false,false,false,"RDX context, RSI base, [RBP+0] PC offset, and initial/effective BL are not concrete in existing exports.","Run targeted Ghidra xref export, then inspect any non-entry caller for register setup before using Pass627."

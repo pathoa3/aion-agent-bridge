@@ -1,7 +1,7 @@
-﻿# Codex Report - Pass630 Path C FUN_11b581c1 Review
+# Codex Report - Pass631 Path B Xref Trace
 
-Reviewed only Path C exports: `FUN_11b581c1`, `FUN_11b56f43`, `FUN_11b5591a`, and `FUN_11b5625b`.
+Reviewed existing local Path B exports only and created targeted xref tooling.
 
-Result: Path C is a VM helper-dispatch setup, not a proven packet decode/keyroll path. `RSI` is structurally mapped as a decoded stack-frame value from `RSP+0xa0`; `[RBP+0]` is likely local zero after `RBP=RSP`; initial `BL/RBX` is still predecessor-provided. No receive/session context layout was found.
+Result: no real non-entry caller found in current exports. `0x1195D94A` and `0x11B52CE5` are entry/thunk jumps. Path B internals show `RBP` becomes `RDX`, so `[RBP+0]` depends on unknown RDX context. No recv-related caller is connected in current export tables.
 
-No bounded VM trace was run. Exact blocker: concrete caller stack value for `RSP+0xa0` is missing, and Path C has no packet/receive context linkage. Continue with Path B for the S2C receive/decode chain.
+No bounded VM trace was run. Next action is the targeted Ghidra export for Path B xrefs and recv/WSARecv wrapper linkage.

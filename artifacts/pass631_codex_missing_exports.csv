@@ -1,0 +1,5 @@
+missing_id,needed_export,reason,exact_target,priority
+P631-MISS-001,xrefs/callers to 0x11B52CE5 and 0x11B45846 beyond 0x1195D94A,0x1195D94A is only an entry/thunk JMP in current exports; real non-entry caller not found.,"0x11B52CE5,0x11B45846",high
+P631-MISS-002,direct callers and pcode/decompile for FUN_11b56999/FUN_11b59337/FUN_11b59832/FUN_11b59838,"Current chain shows RBP=RDX and EDX test, but not RDX source.","0x11B56999,0x11B59337,0x11B59832,0x11B59838",high
+P631-MISS-003,recv/WSARecv import callers connected to Path B graph,Current import refs are external/IAT only and not connected to function callers in available export.,"recv,WSARecv,recvfrom callers and wrappers",high
+P631-MISS-004,one-level callers/callees around any non-entry Path B caller,"Need register setup for RDX, RSI, RBX/BL, RBP, RCX at Path B entry.",caller-discovered functions from P631-MISS-001/002,high
