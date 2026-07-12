@@ -1,29 +1,24 @@
-# Antigravity Report: pass625 VM frame trace
+# Antigravity Report: pass626 VM bytecode trace
 
-## Status: TRACE COMPLETE – VM variables mapped
+## Status: TOOLING CREATED – VM entry context mapped
 
-An offline trace of RBP/RDI context memory access was performed across all exported P-Code and disassembly files for the dispatcher and candidate functions. 
-
----
-
-## Architectural Findings
-
-1. **Register-Mapped VM State**:
-   - The VM does not maintain S2C/C2S keys in static global variables or dedicated native heap structures.
-   - Virtual registers and keys are mapped directly to native CPU registers during interpreter execution.
-   - The rolling key byte is held in register `BL` (native `RBX` register) during opcode fetch and instruction execution.
-
-2. **Dispatcher Context Offset**:
-   - `RBP` points to the VM context structure on the stack.
-   - `[RBP]` (offset `0x00`) holds the VM PC offset, which is added to `RSI` (the bytecode pointer) during instruction dispatch (`0x11B562AE ADD RSI, qword ptr [RBP]`).
-
-3. **General Handlers**:
-   - All instruction handlers (`FUN_11b57075`, `FUN_11b581c1`, etc.) perform arithmetic calculations on the native registers.
-   - These represent updates to virtual registers (including rolling keys) under a control-flow flattened/obfuscated assembly layer.
+Offline VM bytecode trace plans and simulation tooling have been built under `tools/pass626_antigravity_vm_bytecode_trace/`. All VM entry context variables (`RBP`, `RSI`, `BL`) have been traced and mapped.
 
 ---
 
-## Next Steps to Break the Blocker
-Since the key initialization logic is implemented in interpreted VM bytecode rather than native compiled code, native scanning will not yield the S2C key. 
+## VM Entry Context Mapped
+1. **RBP (VM Context Pointer)**: Overwritten with `RDX` (the second x64 argument) in `FUN_11b59337` via `MOV RBP, RDX`.
+2. **RSI (Bytecode Pointer)**: Offset loaded from `[RBP]` via `ADD RSI, qword ptr [RBP]` inside `FUN_11b5625b` dispatcher.
+3. **BL/RBX (Opcode Decryption Key)**: Passed directly in the `RBX` register from the caller. Used to decrypt raw bytecode via `SUB AL, BL` inside dispatcher.
 
-We need to analyze the interpreted VM bytecode inside the `.aion1` section. Specifically, tracing the execution path starting from the network packet receipt hook (`FUN_11b59337` -> `FUN_11b59832`) when the handshake packet (frame 4094) is received will show how the initial S2C key virtual register is initialized.
+---
+
+## Deliverables Created
+1. `tools/pass626_antigravity_vm_bytecode_trace/extract_vm_entry_context.py` - Static extraction steps.
+2. `tools/pass626_antigravity_vm_bytecode_trace/trace_vm_bytecode_skeleton.py` - Simulation loop that decodes raw bytes and maps them to Ghidra handlers.
+3. `tools/pass626_antigravity_vm_bytecode_trace/README.md` - Technical overview.
+
+---
+
+## Next Steps
+Use the simulation skeleton to trace bytecode execution of the S2C handshake (frame 4094) under different initial `BL` key candidates, identifying the handlers that execute during the S2C key initialization.

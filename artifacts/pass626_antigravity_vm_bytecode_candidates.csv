@@ -1,0 +1,5 @@
+candidate_id,source_function,field,address_or_value,evidence,confidence,next_test
+C-001,FUN_11b59337,RBP context pointer,RDX (2nd argument),MOV RBP RDX in disasm,High,Verify RDX structure during call
+C-002,FUN_11b5625b,RSI bytecode pointer,ADD RSI qword ptr [RBP],ADD RSI qword ptr [RBP] in disasm,High,Trace bytecode PC bounds
+C-003,FUN_11b5625b,BL initial key,RBX/BL register,SUB AL BL in disasm,High,Track BL initialization in caller
+C-004,FUN_11b5625b,R12 handler table base,0x11B54E6F,LEA R12 [0x11b54e6f] in disasm,High,Verify table structure
