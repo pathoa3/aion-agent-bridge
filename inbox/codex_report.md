@@ -1,7 +1,9 @@
-# Codex Report - Pass631 Path B Xref Trace
+# Codex Report - Pass632 Path B Export Fix
 
-Reviewed existing local Path B exports only and created targeted xref tooling.
+Diagnosed the Pass631 empty result regression. Ghidra attempted to run `export_path_b_xrefs.py`, but headless was not started with PyGhidra, so Python was unavailable and no export CSVs were written.
 
-Result: no real non-entry caller found in current exports. `0x1195D94A` and `0x11B52CE5` are entry/thunk jumps. Path B internals show `RBP` becomes `RDX`, so `[RBP+0]` depends on unknown RDX context. No recv-related caller is connected in current export tables.
+The Pass631 postprocessor bug was that it treated the empty export folder as authoritative and overwrote the useful known Path B rows. The fixed postprocessor now restores from the Pass622 known-good export unless a new export explicitly proves no callers.
 
-No bounded VM trace was run. Next action is the targeted Ghidra export for Path B xrefs and recv/WSARecv wrapper linkage.
+Created Java exporter: `tools/pass632_codex_fix_path_b_export/ghidra_export_path_b_xrefs.java`.
+
+Fixed caller rows restored/found: `9`.

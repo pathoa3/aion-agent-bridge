@@ -1,0 +1,4 @@
+missing_id,needed_export,reason,exact_target,priority
+P632-MISS-001,Java Path B xref export output CSVs,Pass631 Python/Jython export failed under Ghidra headless because PyGhidra was unavailable; output folder had only a log.,tools/pass632_codex_fix_path_b_export/ghidra_export_path_b_xrefs.java,high
+P632-MISS-002,direct non-entry xrefs to 0x11B52CE5/0x11B45846 and callers of 0x11B56999/0x11B59337/0x11B59832/0x11B59838,Fallback rows restore Path B graph but still do not reveal RDX/RSI/RBP/BL sources.,Path B xrefs/callers one level each direction,high
+P632-MISS-003,recv/WSARecv caller wrappers connected to Path B callers,Current usable rows do not tie Path B to receive/socket buffer handling.,"recv,WSARecv,recvfrom import callers and wrappers",high

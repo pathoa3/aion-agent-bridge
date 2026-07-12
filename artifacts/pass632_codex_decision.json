@@ -1,0 +1,21 @@
+{
+  "worker": "codex",
+  "phase": "pass632_fix_path_b_xref_export",
+  "pass631_empty_result_confirmed": true,
+  "export_script_ran": true,
+  "export_log_reviewed": true,
+  "export_files_found": 1,
+  "postprocessor_bug_found": true,
+  "java_exporter_created": true,
+  "callers_restored_or_found": 9,
+  "real_non_entry_caller_found": false,
+  "recv_related_caller_found": false,
+  "rdx_context_source_found": false,
+  "rsi_base_found": false,
+  "pc_offset_found": false,
+  "initial_bl_found": false,
+  "private_payload_committed": false,
+  "raw_binary_committed": false,
+  "reason": "Pass631 empty result was caused by Ghidra headless failing to run the Python exporter because PyGhidra was unavailable. The postprocessor then incorrectly treated the empty export as authoritative. Fixed postprocessor restores known-good Path B rows unless an export explicitly proves no callers, and a Java exporter was created.",
+  "next_action": "Run ghidra_export_path_b_xrefs.java under Ghidra headless, then rerun inspect_path_b_xrefs_fixed.py against pass631_path_b_xrefs."
+}

@@ -1,0 +1,10 @@
+caller_id,function_or_address,role,incoming_path_b_edges,outgoing_path_b_edges,entry_or_thunk_only,recv_related,register_setup_observed,next_trace
+P632-CALL-001,0x11B5625B FUN_11b5625b,dispatcher FUN_11b5625b,5,0,false,false,see register_sources_fixed.csv,Inspect local pcode/decompile for RDX/RSI/RBP/BL provenance
+P632-CALL-002,0x11B45846 FUN_11b45846,FUN_11b45846,4,5,false,false,see register_sources_fixed.csv,Inspect local pcode/decompile for RDX/RSI/RBP/BL provenance
+P632-CALL-003,0x1195D94A entry,entry/thunk to FUN_11b45846,0,1,true,false,see register_sources_fixed.csv,Need direct non-entry caller/xref export
+P632-CALL-004,0x11B59838 FUN_11b59838,FUN_11b59838 dispatcher setup,1,1,false,false,see register_sources_fixed.csv,Inspect local pcode/decompile for RDX/RSI/RBP/BL provenance
+P632-CALL-005,0x11B52CE5 thunk_FUN_11b45846,thunk_FUN_11b45846,1,1,true,false,see register_sources_fixed.csv,Need direct non-entry caller/xref export
+P632-CALL-006,0x11B59337 FUN_11b59337,FUN_11b59337,1,1,false,false,see register_sources_fixed.csv,Inspect local pcode/decompile for RDX/RSI/RBP/BL provenance
+P632-CALL-007,0x11B566DD FUN_11b566dd,FUN_11b566dd thunk to 0x11B566B4,2,1,false,false,see register_sources_fixed.csv,Inspect local pcode/decompile for RDX/RSI/RBP/BL provenance
+P632-CALL-008,0x11B56999 FUN_11b56999,FUN_11b56999,1,1,false,false,see register_sources_fixed.csv,Inspect local pcode/decompile for RDX/RSI/RBP/BL provenance
+P632-CALL-009,0x11B56075 thunk_FUN_11b59337,thunk_FUN_11b59337,1,1,true,false,see register_sources_fixed.csv,Need direct non-entry caller/xref export

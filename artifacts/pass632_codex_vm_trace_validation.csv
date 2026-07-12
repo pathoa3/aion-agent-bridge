@@ -1,0 +1,2 @@
+trace_id,path,input_requirements_available,bounded_vm_trace_run,valid_trace_candidate,blocker,next_validation_step
+P632-TRACE-001,Path B dispatcher entry,false,false,false,"RDX context, RSI base, [RBP+0] PC offset, and initial/effective BL remain unresolved; fixed postprocessor restored graph rows only.",Run Java exporter and inspect any non-entry caller before Pass627.
