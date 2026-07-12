@@ -1,0 +1,7 @@
+name,function,pcode_file,present,size_bytes,role
+FUN_11b5863d,0x11B5863D,11B5863D_FUN_11b5863d.pcode.txt,True,13104,PATH A: calls FUN_11b56b2c; RBP at entry = BSF(RBX) from bit-scan loop
+FUN_11b5591a,0x11B5591A,11B5591A_FUN_11b5591a.pcode.txt,True,2865,PATH C: SUB RSP 0x140; AND RSP 0xFFF0; BRANCH 0x11B5625B. Uses BL from entry.
+FUN_11b50330,0x11B50330,11B50330_FUN_11b50330.pcode.txt,True,1000,"TLS callback path: CBRANCH on overflow flag, BRANCH thunk_FUN_11b57075"
+entry_1195d94a,0x1195D94A,1195D94A_entry.pcode.txt,True,46,Entry thunk: JMP 0x11B52CE5 (thunk_FUN_11b45846). No register setup here.
+FUN_11b57075,0x11B57075,11B57075_FUN_11b57075.pcode.txt,True,5226,PATH D: inner handler dispatches to 0x11B5625B at 0x11B577F1 via RSP-aligned branch. Also calls FUN_11b57bdb -> FUN_11b5863d.
+FUN_11b57bdb,0x11B57BDB,11B57BDB_FUN_11b57bdb.pcode.txt,True,15587,"Intermediate: BRANCH -> FUN_11b5863d. Sets RBP = sign_ext(CL), swaps RBP<->R13, passes RSI to FUN_11b5863d."

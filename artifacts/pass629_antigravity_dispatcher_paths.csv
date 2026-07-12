@@ -1,0 +1,5 @@
+path_id,entry_chain,rsi_at_entry,rbp_at_entry,bl_at_entry,is_decode_path,role,confidence
+PATH_A,FUN_11b5863d -> FUN_11b56b2c -> 0x11B5625B,BSF(RBX) = small integer 0..63 (NOT a bytecode VA),RSP (stack frame),from caller,False,utility/helper dispatch,high
+PATH_B,FUN_11b45846 -> FUN_11b56999 -> FUN_11b59337 -> FUN_11b59838 -> 0x11B5625B,unknown (from FUN_11b45846 caller),BSWAP32(RDX_2nd_arg_to_FUN_11b59337) = VM context struct ptr,"caller's RBX, preserved via PUSH at FUN_11b59337",True,NETWORK RECEIVE decode path — primary S2C candidate,high
+PATH_C,FUN_11b56f43 -> FUN_11b5591a -> 0x11B5625B,"from FUN_11b56f43 caller (FUN_11b581c1, 44KB handler)","RSP (after RSP-=0x140 and AND RSP,0xFFFFF0)",from FUN_11b56f43 caller,unknown,handler body sub-dispatch via FUN_11b581c1,medium
+PATH_D,TLS_callback -> FUN_11b50330 -> thunk_FUN_11b57075 -> FUN_11b57075 -> 0x11B5625B,"RSP (AND RSP,0xFFFFF0)",varies (obfuscated from BL/AL/RAX in FUN_11b57075),from OS/TLS entry state; confirmed key register,False,process startup / VM initialization path,high

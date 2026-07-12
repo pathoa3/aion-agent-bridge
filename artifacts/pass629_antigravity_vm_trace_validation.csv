@@ -1,0 +1,5 @@
+validation_id,path,rsi_assumed,bl_assumed,pc_offset_assumed,trace_run,result,reason
+VT-001,PATH_A,BSF(RBX)=small_int,UNKNOWN,UNKNOWN,false,REJECTED,"PATH A RSI = BSF(RBX) is a small integer, not a bytecode VA. Not the packet decode path."
+VT-002,PATH_B,UNKNOWN,UNKNOWN,UNKNOWN,false,BLOCKED,"RBP = BSWAP32(RDX_from_caller). RSI source unknown. BL = caller RBX, value unknown."
+VT-003,PATH_C,UNKNOWN,UNKNOWN,UNKNOWN,false,BLOCKED,FUN_11b581c1 (44KB) controls RSI and BL. Not exported.
+VT-004,PATH_D,RSP_aligned,OS_default,UNKNOWN,false,NOT_DECODE_PATH,"PATH D is VM initialization (TLS callback), not packet decode."
