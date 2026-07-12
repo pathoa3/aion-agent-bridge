@@ -1,0 +1,17 @@
+{
+  "worker": "antigravity",
+  "phase": "pass624_remaining_keyslot_review",
+  "candidates_reviewed": 6,
+  "rsp_stack_stores_rejected": 5,
+  "possible_keyslot_candidates": 0,
+  "strong_keyslot_candidate_found": false,
+  "best_candidate_id": "none",
+  "s2c_initial_key_found": false,
+  "s2c_key_write_path_found": false,
+  "bounded_s2c_validation_run": false,
+  "s2c_decoder_success": false,
+  "private_payload_committed": false,
+  "raw_binary_committed": false,
+  "reason": "All 6 remaining S2C keyslot candidates reviewed (P622-KS-001, -004, -005, -006, -009, -010) are confirmed to be VM handler/thunk blocks that only store register context on the native CPU stack (RSP) via PUSH instructions. No native heap or global key initialization code is present.",
+  "next_action": "Document findings and stop. The S2C key state is a local VM context variable stored relative to RBP/RDI on the stack, meaning it cannot be recovered via static native memory writes in these dispatcher entries."
+}

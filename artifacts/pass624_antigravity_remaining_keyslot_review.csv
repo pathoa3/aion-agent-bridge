@@ -1,0 +1,7 @@
+candidate_id,function_address,name,store_destination,store_source,seed_key_arithmetic,rsp_stack_store,reachable,verdict,next_step
+P622-KS-001,0x11B5863D,FUN_11b5863d,Stack [RSP],Registers + [0x11b592f1],no,yes,yes,REJECT,None - register preservation PUSH
+P622-KS-004,0x11B581C1,FUN_11b581c1,Stack [RSP],Registers,no,yes,yes,REJECT,None - register preservation PUSH
+P622-KS-005,0x11B57BDB,FUN_11b57bdb,Stack [RSP],RBP register,no,yes,yes,REJECT,None - register preservation PUSH
+P622-KS-006,0x11B56B2C,FUN_11b56b2c,None,None,no,no,yes,REJECT,None - thunk only
+P622-KS-009,0x11B59765,FUN_11b59765,Stack [RSP],RDI register,no,yes,yes,REJECT,None - register preservation PUSH
+P622-KS-010,0x11B58D6C,FUN_11b58d6c,Stack [RSP],Registers,no,yes,yes,REJECT,None - register preservation PUSH
