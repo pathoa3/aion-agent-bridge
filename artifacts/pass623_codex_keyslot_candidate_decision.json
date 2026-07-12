@@ -1,0 +1,15 @@
+﻿{
+  "worker": "codex",
+  "phase": "pass623_keyslot_candidate_review",
+  "candidates_reviewed": 3,
+  "strong_keyslot_candidate_found": false,
+  "best_candidate_id": "P622-KS-008",
+  "s2c_initial_key_found": false,
+  "s2c_key_write_path_found": false,
+  "bounded_s2c_validation_run": false,
+  "s2c_decoder_success": false,
+  "private_payload_committed": false,
+  "raw_binary_committed": false,
+  "reason": "All three requested candidates are stack/register-save stores from PUSH-style prologue/control-flow code, not packet/session context writes. P622-KS-008 is VM-reachable through the 0x11B56C63 thunk but its flagged stores still target RSP stack slots and do not derive from seed/key arithmetic.",
+  "next_action": "Reject P622-KS-002/P622-KS-007/P622-KS-008 as keyslot writes; refine scanner to exclude RSP stack stores and trace native callers of 0x11B56C63/FUN_11b50330 for receive context setup."
+}
