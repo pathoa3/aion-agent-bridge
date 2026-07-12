@@ -1,29 +1,31 @@
-# Antigravity Report: Full KXSEQ C2S Sequence Decoded
+# Antigravity Report: pass623 keyslot candidate review
 
-## Executive Summary
-This report details the successful sequential C2S decryption of all 10 target KXSEQ messages (from Frame 4353 to Frame 4435) forward from the initial connection and the first chat message (Frame 4329). 
+## Status: REVIEW COMPLETE (3 candidates rejected)
 
-The C2S key rolling flow was fully solved without any divergence, and all 10 messages were decrypted back to their exact expected UTF-16LE plaintexts.
+An offline review of the first three S2C keyslot candidate functions was performed using exported disasm/pcode/decomp files from Ghidra. All three candidates were rejected as they do not initialize or write S2C keys.
 
-## Decryption Metrics
-- **Start Frame**: 4329 (already decrypted as `KXSEQ_001` in the previous step)
-- **Target Frames Total**: 10
-- **Target Frames Processed**: 10
-- **Messages Recovered Count**: 10
-- **Plaintexts Recovered**:
-  1. Frame 4353: `KXSEQ_002_A`
-  2. Frame 4360: `KXSEQ_003_AA`
-  3. Frame 4389: `KXSEQ_004_AAA`
-  4. Frame 4399: `KXSEQ_005_AAAA`
-  5. Frame 4402: `KXSEQ_006_AAAAAAAA`
-  6. Frame 4412: `KXSEQ_007_AAAAAAAAAAAAAAAA`
-  7. Frame 4417: `KXSEQ_008_0123456789`
-  8. Frame 4422: `KXSEQ_009_ABABABABABABABAB`
-  9. Frame 4429: `KXSEQ_010_REPEAT`
-  10. Frame 4435: `KXSEQ_010_REPEAT`
-- **First Divergence Frame**: None (all packets decrypted successfully)
-- **Full Decoder Success**: True
+---
 
-## Safety Compliance
-- No raw packet hex, decrypted byte blobs, or ciphertext XORs have been committed to git, fully complying with user rules.
-- Static/offline analysis only.
+## Candidates Reviewed
+
+1. **P622-KS-002** (`0x11B559CD` / `FUN_11b559cd`)
+   - **Type**: VM Stack/local scratch write
+   - **Verdict**: **REJECT**
+   - **Reason**: The store is a native `PUSH RAX` register preservation instruction.
+
+2. **P622-KS-007** (`0x11B564BE` / `FUN_11b564be`)
+   - **Type**: VM Stack/local scratch write
+   - **Verdict**: **REJECT**
+   - **Reason**: The stores are native register preservation `PUSH` instructions (including a static pointer push `PUSH qword ptr [0x11b592f1]`).
+
+3. **P622-KS-008** (`0x11B57075` / `FUN_11b57075`)
+   - **Type**: VM Stack/local scratch write
+   - **Verdict**: **REJECT**
+   - **Reason**: The stores are native register preservation `PUSH` instructions.
+
+---
+
+## Architectural Findings
+The writes flagged by automated scans in these three functions are native stack `PUSH` operations (PCode `STORE (const, 0x1b1, 8)` to `RSP`). These are part of the VM interpreter's state saving before dispatching execution, and do not represent writes to a session context key structure.
+
+Intermediate key and packet state are stored within the VM stack frame relative to `RBP` or `RDI` inside the VM handler loop, rather than written directly to a heap structure via native memory writes.

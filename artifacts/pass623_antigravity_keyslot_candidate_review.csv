@@ -1,0 +1,4 @@
+candidate_id,function_address,name,store_destination,store_source,seed_key_arithmetic,reachable,verdict,next_step
+P622-KS-002,0x11B559CD,FUN_11b559cd,Stack [RSP],RAX,no,yes,REJECT,None - confirmed native PUSH RAX register preservation
+P622-KS-007,0x11B564BE,FUN_11b564be,Stack [RSP],Registers + [0x11b592f1],no,yes,REJECT,None - confirmed native PUSH register preservation
+P622-KS-008,0x11B57075,FUN_11b57075,Stack [RSP],Registers,no,yes,REJECT,None - confirmed native PUSH register preservation
