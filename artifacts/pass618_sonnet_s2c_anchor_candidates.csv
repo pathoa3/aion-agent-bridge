@@ -1,0 +1,7 @@
+candidate_id,frame,reason,seed_or_key_source,header_rule_tested,valid_header,opcode_candidate,confidence,next_step
+0,4116,Checkpoint memory key,checkpoint_memory,c2s_cipher_complement,no,0x7A,none,n/a - confirmed invalid
+1,4119,Checkpoint memory key,checkpoint_memory,c2s_cipher_complement,no,0x7A,none,n/a - confirmed invalid
+2,4122,Checkpoint memory key,checkpoint_memory,c2s_cipher_complement,no,0x7A,none,n/a - confirmed invalid
+3,4116,Brute k0 sweep low-opcode,brute_k0_sweep,c2s_cipher_complement_opcode_lt_0x20,yes,multiple,medium,Need multi-frame chain - ambiguous without known plaintext
+4,4119,Brute k0 sweep low-opcode,brute_k0_sweep,c2s_cipher_complement_opcode_lt_0x20,yes,multiple,medium,Need multi-frame chain - ambiguous without known plaintext
+5,4122,Brute k0 sweep low-opcode,brute_k0_sweep,c2s_cipher_complement_opcode_lt_0x20,yes,multiple,medium,Path space explodes to >50000 through bulk frames - unresolvable statically

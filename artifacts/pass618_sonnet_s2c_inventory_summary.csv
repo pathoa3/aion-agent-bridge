@@ -1,0 +1,10 @@
+frame,label_or_text,recovered,notes
+4094,S2C first packet (len=11),inventory_only,checkpoint key invalid - not decrypted
+4101,S2C large packet (len=92),inventory_only,no anchor found - not decrypted
+4116,S2C small (len=9) - anchor brute target,candidate_tested,120 low-opcode k0 hits - ambiguous
+4119,S2C small (len=11),candidate_tested,6440 paths after roll - ambiguous
+4122,S2C small (len=31),candidate_tested,>50000 paths after roll - ambiguous
+4277,S2C medium (len=103),not_reached,dead end in small-only chain
+4282,S2C ping (len=9),not_decoded,no anchor
+4287,S2C ping (len=9),not_decoded,no anchor
+4290,S2C ping (len=9),not_decoded,no anchor

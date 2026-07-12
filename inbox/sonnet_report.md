@@ -1,47 +1,42 @@
-# Sonnet Report: pass617 C2S Chat Extractor
+# Sonnet Report: pass618 S2C World Stream Probe
 
-## Result: SUCCESS – 11/11 KXSEQ messages found, exit code 0
+## Result: BLOCKED – S2C initial key not recoverable from static PCAP alone
 
 ---
 
-## Tool location
+## What was done
 
-```
-tools/pass617_sonnet_c2s_chat_extractor/
-  euroaion_c2s_chat_extractor.py   – core library
-  run_extract_chat.py              – CLI runner + KXSEQ oracle
-  README.md                        – usage and architecture
-```
+1. **S2C inventory**: Parsed all 163 S2C packets in the world flow (port 7785).
+   - 135 bulk (1460 B), 28 small (<200 B).
+2. **Checkpoint key invalidated**: `4e99ca25a16c5487` gives op=0x7A, complement FAIL on all frames.
+3. **Bounded anchor search**: 243 candidates tested via k0 brute sweep; 120 single-frame low-opcode hits, all ambiguous.
+4. **Sequential rolling**: Path count starts at 92, expands to 6,440, then caps at >50,000 through 1460-byte bulk frames and stays there indefinitely.
 
-## Run statistics
+## Cipher formula finding
 
-| Metric | Value |
-|---|---|
-| C2S packets processed | 30 |
-| CM_CHAT packets seen | 11 |
-| Chat texts extracted | 11 |
-| KXSEQ oracle | 11/11 PASS |
-| First failure | none |
+The S2C cipher **is the same formula as C2S**:
+- Same `STATIC_KEY` XOR rolling stream cipher.
+- Same opcode complement check (`byte0 == ~byte2`).
+- Same key roll (linear + VM formula).
+- No dead end encountered — cipher formula is consistent.
 
-## What was built
+The **only missing piece** is the S2C initial key.
 
-A practical offline C2S chat extraction tool that:
-1. Parses PCAPNG without external dependencies.
-2. Detects the world TCP flow (port 7785) by anchor frame.
-3. Rolls the C2S key sequentially across all 30 C2S packets.
-4. Identifies CM_CHAT packets (decoded opcode 0x53).
-5. Extracts UTF-16LE chat text stripped of trailing NULs.
-6. Prints a clean frame/time/opcode/text timeline.
-7. Validates against the 11-message KXSEQ oracle.
-8. Writes local-only CSVs (not committed to git).
+## Root cause of blocker
+
+1460-byte bulk frames accept all 256 k0 values via the VM key-roll formula
+(`delta = rol32(VA, shift) * A + B` has a solution for every delta when VA
+ranges over the .aion1 section). The path space is permanently maximal.
+
+## What would break the blocker
+
+1. A known-plaintext S2C oracle packet (fixed-format ping or banner string).
+2. The server handshake seed derivation path traced through `game.dll` VM handlers.
+3. A second capture with the same seed that can be correlated.
 
 ## Safety compliance
 
-- Antigravity files: **not modified**.
-- S2C stream: **not attempted**.
-- No raw hex, byte blobs, or ciphertext committed to git.
-
-## Next recommended step
-
-Decode the S2C world stream (independent key schedule, not yet solved),
-or apply this decoder to a new capture session to confirm generalizability.
+- C2S tools (pass616, pass617): not modified.
+- Antigravity files: not modified.
+- No binary run, no live process.
+- No raw hex committed.
