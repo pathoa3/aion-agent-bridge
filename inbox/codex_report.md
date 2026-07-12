@@ -1,9 +1,11 @@
-# Codex Report - Pass632 Path B Export Fix
+# Codex Report - Pass633 Java Path B Xref Review
 
-Diagnosed the Pass631 empty result regression. Ghidra attempted to run `export_path_b_xrefs.py`, but headless was not started with PyGhidra, so Python was unavailable and no export CSVs were written.
+Reviewed the Java Path B xref output folder directly. It contains `49` files, including usable Java-exported CSVs and per-function pcode/decompile/disassembly exports.
 
-The Pass631 postprocessor bug was that it treated the empty export folder as authoritative and overwrote the useful known Path B rows. The fixed postprocessor now restores from the Pass622 known-good export unless a new export explicitly proves no callers.
+The stale Pass632 diagnostic wording was corrected in the Pass633 review: the current Java export is not empty. The earlier empty state applied only to the failed Python/PyGhidra export.
 
-Created Java exporter: `tools/pass632_codex_fix_path_b_export/ghidra_export_path_b_xrefs.java`.
+Strictly new compared to Pass622: `2` rows, consisting of `FUN_11b59832` and its branch/helper edge to `FUN_11b568d5`. The Java direct-caller rows missing from the Pass632 9-row summary are VM branch/thunk/helper paths, not recv-related callers.
 
-Fixed caller rows restored/found: `9`.
+A Pass632 parser bug was found and fixed: Java `path_b_functions.csv` rows with `direct_caller` labels were filtered out because their addresses were not in the old Path B term list. The parser now keeps Java-exported function rows.
+
+No S2C initial key or receive-handshake key derivation path was found.

@@ -73,6 +73,7 @@ def normalize_entry(entry):
 
 
 def rows_from_export(export_dir):
+    java_path_b_export = (export_dir / "path_b_functions.csv").exists()
     funcs = read_csv(export_dir / "path_b_functions.csv") or read_csv(export_dir / "candidate_functions.csv")
     edges = read_csv(export_dir / "path_b_call_edges.csv") or read_csv(export_dir / "call_edges.csv")
     imports = read_csv(export_dir / "path_b_import_refs.csv") or read_csv(export_dir / "import_refs.csv")
@@ -83,7 +84,7 @@ def rows_from_export(export_dir):
     rows = []
     seen = set()
     for row in funcs:
-        if not any(term in " ".join(row.values()).upper() for term in PATH_B_TERMS):
+        if not java_path_b_export and not any(term in " ".join(row.values()).upper() for term in PATH_B_TERMS):
             continue
         entry = normalize_entry(row.get("entry") or row.get("function_entry") or row.get("address_requested") or "")
         name = row.get("name") or row.get("function") or ""

@@ -1,0 +1,19 @@
+{
+  "worker": "codex",
+  "phase": "pass633_java_xref_output_review",
+  "exported_files_reviewed": 49,
+  "new_xrefs_found": 2,
+  "new_non_entry_callers_found": 1,
+  "recv_related_callers_found": 0,
+  "postprocessor_parser_bug_found": true,
+  "branch_tailcall_detection_added": true,
+  "rdx_context_source_found": false,
+  "rsi_base_found": false,
+  "pc_offset_found": false,
+  "initial_bl_found": false,
+  "s2c_initial_key_found": false,
+  "private_payload_committed": false,
+  "raw_binary_committed": false,
+  "reason": "Java export produced 49 files. Compared with Pass622, only two rows are newly surfaced: FUN_11b59832 and its branch/helper edge to FUN_11b568d5. The Java direct_caller rows missing from the Pass632 9-row summary are VM helper/rejected Path A/C/D feeders or unresolved helper branches, not recv-related Path B callers. The Pass632 parser missed direct_caller rows; parser was fixed to retain Java path_b_functions.csv rows.",
+  "next_action": "If continuing, run a targeted import-wrapper/code-xref export for recv/WSARecv thunk callers and intersect any wrappers with the Path B graph; do not run more PCAP brute force."
+}
