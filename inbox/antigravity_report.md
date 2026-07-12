@@ -1,27 +1,29 @@
-# Antigravity Report: pass624 remaining keyslot candidate review
+# Antigravity Report: pass625 VM frame trace
 
-## Status: ALL CANDIDATES EVALUATED & REJECTED
+## Status: TRACE COMPLETE – VM variables mapped
 
-All 6 remaining S2C keyslot candidate functions identified in pass622 have been reviewed offline using exported disasm/pcode/decomp files from Ghidra. All candidates are rejected.
-
----
-
-## Candidates Reviewed
-
-1. **P622-KS-001** (`0x11B5863D` / `FUN_11b5863d`) - **REJECT**. Native stack `PUSH` only.
-2. **P622-KS-004** (`0x11B581C1` / `FUN_11b581c1`) - **REJECT**. Native stack `PUSH` only.
-3. **P622-KS-005** (`0x11B57BDB` / `FUN_11b57bdb`) - **REJECT**. Native stack `PUSH` only.
-4. **P622-KS-006** (`0x11B56B2C` / `FUN_11b56b2c`) - **REJECT**. No writes (dispatcher thunk).
-5. **P622-KS-009** (`0x11B59765` / `FUN_11b59765`) - **REJECT**. Native stack `PUSH` only.
-6. **P622-KS-010** (`0x11B58D6C` / `FUN_11b58d6c`) - **REJECT**. Native stack `PUSH` only.
+An offline trace of RBP/RDI context memory access was performed across all exported P-Code and disassembly files for the dispatcher and candidate functions. 
 
 ---
 
-## Architectural Findings & Conclusion
+## Architectural Findings
 
-All memory writes flagged by automated PCode analysis across all 10 candidates are native stack writes (`STORE` to space `0x1b1` relative to `RSP`), corresponding to standard `PUSH` instructions. 
+1. **Register-Mapped VM State**:
+   - The VM does not maintain S2C/C2S keys in static global variables or dedicated native heap structures.
+   - Virtual registers and keys are mapped directly to native CPU registers during interpreter execution.
+   - The rolling key byte is held in register `BL` (native `RBX` register) during opcode fetch and instruction execution.
 
-This confirms the VM architecture:
-- **No Native Keyslot Structure**: There is no dedicated heap structure or global variable for the S2C key initialization code inside these dispatcher entries.
-- **VM-Frame Storage**: S2C session key state is maintained entirely within the VM context frame as local stack variables (referenced via `RBP` or `RDI` relative offsets).
-- **Ambiguity Block**: Because the VM context variables are dynamically initialized and updated through interpreted bytecode instructions rather than native compiled code, S2C key setup cannot be resolved from native compiled function scanning.
+2. **Dispatcher Context Offset**:
+   - `RBP` points to the VM context structure on the stack.
+   - `[RBP]` (offset `0x00`) holds the VM PC offset, which is added to `RSI` (the bytecode pointer) during instruction dispatch (`0x11B562AE ADD RSI, qword ptr [RBP]`).
+
+3. **General Handlers**:
+   - All instruction handlers (`FUN_11b57075`, `FUN_11b581c1`, etc.) perform arithmetic calculations on the native registers.
+   - These represent updates to virtual registers (including rolling keys) under a control-flow flattened/obfuscated assembly layer.
+
+---
+
+## Next Steps to Break the Blocker
+Since the key initialization logic is implemented in interpreted VM bytecode rather than native compiled code, native scanning will not yield the S2C key. 
+
+We need to analyze the interpreted VM bytecode inside the `.aion1` section. Specifically, tracing the execution path starting from the network packet receipt hook (`FUN_11b59337` -> `FUN_11b59832`) when the handshake packet (frame 4094) is received will show how the initial S2C key virtual register is initialized.

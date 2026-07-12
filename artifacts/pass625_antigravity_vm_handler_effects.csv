@@ -1,0 +1,12 @@
+handler_or_function,address,effect_summary,rbp_rdi_offsets_touched,key_arithmetic_seen,possible_role,confidence,next_test
+FUN_11b5625b,0x11B5625B,VM bytecode fetch and opcode decryption,0x0 (RBP PC Offset),SUB AL BL (opcode decode),VM Dispatcher,High,Bytecode trace
+FUN_11b50330,0x11B50330,Thunk to thunk_FUN_11b57075,none,none,TLS Callback VM Initialization,Medium,Identify initialization bytecode
+FUN_11b57075,0x11B57075,Interpreter execution tail-calls and dispatcher thunks,none,XOR/ADD/SUB/shifts in obfuscated asm,VM Instruction Handler,High,Bytecode handler trace
+FUN_11b56b2c,0x11B56B2C,Bit check and thunk to dispatcher,none,none,VM Instruction Handler,High,Bytecode handler trace
+FUN_11b581c1,0x11B581C1,Interpreter execution tail-calls and dispatcher thunks,none,XOR/ADD/SUB/shifts in obfuscated asm,VM Instruction Handler,High,Bytecode handler trace
+FUN_11b5863d,0x11B5863D,Interpreter execution tail-calls and dispatcher thunks,none,XOR/ADD/SUB/shifts in obfuscated asm,VM Instruction Handler,High,Bytecode handler trace
+FUN_11b57bdb,0x11B57BDB,Interpreter execution tail-calls and dispatcher thunks,none,none,VM Instruction Handler,High,Bytecode handler trace
+FUN_11b58d6c,0x11B58D6C,Interpreter execution tail-calls and dispatcher thunks,none,XOR/ADD/SUB/shifts in obfuscated asm,VM Instruction Handler,High,Bytecode handler trace
+FUN_11b59337,0x11B59337,Network receive path transition thunk,none,none,Network Receiver Hook,Medium,Trace caller of FUN_11b59337
+FUN_11b59392,0x11B59392,Interpreter execution tail-calls and dispatcher thunks,none,none,VM Instruction Handler,High,Bytecode handler trace
+FUN_11b59838,0x11B59838,Interpreter stack frame alignment and setup thunk,none,none,VM Dispatcher Entry Thunk,High,Bytecode handler trace

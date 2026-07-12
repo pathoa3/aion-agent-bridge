@@ -1,0 +1,17 @@
+{
+  "worker": "antigravity",
+  "phase": "pass625_vm_frame_trace",
+  "vm_frame_offsets_mapped": 4,
+  "handler_effects_mapped": 11,
+  "possible_key_offsets_found": true,
+  "best_key_offset_candidate": "CPU register state mapping (BL/RBX for rolling key byte, R13/RAX/R12 for key dwords during handler execution)",
+  "s2c_initial_key_found": false,
+  "s2c_key_write_path_found": false,
+  "missing_bytecode_trace_needed": true,
+  "bounded_s2c_validation_run": false,
+  "s2c_decoder_success": false,
+  "private_payload_committed": false,
+  "raw_binary_committed": false,
+  "reason": "The S2C key initialization and rolling update are implemented in interpreted VM bytecode (.aion1 section) rather than native compiled code. The VM context and keys are maintained in native CPU registers during interpreter execution, so no native keyslot memory writes are found in these dispatcher entries.",
+  "next_action": "Obtain VM bytecode execution trace from network receive path (FUN_11b59337 / FUN_11b59832) to see how the S2C key is initialized when the handshake packet (frame 4094) is parsed."
+}

@@ -1,0 +1,5 @@
+var_id,base_register,offset,access,source_function,evidence,candidate_role,confidence,next_test
+V-001,RBP,0x0,LOAD,FUN_11b5625b,ADD RSI qword ptr [RBP],VM Program Counter Offset,High,Trace bytecode updates to RBP PC variable
+V-002,RBX,BL,READ,FUN_11b5625b,SUB AL BL,Opcode Decryption Key,High,Trace BL value across dispatcher loops
+V-003,RSI,0x0,LOAD,FUN_11b5625b,MOV AL byte ptr [RSI],Bytecode Operand Fetch,High,Scan .aion1 bytecode for instruction patterns
+V-004,R12,0x0,LOAD,FUN_11b5625b,MOV RDX qword ptr [R12+RAX*8],Handler Address Lookup,High,Check table bounds
