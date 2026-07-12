@@ -1,0 +1,6 @@
+handler_va,static_semantics,dataflow_meaning,packet_transform_derived,reason
+0x11B57796,"BT BX bit9; SAR AH by CL; NEG AL; MOV EAX,[RSI]; JMP 0x11B56580","loads a 32-bit immediate/operand from VM bytecode stream, then enters dispatcher continuation",false,RSI is proven as VM bytecode pointer in dispatcher; no packet buffer write is present in this slice
+0x11B56580,"mix EAX with EBX, rotate, push/add/pop, subtract RBP, jump 0x11B5816E",VM stack/value materialization path for handler_71 operand,false,only stack/RBP writes seen in exported slice; no packet buffer field confirmed
+0x11B5932F,SETZ AH handler group per table/classification,constant/flag materialization candidate,false,no packet buffer bridge or complete native continuation exported for transform derivation
+0x11B57437,"XOR DL,0xC7 handler group per table/classification",literal logical operation already bounded-tested by prior Pass610 branch,false,literal XOR trial failed and no stateful packet dataflow connects it to payload bytes
+0x11B5701A,"XOR AL,DL handler group per table/classification",register logical operation candidate,false,"register sources are VM state/bytecode values in available exports, not confirmed payload bytes"

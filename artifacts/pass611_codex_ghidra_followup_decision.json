@@ -1,0 +1,31 @@
+{
+  "worker": "codex",
+  "phase": "pass611_vm_solve_ghidra_followup",
+  "static_ghidra_exports_generated_local_only": true,
+  "target_binary_executed": false,
+  "live_process_used": false,
+  "debugger_used": false,
+  "pcode_exports_available": {
+    "pass8b_target_disassembly": true,
+    "pass8b_target_pcode": true,
+    "pass8b_target_flows": true,
+    "pass8b_handler_table": true,
+    "pass8c_recursive_flow": true,
+    "pass8c_interesting_state": true
+  },
+  "p609012_covered_by_new_exports": false,
+  "dispatcher_decode_confirmed_from_pcode": true,
+  "handler_11B57796_semantics_refined": true,
+  "handler_11B57796_packet_transform_derived": false,
+  "handler_derived_transforms_tested": 0,
+  "exact_plaintext_recovered": false,
+  "decoder_success": false,
+  "private_raw_ghidra_exports_committed": false,
+  "raw_binary_committed": false,
+  "private_payload_committed": false,
+  "best_candidate_handler": "0x11B57796",
+  "best_dataflow_edge": "dispatcher 0x11B562BD..0x11B56329; handler 0x11B57796 -> 0x11B56580",
+  "best_remaining_blocker": "Ghidra p-code proves the VM opcode dispatcher and refines 0x11B57796 as a VM bytecode dword-load/stack materialization path, but no native bridge from VM state to packet payload buffer writes is present in the exported slices. Need the VM bytecode program slice or a native flow slice that reaches candidate packet buffer writes from confirmed context fields.",
+  "next_autonomous_step": "Trace from native call sites that initialize RSI/RBP/R12/R13 for the VM and locate memory writes to candidate packet buffer/length fields; alternatively provide a file-backed VM bytecode slice so the dispatcher can be symbolically interpreted across real opcodes.",
+  "reason": "The previous missing p-code input was generated locally. It confirms dispatcher mechanics and rejects treating 0x11B57796 as a standalone packet decoder; no exact plaintext recovered."
+}

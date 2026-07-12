@@ -1,0 +1,9 @@
+va,instruction,meaning,confirmed
+0x11B562BD,"MOV AL, byte ptr [RSI]",VM bytecode fetch from RSI,True
+0x11B562CC,"SUB AL, BL",opcode decode subtracts rolling BL,True
+0x11B562D5,"ADD AL, 0x86",opcode decode adds constant,True
+0x11B562D9,"XOR AL, 0x34",opcode decode xors constant,True
+0x11B562E3,"ROL AL, 0x5",opcode decode rotates opcode,True
+0x11B562EA,"SUB BL, AL",rolling BL update,True
+0x11B562FF,INC RSI,advance VM bytecode pointer,True
+0x11B5630F,"MOV RDX, qword ptr [R12 + RAX*0x8]",handler table lookup,True
