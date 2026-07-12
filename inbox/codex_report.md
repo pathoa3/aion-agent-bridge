@@ -1,7 +1,7 @@
-﻿# Codex Report - Pass630 Path D Dispatcher Review
+﻿# Codex Report - Pass630 Path C FUN_11b581c1 Review
 
-Reviewed Path D only: `FUN_11b57075` embedded block `0x11B577F1 -> FUN_11b5625b`, plus direct thunk/caller context already exported.
+Reviewed only Path C exports: `FUN_11b581c1`, `FUN_11b56f43`, `FUN_11b5591a`, and `FUN_11b5625b`.
 
-Result: Path D is a real dispatcher route, but not a proven packet decode candidate. The block aligns `RSP` and jumps; it does not seed `RSI`, `RBP`, `RBX/BL`, or packet/receive context. Dispatcher mechanics show opcode fetch from `RSI + qword [RBP+0]`, but both concrete operands are missing.
+Result: Path C is a VM helper-dispatch setup, not a proven packet decode/keyroll path. `RSI` is structurally mapped as a decoded stack-frame value from `RSP+0xa0`; `[RBP+0]` is likely local zero after `RBP=RSP`; initial `BL/RBX` is still predecessor-provided. No receive/session context layout was found.
 
-No bounded VM trace was run. Exact blocker: predecessor state into `0x11B577E8` is missing, especially concrete `RSI` base and `[RBP+0]` PC offset.
+No bounded VM trace was run. Exact blocker: concrete caller stack value for `RSP+0xa0` is missing, and Path C has no packet/receive context linkage. Continue with Path B for the S2C receive/decode chain.

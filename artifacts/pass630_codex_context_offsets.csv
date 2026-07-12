@@ -1,0 +1,5 @@
+﻿offset_id,location,base,offset_or_adjustment,observed_role,packet_context_candidate,confidence,next_step
+P630C-OFF-001,FUN_11b581c1,stack/RSP,+0xa0,"caller-frame dword loaded then decoded into ESI/RSI",false,medium,"Find caller frame owner and concrete stack value before treating as bytecode base."
+P630C-OFF-002,FUN_11b581c1,ESI/RSI arithmetic,"-0x34453aee then xor 0x718606d1; FUN_11b56f43 adds 1","obfuscation/decode of stack-derived value",false,medium,"May describe VM helper pointer decoding, not packet context layout."
+P630C-OFF-003,FUN_11b581c1 -> FUN_11b56f43,stack/RSP,+0x0 at RBP after RBP=RSP,"likely local PC offset qword from pushed RAX=0",false,medium,"Confirm no intervening stack mutation before bounded VM trace."
+P630C-OFF-004,FUN_11b5591a,stack/RSP,"-0x140 then align16","local VM/dispatcher scratch frame",false,high,"Exclude from packet/session context offsets."
