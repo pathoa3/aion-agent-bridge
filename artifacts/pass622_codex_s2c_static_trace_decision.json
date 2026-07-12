@@ -1,0 +1,21 @@
+{
+  "worker": "codex",
+  "phase": "pass622_deep_s2c_static_trace",
+  "real_static_exports_found": true,
+  "static_exports_count": 104,
+  "s2c_initial_key_found": false,
+  "s2c_key_write_path_found": false,
+  "recv_handshake_path_found": false,
+  "best_candidate_id": "P622-378",
+  "exact_missing_export_written": true,
+  "bounded_s2c_validation_run": false,
+  "s2c_decoder_success": false,
+  "c2s_tools_modified": false,
+  "sonnet_files_modified": false,
+  "antigravity_files_modified": false,
+  "forbidden_methods_used": false,
+  "private_payload_committed": false,
+  "raw_binary_committed": false,
+  "reason": "Deep static material inventory found real Pass8B/Pass8C Ghidra exports and VM dispatcher/handler anchors, but those exports begin inside VM launch/dispatcher code and do not include native 7785 receive/world-handshake caller slices or S2C key-slot writes.",
+  "next_action": "Generate EA_VM_RecvHandshakeXrefsJava export for xrefs/callers to 0x11B566B4, 0x11B56C63, 0x11B562BD, 0x11B5630F, 0x11B54E6F and WS2_32 receive/send import callers, then trace 8-byte recv key writes."
+}
