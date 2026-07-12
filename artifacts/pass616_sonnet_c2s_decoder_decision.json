@@ -1,0 +1,22 @@
+{
+  "worker": "sonnet",
+  "phase": "pass616_reusable_c2s_decoder",
+  "input_capture": "startup_world_open_kxseq.pcapng",
+  "decoder_script_created": true,
+  "pcapng_parser_implemented": true,
+  "flow_detection_implemented": true,
+  "c2s_keyroll_implemented": true,
+  "kxseq_frames_processed": 11,
+  "kxseq_messages_recovered": 11,
+  "all_kxseq_plaintext_recovered": true,
+  "decoder_success": true,
+  "first_failure_frame": null,
+  "s2c_attempted": false,
+  "antigravity_files_modified": false,
+  "forbidden_methods_used": false,
+  "private_payload_committed": false,
+  "raw_binary_committed": false,
+  "oracle_exit_code": 0,
+  "reason": "All 11 KXSEQ messages recovered with exact UTF-16LE plaintext match via offline sequential C2S key rolling. Oracle validator passed 11/11.",
+  "next_action": "Decode S2C world packet stream (independent key schedule, not yet solved) or use this decoder as a reference implementation for further capture analysis."
+}

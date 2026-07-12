@@ -1,0 +1,12 @@
+frame,label,recovered_exact,notes
+4329,KXSEQ_001,yes,CM_CHAT opcode 0x53 complement ok
+4353,KXSEQ_002_A,yes,CM_CHAT opcode 0x53 complement ok
+4360,KXSEQ_003_AA,yes,CM_CHAT opcode 0x53 complement ok
+4389,KXSEQ_004_AAA,yes,CM_CHAT opcode 0x53 complement ok
+4399,KXSEQ_005_AAAA,yes,CM_CHAT opcode 0x53 complement ok
+4402,KXSEQ_006_AAAAAAAA,yes,CM_CHAT opcode 0x53 complement ok
+4412,KXSEQ_007_AAAAAAAAAAAAAAAA,yes,CM_CHAT opcode 0x53 complement ok
+4417,KXSEQ_008_0123456789,yes,CM_CHAT opcode 0x53 complement ok
+4422,KXSEQ_009_ABABABABABABABAB,yes,CM_CHAT opcode 0x53 complement ok
+4429,KXSEQ_010_REPEAT,yes,CM_CHAT opcode 0x53 complement ok
+4435,KXSEQ_010_REPEAT,yes,CM_CHAT opcode 0x53 complement ok
