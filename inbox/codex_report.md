@@ -1,7 +1,7 @@
-﻿# Codex Report - Pass623 Keyslot Candidate Review
+﻿# Codex Report - Pass630 Path D Dispatcher Review
 
-Reviewed only `P622-KS-002`, `P622-KS-007`, and `P622-KS-008` from the local Pass622 Ghidra export.
+Reviewed Path D only: `FUN_11b57075` embedded block `0x11B577F1 -> FUN_11b5625b`, plus direct thunk/caller context already exported.
 
-Result: no strong keyslot candidate. All three flagged stores are stack/register-save writes caused by `PUSH` patterns, not S2C rolling-key slot writes. `P622-KS-008` is the best control-flow waypoint because it is reachable through the `0x11B56C63` VM thunk, but it is still rejected as a keyslot write.
+Result: Path D is a real dispatcher route, but not a proven packet decode candidate. The block aligns `RSP` and jumps; it does not seed `RSI`, `RBP`, `RBX/BL`, or packet/receive context. Dispatcher mechanics show opcode fetch from `RSI + qword [RBP+0]`, but both concrete operands are missing.
 
-Next action: update the keyslot scan criteria to exclude `RSP` stack stores, then trace callers of `0x11B56C63` / `FUN_11b50330` for the native receive/context setup path.
+No bounded VM trace was run. Exact blocker: predecessor state into `0x11B577E8` is missing, especially concrete `RSI` base and `[RBP+0]` PC offset.

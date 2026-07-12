@@ -1,0 +1,3 @@
+﻿trace_id,path,input_requirements_available,bounded_vm_trace_run,valid_trace_candidate,blocker,next_validation_step
+P630-TRACE-001,"0x11B577F1 -> FUN_11b5625b",false,false,false,"RSI bytecode base is unknown; [RBP+0] PC/offset value is unknown; initial predecessor state into embedded Path D block is not exported.","Do not run Pass627 runner until predecessor export supplies concrete RSI base and RBP context/offset."
+P630-TRACE-002,"Dispatcher mechanics only",true,false,false,"Dispatcher formula is visible but not enough: opcode byte address is incoming RSI plus qword [RBP+0], and both operands are unresolved.","Once RSI/[RBP+0] are known, run a bounded first-opcode trace and compare handler index only."
