@@ -8,12 +8,14 @@
         "tools/pass645_10242_oracle_analysis",
         "tools/pass646_10242_structured_model",
         "tools/pass647_dynamic_world_port",
+        "tools/pass648_dynamic_world_s2c_oracle",
         "artifacts/pass638_dynamic_flow_context.csv",
         "artifacts/pass638_known_plaintext_log_status.csv",
         "artifacts/pass645_10242_*",
         "artifacts/pass646_10242_*",
         "artifacts/pass646_next_capture_plan_10242_vs_7785.md",
         "artifacts/pass647_*",
+        "artifacts/pass648_*",
         "inbox/codex_report.md"
     )
 )
@@ -86,6 +88,7 @@ if ($pushExit -ne 0) {
 }
 
 exit 0
+
 
 
 

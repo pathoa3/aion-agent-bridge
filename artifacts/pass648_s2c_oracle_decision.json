@@ -1,0 +1,22 @@
+{
+  "worker": "codex",
+  "phase": "pass648_dynamic_world_7780_s2c_oracle",
+  "fresh_broad_pcap_found": true,
+  "actual_world_port_used": 7780,
+  "dynamic_world_port_supported": true,
+  "strong_marker_rows": 10,
+  "candidate_count": 0,
+  "all_8_slot_candidates": 0,
+  "repeat_consistent_candidates": 0,
+  "exact_marker_recovered": false,
+  "s2c_keyroll_validated": false,
+  "s2c_decoder_success": false,
+  "needs_more_capture": true,
+  "raw_payload_committed": false,
+  "raw_ciphertext_committed": false,
+  "raw_plaintext_blob_committed": false,
+  "packet_hashes_committed": false,
+  "raw_binary_committed": false,
+  "reason": "No bounded 7780 candidates survived zero-conflict all-slot crib tests; likely causes include S2C formula mismatch, unknown packet framing, or marker text carried primarily as structured/non-literal events. Literal marker scan on 7780 found no ASCII/UTF-16LE marker text.",
+  "next_action": "Collect a longer 7780 marker length ladder with repeated long markers, then rerun bounded keyroll validation using dynamic world-port selection."
+}

@@ -1,0 +1,1 @@
+candidate_id,validated_backward_packets,validated_forward_packets,repeat_markers_validated,exact_marker_recovered,structural_checks_passed,s2c_keyroll_validated,s2c_decoder_success,confidence,reason
