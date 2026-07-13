@@ -14,6 +14,7 @@ param(
         "tools/pass651_extended_s2c_structure",
         "tools/pass652_10242_event_model",
         "tools/pass653_*",
+        "tools/pass653_10242_labeler_hardening",
         "artifacts/pass638_dynamic_flow_context.csv",
         "artifacts/pass638_known_plaintext_log_status.csv",
         "artifacts/pass645_10242_*",
@@ -98,6 +99,7 @@ if ($pushExit -ne 0) {
 }
 
 exit 0
+
 
 
 
