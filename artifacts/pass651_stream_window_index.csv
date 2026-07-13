@@ -1,0 +1,4 @@
+marker_index,marker_text,flow_role,server_port,window_sec,stream_direction,first_frame,last_frame,packet_count,total_payload_bytes,stream_offset_start,stream_offset_end,largest_packet_len,confidence,reason
+,,world_game_candidate,7780,all,S2C,99,909,289,151079,0,151079,1460,high,full reassembled stream safe index; stream bytes not written
+,,chat_sidechannel_candidate,10242,all,S2C,352,882,41,6778,0,6778,349,high,full reassembled stream safe index; stream bytes not written
+,,chat_sidechannel_candidate,10242,all,C2S,347,907,53,1804,0,1804,320,high,full reassembled stream safe index; stream bytes not written

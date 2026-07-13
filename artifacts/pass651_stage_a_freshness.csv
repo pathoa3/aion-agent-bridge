@@ -1,0 +1,10 @@
+item,value,confidence,reason
+pcap_found,true,high,C:\AionTools\aion_decoder_agent\inbox\captures\s2c_oracle_world_entry.pcapng
+pcap_size_bytes,272744,high,filesystem size only; no hash used
+first_packet_time,2026-07-13 21:15:17.262,high,pcap timestamp metadata
+last_packet_time,2026-07-13 21:25:08.837,high,pcap timestamp metadata
+detected_ports,2106:23;7780:623;10242:192;11000:72,high,dynamic pcap metadata parser
+current_capture_label,size=272744;first=2026-07-13 21:15:17.262;last=2026-07-13 21:25:08.837,medium,label uses size + first_time + last_time only
+old_s2c_oracle_rows_ignored,12,high,old rows ignored because S2C_A length ladder is present
+s2c_a_rows_used,8,high,current whisper length ladder markers only
+log_rows_total,29,high,known plaintext log row count

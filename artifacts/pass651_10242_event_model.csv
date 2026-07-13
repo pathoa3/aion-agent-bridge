@@ -1,0 +1,9 @@
+marker_index,marker_text,nearest_c2s_22_frame,c2s_delta_ms,next_s2c_batch_frame,next_s2c_delta_ms,next_s2c_len,repeat_consistent,length_signal,confidence,reason
+1,S2C_A_0001_XXXXXXXXXXXXXXXX,442,-327,450,4277,141,false,weak_or_variable,medium,10242 C2S 22-byte timing and next S2C batch metadata only
+2,S2C_A_0001_XXXXXXXXXXXXXXXX,462,-585,539,50248,113,false,weak_or_variable,medium,10242 C2S 22-byte timing and next S2C batch metadata only
+3,S2C_A_0002_XXXXXXXXXXXXXXXXXXXXXXXX,508,1963,539,22793,113,true,repeat_len_stable,high,10242 C2S 22-byte timing and next S2C batch metadata only
+4,S2C_A_0002_XXXXXXXXXXXXXXXXXXXXXXXX,535,3660,539,4490,113,true,repeat_len_stable,low,10242 C2S 22-byte timing and next S2C batch metadata only
+5,S2C_A_0003_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,617,-2663,627,3388,131,false,weak_or_variable,medium,10242 C2S 22-byte timing and next S2C batch metadata only
+6,S2C_A_0003_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,647,3765,645,2151,205,false,weak_or_variable,low,10242 C2S 22-byte timing and next S2C batch metadata only
+7,S2C_A_0004_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,692,-3542,704,299,179,false,weak_or_variable,low,10242 C2S 22-byte timing and next S2C batch metadata only
+8,S2C_A_0004_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,714,-3901,730,7854,259,false,weak_or_variable,low,10242 C2S 22-byte timing and next S2C batch metadata only

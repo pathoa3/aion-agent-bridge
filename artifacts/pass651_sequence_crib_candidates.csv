@@ -1,0 +1,1 @@
+candidate_id,marker_text,flow_role,server_port,stream_direction,window_sec,crib_variant,stream_relative_offset,spans_packets,packet_count,slots_recovered,conflict_slots,all_8_covered,repeat_consistency,structural_score,confidence,reason
