@@ -1,0 +1,7 @@
+check_name,result,value,confidence,reason
+pcap_exists,true,C:\AionTools\aion_decoder_agent\inbox\captures\s2c_oracle_world_entry.pcapng,high,input file
+capture_start,true,2026-07-13 21:15:17.262,high,first parsed packet timestamp
+capture_end,true,2026-07-13 21:25:08.837,high,last parsed packet timestamp
+world_flow_detected,true,7780,high,dynamic high-volume world-range flow
+side_10242_present,true,10242,high,side/control flow inventory
+all_oracle_intervals_inside_capture,true,17,high,authoritative chat.log seconds within PCAP span

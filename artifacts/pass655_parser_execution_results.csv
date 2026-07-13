@@ -1,0 +1,21 @@
+parser_id,parser_path,full_capture_executed,frames_reported,total_bytes_reported,median_size,confidence,reason
+cm001,C:\AionTools\aion-agent-bridge\tools\pass655_world_framing_marathon\generated_parsers\parser_cm001.py,true,1078,151070,134,medium,parser executed against full capture; numeric metadata only
+cm002,C:\AionTools\aion-agent-bridge\tools\pass655_world_framing_marathon\generated_parsers\parser_cm002.py,true,1078,151070,134,medium,parser executed against full capture; numeric metadata only
+cm003,C:\AionTools\aion-agent-bridge\tools\pass655_world_framing_marathon\generated_parsers\parser_cm003.py,true,1078,151070,134,medium,parser executed against full capture; numeric metadata only
+cm004,C:\AionTools\aion-agent-bridge\tools\pass655_world_framing_marathon\generated_parsers\parser_cm004.py,true,1078,151070,134,medium,parser executed against full capture; numeric metadata only
+cm005,C:\AionTools\aion-agent-bridge\tools\pass655_world_framing_marathon\generated_parsers\parser_cm005.py,true,1078,151070,134,medium,parser executed against full capture; numeric metadata only
+cm006,C:\AionTools\aion-agent-bridge\tools\pass655_world_framing_marathon\generated_parsers\parser_cm006.py,true,1078,151070,134,medium,parser executed against full capture; numeric metadata only
+cm007,C:\AionTools\aion-agent-bridge\tools\pass655_world_framing_marathon\generated_parsers\parser_cm007.py,true,1078,151070,134,medium,parser executed against full capture; numeric metadata only
+cm008,C:\AionTools\aion-agent-bridge\tools\pass655_world_framing_marathon\generated_parsers\parser_cm008.py,true,1078,151070,134,medium,parser executed against full capture; numeric metadata only
+cm009,C:\AionTools\aion-agent-bridge\tools\pass655_world_framing_marathon\generated_parsers\parser_cm009.py,true,1078,151063,134,medium,parser executed against full capture; numeric metadata only
+cm010,C:\AionTools\aion-agent-bridge\tools\pass655_world_framing_marathon\generated_parsers\parser_cm010.py,true,1078,151063,134,medium,parser executed against full capture; numeric metadata only
+cm011,C:\AionTools\aion-agent-bridge\tools\pass655_world_framing_marathon\generated_parsers\parser_cm011.py,true,1078,151063,134,medium,parser executed against full capture; numeric metadata only
+cm012,C:\AionTools\aion-agent-bridge\tools\pass655_world_framing_marathon\generated_parsers\parser_cm012.py,true,1078,151063,134,medium,parser executed against full capture; numeric metadata only
+cm013,C:\AionTools\aion-agent-bridge\tools\pass655_world_framing_marathon\generated_parsers\parser_cm013.py,true,1078,151076,134,medium,parser executed against full capture; numeric metadata only
+cm014,C:\AionTools\aion-agent-bridge\tools\pass655_world_framing_marathon\generated_parsers\parser_cm014.py,true,1078,151076,134,medium,parser executed against full capture; numeric metadata only
+cm015,C:\AionTools\aion-agent-bridge\tools\pass655_world_framing_marathon\generated_parsers\parser_cm015.py,true,1078,151076,134,medium,parser executed against full capture; numeric metadata only
+cm016,C:\AionTools\aion-agent-bridge\tools\pass655_world_framing_marathon\generated_parsers\parser_cm016.py,true,1078,151076,134,medium,parser executed against full capture; numeric metadata only
+cm017,C:\AionTools\aion-agent-bridge\tools\pass655_world_framing_marathon\generated_parsers\parser_cm017.py,true,1078,151063,134,medium,parser executed against full capture; numeric metadata only
+cm018,C:\AionTools\aion-agent-bridge\tools\pass655_world_framing_marathon\generated_parsers\parser_cm018.py,true,1078,151063,134,medium,parser executed against full capture; numeric metadata only
+cm019,C:\AionTools\aion-agent-bridge\tools\pass655_world_framing_marathon\generated_parsers\parser_cm019.py,true,1078,151076,134,medium,parser executed against full capture; numeric metadata only
+cm020,C:\AionTools\aion-agent-bridge\tools\pass655_world_framing_marathon\generated_parsers\parser_cm020.py,true,1078,151076,134,medium,parser executed against full capture; numeric metadata only

@@ -1,0 +1,134 @@
+{
+  "phase": "pass655_world_framing_marathon",
+  "updated": "2026-07-14T00:44:52",
+  "stages": [
+    {
+      "name": "stage_00_timestamp_repair",
+      "script": "tools/pass655_world_framing_marathon/stage_00_timestamp_repair.py",
+      "status": "completed",
+      "attempts": 1,
+      "fallback_completed": false,
+      "last_error": ""
+    },
+    {
+      "name": "stage_01_capture_and_stream_audit",
+      "script": "tools/pass655_world_framing_marathon/stage_01_capture_and_stream_audit.py",
+      "status": "completed",
+      "attempts": 1,
+      "fallback_completed": false,
+      "last_error": ""
+    },
+    {
+      "name": "stage_02_tcp_reassembly_validation",
+      "script": "tools/pass655_world_framing_marathon/stage_02_tcp_reassembly_validation.py",
+      "status": "completed",
+      "attempts": 1,
+      "fallback_completed": false,
+      "last_error": ""
+    },
+    {
+      "name": "stage_03_frame_boundary_search",
+      "script": "tools/pass655_world_framing_marathon/stage_03_frame_boundary_search.py",
+      "status": "completed",
+      "attempts": 1,
+      "fallback_completed": false,
+      "last_error": ""
+    },
+    {
+      "name": "stage_04_length_field_models",
+      "script": "tools/pass655_world_framing_marathon/stage_04_length_field_models.py",
+      "status": "completed",
+      "attempts": 1,
+      "fallback_completed": false,
+      "last_error": ""
+    },
+    {
+      "name": "stage_05_repeated_message_differential",
+      "script": "tools/pass655_world_framing_marathon/stage_05_repeated_message_differential.py",
+      "status": "completed",
+      "attempts": 1,
+      "fallback_completed": false,
+      "last_error": ""
+    },
+    {
+      "name": "stage_06_whisper_group_differential",
+      "script": "tools/pass655_world_framing_marathon/stage_06_whisper_group_differential.py",
+      "status": "completed",
+      "attempts": 1,
+      "fallback_completed": false,
+      "last_error": ""
+    },
+    {
+      "name": "stage_07_local_control_analysis",
+      "script": "tools/pass655_world_framing_marathon/stage_07_local_control_analysis.py",
+      "status": "completed",
+      "attempts": 1,
+      "fallback_completed": false,
+      "last_error": ""
+    },
+    {
+      "name": "stage_08_existing_static_export_mapping",
+      "script": "tools/pass655_world_framing_marathon/stage_08_existing_static_export_mapping.py",
+      "status": "completed",
+      "attempts": 1,
+      "fallback_completed": false,
+      "last_error": ""
+    },
+    {
+      "name": "stage_09_wire_to_parser_correlation",
+      "script": "tools/pass655_world_framing_marathon/stage_09_wire_to_parser_correlation.py",
+      "status": "completed",
+      "attempts": 1,
+      "fallback_completed": false,
+      "last_error": ""
+    },
+    {
+      "name": "stage_10_candidate_parser_generation",
+      "script": "tools/pass655_world_framing_marathon/stage_10_candidate_parser_generation.py",
+      "status": "completed",
+      "attempts": 2,
+      "fallback_completed": false,
+      "last_error": ""
+    },
+    {
+      "name": "stage_11_candidate_parser_execution",
+      "script": "tools/pass655_world_framing_marathon/stage_11_candidate_parser_execution.py",
+      "status": "completed",
+      "attempts": 2,
+      "fallback_completed": false,
+      "last_error": ""
+    },
+    {
+      "name": "stage_12_negative_control_validation",
+      "script": "tools/pass655_world_framing_marathon/stage_12_negative_control_validation.py",
+      "status": "completed",
+      "attempts": 2,
+      "fallback_completed": false,
+      "last_error": ""
+    },
+    {
+      "name": "stage_13_10242_role_closure",
+      "script": "tools/pass655_world_framing_marathon/stage_13_10242_role_closure.py",
+      "status": "completed",
+      "attempts": 2,
+      "fallback_completed": false,
+      "last_error": ""
+    },
+    {
+      "name": "stage_14_exact_message_validation",
+      "script": "tools/pass655_world_framing_marathon/stage_14_exact_message_validation.py",
+      "status": "completed",
+      "attempts": 2,
+      "fallback_completed": false,
+      "last_error": ""
+    },
+    {
+      "name": "stage_15_exhaustion_and_ranked_plan",
+      "script": "tools/pass655_world_framing_marathon/stage_15_exhaustion_and_ranked_plan.py",
+      "status": "completed",
+      "attempts": 2,
+      "fallback_completed": false,
+      "last_error": ""
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+role,packets_tested,c2s_packets,s2c_packets,median_c2s_interval_ms,interval_jitter_ms,near_oracle_c2s_packets,content_transport_supported,world_constraint_added,confidence,reason
+heartbeat_control,94,53,41,10000,0,7,false,timing aid only,high,"10242 closed using corrected authoritative chat.log timestamps, cadence, and deterministic text-test negatives"

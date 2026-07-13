@@ -1,0 +1,5 @@
+test_name,flow_role,server_port,direction,authoritative_interval,exact_interval_packets,pm5_packets,exact_text_matched,existing_decoder_applicable,decoder_blocker,confidence,reason
+local_control_authoritative_interval,world,7780,C2S,2026-07-13 21:24:30.000..2026-07-13 21:24:30.999,1,1,false,false,missing_current_session_anchor_or_required_inputs,medium,local row mapped using authoritative 21:24:30 interval; no manual timestamp used
+local_control_authoritative_interval,world,7780,S2C,2026-07-13 21:24:30.000..2026-07-13 21:24:30.999,1,1,false,false,not_a_c2s_decoder_path,medium,local row mapped using authoritative 21:24:30 interval; no manual timestamp used
+local_control_authoritative_interval,side_control,10242,C2S,2026-07-13 21:24:30.000..2026-07-13 21:24:30.999,0,1,false,false,missing_current_session_anchor_or_required_inputs,medium,local row mapped using authoritative 21:24:30 interval; no manual timestamp used
+local_control_authoritative_interval,side_control,10242,S2C,2026-07-13 21:24:30.000..2026-07-13 21:24:30.999,0,4,false,false,not_a_c2s_decoder_path,medium,local row mapped using authoritative 21:24:30 interval; no manual timestamp used

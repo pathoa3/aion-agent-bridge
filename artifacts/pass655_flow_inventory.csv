@@ -1,0 +1,6 @@
+flow_id,server_ip,server_port,client_ip,client_port,packets,payload_bytes,s2c_packets,c2s_packets,s2c_bytes,c2s_bytes,first_time,last_time,duration_sec,role,confidence,reason
+192.168.178.127:57153<->51.83.147.97:2106,51.83.147.97,2106,192.168.178.127,57153,9,778,5,4,506,272,2026-07-13 21:16:53.742,2026-07-13 21:16:56.960,3.218,login,high,fresh inventory from current PCAP; world dynamically selected
+192.168.178.127:57160<->51.83.147.97:7780,51.83.147.97,7780,192.168.178.127,57160,330,151675,289,41,151079,596,2026-07-13 21:16:57.078,2026-07-13 21:25:08.837,491.759,world,high,fresh inventory from current PCAP; world dynamically selected
+192.168.178.127:57161<->51.83.147.97:10242,51.83.147.97,10242,192.168.178.127,57161,94,8582,41,53,6778,1804,2026-07-13 21:17:05.012,2026-07-13 21:25:05.162,480.15,side_control,high,fresh inventory from current PCAP; world dynamically selected
+192.168.178.127:50160<->51.83.147.97:11000,51.83.147.97,11000,192.168.178.127,50160,19,23986,17,2,23975,11,2026-07-13 21:15:17.295,2026-07-13 21:15:17.417,0.122,auxiliary,high,fresh inventory from current PCAP; world dynamically selected
+192.168.178.127:65108<->51.83.147.97:11000,51.83.147.97,11000,192.168.178.127,65108,12,1676,6,6,1491,185,2026-07-13 21:15:30.779,2026-07-13 21:15:33.523,2.744,auxiliary,high,fresh inventory from current PCAP; world dynamically selected

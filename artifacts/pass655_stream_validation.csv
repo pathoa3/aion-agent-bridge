@@ -1,0 +1,5 @@
+flow_role,server_port,direction,packet_count,stream_bytes,retransmissions_detected,duplicate_segments,gaps_detected,out_of_order_segments,stream_offset_mapping,confidence,reason
+world,7780,S2C,289,151079,0,0,unknown_no_tcp_seq_exported,0,complete_by_capture_order,medium,pcap helper exposes capture-order payloads but not TCP sequence numbers; fallback validates deterministic timestamp/frame ordering
+world,7780,C2S,41,596,0,0,unknown_no_tcp_seq_exported,0,complete_by_capture_order,medium,pcap helper exposes capture-order payloads but not TCP sequence numbers; fallback validates deterministic timestamp/frame ordering
+side_control,10242,S2C,41,6778,0,0,unknown_no_tcp_seq_exported,0,complete_by_capture_order,medium,pcap helper exposes capture-order payloads but not TCP sequence numbers; fallback validates deterministic timestamp/frame ordering
+side_control,10242,C2S,53,1804,0,0,unknown_no_tcp_seq_exported,0,complete_by_capture_order,medium,pcap helper exposes capture-order payloads but not TCP sequence numbers; fallback validates deterministic timestamp/frame ordering

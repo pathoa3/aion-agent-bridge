@@ -1,0 +1,8 @@
+check_name,result,confidence,reason
+row_count_17,true,high,rows=17
+whisper_count_8,true,high,authoritative rows only
+group_count_8,true,high,authoritative rows only
+local_count_1,true,high,authoritative rows only
+manual_notes_not_used,true,high,manual log_s2c_marker.ps1 times ignored
+local_interval_near_212430,true,high,2026-07-13 21:24:30.000
+stage_00_acceptance,true,high,must pass before later stages

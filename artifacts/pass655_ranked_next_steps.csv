@@ -1,0 +1,4 @@
+rank,next_step,evidence,exact_input_needed,expected_result,confidence
+1,additional_world_framing,World flow remains likely content path; generated parsers did not expose deterministic text.,Static receive framing constraint or exact body-start transform for top combined models.,Convert frame-family candidates into a byte/body parser that can reveal text representation.,high
+2,existing_static_parser_mapping,Current C2S decoder and exact text validation are blocked by missing parser/session anchors.,"Existing local static exports/reports for receive buffer, length checks, and chat dispatch.",Map wire frame fields to client parser fields without rescanning binaries.,medium
+3,clean_discriminator_capture,"If static constraints are insufficient, a narrow capture can amplify one discriminator.","Whisper-only and group-only repeated pairs with fixed spacing from capture start, plus no unrelated chat.",Separate channel/body-length signals from unrelated traffic.,medium

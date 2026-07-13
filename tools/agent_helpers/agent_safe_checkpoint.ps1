@@ -17,6 +17,8 @@ param(
         "tools/pass653_10242_labeler_hardening",
         "tools/pass654b_*",
         "tools/pass654b_offline_capture_validation",
+        "tools/pass655_*",
+        "tools/pass655_world_framing_marathon",
         "artifacts/pass638_dynamic_flow_context.csv",
         "artifacts/pass638_known_plaintext_log_status.csv",
         "artifacts/pass645_10242_*",
@@ -30,6 +32,7 @@ param(
         "artifacts/pass652_*",
         "artifacts/pass653_*",
         "artifacts/pass654b_*",
+        "artifacts/pass655_*",
         "inbox/codex_report.md"
     )
 )
@@ -102,6 +105,7 @@ if ($pushExit -ne 0) {
 }
 
 exit 0
+
 
 
 

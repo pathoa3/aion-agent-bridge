@@ -1,0 +1,2 @@
+validation_id,exact_known_text_matches,authoritative_interval_matches,repeated_occurrences_validated,negative_window_conflicts,framing_internally_consistent,parser_reproducible,manual_note_timestamps_used,exact_message_accepted,local_timeline_path,confidence,reason
+none,0,0,false,0,false,false,false,false,,high,no exact deterministic known-message matches reached acceptance gate

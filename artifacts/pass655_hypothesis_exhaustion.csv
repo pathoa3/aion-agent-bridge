@@ -1,0 +1,14 @@
+branch,primary_test_completed,fallback_completed,models_or_tests_run,result,supported_or_weakened,remaining_unknown,exact_next_unblocker,confidence
+authoritative timing,true,true,7,authoritative rows accepted; manual notes ignored,supported,none beyond stated blocker,none for current capture,high
+TCP reassembly,true,true,4,capture-order stream offsets reconstructed; TCP seq unavailable in helper,supported_with_fallback,none beyond stated blocker,pcap parser exposing TCP sequence numbers,high
+global frame segmentation,true,true,3616,complete model grid represented and scored compactly,supported,exact plaintext transform/body boundary,more parser constraints for selecting exact model,high
+packet-boundary framing,true,true,850,oracle windows mapped to top model frame families,supported,none beyond stated blocker,validated receive frame delimiter,high
+length-field models,true,true,2200,candidate fields ranked; no exact text correlation alone,supported,none beyond stated blocker,static parser confirmation of length field,high
+repeated-message structure,true,true,400,repeat pairs evaluated across top frame models,supported,none beyond stated blocker,lower-collision controlled capture or parser body boundary,high
+whisper/group structure,true,true,200,whisper/group base-ladder comparisons evaluated,supported,none beyond stated blocker,confirm channel field from static parser,high
+local-control structure,true,true,4,authoritative local interval mapped; decoder blocked by missing current-session anchor,weakened,none beyond stated blocker,current-session C2S anchor inputs,high
+existing static parser constraints,true,true,7,bounded existing reports/scripts inspected,supported,none beyond stated blocker,deeper existing static parser map if available,high
+generated parser candidates,true,true,20,candidate parsers generated and executed,supported,none beyond stated blocker,exact body decoding transform,high
+deterministic known-message representations,true,true,340,deterministic reps tested; no exact accepted match,weakened,exact plaintext transform/body boundary,parser-level transform/framing boundary,high
+10242 role,true,true,1,"10242 closed as heartbeat/control or timing aid, not content transport",supported,none beyond stated blocker,none unless parser shows 10242 text fields,high
+negative-control discrimination,true,true,680,negative windows scored for parser candidates,supported,none beyond stated blocker,stronger exact parser candidate,high
