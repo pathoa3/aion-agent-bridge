@@ -1,0 +1,2 @@
+model_name,packets_tested,median_interval_ms,interval_jitter_ms,near_marker_rate,away_from_marker_rate,heartbeat_score,event_trigger_score,mixed_model_score,confidence,reason
+heartbeat,48,10000,0,0.167,0.833,1.0,0.167,0.584,high,22-byte C2S cadence compared to marker windows using timing only

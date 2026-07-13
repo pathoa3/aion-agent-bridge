@@ -1,0 +1,9 @@
+check_name,result,confidence,reason
+latest_pcap_exists,true,high,C:\AionTools\aion_decoder_agent\inbox\captures\s2c_oracle_world_entry.pcapng
+known_log_exists,true,high,C:\AionTools\aion_decoder_agent\inbox\captures\s2c_oracle_known_plaintext_log.txt
+s2c_a_length_ladder_rows,true,high,rows=8
+old_s2c_oracle_rows_ignored,true,high,old_rows=12; S2C_A rows selected when present
+10242_flow_exists,true,high,payload_packets=94
+7780_flow_exists,true,high,payload_packets=330
+pass652_prototype_labels_exist,true,high,C:\AionTools\aion-agent-bridge\artifacts\pass652_prototype_event_labels.csv
+no_raw_payload_artifacts_present_in_git,true,high,forbidden_tracked_count=0

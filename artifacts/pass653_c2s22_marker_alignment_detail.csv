@@ -1,0 +1,9 @@
+marker_index,marker_text,nearest_c2s22_frame,c2s_delta_ms,previous_interval_ms,next_interval_ms,cadence_break_near_marker,event_trigger_likelihood,confidence,reason
+1,S2C_A_0001_XXXXXXXXXXXXXXXX,442,-327,10000,10001,false,high,medium,nearest C2S22 timing and adjacent interval comparison
+2,S2C_A_0001_XXXXXXXXXXXXXXXX,462,-585,10001,10001,false,high,medium,nearest C2S22 timing and adjacent interval comparison
+3,S2C_A_0002_XXXXXXXXXXXXXXXXXXXXXXXX,508,1963,10001,10000,false,medium,medium,nearest C2S22 timing and adjacent interval comparison
+4,S2C_A_0002_XXXXXXXXXXXXXXXXXXXXXXXX,535,3660,10000,10000,false,medium,medium,nearest C2S22 timing and adjacent interval comparison
+5,S2C_A_0003_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,617,-2663,10001,10001,false,medium,medium,nearest C2S22 timing and adjacent interval comparison
+6,S2C_A_0003_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,647,3765,10000,10001,false,medium,medium,nearest C2S22 timing and adjacent interval comparison
+7,S2C_A_0004_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,692,-3542,10001,10001,false,medium,medium,nearest C2S22 timing and adjacent interval comparison
+8,S2C_A_0004_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,714,-3901,10001,10000,false,medium,medium,nearest C2S22 timing and adjacent interval comparison

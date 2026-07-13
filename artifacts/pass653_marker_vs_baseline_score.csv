@@ -1,0 +1,3 @@
+class_name,samples,median_abs_c2s22_delta_ms,within_1s_count,within_2s_count,within_4s_count,mean_label_score,false_positive_rate_estimate,confidence,reason
+known_markers,8,3102,2,3,8,0.457,,high,marker versus non-marker metadata timing baseline
+baseline_non_markers,21,1673,9,11,12,0.461,0.429,high,marker versus non-marker metadata timing baseline

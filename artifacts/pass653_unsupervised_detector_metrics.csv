@@ -1,0 +1,9 @@
+metric_name,value,confidence,reason
+predicted_event_count,48,medium,c2s22 candidates above threshold
+known_markers_matched_within_1s,2,medium,unsupervised event near marker
+known_markers_matched_within_2s,3,medium,unsupervised event near marker
+known_markers_matched_within_4s,8,medium,unsupervised event near marker
+unmatched_known_markers,0,medium,known markers not covered within 4s
+predicted_events_without_known_marker,40,medium,potential false positives or non-marker events
+precision_hint,0.167,low,known log incomplete for all visible events
+recall_hint,1.0,medium,against S2C_A marker rows

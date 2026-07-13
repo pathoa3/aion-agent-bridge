@@ -1,0 +1,22 @@
+sample_id,sample_type,sample_time,nearest_c2s22_frame,c2s_delta_ms,nearest_s2c_frame,s2c_delta_ms,metadata_label_score,would_be_labeled_event,false_positive_risk,confidence,reason
+baseline_1,before_after_or_edge,2026-07-13 21:17:10.012,423,5128,409,1314,0.316,false,low,low,non-marker timestamp scored with same metadata features
+baseline_2,before_after_or_edge,2026-07-13 21:17:20.012,423,-4872,427,-1683,0.41,false,medium,low,non-marker timestamp scored with same metadata features
+baseline_3,before_after_or_edge,2026-07-13 21:17:13.468,423,1673,409,-2142,0.517,false,medium,medium,non-marker timestamp scored with same metadata features
+baseline_4,before_after_or_edge,2026-07-13 21:20:31.052,744,4100,736,-1430,0.41,false,medium,low,non-marker timestamp scored with same metadata features
+baseline_5,before_after_or_edge,2026-07-13 21:24:50.162,880,5000,882,8024,0.11,false,low,low,non-marker timestamp scored with same metadata features
+baseline_6,before_after_or_edge,2026-07-13 21:25:00.162,907,5000,882,-1976,0.41,false,medium,low,non-marker timestamp scored with same metadata features
+between_1,between_marker_windows,2026-07-13 21:17:30.597,462,4544,450,-852,0.46,false,medium,medium,non-marker timestamp scored with same metadata features
+between_2,between_marker_windows,2026-07-13 21:17:49.454,479,-4312,456,-17350,0.11,false,low,low,non-marker timestamp scored with same metadata features
+between_3,between_marker_windows,2026-07-13 21:18:12.333,525,2811,539,13641,0.248,false,low,low,non-marker timestamp scored with same metadata features
+between_4,between_marker_windows,2026-07-13 21:18:49.647,571,-4502,577,811,0.411,false,medium,low,non-marker timestamp scored with same metadata features
+between_5,between_marker_windows,2026-07-13 21:19:24.596,629,551,627,-3398,0.64,true,medium,medium,non-marker timestamp scored with same metadata features
+between_6,between_marker_windows,2026-07-13 21:19:50.037,661,-4888,690,13918,0.11,false,low,low,non-marker timestamp scored with same metadata features
+between_7,between_marker_windows,2026-07-13 21:20:13.872,714,1279,704,-4881,0.453,false,medium,medium,non-marker timestamp scored with same metadata features
+ordinary_14,ordinary_10242_c2s22,2026-07-13 21:17:15.141,423,0,425,1945,0.85,true,high,high,non-marker timestamp scored with same metadata features
+ordinary_15,ordinary_10242_c2s22,2026-07-13 21:17:45.142,479,0,456,-13038,0.55,true,medium,medium,non-marker timestamp scored with same metadata features
+ordinary_16,ordinary_10242_c2s22,2026-07-13 21:17:55.143,490,0,456,-23039,0.55,true,medium,medium,non-marker timestamp scored with same metadata features
+ordinary_17,ordinary_10242_c2s22,2026-07-13 21:18:35.145,555,0,563,7981,0.55,true,medium,medium,non-marker timestamp scored with same metadata features
+ordinary_18,ordinary_10242_c2s22,2026-07-13 21:18:45.145,571,0,563,-2019,0.79,true,high,high,non-marker timestamp scored with same metadata features
+ordinary_19,ordinary_10242_c2s22,2026-07-13 21:18:55.146,581,0,589,3417,0.64,true,medium,medium,non-marker timestamp scored with same metadata features
+ordinary_20,ordinary_10242_c2s22,2026-07-13 21:19:05.146,601,0,591,-5105,0.59,true,medium,medium,non-marker timestamp scored with same metadata features
+ordinary_21,ordinary_10242_c2s22,2026-07-13 21:19:45.149,661,0,645,-11616,0.55,true,medium,medium,non-marker timestamp scored with same metadata features

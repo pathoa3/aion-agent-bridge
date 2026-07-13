@@ -1,0 +1,6 @@
+test_name,rows_tested,hit_count,marker_index_signal,length_signal,repeat_consistency,exact_text_recovered,confidence,reason
+byte_class_pattern,8,8,true,true,true,false,medium,compares zero/printable/high-byte class summaries for nearest 22-byte C2S packets only
+utf16_marker_index,8,0,false,false,true,false,low,local-only transform search over aligned 22-byte packets; no bytes written
+ascii_marker_index,8,0,false,false,true,false,low,local-only transform search over aligned 22-byte packets; no bytes written
+utf16_marker_len,8,0,false,false,true,false,low,local-only transform search over aligned 22-byte packets; no bytes written
+ascii_marker_len,8,0,false,false,true,false,low,local-only transform search over aligned 22-byte packets; no bytes written

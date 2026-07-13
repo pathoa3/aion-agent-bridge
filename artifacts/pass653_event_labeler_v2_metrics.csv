@@ -1,0 +1,9 @@
+metric_name,value,confidence,reason
+known_marker_count,8,high,S2C_A markers used
+high_confidence_labels,0,high,score>=0.75
+medium_confidence_labels,3,high,0.45<=score<0.75
+low_confidence_labels,5,high,score<0.45
+median_abs_delta_ms,3102,high,nearest c2s22 delta
+max_abs_delta_ms,3901,high,nearest c2s22 max abs delta
+estimated_false_positive_rate,0.429,medium,baseline non-marker label rate
+usable_for_event_labeling_now,false,medium,requires >=6 medium/high labels and false positive rate <=0.5

@@ -1,0 +1,19 @@
+cluster_id,event_count,known_marker_count,typical_length_sequence,typical_direction_sequence,total_bytes_range,confidence,reason
+c001,37,4,C22,C,22-22,medium,safe metadata cluster; no payload bytes or hashes
+c002,2,2,,,0-0,medium,safe metadata cluster; no payload bytes or hashes
+c003,1,1,S205,S,205-205,low,safe metadata cluster; no payload bytes or hashes
+c004,1,1,S237-S131-S179,SSS,547-547,low,safe metadata cluster; no payload bytes or hashes
+c005,1,0,C22-S349,CS,371-371,low,safe metadata cluster; no payload bytes or hashes
+c006,1,0,C22-S113,CS,135-135,low,safe metadata cluster; no payload bytes or hashes
+c007,1,0,S237-C22,SC,259-259,low,safe metadata cluster; no payload bytes or hashes
+c008,1,0,S205-C22,SC,227-227,low,safe metadata cluster; no payload bytes or hashes
+c009,1,0,S207-C22-S237-S131,SCSS,597-597,low,safe metadata cluster; no payload bytes or hashes
+c010,1,0,C22-S259,CS,281-281,low,safe metadata cluster; no payload bytes or hashes
+c011,1,0,C22-S209,CS,231-231,low,safe metadata cluster; no payload bytes or hashes
+c012,1,0,S219-C22,SC,241-241,low,safe metadata cluster; no payload bytes or hashes
+c013,2,0,C22-S219,CS,241-241,medium,safe metadata cluster; no payload bytes or hashes
+c014,1,0,C22-S237,CS,259-259,low,safe metadata cluster; no payload bytes or hashes
+c015,1,0,S335-C22,SC,357-357,low,safe metadata cluster; no payload bytes or hashes
+c016,1,0,S215-C22,SC,237-237,low,safe metadata cluster; no payload bytes or hashes
+c017,1,0,C22-S125,CS,147-147,low,safe metadata cluster; no payload bytes or hashes
+c018,1,0,C22-S71-S69,CSS,162-162,low,safe metadata cluster; no payload bytes or hashes
