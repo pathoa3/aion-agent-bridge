@@ -1,0 +1,15 @@
+file_path,file_type,size_bytes,mtime,role_guess
+C:\AionTools\captures\aion_capture_20260704_011724\aion_capture.pcapng,pcap,205064,1783120780.0,primary packet capture
+C:\AionTools\captures\aion_capture_20260704_011724\records_7785_old.tsv,records_tsv,291074,1783157414.0,7785 payload records; raw hex excluded from artifacts
+C:\AionTools\captures\aion_capture_20260704_011724\record_probe_result.txt,probe_text,320868,1783157622.0,prior record summary
+C:\AionTools\captures\aion_capture_20260704_011724\handshake_probe_result.txt,probe_text,81520,1783157940.0,prior handshake summary
+C:\AionTools\captures\aion_capture_20260704_011724\streams\192.168.178.127_52185__51.83.147.97_11000.bin,stream_bin,11,1783120786.0,other directional TCP stream; raw stream not committed
+C:\AionTools\captures\aion_capture_20260704_011724\streams\192.168.178.127_55145__51.83.147.97_11000.bin,stream_bin,185,1783120788.0,other directional TCP stream; raw stream not committed
+C:\AionTools\captures\aion_capture_20260704_011724\streams\192.168.178.127_63992__51.83.147.97_2106.bin,stream_bin,272,1783120788.0,other directional TCP stream; raw stream not committed
+C:\AionTools\captures\aion_capture_20260704_011724\streams\192.168.178.127_63993__54.37.197.248_7785.bin,stream_bin,5468,1783120788.0,7785 directional TCP stream; raw stream not committed
+C:\AionTools\captures\aion_capture_20260704_011724\streams\192.168.178.127_63994__54.37.197.248_10242.bin,stream_bin,792,1783120788.0,10242 directional TCP stream; raw stream not committed
+C:\AionTools\captures\aion_capture_20260704_011724\streams\51.83.147.97_11000__192.168.178.127_52185.bin,stream_bin,23975,1783120786.0,other directional TCP stream; raw stream not committed
+C:\AionTools\captures\aion_capture_20260704_011724\streams\51.83.147.97_11000__192.168.178.127_55145.bin,stream_bin,1491,1783120788.0,other directional TCP stream; raw stream not committed
+C:\AionTools\captures\aion_capture_20260704_011724\streams\51.83.147.97_2106__192.168.178.127_63992.bin,stream_bin,530,1783120788.0,other directional TCP stream; raw stream not committed
+C:\AionTools\captures\aion_capture_20260704_011724\streams\54.37.197.248_10242__192.168.178.127_63994.bin,stream_bin,78,1783120788.0,10242 directional TCP stream; raw stream not committed
+C:\AionTools\captures\aion_capture_20260704_011724\streams\54.37.197.248_7785__192.168.178.127_63993.bin,stream_bin,135717,1783120788.0,7785 directional TCP stream; raw stream not committed

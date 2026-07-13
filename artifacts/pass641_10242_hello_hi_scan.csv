@@ -1,0 +1,3 @@
+direction,payload_len,string_found,encoding,confidence,notes
+C2S,792,none,n/a,none,stream_file=192.168.178.127_63994__54.37.197.248_10242.bin; no literal Hello/Hi/channel strings found
+S2C,78,none,n/a,none,stream_file=54.37.197.248_10242__192.168.178.127_63994.bin; no literal Hello/Hi/channel strings found

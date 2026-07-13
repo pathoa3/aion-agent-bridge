@@ -1,0 +1,25 @@
+candidate_frame,payload_len,crib_variant,slots_recovered,consistency_score,exact_text_validated,keyroll_validated,confidence,reason
+318,14,ascii@body_offset_4,8,8,false,false,possible_crib_alignment,crib-slot consistency only; S2C initial key unknown; exact plaintext not recovered
+321,8,ascii@body_offset_0,6,2,false,false,low,crib-slot consistency only; S2C initial key unknown; exact plaintext not recovered
+324,15,ascii@body_offset_5,8,8,false,false,possible_crib_alignment,crib-slot consistency only; S2C initial key unknown; exact plaintext not recovered
+330,75,ascii@body_offset_65,8,8,false,false,possible_crib_alignment,crib-slot consistency only; S2C initial key unknown; exact plaintext not recovered
+346,15,ascii@body_offset_5,8,8,false,false,possible_crib_alignment,crib-slot consistency only; S2C initial key unknown; exact plaintext not recovered
+349,15,ascii@body_offset_5,8,8,false,false,possible_crib_alignment,crib-slot consistency only; S2C initial key unknown; exact plaintext not recovered
+352,1460,ascii@body_offset_1450,8,8,false,false,possible_crib_alignment,crib-slot consistency only; S2C initial key unknown; exact plaintext not recovered
+354,695,ascii@body_offset_685,8,8,false,false,possible_crib_alignment,crib-slot consistency only; S2C initial key unknown; exact plaintext not recovered
+357,15,ascii@body_offset_5,8,8,false,false,possible_crib_alignment,crib-slot consistency only; S2C initial key unknown; exact plaintext not recovered
+360,15,ascii@body_offset_5,8,8,false,false,possible_crib_alignment,crib-slot consistency only; S2C initial key unknown; exact plaintext not recovered
+362,57,ascii@body_offset_47,8,8,false,false,possible_crib_alignment,crib-slot consistency only; S2C initial key unknown; exact plaintext not recovered
+371,14,ascii@body_offset_4,8,8,false,false,possible_crib_alignment,crib-slot consistency only; S2C initial key unknown; exact plaintext not recovered
+373,44,ascii@body_offset_34,8,8,false,false,possible_crib_alignment,crib-slot consistency only; S2C initial key unknown; exact plaintext not recovered
+376,25,ascii@body_offset_15,8,8,false,false,possible_crib_alignment,crib-slot consistency only; S2C initial key unknown; exact plaintext not recovered
+383,79,ascii@body_offset_69,8,8,false,false,possible_crib_alignment,crib-slot consistency only; S2C initial key unknown; exact plaintext not recovered
+385,1110,ascii@body_offset_1100,8,8,false,false,possible_crib_alignment,crib-slot consistency only; S2C initial key unknown; exact plaintext not recovered
+387,21,ascii@body_offset_11,8,8,false,false,possible_crib_alignment,crib-slot consistency only; S2C initial key unknown; exact plaintext not recovered
+389,15,ascii@body_offset_5,8,8,false,false,possible_crib_alignment,crib-slot consistency only; S2C initial key unknown; exact plaintext not recovered
+394,18,ascii@body_offset_8,8,8,false,false,possible_crib_alignment,crib-slot consistency only; S2C initial key unknown; exact plaintext not recovered
+396,21,ascii@body_offset_11,8,8,false,false,possible_crib_alignment,crib-slot consistency only; S2C initial key unknown; exact plaintext not recovered
+398,15,ascii@body_offset_5,8,8,false,false,possible_crib_alignment,crib-slot consistency only; S2C initial key unknown; exact plaintext not recovered
+401,15,ascii@body_offset_5,8,8,false,false,possible_crib_alignment,crib-slot consistency only; S2C initial key unknown; exact plaintext not recovered
+405,21,ascii@body_offset_11,8,8,false,false,possible_crib_alignment,crib-slot consistency only; S2C initial key unknown; exact plaintext not recovered
+407,15,ascii@body_offset_5,8,8,false,false,possible_crib_alignment,crib-slot consistency only; S2C initial key unknown; exact plaintext not recovered

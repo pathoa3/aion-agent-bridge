@@ -1,7 +1,7 @@
-﻿# Codex Report - Pass638
+# Codex Report - Pass641
 
-Pass638 readiness work is complete. I patched the checkpoint helper, added the post-capture runner, added safe known-log and S2C window metadata validators, created the capture-tool manifest, and wrote the evening capture runbook.
+Targeted old-capture `Hello Hi` oracle audit completed.
 
-Dry run was executed. It processed no packet payloads and confirmed the future input paths are not present yet while all required tool paths exist.
+Frame 370 is the only 7785 C2S len=26 packet and matches the UTF-16LE+10 length model for `Hello Hi`, but exact plaintext was not recovered because the old session C2S anchor key is unavailable. Nearby S2C packets were tested only as bounded crib candidates; no exact S2C plaintext or keyroll validation was found.
 
-Next action: perform the fresh `tcp port 7785` S2C oracle capture and run `tools\pass638_after_capture\run_s2c_oracle_after_capture.ps1` from the repo.
+Next action: proceed with the fresh Pass638 S2C oracle capture using longer repeated visible markers.

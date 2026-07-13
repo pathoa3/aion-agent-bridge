@@ -1,0 +1,2 @@
+candidate_frame,payload_len,expected_len,exact_text_recovered,key_slots_consistent,decoder_used,confidence,reason
+370,26,26,false,true,pass616_cipher_crib_slot_check_no_session_anchor,best_only_length_and_keyslot_consistency_candidate,direction=C2S; unique_c2s_len26=true; best_variant=ascii; body_offset=16; slots=8; conflicts=0; slot_ids=0;1;2;3;4;5;6;7; exact decode unavailable without old-session C2S anchor key

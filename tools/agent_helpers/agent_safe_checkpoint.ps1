@@ -3,7 +3,9 @@
     [string[]]$Paths = @(
         "tools/agent_helpers/agent_safe_checkpoint.ps1",
         "tools/pass638_after_capture",
+        "tools/pass641_hello_hi_oracle",
         "artifacts/pass638_*",
+        "artifacts/pass641_*",
         "inbox/codex_report.md",
         "inbox/antigravity_report.md",
         "inbox/sonnet_report.md",
