@@ -1,0 +1,17 @@
+flow_role,server_port,marker_text,marker_len_ascii,occurrence_index,nearest_s2c_len,nearest_c2s_len,length_delta_from_previous_marker,same_marker_repeat_len_consistent,confidence,reason
+world_game_candidate,7780,S2C_A_0001_XXXXXXXXXXXXXXXX,27,1,21,,,false,high,length-ladder timing metadata; no payload bytes or decoded text written
+world_game_candidate,7780,S2C_A_0001_XXXXXXXXXXXXXXXX,27,2,85,11,0,false,high,length-ladder timing metadata; no payload bytes or decoded text written
+world_game_candidate,7780,S2C_A_0002_XXXXXXXXXXXXXXXXXXXXXXXX,35,1,217,,8,false,high,length-ladder timing metadata; no payload bytes or decoded text written
+world_game_candidate,7780,S2C_A_0002_XXXXXXXXXXXXXXXXXXXXXXXX,35,2,70,,0,false,high,length-ladder timing metadata; no payload bytes or decoded text written
+world_game_candidate,7780,S2C_A_0003_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,43,1,117,,8,false,high,length-ladder timing metadata; no payload bytes or decoded text written
+world_game_candidate,7780,S2C_A_0003_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,43,2,21,,0,false,high,length-ladder timing metadata; no payload bytes or decoded text written
+world_game_candidate,7780,S2C_A_0004_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,51,1,70,,8,false,high,length-ladder timing metadata; no payload bytes or decoded text written
+world_game_candidate,7780,S2C_A_0004_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,51,2,133,,0,false,high,length-ladder timing metadata; no payload bytes or decoded text written
+chat_sidechannel_candidate,10242,S2C_A_0001_XXXXXXXXXXXXXXXX,27,1,,22,,unknown,high,length-ladder timing metadata; no payload bytes or decoded text written
+chat_sidechannel_candidate,10242,S2C_A_0001_XXXXXXXXXXXXXXXX,27,2,,22,0,unknown,high,length-ladder timing metadata; no payload bytes or decoded text written
+chat_sidechannel_candidate,10242,S2C_A_0002_XXXXXXXXXXXXXXXXXXXXXXXX,35,1,,22,8,unknown,high,length-ladder timing metadata; no payload bytes or decoded text written
+chat_sidechannel_candidate,10242,S2C_A_0002_XXXXXXXXXXXXXXXXXXXXXXXX,35,2,113,22,0,unknown,medium,length-ladder timing metadata; no payload bytes or decoded text written
+chat_sidechannel_candidate,10242,S2C_A_0003_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,43,1,,22,8,unknown,high,length-ladder timing metadata; no payload bytes or decoded text written
+chat_sidechannel_candidate,10242,S2C_A_0003_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,43,2,205,,0,unknown,high,length-ladder timing metadata; no payload bytes or decoded text written
+chat_sidechannel_candidate,10242,S2C_A_0004_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,51,1,179,,8,false,high,length-ladder timing metadata; no payload bytes or decoded text written
+chat_sidechannel_candidate,10242,S2C_A_0004_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,51,2,259,22,0,false,medium,length-ladder timing metadata; no payload bytes or decoded text written
