@@ -1,0 +1,9 @@
+marker_index,marker_text,marker_len_ascii,occurrence_index,c2s22_frame,c2s_delta_ms,next_s2c_count_1s,next_s2c_bytes_1s,next_s2c_count_3s,next_s2c_bytes_3s,next_s2c_count_5s,next_s2c_bytes_5s,largest_next_s2c_len,repeat_consistent,length_signal,confidence,reason
+1,S2C_A_0001_XXXXXXXXXXXXXXXX,27,1,442,-327,0,0,0,0,1,141,141,false,weak_or_variable,medium,S2C batch sizes after nearest C2S 22-byte trigger; lengths only
+2,S2C_A_0001_XXXXXXXXXXXXXXXX,27,2,462,-585,0,0,0,0,0,0,0,false,weak_or_variable,low,S2C batch sizes after nearest C2S 22-byte trigger; lengths only
+3,S2C_A_0002_XXXXXXXXXXXXXXXXXXXXXXXX,35,1,508,1963,0,0,0,0,0,0,0,false,weak_or_variable,low,S2C batch sizes after nearest C2S 22-byte trigger; lengths only
+4,S2C_A_0002_XXXXXXXXXXXXXXXXXXXXXXXX,35,2,535,3660,1,113,1,113,1,113,113,false,weak_or_variable,medium,S2C batch sizes after nearest C2S 22-byte trigger; lengths only
+5,S2C_A_0003_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,43,1,617,-2663,0,0,0,0,0,0,0,true,repeat_len_stable,low,S2C batch sizes after nearest C2S 22-byte trigger; lengths only
+6,S2C_A_0003_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,43,2,647,3765,0,0,0,0,0,0,0,true,repeat_len_stable,low,S2C batch sizes after nearest C2S 22-byte trigger; lengths only
+7,S2C_A_0004_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,51,1,692,-3542,1,237,2,368,3,547,237,false,weak_or_variable,medium,S2C batch sizes after nearest C2S 22-byte trigger; lengths only
+8,S2C_A_0004_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,51,2,714,-3901,0,0,0,0,0,0,0,false,weak_or_variable,low,S2C batch sizes after nearest C2S 22-byte trigger; lengths only

@@ -1,0 +1,2 @@
+field_model_id,rows_tested,byte_length,zero_byte_positions_count,variable_positions_count,constant_positions_count,utf16_likeness,repeat_consistency,marker_timing_alignment,confidence,reason
+c2s22_near_marker_zero_variability,8,22,20,0,22,1.000,true,within_4s,high,zero/nonzero and variability counts only; no byte values

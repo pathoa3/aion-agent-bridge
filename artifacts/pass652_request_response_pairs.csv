@@ -1,0 +1,9 @@
+pair_id,marker_index,marker_text,c2s22_frame,c2s22_delta_ms,s2c_burst_start_frame,s2c_burst_delta_ms,s2c_burst_packet_count,s2c_burst_total_bytes,pair_latency_ms,repeat_consistent,model_guess,confidence,reason
+pair_001,1,S2C_A_0001_XXXXXXXXXXXXXXXX,442,-327,,,0,0,,true,heartbeat,low,C2S 22-byte trigger to S2C burst pairing from safe metadata
+pair_002,2,S2C_A_0001_XXXXXXXXXXXXXXXX,462,-585,,,0,0,,true,heartbeat,low,C2S 22-byte trigger to S2C burst pairing from safe metadata
+pair_003,3,S2C_A_0002_XXXXXXXXXXXXXXXXXXXXXXXX,508,1963,,,0,0,,false,heartbeat,low,C2S 22-byte trigger to S2C burst pairing from safe metadata
+pair_004,4,S2C_A_0002_XXXXXXXXXXXXXXXXXXXXXXXX,535,3660,,0,1,113,0,false,chat_event_metadata,high,C2S 22-byte trigger to S2C burst pairing from safe metadata
+pair_005,5,S2C_A_0003_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,617,-2663,,,0,0,,true,heartbeat,low,C2S 22-byte trigger to S2C burst pairing from safe metadata
+pair_006,6,S2C_A_0003_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,647,3765,,,0,0,,true,heartbeat,low,C2S 22-byte trigger to S2C burst pairing from safe metadata
+pair_007,7,S2C_A_0004_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,692,-3542,,0,2,368,0,false,chat_event_metadata,high,C2S 22-byte trigger to S2C burst pairing from safe metadata
+pair_008,8,S2C_A_0004_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,714,-3901,,,0,0,,false,heartbeat,low,C2S 22-byte trigger to S2C burst pairing from safe metadata

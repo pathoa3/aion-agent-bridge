@@ -1,0 +1,9 @@
+marker_index,marker_text,expected_timestamp,predicted_event_frame,predicted_event_time,delta_ms,source_flow,source_direction,event_confidence,label_reason
+1,S2C_A_0001_XXXXXXXXXXXXXXXX,2026-07-13 21:17:25.468,442,2026-07-13 21:17:25.141,-327,10242,C2S,high,nearest 22-byte C2S packet to known visible marker timestamp; metadata label only
+2,S2C_A_0001_XXXXXXXXXXXXXXXX,2026-07-13 21:17:35.727,462,2026-07-13 21:17:35.141,-585,10242,C2S,high,nearest 22-byte C2S packet to known visible marker timestamp; metadata label only
+3,S2C_A_0002_XXXXXXXXXXXXXXXXXXXXXXXX,2026-07-13 21:18:03.182,508,2026-07-13 21:18:05.144,1963,10242,C2S,medium,nearest 22-byte C2S packet to known visible marker timestamp; metadata label only
+4,S2C_A_0002_XXXXXXXXXXXXXXXXXXXXXXXX,2026-07-13 21:18:21.485,535,2026-07-13 21:18:25.144,3660,10242,C2S,medium,nearest 22-byte C2S packet to known visible marker timestamp; metadata label only
+5,S2C_A_0003_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,2026-07-13 21:19:17.810,617,2026-07-13 21:19:15.146,-2663,10242,C2S,medium,nearest 22-byte C2S packet to known visible marker timestamp; metadata label only
+6,S2C_A_0003_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,2026-07-13 21:19:31.383,647,2026-07-13 21:19:35.148,3765,10242,C2S,medium,nearest 22-byte C2S packet to known visible marker timestamp; metadata label only
+7,S2C_A_0004_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,2026-07-13 21:20:08.692,692,2026-07-13 21:20:05.150,-3542,10242,C2S,medium,nearest 22-byte C2S packet to known visible marker timestamp; metadata label only
+8,S2C_A_0004_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,2026-07-13 21:20:19.052,714,2026-07-13 21:20:15.151,-3901,10242,C2S,medium,nearest 22-byte C2S packet to known visible marker timestamp; metadata label only

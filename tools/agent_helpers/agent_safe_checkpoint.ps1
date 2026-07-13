@@ -1,4 +1,4 @@
-﻿param(
+param(
     [string]$Message = "Agent checkpoint",
     [string[]]$Paths = @(
         "tools/agent_helpers/agent_safe_checkpoint.ps1",
@@ -12,6 +12,7 @@
         "tools/pass649_current_length_ladder",
         "tools/pass650_marker_window_structure",
         "tools/pass651_extended_s2c_structure",
+        "tools/pass652_10242_event_model",
         "artifacts/pass638_dynamic_flow_context.csv",
         "artifacts/pass638_known_plaintext_log_status.csv",
         "artifacts/pass645_10242_*",
@@ -22,6 +23,7 @@
         "artifacts/pass649_*",
         "artifacts/pass650_*",
         "artifacts/pass651_*",
+        "artifacts/pass652_*",
         "inbox/codex_report.md"
     )
 )
@@ -94,6 +96,8 @@ if ($pushExit -ne 0) {
 }
 
 exit 0
+
+
 
 
 

@@ -1,0 +1,21 @@
+flow_role,server_port,stream_direction,test_name,rows_tested,hits,repeat_consistent,exact_marker_recovered,confidence,reason
+chat_sidechannel_candidate,10242,S2C,ascii_exact,8,0,false,false,low,local-only transform search; no matched bytes or blobs written
+chat_sidechannel_candidate,10242,S2C,utf16le_exact,8,0,false,false,low,local-only transform search; no matched bytes or blobs written
+chat_sidechannel_candidate,10242,S2C,utf16be_exact,8,0,false,false,low,local-only transform search; no matched bytes or blobs written
+chat_sidechannel_candidate,10242,S2C,nul_split_ascii,8,0,false,false,low,local-only transform search; no matched bytes or blobs written
+chat_sidechannel_candidate,10242,S2C,visible_prefix_utf16le,8,0,false,false,low,local-only transform search; no matched bytes or blobs written
+chat_sidechannel_candidate,10242,S2C,lowercase_ascii,8,0,false,false,low,local-only transform search; no matched bytes or blobs written
+chat_sidechannel_candidate,10242,S2C,uppercase_ascii,8,0,false,false,low,local-only transform search; no matched bytes or blobs written
+chat_sidechannel_candidate,10242,S2C,no_underscore_ascii,8,0,false,false,low,local-only transform search; no matched bytes or blobs written
+chat_sidechannel_candidate,10242,S2C,numeric_id_ascii,8,0,false,false,low,local-only transform search; no matched bytes or blobs written
+chat_sidechannel_candidate,10242,S2C,x_run_ascii,8,0,false,false,low,local-only transform search; no matched bytes or blobs written
+chat_sidechannel_candidate,10242,C2S,ascii_exact,8,0,false,false,low,local-only transform search; no matched bytes or blobs written
+chat_sidechannel_candidate,10242,C2S,utf16le_exact,8,0,false,false,low,local-only transform search; no matched bytes or blobs written
+chat_sidechannel_candidate,10242,C2S,utf16be_exact,8,0,false,false,low,local-only transform search; no matched bytes or blobs written
+chat_sidechannel_candidate,10242,C2S,nul_split_ascii,8,0,false,false,low,local-only transform search; no matched bytes or blobs written
+chat_sidechannel_candidate,10242,C2S,visible_prefix_utf16le,8,0,false,false,low,local-only transform search; no matched bytes or blobs written
+chat_sidechannel_candidate,10242,C2S,lowercase_ascii,8,0,false,false,low,local-only transform search; no matched bytes or blobs written
+chat_sidechannel_candidate,10242,C2S,uppercase_ascii,8,0,false,false,low,local-only transform search; no matched bytes or blobs written
+chat_sidechannel_candidate,10242,C2S,no_underscore_ascii,8,0,false,false,low,local-only transform search; no matched bytes or blobs written
+chat_sidechannel_candidate,10242,C2S,numeric_id_ascii,8,0,false,false,low,local-only transform search; no matched bytes or blobs written
+chat_sidechannel_candidate,10242,C2S,x_run_ascii,8,0,false,false,low,local-only transform search; no matched bytes or blobs written
