@@ -1,0 +1,5 @@
+test_name,flow_role,server_port,direction,exact_text_matched,existing_decoder_applicable,frame,time_delta_ms,corresponding_event_found,confidence,reason
+local_say_control,world,7780,C2S,false,false,101,6311589,false,medium,deterministic local control search; existing C2S decoder not applied because no validated session anchor material is available in committed metadata
+local_say_control,world,7780,S2C,false,false,99,6311574,false,medium,deterministic local control search; existing C2S decoder not applied because no validated session anchor material is available in committed metadata
+local_say_control,event_side,10242,C2S,false,false,347,6319509,false,medium,deterministic local control search; existing C2S decoder not applied because no validated session anchor material is available in committed metadata
+local_say_control,event_side,10242,S2C,false,false,352,6319583,false,medium,deterministic local control search; existing C2S decoder not applied because no validated session anchor material is available in committed metadata

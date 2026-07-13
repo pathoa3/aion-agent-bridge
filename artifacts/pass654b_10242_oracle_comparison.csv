@@ -1,0 +1,18 @@
+oracle_id,channel,nearest_c2s_frame,c2s_delta_ms,nearest_s2c_frame,s2c_delta_ms,window_length_sequence,direction_sequence,repeat_match,channel_signal,confidence,reason
+o001,whisper,442,-327,437,-3682,C22,C,true,false,medium,10242 timing/length/direction comparison around oracle
+o002,whisper,462,-585,456,-3623,C22,C,true,false,medium,10242 timing/length/direction comparison around oracle
+o003,whisper,508,1963,539,22793,C22,C,false,false,medium,10242 timing/length/direction comparison around oracle
+o004,whisper,535,3660,539,4490,,,false,false,medium,10242 timing/length/direction comparison around oracle
+o005,whisper,617,-2663,627,3388,C22,C,false,false,medium,10242 timing/length/direction comparison around oracle
+o006,whisper,647,3765,645,2151,S205,S,false,false,medium,10242 timing/length/direction comparison around oracle
+o007,whisper,692,-3542,704,299,S237-S131-S179,SSS,false,false,medium,10242 timing/length/direction comparison around oracle
+o008,whisper,714,-3901,730,7854,,,false,false,medium,10242 timing/length/direction comparison around oracle
+o009,group,752,1637,754,2076,C22-S209,CS,false,true,medium,10242 timing/length/direction comparison around oracle
+o010,group,760,-3019,754,-12581,,,false,false,medium,10242 timing/length/direction comparison around oracle
+o011,group,780,121,776,-15141,C22,C,false,true,medium,10242 timing/length/direction comparison around oracle
+o012,group,808,-3506,812,76,S93,S,false,true,medium,10242 timing/length/direction comparison around oracle
+o013,group,836,4646,832,-1290,S101,S,false,true,medium,10242 timing/length/direction comparison around oracle
+o014,group,836,-1485,832,-7421,C22,C,false,true,medium,10242 timing/length/direction comparison around oracle
+o015,group,848,2851,860,25225,C22,C,false,true,medium,10242 timing/length/direction comparison around oracle
+o016,group,848,-3730,860,18644,,,false,false,medium,10242 timing/length/direction comparison around oracle
+o017,local,347,6319509,352,6319583,,,false,false,medium,10242 timing/length/direction comparison around oracle

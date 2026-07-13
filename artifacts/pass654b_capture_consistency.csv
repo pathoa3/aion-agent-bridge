@@ -1,0 +1,6 @@
+check_name,result,value,confidence,reason
+pcap_exists,true,C:\AionTools\aion_decoder_agent\inbox\captures\s2c_oracle_world_entry.pcapng,high,input path checked
+known_log_exists,true,C:\AionTools\aion_decoder_agent\inbox\captures\s2c_oracle_known_plaintext_log.txt,high,input path checked
+world_port_detected,true,7780,high,dynamic world flow selection
+side_10242_present,true,10242,high,flow inventory includes side/event port
+oracle_current_rows,true,17,high,merged prompt and known log references

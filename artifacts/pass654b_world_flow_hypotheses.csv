@@ -1,0 +1,11 @@
+hypothesis_id,channel,direction,window_model,header_model,rows_tested,rows_plausible,repeat_consistent,message_length_signal,channel_signal,exact_text_match,confidence,reason
+world_S2C_nearest,all,S2C,nearest,offset_0_32_metadata,17,17,pending,true,true,false,medium,world-flow oracle windows analyzed using packet/stream metadata and deterministic text-test results
+world_S2C_pm1,all,S2C,pm1,offset_0_32_metadata,17,15,pending,true,true,false,medium,world-flow oracle windows analyzed using packet/stream metadata and deterministic text-test results
+world_S2C_pm3,all,S2C,pm3,offset_0_32_metadata,17,15,pending,true,true,false,medium,world-flow oracle windows analyzed using packet/stream metadata and deterministic text-test results
+world_S2C_pm5,all,S2C,pm5,offset_0_32_metadata,17,16,pending,true,true,false,medium,world-flow oracle windows analyzed using packet/stream metadata and deterministic text-test results
+world_S2C_pm10,all,S2C,pm10,offset_0_32_metadata,17,16,pending,true,true,false,medium,world-flow oracle windows analyzed using packet/stream metadata and deterministic text-test results
+world_C2S_nearest,all,C2S,nearest,offset_0_32_metadata,17,17,pending,true,true,false,medium,world-flow oracle windows analyzed using packet/stream metadata and deterministic text-test results
+world_C2S_pm1,all,C2S,pm1,offset_0_32_metadata,17,0,pending,false,false,false,medium,world-flow oracle windows analyzed using packet/stream metadata and deterministic text-test results
+world_C2S_pm3,all,C2S,pm3,offset_0_32_metadata,17,1,pending,true,false,false,medium,world-flow oracle windows analyzed using packet/stream metadata and deterministic text-test results
+world_C2S_pm5,all,C2S,pm5,offset_0_32_metadata,17,3,pending,true,false,false,medium,world-flow oracle windows analyzed using packet/stream metadata and deterministic text-test results
+world_C2S_pm10,all,C2S,pm10,offset_0_32_metadata,17,5,pending,true,false,false,medium,world-flow oracle windows analyzed using packet/stream metadata and deterministic text-test results

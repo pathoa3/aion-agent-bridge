@@ -1,0 +1,2 @@
+candidate_id,source_stage,oracle_rows_supported,repeated_rows_supported,whisper_supported,group_supported,local_supported,unrelated_window_conflicts,exact_text_validated,confidence,reason
+none,stage_e_known_text_location,0,0,false,false,false,0,false,high,no exact known-message candidates found in deterministic matrix

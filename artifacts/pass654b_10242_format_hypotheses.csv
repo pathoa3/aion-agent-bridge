@@ -1,0 +1,4 @@
+hypothesis_id,direction,header_size,field_layout,rows_tested,rows_plausible,repeat_consistent,whisper_group_difference,message_length_signal,text_field_supported,confidence,reason
+h10242_heartbeat,C2S,fixed22_cadence,periodic 22-byte C2S,53,53,true,false,false,false,high,C2S packets show cadence model
+h10242_chat_metadata,both,timing_window,oracle-correlated metadata/burst signals,17,17,false,true,false,false,medium,10242 aligns in time but does not expose text
+h10242_text_transport,S2C/C2S,deterministic_text,direct deterministic known-text search,17,0,false,false,false,false,low,exact text field support only if deterministic text hit exists

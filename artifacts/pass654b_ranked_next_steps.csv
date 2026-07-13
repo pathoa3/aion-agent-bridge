@@ -1,0 +1,4 @@
+rank,next_step,evidence,exact_input_needed,expected_result,confidence
+1,world_flow_framing,"Whisper/group metadata signal exists, but exact text was not recovered.",Current world-flow oracle windows and static receive parser/framing context.,Map packet/stream body boundaries for marker events.,high
+2,static_client_parser_research,No deterministic clear text representation was validated.,Client-side receive parser candidates for 7780 and 10242.,Identify transform/decode layer before text appears.,medium
+3,clean_controlled_capture,A cleaner control set can still improve validation.,Fresh whisper-only capture with fewer unrelated events.,Independent confirmation of framing hypotheses.,medium

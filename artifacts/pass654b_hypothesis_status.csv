@@ -1,0 +1,13 @@
+hypothesis,tested,tests_run,result,supported_or_weakened,confidence,next_specific_step
+direct text on 10242,true,4750,no exact message hit,weakened,high,"If pursuing 10242, move to static parser/field analysis rather than direct text search."
+structured text field on 10242,true,3,no text_field_supported,weakened,medium,Inspect client-side 10242 parser statically for field semantics.
+heartbeat-only 10242 model,true,3,heartbeat hypothesis present,supported,medium,"Treat C2S22 as cadence/control, not text."
+chat-event metadata on 10242,true,3,timing metadata plausible,supported,medium,Use as event timing aid only.
+direct text on world flow,true,4750,no exact message hit,weakened,high,Continue world framing/static receive analysis.
+stream-spanning text on world flow,true,3800,no exact spanning hit,weakened,high,Needs framing/crypto state before text representation is visible.
+standard compression on world flow,true,0,no compatible deterministic compression text hits recorded,weakened,medium,Search static receive path for compression boundary if present.
+packet-sequence representation,true,10,metadata windows generated,supported,medium,Use sequences rather than nearest packet for future crib attempts.
+whisper/group channel field,true,64,stable channel differences found,supported,medium,Clean controlled capture could amplify channel field.
+local-message control decode,true,4,not matched,weakened,medium,Need C2S anchor/session support for current capture.
+existing C2S decoder applicability,true,4,not applicable without anchor,weakened,medium,Recover/apply current session anchor before relying on decoder.
+capture timing accuracy,true,27,known/prompt oracle rows merged with tolerances,supported,high,Timing is usable for windowed analysis.
