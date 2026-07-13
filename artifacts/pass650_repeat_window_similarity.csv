@@ -1,0 +1,15 @@
+marker_text,flow_role,server_port,window_sec,occurrence_a,occurrence_b,sequence_len_a,sequence_len_b,length_sequence_similarity,direction_sequence_similarity,total_payload_a,total_payload_b,confidence,reason
+S2C_A_0001_XXXXXXXXXXXXXXXX,chat_sidechannel_candidate,10242,3,1,2,1,1,1.000,1.000,22,22,high,LCS similarity over safe length and direction sequences
+S2C_A_0001_XXXXXXXXXXXXXXXX,chat_sidechannel_candidate,10242,10,1,2,7,4,0.429,0.571,1079,404,medium,LCS similarity over safe length and direction sequences
+S2C_A_0001_XXXXXXXXXXXXXXXX,world_game_candidate,7780,3,1,2,3,6,0.333,0.500,106,217,low,LCS similarity over safe length and direction sequences
+S2C_A_0001_XXXXXXXXXXXXXXXX,world_game_candidate,7780,10,1,2,13,15,0.800,0.800,514,535,high,LCS similarity over safe length and direction sequences
+S2C_A_0002_XXXXXXXXXXXXXXXXXXXXXXXX,chat_sidechannel_candidate,10242,10,1,2,2,3,0.667,0.667,44,157,medium,LCS similarity over safe length and direction sequences
+S2C_A_0002_XXXXXXXXXXXXXXXXXXXXXXXX,world_game_candidate,7780,3,1,2,5,4,0.400,0.800,449,207,medium,LCS similarity over safe length and direction sequences
+S2C_A_0002_XXXXXXXXXXXXXXXXXXXXXXXX,world_game_candidate,7780,10,1,2,13,12,0.615,0.923,687,524,medium,LCS similarity over safe length and direction sequences
+S2C_A_0003_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,chat_sidechannel_candidate,10242,3,1,2,1,1,0.000,0.000,22,205,low,LCS similarity over safe length and direction sequences
+S2C_A_0003_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,chat_sidechannel_candidate,10242,10,1,2,3,3,0.667,1.000,175,249,medium,LCS similarity over safe length and direction sequences
+S2C_A_0003_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,world_game_candidate,7780,3,1,2,4,4,0.750,1.000,223,223,high,LCS similarity over safe length and direction sequences
+S2C_A_0003_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,world_game_candidate,7780,10,1,2,14,10,0.714,0.714,557,435,medium,LCS similarity over safe length and direction sequences
+S2C_A_0004_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,chat_sidechannel_candidate,10242,10,1,2,6,3,0.333,0.333,798,303,low,LCS similarity over safe length and direction sequences
+S2C_A_0004_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,world_game_candidate,7780,3,1,2,4,4,0.750,1.000,239,239,high,LCS similarity over safe length and direction sequences
+S2C_A_0004_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX,world_game_candidate,7780,10,1,2,12,11,0.750,0.917,801,521,high,LCS similarity over safe length and direction sequences

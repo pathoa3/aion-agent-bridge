@@ -1,0 +1,21 @@
+flow_role,server_port,window_sec,signal_name,rows_used,correlation_hint,monotonic_with_marker_length,repeat_consistent,confidence,reason
+world_game_candidate,7780,3,s2c_payload_plus_3s,8,weak,false,false,low,safe aggregate window signal from packet length/direction metadata
+world_game_candidate,7780,3,s2c_payload_pm_window,8,weak,false,false,low,safe aggregate window signal from packet length/direction metadata
+world_game_candidate,7780,3,largest_s2c_packet,8,weak,false,false,low,safe aggregate window signal from packet length/direction metadata
+world_game_candidate,7780,3,s2c_packet_count,8,weak,false,false,low,safe aggregate window signal from packet length/direction metadata
+world_game_candidate,7780,3,c2s_trigger_packets_10242,0,insufficient,false,false,low,safe aggregate window signal from packet length/direction metadata
+world_game_candidate,7780,10,s2c_payload_plus_3s,8,weak,false,false,low,safe aggregate window signal from packet length/direction metadata
+world_game_candidate,7780,10,s2c_payload_pm_window,8,weak,false,false,low,safe aggregate window signal from packet length/direction metadata
+world_game_candidate,7780,10,largest_s2c_packet,8,weak,false,false,low,safe aggregate window signal from packet length/direction metadata
+world_game_candidate,7780,10,s2c_packet_count,8,weak,false,false,low,safe aggregate window signal from packet length/direction metadata
+world_game_candidate,7780,10,c2s_trigger_packets_10242,0,insufficient,false,false,low,safe aggregate window signal from packet length/direction metadata
+chat_sidechannel_candidate,10242,3,s2c_payload_plus_3s,8,weak,false,false,low,safe aggregate window signal from packet length/direction metadata
+chat_sidechannel_candidate,10242,3,s2c_payload_pm_window,8,weak,false,false,low,safe aggregate window signal from packet length/direction metadata
+chat_sidechannel_candidate,10242,3,largest_s2c_packet,2,insufficient,false,false,low,safe aggregate window signal from packet length/direction metadata
+chat_sidechannel_candidate,10242,3,s2c_packet_count,8,weak,false,false,low,safe aggregate window signal from packet length/direction metadata
+chat_sidechannel_candidate,10242,3,c2s_trigger_packets_10242,8,negative,false,false,low,safe aggregate window signal from packet length/direction metadata
+chat_sidechannel_candidate,10242,10,s2c_payload_plus_3s,8,weak,false,false,low,safe aggregate window signal from packet length/direction metadata
+chat_sidechannel_candidate,10242,10,s2c_payload_pm_window,8,weak,false,false,low,safe aggregate window signal from packet length/direction metadata
+chat_sidechannel_candidate,10242,10,largest_s2c_packet,7,weak,false,false,low,safe aggregate window signal from packet length/direction metadata
+chat_sidechannel_candidate,10242,10,s2c_packet_count,8,weak,false,false,low,safe aggregate window signal from packet length/direction metadata
+chat_sidechannel_candidate,10242,10,c2s_trigger_packets_10242,8,negative,false,false,low,safe aggregate window signal from packet length/direction metadata

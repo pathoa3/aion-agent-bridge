@@ -1,0 +1,18 @@
+{
+  "worker": "codex",
+  "phase": "pass650_marker_window_structure",
+  "current_world_port": 7780,
+  "length_ladder_rows_used": 8,
+  "window_packets_analyzed": 173,
+  "repeat_window_similarity_found": true,
+  "length_signal_found": false,
+  "likely_marker_representation": "packet_sequence",
+  "recommended_next_step": "packet_sequence_crib",
+  "raw_payload_committed": false,
+  "raw_ciphertext_committed": false,
+  "raw_plaintext_blob_committed": false,
+  "packet_hashes_committed": false,
+  "s2c_decoder_success": false,
+  "reason": "Analyzed full +/-3s and +/-10s packet length/direction windows around current S2C_A_ ladder markers; no raw payload material was written.",
+  "next_action": "Use the strongest window-level signal to choose stream reassembly, packet-sequence cribbing, static framing analysis, or local-only manual payload inspection."
+}

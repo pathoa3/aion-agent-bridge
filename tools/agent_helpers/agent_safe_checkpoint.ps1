@@ -10,6 +10,7 @@
         "tools/pass647_dynamic_world_port",
         "tools/pass648_dynamic_world_s2c_oracle",
         "tools/pass649_current_length_ladder",
+        "tools/pass650_marker_window_structure",
         "artifacts/pass638_dynamic_flow_context.csv",
         "artifacts/pass638_known_plaintext_log_status.csv",
         "artifacts/pass645_10242_*",
@@ -18,6 +19,7 @@
         "artifacts/pass647_*",
         "artifacts/pass648_*",
         "artifacts/pass649_*",
+        "artifacts/pass650_*",
         "inbox/codex_report.md"
     )
 )
@@ -90,6 +92,7 @@ if ($pushExit -ne 0) {
 }
 
 exit 0
+
 
 
 
