@@ -1,0 +1,19 @@
+﻿{
+    "worker":  "codex",
+    "phase":  "pass638_capture_readiness",
+    "checkpoint_helper_reviewed":  true,
+    "checkpoint_helper_patched":  true,
+    "tool_manifest_created":  true,
+    "post_capture_runner_created":  true,
+    "dry_run_mode_created":  true,
+    "known_plaintext_log_validator_created":  true,
+    "evening_runbook_created":  true,
+    "dry_run_executed":  true,
+    "ready_for_evening_capture":  true,
+    "private_payload_committed":  false,
+    "raw_ciphertext_committed":  false,
+    "raw_plaintext_blob_committed":  false,
+    "raw_binary_committed":  false,
+    "reason":  "Pre-capture tooling is ready; dry-run confirmed future capture inputs are absent and required tool paths exist. No old broad brute force was rerun.",
+    "next_action":  "capture fresh S2C oracle PCAP/log tonight, then run tools/pass638_after_capture/run_s2c_oracle_after_capture.ps1"
+}
