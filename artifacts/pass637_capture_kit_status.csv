@@ -1,0 +1,8 @@
+check,ok,detail
+capture_exists,false,C:\AionTools\aion_decoder_agent\inbox\captures\s2c_oracle_world_entry.pcapng
+capture_nonempty,false,0
+known_plaintext_log_exists,false,C:\AionTools\aion_decoder_agent\inbox\captures\s2c_oracle_known_plaintext_log.txt
+marker_present_S2C_ORACLE_001_A1B2,false,0
+marker_present_S2C_ORACLE_002_C3D4,false,0
+marker_present_S2C_ORACLE_003_0123456789,false,0
+marker_present_S2C_ORACLE_004_REPEAT,false,0

@@ -1,0 +1,20 @@
+{
+  "worker": "codex",
+  "phase": "pass637_s2c_stream_oracle_and_capture_kit",
+  "tcp_stream_reassembly_built": true,
+  "c2s_stream_alignment_validated": true,
+  "s2c_stream_offsets_tested": 282291,
+  "kxseq_stream_candidates": 0,
+  "motd_stream_candidates": 35518,
+  "validated_s2c_plaintext_found": false,
+  "s2c_decoder_success": false,
+  "s2c_deframe_hypothesis_found": false,
+  "capture_kit_created": true,
+  "existing_capture_still_insufficient": true,
+  "private_payload_committed": false,
+  "raw_ciphertext_committed": false,
+  "raw_plaintext_blob_committed": false,
+  "raw_binary_committed": false,
+  "reason": "TCP stream reassembly was built and validated against solved C2S KXSEQ frames. Stream-level S2C crib-dragging tested relevant continuous S2C stream intervals, including cross-segment offsets; KXSEQ still produced zero candidates. MOTD produced slot-consistency candidates but no validated S2C plaintext or keyroll. Deframe hypotheses around known small S2C frames did not produce a reliable length-boundary hypothesis. Existing capture remains insufficient; capture kit is ready for a stronger S2C oracle.",
+  "next_action": "Use tools/pass637_capture_kit to capture s2c_oracle_world_entry.pcapng with exact S2C_ORACLE markers and log visible times, then rerun the stream oracle against that new capture."
+}

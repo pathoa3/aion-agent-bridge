@@ -1,11 +1,18 @@
-# Codex Report - Pass634 Overnight S2C Solve
+# Codex Report - Pass637 S2C Stream Oracle and Capture Kit
 
-Terminal outcome: `hard_blocker`.
+Built the Pass637 stream-level oracle tools and capture kit.
 
-Using only existing local static/exported files, I built and ran the Pass634 offline analyzers. The callgraph/tail-branch scan found `111` edges and `6` unique predecessor entries into Path B, but none is a useful recv-related predecessor with register handoff evidence.
+Results:
+- TCP stream reassembly built: `true`
+- Reassembled C2S alignment validated against solved KXSEQ frames: `true`
+- S2C stream offsets tested: `282291`
+- KXSEQ stream candidates: `0`
+- MOTD stream candidates: `35518` metadata candidates, all written as metadata-only rows
+- Validated S2C plaintext found: `false`
+- S2C decoder success: `false`
+- S2C deframe hypothesis found: `false`
+- Capture kit created: `true`
 
-Current import rows are thunk/symbol-only for recv/WSARecv/send-family APIs; no caller function is linked to Path B. Register provenance remains unresolved for RDX, RSI, `[RBP+0]`, and BL/RBX, so the bounded VM trace gate did not run.
+The existing capture is still insufficient. Stream-level scanning removed TCP segmentation as the obvious blocker: C2S alignment validates, but KXSEQ still does not appear as a detectable S2C crib and MOTD candidates remain unvalidated slot-consistency signals only.
 
-Created the requested tool suite under `tools/pass634_codex_overnight_s2c_solve/`, including a future Ghidra Java import-wrapper exporter and a future S2C oracle scaffold. No S2C key or decoder success was claimed.
-
-Exact missing artifact: a targeted Ghidra export of code references to recv/WSARecv/recvfrom import thunk addresses, with wrapper functions and one-level callers/callees, sufficient to prove or reject a receive-wrapper path into Path B and recover RDX/RSI/[RBP+0]/BL setup.
+Next action: use `tools/pass637_capture_kit/` tonight to capture a stronger S2C-visible known plaintext oracle with the exact `S2C_ORACLE_*` markers.

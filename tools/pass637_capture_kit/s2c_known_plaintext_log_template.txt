@@ -1,0 +1,30 @@
+﻿Pass637 S2C known plaintext capture log
+======================================
+
+Capture path:
+C:\AionTools\aion_decoder_agent\inbox\captures\s2c_oracle_world_entry.pcapng
+
+Known plaintext log path:
+C:\AionTools\aion_decoder_agent\inbox\captures\s2c_oracle_known_plaintext_log.txt
+
+Checklist:
+[ ] Start capture before world entry.
+[ ] Enter world.
+[ ] Have second character/friend send visible text immediately.
+[ ] Record exact visible time and text.
+[ ] Stop capture after all markers are visible.
+
+Markers to send/observe exactly:
+1. S2C_ORACLE_001_A1B2
+2. S2C_ORACLE_002_C3D4
+3. S2C_ORACLE_003_0123456789
+4. S2C_ORACLE_004_REPEAT
+5. S2C_ORACLE_004_REPEAT
+
+Observation rows:
+visible_time_local, marker, sender, receiver, notes
+YYYY-MM-DD HH:MM:SS, S2C_ORACLE_001_A1B2, , ,
+YYYY-MM-DD HH:MM:SS, S2C_ORACLE_002_C3D4, , ,
+YYYY-MM-DD HH:MM:SS, S2C_ORACLE_003_0123456789, , ,
+YYYY-MM-DD HH:MM:SS, S2C_ORACLE_004_REPEAT, , , first repeat
+YYYY-MM-DD HH:MM:SS, S2C_ORACLE_004_REPEAT, , , second repeat

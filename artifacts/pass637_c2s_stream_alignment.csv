@@ -1,0 +1,12 @@
+oracle_frame,label,stream_offset_start,stream_offset_end,tcp_payload_len,expected_utf16le_len,expected_raw_len_utf16_plus_10,frame_found_in_stream,length_model_valid,stream_alignment_valid
+4329,KXSEQ_001,353,381,28,18,28,true,true,true
+4353,KXSEQ_002_A,5487,5519,32,22,32,true,true,true
+4360,KXSEQ_003_AA,5519,5553,34,24,34,true,true,true
+4389,KXSEQ_004_AAA,5553,5589,36,26,36,true,true,true
+4399,KXSEQ_005_AAAA,5600,5638,38,28,38,true,true,true
+4402,KXSEQ_006_AAAAAAAA,5638,5684,46,36,46,true,true,true
+4412,KXSEQ_007_AAAAAAAAAAAAAAAA,5695,5757,62,52,62,true,true,true
+4417,KXSEQ_008_0123456789,5757,5807,50,40,50,true,true,true
+4422,KXSEQ_009_ABABABABABABABAB,5807,5869,62,52,62,true,true,true
+4429,KXSEQ_010_REPEAT,5869,5911,42,32,42,true,true,true
+4435,KXSEQ_010_REPEAT,5922,5964,42,32,42,true,true,true
