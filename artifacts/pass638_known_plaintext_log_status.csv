@@ -1,0 +1,9 @@
+check,ok,detail
+log_exists,true,C:\AionTools\aion_decoder_agent\inbox\captures\s2c_oracle_known_plaintext_log.txt
+csv_parse,true,"rows=12 delimiter=','"
+required_columns,true,
+no_empty_visible_text,true,rows=12 nonempty=12
+oracle_rows_are_s2c,true,bad_direction_rows=0 s2c_rows=12
+markers_at_least_16_ascii,false,short_or_non_ascii=2
+repeated_marker_exists,true,repeat_count=2
+overall_ready,false,safe metadata only

@@ -1,6 +1,6 @@
 ﻿"step","path","exists","would_run","creates_raw_output"
-"check_pcap","C:\AionTools\aion_decoder_agent\inbox\captures\s2c_oracle_world_entry.pcapng","False","input_check","False"
-"check_known_log","C:\AionTools\aion_decoder_agent\inbox\captures\s2c_oracle_known_plaintext_log.txt","False","input_check","False"
+"check_pcap","C:\AionTools\aion_decoder_agent\inbox\captures\s2c_oracle_world_entry.pcapng","True","input_check","False"
+"check_known_log","C:\AionTools\aion_decoder_agent\inbox\captures\s2c_oracle_known_plaintext_log.txt","True","input_check","False"
 "capture_validator","C:\AionTools\aion-agent-bridge\tools\pass637_capture_kit\validate_capture_presence.py","True","python tools/pass637_capture_kit/validate_capture_presence.py","False"
 "known_log_validator","C:\AionTools\aion-agent-bridge\tools\pass638_after_capture\validate_known_plaintext_log.py","True","python tools/pass638_after_capture/validate_known_plaintext_log.py","False"
 "s2c_window_extractor","C:\AionTools\aion-agent-bridge\tools\pass638_after_capture\extract_s2c_window_metadata.py","True","python tools/pass638_after_capture/extract_s2c_window_metadata.py <pcap> <known_log> artifacts/pass638_s2c_window_inventory.csv","False"
