@@ -1,0 +1,8 @@
+﻿"tool_path","purpose","captures_packets","commits_raw_data","notes"
+"tools/pass643_evening_capture_operator/start_s2c_oracle_capture.ps1","start dumpcap/tshark capture with 7785/10242/2106 filter","true","false","writes PCAP only under private capture inbox"
+"tools/pass643_evening_capture_operator/stop_s2c_oracle_capture.ps1","stop recorded dumpcap/tshark PID and copy timestamped PCAP to expected name","false","false","does not kill Wireshark GUI"
+"tools/pass643_evening_capture_operator/log_s2c_marker.ps1","append visible marker timestamp to known plaintext CSV log","false","false","logs user-provided visible text only"
+"tools/pass643_evening_capture_operator/create_marker_log_template.ps1","create marker log template with reminder comments","false","false","template comments are not fake timestamps"
+"tools/pass643_evening_capture_operator/run_after_capture_full.ps1","run Pass638 post-capture validator/oracle and checkpoint helper","false","false","safe metadata pipeline only"
+"tools/pass643_evening_capture_operator/test_operator_kit.ps1","dry-run script/path/tool availability checks","false","false","does not process packet payloads"
+"tools/pass643_evening_capture_operator/README.md","operator runbook","false","false","human workflow"

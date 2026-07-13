@@ -1,0 +1,20 @@
+﻿{
+    "worker":  "codex",
+    "phase":  "pass643_evening_capture_operator_kit",
+    "start_capture_script_created":  true,
+    "stop_capture_script_created":  true,
+    "marker_logger_created":  true,
+    "marker_template_created":  true,
+    "post_capture_runner_created":  true,
+    "operator_readme_created":  true,
+    "dry_run_script_created":  true,
+    "dry_run_executed":  true,
+    "ready_for_evening_capture":  true,
+    "pcap_committed":  false,
+    "raw_payload_committed":  false,
+    "raw_ciphertext_committed":  false,
+    "raw_plaintext_blob_committed":  false,
+    "raw_binary_committed":  false,
+    "reason":  "One-click operator kit created and dry-run passed. It can start/stop dumpcap/tshark capture, log visible S2C markers with timestamps, run post-capture validation, and checkpoint safe metadata only.",
+    "next_action":  "Run start_s2c_oracle_capture.ps1 before login/world entry, log each visible marker live, stop capture, then run run_after_capture_full.ps1."
+}

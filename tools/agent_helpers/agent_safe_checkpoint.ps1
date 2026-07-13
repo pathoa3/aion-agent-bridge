@@ -6,9 +6,11 @@
         "tools/pass638_after_capture",
         "tools/pass641_hello_hi_oracle",
         "tools/pass642_c2s_checkpoint_from_hello_hi",
+        "tools/pass643_evening_capture_operator",
         "artifacts/pass638_*",
         "artifacts/pass641_*",
         "artifacts/pass642_*",
+        "artifacts/pass643_*",
         "inbox/codex_report.md",
         "inbox/antigravity_report.md",
         "inbox/sonnet_report.md",
@@ -85,6 +87,7 @@ if ($pushExit -ne 0) {
 }
 
 exit 0
+
 
 
 
