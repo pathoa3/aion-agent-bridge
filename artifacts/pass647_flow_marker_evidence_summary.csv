@@ -1,0 +1,3 @@
+flow_role,server_port,markers_with_exact_window,markers_with_10s_window,markers_with_30s_window,total_markers,typical_s2c_lengths,typical_c2s_lengths,confidence,reason
+world_game_candidate,7780,10,0,0,10,37x3;72x1;12x1;63x1;93x1;74x1,7x9;11x1,high,marker timing evidence summarized from nearest safe packet metadata
+chat_sidechannel_candidate,10242,7,3,0,10,239x2;343x2;103x1,22x10,high,marker timing evidence summarized from nearest safe packet metadata

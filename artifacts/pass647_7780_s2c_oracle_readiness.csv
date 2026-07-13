@@ -1,0 +1,2 @@
+actual_world_port,world_flow_found,packets_before_first_marker,s2c_packets_before_first_marker,c2s_packets_before_first_marker,capture_started_before_world_flow,ready_for_s2c_oracle_attempt,reason
+7780,true,1420,711,709,true,true,enough 7780 packets exist before first marker for rolling-state S2C analysis

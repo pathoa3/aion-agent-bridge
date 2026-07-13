@@ -6,7 +6,9 @@
     [string]$KnownText = "",
     [int]$CandidateFrame = 0,
     [ValidateSet("C2S", "S2C")] [string]$Direction = "S2C",
-    [switch]$DeriveCheckpointOnly
+    [switch]$DeriveCheckpointOnly,
+    [int]$WorldPort = 0,
+    [switch]$AutoDetectWorldPort
 )
 
 $ErrorActionPreference = "Stop"
@@ -20,6 +22,8 @@ $CribTool = Join-Path $Repo "tools\pass636_antigravity_s2c_oracle\s2c_crib_drag_
 $DecodeTool = Join-Path $Repo "tools\pass636_antigravity_s2c_oracle\s2c_decode_from_oracle.py"
 $KeyrollTool = Join-Path $Repo "tools\pass636_antigravity_s2c_oracle\s2c_keyroll_validate.py"
 $CheckpointTool = Join-Path $Repo "tools\pass642_c2s_checkpoint_from_hello_hi\derive_c2s_key_from_known_text.py"
+$Pass647Inventory = Join-Path $Repo "tools\pass647_dynamic_world_port\inventory_broad_capture.py"
+$Pass647Detect = Join-Path $Repo "tools\pass647_dynamic_world_port\detect_world_flow.py"
 
 Set-Location $Repo
 
@@ -41,7 +45,9 @@ $steps = @(
     [pscustomobject]@{ step="check_known_log"; path=$KnownLogPath; exists=(Test-Path -LiteralPath $KnownLogPath); would_run="input_check"; creates_raw_output=$false },
     [pscustomobject]@{ step="capture_validator"; path=$CaptureValidator; exists=(Test-Path -LiteralPath $CaptureValidator); would_run="python tools/pass637_capture_kit/validate_capture_presence.py"; creates_raw_output=$false },
     [pscustomobject]@{ step="known_log_validator"; path=$LogValidator; exists=(Test-Path -LiteralPath $LogValidator); would_run="python tools/pass638_after_capture/validate_known_plaintext_log.py"; creates_raw_output=$false },
-    [pscustomobject]@{ step="s2c_window_extractor"; path=$WindowExtractor; exists=(Test-Path -LiteralPath $WindowExtractor); would_run="python tools/pass638_after_capture/extract_s2c_window_metadata.py <pcap> <known_log> artifacts/pass638_s2c_window_inventory.csv"; creates_raw_output=$false },
+    [pscustomobject]@{ step="dynamic_world_flow_inventory"; path=$Pass647Inventory; exists=(Test-Path -LiteralPath $Pass647Inventory); would_run="python tools/pass647_dynamic_world_port/inventory_broad_capture.py --pcap <pcap>"; creates_raw_output=$false },
+    [pscustomobject]@{ step="dynamic_world_flow_detect"; path=$Pass647Detect; exists=(Test-Path -LiteralPath $Pass647Detect); would_run="auto-detect 7770-7799 world port or use -WorldPort"; creates_raw_output=$false },
+    [pscustomobject]@{ step="s2c_window_extractor"; path=$WindowExtractor; exists=(Test-Path -LiteralPath $WindowExtractor); would_run="python tools/pass638_after_capture/extract_s2c_window_metadata.py <pcap> <known_log> artifacts/pass638_s2c_window_inventory.csv using dynamic world flow context"; creates_raw_output=$false },
     [pscustomobject]@{ step="s2c_crib_oracle"; path=$CribTool; exists=(Test-Path -LiteralPath $CribTool); would_run="python tools/pass636_antigravity_s2c_oracle/s2c_crib_drag_oracle.py <pcap> artifacts/pass638_s2c_crib_candidates.csv"; creates_raw_output=$false },
     [pscustomobject]@{ step="s2c_decode_candidates"; path=$DecodeTool; exists=(Test-Path -LiteralPath $DecodeTool); would_run="python tools/pass636_antigravity_s2c_oracle/s2c_decode_from_oracle.py <pcap> artifacts/pass638_s2c_crib_candidates.csv"; creates_raw_output=$false },
     [pscustomobject]@{ step="keyroll_validation"; path=$KeyrollTool; exists=(Test-Path -LiteralPath $KeyrollTool); would_run="run only if candidate validates; current tool is hard-coded to Pass636 capture"; creates_raw_output=$false }
@@ -71,6 +77,29 @@ python $CaptureValidator --repo-root $Repo
 Write-Host "Running known plaintext log validator..."
 python $LogValidator $KnownLogPath --out-csv (Join-Path $Artifacts "pass638_known_plaintext_log_status.csv")
 
+$detectedWorldPort = $WorldPort
+if ($AutoDetectWorldPort -or $WorldPort -le 0) {
+    if (Test-Path -LiteralPath $Pass647Inventory) {
+        Write-Host "Running dynamic broad-flow inventory for world-port detection..."
+        python $Pass647Inventory --pcap $PcapPath --out (Join-Path $Artifacts "pass647_broad_flow_inventory.csv")
+    }
+    if (Test-Path -LiteralPath $Pass647Detect) {
+        Write-Host "Detecting actual world port among 7770-7799..."
+        python $Pass647Detect --inventory (Join-Path $Artifacts "pass647_broad_flow_inventory.csv") --out-json (Join-Path $Artifacts "pass647_world_flow_detection.json")
+        $detectJson = Join-Path $Artifacts "pass647_world_flow_detection.json"
+        if (Test-Path -LiteralPath $detectJson) {
+            $detected = Get-Content -LiteralPath $detectJson -Raw | ConvertFrom-Json
+            if ($detected.actual_world_port_detected) { $detectedWorldPort = [int]$detected.actual_world_port_detected }
+            Write-Host "actual_world_port_detected = $($detected.actual_world_port_detected)"
+            Write-Host "old_expected_7785_present = $($detected.old_expected_7785_present)"
+        }
+    }
+}
+if ($detectedWorldPort -gt 0) {
+    Write-Host "Using dynamic world port context: $detectedWorldPort"
+} else {
+    Write-Host "No dynamic world port detected; legacy downstream tools may not be valid for this capture."
+}
 Write-Host "Running S2C window metadata extractor..."
 python $WindowExtractor $PcapPath $KnownLogPath --out-csv (Join-Path $Artifacts "pass638_s2c_window_inventory.csv")
 
@@ -92,5 +121,6 @@ if ($hasValidated) {
 } else {
     Write-Host "No validating candidate marker detected; skipping hard-coded Pass636 keyroll tool."
 }
+
 
 

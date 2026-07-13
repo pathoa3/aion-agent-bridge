@@ -1,0 +1,9 @@
+{
+  "actual_world_port_detected": 7780,
+  "actual_world_flow_id": "192.168.178.127:50072<->51.83.147.97:7780",
+  "old_expected_7785_present": false,
+  "world_flow_packets": 6692,
+  "world_flow_total_payload_bytes": 401898,
+  "confidence": "high",
+  "reason": "EuroAion server IP with long-lived high-volume 7770-7799 TCP flow"
+}

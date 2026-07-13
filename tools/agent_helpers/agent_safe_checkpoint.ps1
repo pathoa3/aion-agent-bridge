@@ -4,13 +4,16 @@
         "tools/agent_helpers/agent_safe_checkpoint.ps1",
         "tools/pass638_after_capture/validate_known_plaintext_log.py",
         "tools/pass638_after_capture/report_dynamic_flow_context.py",
+        "tools/pass638_after_capture/run_s2c_oracle_after_capture.ps1",
         "tools/pass645_10242_oracle_analysis",
         "tools/pass646_10242_structured_model",
+        "tools/pass647_dynamic_world_port",
         "artifacts/pass638_dynamic_flow_context.csv",
         "artifacts/pass638_known_plaintext_log_status.csv",
         "artifacts/pass645_10242_*",
         "artifacts/pass646_10242_*",
         "artifacts/pass646_next_capture_plan_10242_vs_7785.md",
+        "artifacts/pass647_*",
         "inbox/codex_report.md"
     )
 )
@@ -83,4 +86,7 @@ if ($pushExit -ne 0) {
 }
 
 exit 0
+
+
+
 
