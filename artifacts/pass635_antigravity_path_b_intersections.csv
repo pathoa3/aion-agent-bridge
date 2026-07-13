@@ -1,0 +1,2 @@
+intersection_id,path_b_function,path_b_va,recv_wrapper_va,recv_wrapper_name,edge_type,confidence,reason
+(none),,,,,,, No intersection found - recv/WSARecv callers have zero code references visible in Ghidra's reference database

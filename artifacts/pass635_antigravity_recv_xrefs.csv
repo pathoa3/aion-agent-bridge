@@ -1,0 +1,10 @@
+api,import_address,from_address,caller_entry,caller_name,ref_type,path_b_intersection,analysis
+recv,EXTERNAL:00000021,119fd108,,,DATA,false,IAT pointer slot only - DATA ref means Ghidra found the IAT entry address but no code-level CALL to it
+WSARecv,EXTERNAL:00000008,119fd040,,,DATA,false,IAT pointer slot only - no code caller visible to Ghidra reference manager
+recvfrom,EXTERNAL:00000027,119fd138,,,DATA,false,IAT pointer slot only - no code caller visible
+WSASend,EXTERNAL:0000000a,119fd050,,,DATA,false,IAT pointer slot only - send-family also no callers
+send,EXTERNAL:0000001b,119fd0d8,,,DATA,false,IAT pointer slot only
+select,EXTERNAL:00000026,119fd130,,,DATA,false,IAT pointer slot only
+ioctlsocket,EXTERNAL:0000002e,119fd170,,,DATA,false,IAT pointer slot only
+connect,EXTERNAL:0000002f,119fd178,,,DATA,false,IAT pointer slot only
+closesocket,EXTERNAL:0000001e,119fd0f0,,,DATA,false,IAT pointer slot only

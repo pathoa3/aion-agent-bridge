@@ -1,0 +1,6 @@
+file_path,description,size_bytes,present,content_type
+C:\AionTools\aion_decoder_agent\outbox\pass635_recv_wrappers\recv_import_symbols.csv,All WS2_32 socket API symbols found by Ghidra in game.dll,500,true,Ghidra export CSV
+C:\AionTools\aion_decoder_agent\outbox\pass635_recv_wrappers\recv_import_xrefs.csv,All references to socket API import entries; caller_entry/caller_name blank,564,true,Ghidra export CSV
+C:\AionTools\aion_decoder_agent\outbox\pass635_recv_wrappers\recv_wrapper_edges.csv,Call edges from recv callers (EMPTY - no callers found),49,true,Ghidra export CSV (header-only)
+C:\AionTools\aion_decoder_agent\outbox\pass635_recv_wrappers\recv_wrapper_functions.csv,Functions containing recv calls (EMPTY - no callers found),21,true,Ghidra export CSV (header-only)
+C:\AionTools\aion_decoder_agent\outbox\pass635_recv_wrappers\ghidra_pass635.log,Ghidra headless execution log (exit 0 no errors),10318,true,Log file

@@ -1,0 +1,9 @@
+reg,source_function,source_address,source_kind,value_or_origin,evidence,confidence,next_test
+R12 (handler table base),FUN_11b5625b,0x11B56278,constant,0x11B54E6F hardcoded,pcode COPY reg0xa0 = const 0x11b54e6f,high,RESOLVED
+Opcode decode formula,FUN_11b5625b,0x11B562CC-0x11B562E3,confirmed,rol8(((raw-BL+0x86)^0x34) 5),pcode confirmed across passes,high,RESOLVED
+BL update formula,FUN_11b5625b dispatcher loop,confirmed,BL=(BL-opcode)&0xFF,pcode confirmed,high,RESOLVED
+BL (initial key byte - role),FUN_11b57075 / FUN_11b5591a,0x11B57081 / 0x11B55924,caller_preserved confirmed,Confirmed opcode key: used for RBP:2=sign_ext(BL) and TEST BL BL,pcode from pass629,high,UNRESOLVED: value not known. Callers of FUN_11b45846 not visible to Ghidra xref.
+RBP at PATH B entry,FUN_11b59337,0x11B59343,parameter,RBP=RDX (2nd call arg to FUN_11b59337),pcode COPY reg0x28=reg0x10,high,UNRESOLVED: caller with RDX value not visible. recv callers not in Ghidra xref.
+RSI (bytecode base PATH B),FUN_11b59337/FUN_11b59838,not found in PATH B chain,not_found,Not set in PATH B exported code,no COPY to RSI found,medium,UNRESOLVED: FUN_11b45846 caller RSI source unknown. recv callers not in Ghidra xref.
+[RBP+0] PC offset,FUN_11b5625b,0x11B562AE,memory_load,LOAD[RBP] reads PC offset from VM context struct field 0,pcode INT_ADD RSI LOAD[RBP],high,UNRESOLVED: struct layout unknown. Written by code not in any export.
+recv/WSARecv code callers,Ghidra reference database,all IAT entries,data_ref_only,All WS2_32 socket API refs are DATA type (IAT slots) with no code-level callers,pass635 Ghidra export: recv_import_xrefs.csv,definitive,BLOCKED: caller code is in packed/compressed .aion1 region above 0x114E2000 which Ghidra cannot disassemble via static analysis alone.

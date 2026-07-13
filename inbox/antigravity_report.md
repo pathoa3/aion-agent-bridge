@@ -1,46 +1,60 @@
-# Antigravity Report: pass628 Dispatcher Entry Register Trace
+# Antigravity Report: pass635 Recv Wrapper Audit
 
-## Status: REGISTER SOURCES MAPPED — KEY BLOCKERS IDENTIFIED
-
----
-
-## What Was Done
-
-Traced all 7 locally exported Ghidra pcode files through both VM dispatcher entry paths:
-- `FUN_11b45846`, `FUN_11b566dd`, `FUN_11b56999` (PATH B network receive chain)
-- `FUN_11b59337`, `FUN_11b59838` (PATH B context/wrapper)
-- `FUN_11b56b2c` (PATH A direct dispatch)
-- `FUN_11b5625b` (dispatcher)
+## Status: STATIC PATH EXHAUSTED — ORACLE ROUTE IS NEXT
 
 ---
 
-## Confirmed Register Sources
+## Pass634 Export Failure Diagnosed and Fixed
 
-| Register | Source | Evidence |
+- **Root cause:** Java script had UTF-8 BOM (`EF BB BF`), causing `GhidraScriptLoadException`
+- **Fix:** Saved script without BOM for pass635
+- **Result:** Ghidra headless ran successfully, exit 0, 5 CSV files produced
+
+---
+
+## Definitive Export Result
+
+| File | Rows | Finding |
 |---|---|---|
-| **R12** (handler table) | `0x11B54E6F` — hardcoded constant | `0x11B56278` pcode |
-| **RSI** (PATH A) | `RSI = RBP` at `0x11B56B4B` in `FUN_11b56b2c` | pcode COPY reg0x30=reg0x28 |
-| **RBP** (PATH B) | `RBP = RDX` (2nd call arg) at `0x11B59343` | pcode COPY reg0x28=reg0x10 |
-| **BL** | Caller's RBX, PUSH-preserved at `FUN_11b59337` entry | pcode STORE RSP, RBX |
-| **Decode formula** | `opcode = rol8(((raw - BL + 0x86) ^ 0x34), 5)` | pcode confirmed |
+| `recv_import_symbols.csv` | 9 | All WS2_32 APIs present in import table |
+| `recv_import_xrefs.csv` | 9 | **All DATA refs** — IAT slot pointers only |
+| `recv_wrapper_edges.csv` | **0** | No call edges from any wrapper |
+| `recv_wrapper_functions.csv` | **0** | No wrapper functions found by Ghidra |
+
+**recv_related_caller_found = false**  
+**path_b_intersections_found = 0**
 
 ---
 
-## Blocked Items
+## Why No Callers Are Visible (Definitive)
 
-| Item | Why Blocked | Export Needed |
-|---|---|---|
-| RDX actual value (PATH B) | Runtime argument | pcode of entry caller (0x1195D94A) |
-| RSI base (PATH B) | Not set in any exported PATH B function | N/A |
-| `[RBP+0]` PC offset | Runtime context struct field | Context struct definition |
-| Initial BL value | Caller of FUN_11b45846 chain not exported | FUN_11b50330 / entry thunk pcode |
-| PATH A RBP at FUN_11b56b2c entry | Not exported | FUN_11b5863d pcode |
+The `CALL [WSARecv]` / `CALL [recv]` instructions reside in the **packed `.aion1` section** (VA > `0x114E2000`). Ghidra cannot disassemble this packed region statically. Binary scan confirms zero IAT address patterns in the available PE bytes.
 
 ---
 
-## Next Action
+## Static Path Is Exhausted
 
-Export Ghidra pcode for:
-1. `FUN_11b5863d` (`0x11B5863D`) — to get PATH A RSI base (RBP at FUN_11b56b2c entry)
-2. `FUN_11b50330` (`0x11B50330`) — TLS callback path that may set RSI/RBX statically
-3. Entry thunk `0x1195D94A` — to get RDX at FUN_11b45846 callsite (PATH B context pointer)
+All available offline evidence has been searched:
+- 8 passes of Ghidra export and pcode analysis
+- 111-edge callgraph — 0 recv-related predecessors
+- Direct binary IAT scan — 0 hits
+- Ghidra xref DB — 0 code callers for any socket API
+
+**`static_path_exhausted = true`**
+
+---
+
+## Next Step: S2C Known-Plaintext Oracle
+
+The `future_s2c_oracle_scaffold.py` (pass634) is ready.
+
+**Needs:**
+1. Frame number of an S2C packet with known plaintext (SM_VERSION / MOTD)
+2. Exact UTF-16LE plaintext bytes
+3. Raw encrypted bytes from PCAP
+
+**Method:** `keystream[i] = plaintext[i] ^ ciphertext[i]` → recover effective BL → roll forward
+
+This mirrors the C2S approach (pass616, 11/11 KXSEQ verified).
+
+**`future_s2c_oracle_is_best_next_step = true`**
