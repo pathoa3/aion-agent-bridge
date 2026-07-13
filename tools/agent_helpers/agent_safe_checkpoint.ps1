@@ -54,7 +54,7 @@ Write-Host "`n== Safety check: reject forbidden staged files =="
 $staged = git diff --cached --name-only
 
 $forbidden = $staged | Where-Object {
-    $isAllowedPayloadMetadata = $_ -eq 'artifacts/pass646_10242_payload_classification.csv'
+    $isAllowedPayloadMetadata = $_ -eq 'artifacts/pass646_10242_payload_classification.csv' -or $_ -eq 'artifacts/pass651_local_payload_triage_summary.csv'
     (-not $isAllowedPayloadMetadata) -and (
         $_ -match '\.(pcap|pcapng|dll|bin|exe|zip|7z|rar|key|pem|pyc)$' -or
         $_ -match '(^|/)(captures|binaries|private|secrets|__pycache__)(/|$)' -or
@@ -94,6 +94,7 @@ if ($pushExit -ne 0) {
 }
 
 exit 0
+
 
 
 

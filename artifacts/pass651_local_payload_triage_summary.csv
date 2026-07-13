@@ -1,0 +1,4 @@
+flow_role,server_port,window_type,rows_tested,avg_entropy_hint,utf16_likeness_hint,zero_byte_ratio_hint,printable_ratio_hint,likely_encoding,confidence,reason
+world_game_candidate,7780,S2C_pm10s_concat,8,7.635,0.003,0.003,0.382,compressed_or_encrypted,medium,aggregate local-only payload triage; no raw bytes or hashes written
+chat_sidechannel_candidate,10242,S2C_pm10s_concat,8,3.402,0.235,0.428,0.391,structured_binary,medium,aggregate local-only payload triage; no raw bytes or hashes written
+chat_sidechannel_candidate,10242,C2S_pm10s_concat,8,0.530,1.000,0.909,0.000,utf16_like,medium,aggregate local-only payload triage; no raw bytes or hashes written
