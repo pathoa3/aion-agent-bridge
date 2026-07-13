@@ -1,0 +1,10 @@
+variant,body_offset,slots_recovered,conflicts,exact_text_recovered,opcode_plausible,confidence,reason
+utf16le_exact,6,8,8,false,false,reject,variant_len=16; body_len=24; full_slots=false; checkpoint_eligible=false; full key not derived
+utf16le_exact,8,8,8,false,false,reject,variant_len=16; body_len=24; full_slots=false; checkpoint_eligible=false; full key not derived
+utf16le_nul,6,8,10,false,false,reject,variant_len=18; body_len=24; full_slots=false; checkpoint_eligible=false; full key not derived
+ascii_control,6,8,0,false,false,ascii_control_only_not_checkpoint,variant_len=8; body_len=24; full_slots=true; checkpoint_eligible=false; opcode=0x55; complement=false; exact_text=true; ascii control is not accepted as known-text recovery
+ascii_control,8,8,0,false,false,ascii_control_only_not_checkpoint,variant_len=8; body_len=24; full_slots=true; checkpoint_eligible=false; opcode=0x79; complement=false; exact_text=true; ascii control is not accepted as known-text recovery
+ascii_control,10,8,0,false,false,ascii_control_only_not_checkpoint,variant_len=8; body_len=24; full_slots=true; checkpoint_eligible=false; opcode=0x4B; complement=false; exact_text=true; ascii control is not accepted as known-text recovery
+ascii_control,12,8,0,false,false,ascii_control_only_not_checkpoint,variant_len=8; body_len=24; full_slots=true; checkpoint_eligible=false; opcode=0x30; complement=false; exact_text=true; ascii control is not accepted as known-text recovery
+ascii_control,14,8,0,false,false,ascii_control_only_not_checkpoint,variant_len=8; body_len=24; full_slots=true; checkpoint_eligible=false; opcode=0x2F; complement=false; exact_text=true; ascii control is not accepted as known-text recovery
+ascii_control,16,8,0,false,false,ascii_control_only_not_checkpoint,variant_len=8; body_len=24; full_slots=true; checkpoint_eligible=false; opcode=0x4B; complement=false; exact_text=true; ascii control is not accepted as known-text recovery

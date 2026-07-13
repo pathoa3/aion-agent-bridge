@@ -1,0 +1,8 @@
+start_frame,target_frame,direction,payload_len,roll_direction,validated,validation_score,reason
+370,344,C2S,11,none,false,0,no UTF-16LE full checkpoint key derived; ASCII control is not accepted
+370,348,C2S,11,none,false,0,no UTF-16LE full checkpoint key derived; ASCII control is not accepted
+370,351,C2S,12,none,false,0,no UTF-16LE full checkpoint key derived; ASCII control is not accepted
+370,356,C2S,11,none,false,0,no UTF-16LE full checkpoint key derived; ASCII control is not accepted
+370,370,C2S,26,none,false,0,no UTF-16LE full checkpoint key derived; ASCII control is not accepted
+370,375,C2S,14,none,false,0,no UTF-16LE full checkpoint key derived; ASCII control is not accepted
+370,381,C2S,5033,none,false,0,no UTF-16LE full checkpoint key derived; ASCII control is not accepted

@@ -2,10 +2,13 @@
     [string]$Message = "Agent checkpoint",
     [string[]]$Paths = @(
         "tools/agent_helpers/agent_safe_checkpoint.ps1",
+        "tools/pass637_s2c_stream_oracle/s2c_stream_crib_drag.py",
         "tools/pass638_after_capture",
         "tools/pass641_hello_hi_oracle",
+        "tools/pass642_c2s_checkpoint_from_hello_hi",
         "artifacts/pass638_*",
         "artifacts/pass641_*",
+        "artifacts/pass642_*",
         "inbox/codex_report.md",
         "inbox/antigravity_report.md",
         "inbox/sonnet_report.md",
@@ -82,3 +85,6 @@ if ($pushExit -ne 0) {
 }
 
 exit 0
+
+
+

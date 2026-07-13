@@ -1,0 +1,8 @@
+frame,direction,payload_len,label,confidence,reason
+344,C2S,11,unknown,low,basis=no_checkpoint_key; validation_score=0; validated=false
+348,C2S,11,unknown,low,basis=no_checkpoint_key; validation_score=0; validated=false
+351,C2S,12,unknown,low,basis=no_checkpoint_key; validation_score=0; validated=false
+356,C2S,11,unknown,low,basis=no_checkpoint_key; validation_score=0; validated=false
+370,C2S,26,likely_chat_whisper_known_text,medium,basis=no_checkpoint_key; validation_score=0; validated=false
+375,C2S,14,unknown,low,basis=no_checkpoint_key; validation_score=0; validated=false
+381,C2S,5033,likely_large_world_action_or_state_packet,low,basis=no_checkpoint_key; validation_score=0; validated=false

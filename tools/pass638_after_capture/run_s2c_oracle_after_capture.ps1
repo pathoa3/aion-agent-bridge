@@ -2,7 +2,11 @@
     [string]$PcapPath = "C:\AionTools\aion_decoder_agent\inbox\captures\s2c_oracle_world_entry.pcapng",
     [string]$KnownLogPath = "C:\AionTools\aion_decoder_agent\inbox\captures\s2c_oracle_known_plaintext_log.txt",
     [string]$OutDir = "C:\AionTools\aion_decoder_agent\outbox\pass638_s2c_oracle_after_capture",
-    [switch]$DryRun
+    [switch]$DryRun,
+    [string]$KnownText = "",
+    [int]$CandidateFrame = 0,
+    [ValidateSet("C2S", "S2C")] [string]$Direction = "S2C",
+    [switch]$DeriveCheckpointOnly
 )
 
 $ErrorActionPreference = "Stop"
@@ -15,8 +19,20 @@ $WindowExtractor = Join-Path $ToolDir "extract_s2c_window_metadata.py"
 $CribTool = Join-Path $Repo "tools\pass636_antigravity_s2c_oracle\s2c_crib_drag_oracle.py"
 $DecodeTool = Join-Path $Repo "tools\pass636_antigravity_s2c_oracle\s2c_decode_from_oracle.py"
 $KeyrollTool = Join-Path $Repo "tools\pass636_antigravity_s2c_oracle\s2c_keyroll_validate.py"
+$CheckpointTool = Join-Path $Repo "tools\pass642_c2s_checkpoint_from_hello_hi\derive_c2s_key_from_known_text.py"
 
 Set-Location $Repo
+
+if ($DeriveCheckpointOnly) {
+    if ([string]::IsNullOrWhiteSpace($KnownText)) { throw "-KnownText is required with -DeriveCheckpointOnly" }
+    if ($CandidateFrame -le 0) { throw "-CandidateFrame is required with -DeriveCheckpointOnly" }
+    if (!(Test-Path -LiteralPath $CheckpointTool)) { throw "Checkpoint tool not found: $CheckpointTool" }
+    $captureDir = Split-Path -Parent $PcapPath
+    Write-Host "Running checkpoint-only known-text derivation. Safe metadata only."
+    python $CheckpointTool --capture-dir $captureDir --known-text $KnownText --candidate-frame $CandidateFrame --direction $Direction --derive-checkpoint-only
+    exit $LASTEXITCODE
+}
+
 New-Item -ItemType Directory -Force -Path $Artifacts | Out-Null
 New-Item -ItemType Directory -Force -Path $OutDir | Out-Null
 
@@ -76,3 +92,5 @@ if ($hasValidated) {
 } else {
     Write-Host "No validating candidate marker detected; skipping hard-coded Pass636 keyroll tool."
 }
+
+

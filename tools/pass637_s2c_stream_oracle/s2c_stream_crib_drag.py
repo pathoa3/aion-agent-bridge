@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Crib-drag S2C known text over the continuous TCP byte stream.
 
 Output is metadata only: offsets, labels, slot counts, scores, and validation flags.
@@ -141,7 +141,20 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--pcap", default=str(DEFAULT_PCAP))
     ap.add_argument("--repo-root", default=str(REPO))
+    ap.add_argument("--known-text", default="")
+    ap.add_argument("--candidate-frame", type=int, default=0)
+    ap.add_argument("--direction", choices=["C2S", "S2C"], default="S2C")
+    ap.add_argument("--derive-checkpoint-only", action="store_true")
     ns = ap.parse_args()
+    if ns.derive_checkpoint_only:
+        if not ns.known_text or ns.candidate_frame <= 0:
+            raise SystemExit("--known-text and --candidate-frame are required with --derive-checkpoint-only")
+        if ns.direction != "C2S":
+            raise SystemExit("checkpoint-only derivation currently supports C2S metadata only; S2C initial key remains unknown")
+        import subprocess
+        tool = REPO / "tools" / "pass642_c2s_checkpoint_from_hello_hi" / "derive_c2s_key_from_known_text.py"
+        capture_dir = Path(ns.pcap).parent
+        raise SystemExit(subprocess.call([sys.executable, str(tool), "--capture-dir", str(capture_dir), "--known-text", ns.known_text, "--candidate-frame", str(ns.candidate_frame), "--direction", ns.direction, "--derive-checkpoint-only"]))
     repo = Path(ns.repo_root)
     built = build_streams(Path(ns.pcap))
     stream = built["streams"]["S2C"]
@@ -159,3 +172,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+

@@ -1,7 +1,7 @@
-# Codex Report - Pass641
+# Codex Report - Pass642
 
-Targeted old-capture `Hello Hi` oracle audit completed.
+Pass642 attempted to derive an old-session C2S checkpoint from frame 370 using the known text `Hello Hi`.
 
-Frame 370 is the only 7785 C2S len=26 packet and matches the UTF-16LE+10 length model for `Hello Hi`, but exact plaintext was not recovered because the old session C2S anchor key is unavailable. Nearby S2C packets were tested only as bounded crib candidates; no exact S2C plaintext or keyroll validation was found.
+Frame 370 matches the UTF-16LE+10 length model, but the UTF-16LE plaintext variants conflicted under the Pass616 C2S cipher model at the requested offsets. ASCII was tested only as a negative/control and was not accepted as checkpoint evidence. No exact S2C plaintext was recovered and no S2C decoder success is claimed.
 
-Next action: proceed with the fresh Pass638 S2C oracle capture using longer repeated visible markers.
+Next action: use the Pass638 fresh S2C oracle capture with longer repeated visible markers. The checkpoint-only mode can be reused for future known-text packet candidates.
