@@ -1,0 +1,3 @@
+flow_id,server_port,role_guess,packets,s2c_packets,c2s_packets,total_tcp_payload_bytes,first_time,last_time
+51.83.147.97:2106<->192.168.178.127:50552,2106,login_candidate,23,10,13,778,2026-07-13 17:20:35.564,2026-07-13 17:20:58.658
+51.83.147.97:10242<->192.168.178.127:57497,10242,chat_sidechannel_candidate,152,76,76,5447,2026-07-13 17:21:05.426,2026-07-13 17:29:15.643

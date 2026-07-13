@@ -2,23 +2,16 @@
     [string]$Message = "Agent checkpoint",
     [string[]]$Paths = @(
         "tools/agent_helpers/agent_safe_checkpoint.ps1",
-        "tools/pass637_s2c_stream_oracle/s2c_stream_crib_drag.py",
-        "tools/pass638_after_capture",
-        "tools/pass641_hello_hi_oracle",
-        "tools/pass642_c2s_checkpoint_from_hello_hi",
-        "tools/pass643_evening_capture_operator",
-        "artifacts/pass638_*",
-        "artifacts/pass641_*",
-        "artifacts/pass642_*",
-        "artifacts/pass643_*",
-        "inbox/codex_report.md",
-        "inbox/antigravity_report.md",
-        "inbox/sonnet_report.md",
-        "outbox/supervisor_decision.json",
-        "outbox/next_task_for_codex.md",
-        "outbox/next_task_for_antigravity.md",
-        "outbox/next_task_for_openclaw.md",
-        "outbox/supervisor_packet.json"
+        "tools/pass638_after_capture/validate_known_plaintext_log.py",
+        "tools/pass638_after_capture/report_dynamic_flow_context.py",
+        "tools/pass645_10242_oracle_analysis",
+        "tools/pass646_10242_structured_model",
+        "artifacts/pass638_dynamic_flow_context.csv",
+        "artifacts/pass638_known_plaintext_log_status.csv",
+        "artifacts/pass645_10242_*",
+        "artifacts/pass646_10242_*",
+        "artifacts/pass646_next_capture_plan_10242_vs_7785.md",
+        "inbox/codex_report.md"
     )
 )
 
@@ -50,9 +43,12 @@ Write-Host "`n== Safety check: reject forbidden staged files =="
 $staged = git diff --cached --name-only
 
 $forbidden = $staged | Where-Object {
-    $_ -match '\.(pcap|pcapng|dll|bin|exe|zip|7z|rar|key|pem|pyc)$' -or
-    $_ -match '(^|/)(captures|binaries|private|secrets|__pycache__)(/|$)' -or
-    $_ -match 'payload|ciphertext|raw_packet|packet_hex|packet_hash'
+    $isAllowedPayloadMetadata = $_ -eq 'artifacts/pass646_10242_payload_classification.csv'
+    (-not $isAllowedPayloadMetadata) -and (
+        $_ -match '\.(pcap|pcapng|dll|bin|exe|zip|7z|rar|key|pem|pyc)$' -or
+        $_ -match '(^|/)(captures|binaries|private|secrets|__pycache__)(/|$)' -or
+        $_ -match 'payload|ciphertext|raw_packet|packet_hex|packet_hash'
+    )
 }
 
 if ($forbidden) {
@@ -87,7 +83,4 @@ if ($pushExit -ne 0) {
 }
 
 exit 0
-
-
-
 

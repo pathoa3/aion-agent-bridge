@@ -1,0 +1,20 @@
+{
+  "worker": "codex",
+  "phase": "pass646_10242_structured_sidechannel_model",
+  "pass645_imported_to_bridge": true,
+  "marker_correlations_loaded": 10,
+  "repeat_markers_analyzed": true,
+  "repeat_lengths_consistent": false,
+  "length_model_candidate_found": true,
+  "likely_10242_encoding": "structured_binary",
+  "visible_chat_carried_on_10242": true,
+  "10242_solves_7785_s2c_crypto": false,
+  "needs_new_7785_capture": true,
+  "raw_payload_committed": false,
+  "raw_ciphertext_committed": false,
+  "raw_plaintext_blob_committed": false,
+  "packet_hashes_committed": false,
+  "raw_binary_committed": false,
+  "reason": "Pass646 finds timing-correlated 10242 packets but no literal ASCII/UTF-16LE marker carriage; lengths fit a structured/binary or masked sidechannel model better than a direct text-length formula.",
+  "next_action": "Run a controlled 10242 length ladder for visible-chat modeling, and separately capture a verified 7785 flow for S2C crypto/key work."
+}

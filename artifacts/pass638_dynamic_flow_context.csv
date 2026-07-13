@@ -1,0 +1,4 @@
+server_port,packet_count,flow_present,capture_mode,message
+7785,0,false,10242-only capture,No 7785 world flow present; available 10242 chat-sidechannel flow should be analyzed first.
+10242,152,true,10242-only capture,available flow reported dynamically
+2106,23,true,10242-only capture,available flow reported dynamically

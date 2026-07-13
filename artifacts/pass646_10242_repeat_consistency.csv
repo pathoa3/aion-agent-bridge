@@ -1,0 +1,3 @@
+marker_text,channel_guess,occurrence_count,s2c_lengths_same,s2c_delta_pattern_same,nearest_frames,confidence,reason
+S2C_ORACLE_004_REPEAT,whisper,2,unknown,unknown,none;none,low_partial,repeat has limited or mixed S2C timing evidence; do not infer raw text layout from repeat alone
+S2C_ORACLE_004_REPEATG,group,2,true,false,114;114,medium,"same nearest S2C length for repeated visible marker, but payload remains non-literal"

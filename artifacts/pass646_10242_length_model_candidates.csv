@@ -1,0 +1,4 @@
+model_id,channel_guess,formula_description,rows_matched,rows_total,error_summary,confidence,reason
+ascii_length_linear,all,s2c_tcp_len = base + marker_len_ascii,0,10,"rejected: no literal hits and observed S2C lengths are absent/mixed, not a stable base-plus-text-length ladder",rejected,marker length does not directly explain nearest S2C packet length
+utf16le_length_linear,all,s2c_tcp_len = base + marker_len_utf16le,0,10,rejected: UTF-16LE literal scan had no hits and lengths do not follow two-byte text growth,rejected,10242 visible markers are not carried as plain UTF-16LE text in these packets
+structured_binary_event_or_batch,10242,"packet length reflects binary event framing, batching, or masked payload rather than marker text length alone",5,10,supported rows with S2C length=5; monotonic_length_steps=2; literal_hits=0,medium,timing correlations exist but literal text is absent and lengths do not form a controlled text-length ladder

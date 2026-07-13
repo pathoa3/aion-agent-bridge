@@ -1,0 +1,11 @@
+marker_index,marker_text,marker_len_ascii,marker_len_utf16le,channel_guess,logged_time,nearest_s2c_frame,nearest_s2c_time,delta_ms,s2c_tcp_len,nearest_c2s_frame,nearest_c2s_time,c2s_delta_ms,c2s_tcp_len,confidence,reason
+1,S2C_ORACLE_001_A1B2,19,38,whisper,2026-07-13 17:21:50.138,52,2026-07-13 17:21:28.128,-22010,267,56,2026-07-13 17:21:45.586,-4552,22,fallback_window_30s,no packets in +/-3 seconds; used +/-30 seconds
+2,S2C_ORACLE_002_C3D4,19,38,whisper,2026-07-13 17:22:18.189,,,,,62,2026-07-13 17:22:15.588,-2600,22,exact_window_3s,nearest packets found within +/-3 seconds
+3,S2C_ORACLE_003_0123456789,25,50,whisper,2026-07-13 17:22:47.110,,,,,68,2026-07-13 17:22:45.590,-1520,22,exact_window_3s,nearest packets found within +/-3 seconds
+4,S2C_ORACLE_004_REPEAT,21,42,whisper,2026-07-13 17:23:26.703,,,,,78,2026-07-13 17:23:25.593,-1109,22,exact_window_3s,nearest packets found within +/-3 seconds
+5,S2C_ORACLE_004_REPEAT,21,42,whisper,2026-07-13 17:23:47.323,,,,,84,2026-07-13 17:23:45.594,-1729,22,exact_window_3s,nearest packets found within +/-3 seconds
+6,S2C_ORACLE_001_A1B2G,20,40,group,2026-07-13 17:24:16.075,,,,,94,2026-07-13 17:24:15.596,-479,22,exact_window_3s,nearest packets found within +/-3 seconds
+7,S2C_ORACLE_002_C3D4G,20,40,group,2026-07-13 17:24:39.091,102,2026-07-13 17:24:46.171,7081,243,98,2026-07-13 17:24:35.598,-3493,22,fallback_window_30s,no packets in +/-3 seconds; used +/-30 seconds
+8,S2C_ORACLE_003_0123456789G,26,52,group,2026-07-13 17:25:08.802,108,2026-07-13 17:25:13.686,4885,273,106,2026-07-13 17:25:05.599,-3202,22,fallback_window_30s,no packets in +/-3 seconds; used +/-30 seconds
+9,S2C_ORACLE_004_REPEATG,22,44,group,2026-07-13 17:25:33.422,114,2026-07-13 17:25:35.094,1672,223,116,2026-07-13 17:25:35.601,2180,22,exact_window_3s,nearest packets found within +/-3 seconds
+10,S2C_ORACLE_004_REPEATG,22,44,group,2026-07-13 17:25:51.336,114,2026-07-13 17:25:35.094,-16242,223,120,2026-07-13 17:25:55.602,4267,22,fallback_window_30s,no packets in +/-3 seconds; used +/-30 seconds
