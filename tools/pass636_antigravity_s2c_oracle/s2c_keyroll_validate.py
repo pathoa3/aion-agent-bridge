@@ -23,6 +23,13 @@ import struct
 import sys
 from pathlib import Path
 
+# PASS636_IMPORT_PATH_FIX: allow helpers launched from scratch dirs to import this tool package.
+REPO = Path(r"C:\AionTools\aion-agent-bridge")
+TOOL = REPO / "tools" / "pass636_antigravity_s2c_oracle"
+for _p in (str(TOOL), str(REPO)):
+    if _p not in sys.path:
+        sys.path.insert(0, _p)
+
 # ──────────────────────────────────────────────────────────────────────────────
 # Configuration
 # ──────────────────────────────────────────────────────────────────────────────
