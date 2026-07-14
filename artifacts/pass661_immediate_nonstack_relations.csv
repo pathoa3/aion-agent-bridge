@@ -1,0 +1,2 @@
+function_entry,callsite_or_op,relation_type,base_or_pointer,offset,source,classification,evidence_file
+none,none,none,none,none,none,no immediate non-stack relation because no concrete object/input pointer was resolved,C:\AionTools\aion_decoder_agent\outbox\pass661_livein_argument_resolution\high_pcode_ops.csv

@@ -30,6 +30,8 @@ param(
         "tools/pass658_s2c_key_setup_resolution",
         "tools/pass659_*",
         "tools/pass659_targeted_native_context_trace",
+        "tools/pass661_*",
+        "tools/pass661_livein_argument_resolution",
         "artifacts/pass638_dynamic_flow_context.csv",
         "artifacts/pass638_known_plaintext_log_status.csv",
         "artifacts/pass645_10242_*",
@@ -49,6 +51,7 @@ param(
         "artifacts/pass658_*",
         "artifacts/pass659_*",
         "artifacts/pass660*",
+        "artifacts/pass661*",
         "inbox/codex_report.md"
     )
 )

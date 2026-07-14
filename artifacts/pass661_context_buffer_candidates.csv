@@ -1,0 +1,2 @@
+transition,callsite_address,argument_register,candidate_role,basis,varnode,confidence
+none,none,none,none,no observed dereference/load/store/arithmetic/comparison use chain for live-in RCX/RDX/R8/R9 in export,none,none

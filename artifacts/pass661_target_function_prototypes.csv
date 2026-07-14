@@ -1,0 +1,5 @@
+function_entry,function_name,prototype,calling_convention,thunk_target,param_count,return_type
+0x11B503FD,tls_callback_0,undefined tls_callback_0(),unknown,0x11B50330 FUN_11b50330,0,undefined
+0x1195DA7B,thunk_FUN_11b50330,undefined thunk_FUN_11b50330(),unknown,0x11B50330 FUN_11b50330,0,undefined
+0x11B50330,FUN_11b50330,undefined FUN_11b50330(),unknown,,0,undefined
+0x11B56C63,thunk_FUN_11b57075,undefined thunk_FUN_11b57075(),unknown,0x11B57075 FUN_11b57075,0,undefined
