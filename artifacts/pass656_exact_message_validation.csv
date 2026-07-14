@@ -1,0 +1,2 @@
+validation_id,exact_known_text_recovered,authoritative_timing,repeated_occurrence_validated,parser_reproducible,negative_control_conflicts,accepted,confidence,reason
+none,false,true,false,true,0,false,high,No exact known visible text recovered by sequence-correct frame/body/transform models.

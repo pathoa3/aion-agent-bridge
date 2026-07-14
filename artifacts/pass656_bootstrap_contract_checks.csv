@@ -1,0 +1,2 @@
+check,result,confidence,reason
+contract_and_helpers,true,high,"contract, queue helpers, and safe checkpoint allowlist validated"

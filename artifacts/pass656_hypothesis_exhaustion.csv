@@ -1,0 +1,9 @@
+hypothesis,tested,result,supported_or_weakened,remaining_unknown,next_specific_step,confidence
+sequence-aware reassembly,true,TCP sequence numbers parsed; sequence and capture-order streams compared.,supported,none,additional_world_framing with concrete parser transform constraint,high
+frame tiling,true,Pass655 top models revalidated without nearest-96 heuristic.,supported,none,additional_world_framing with concrete parser transform constraint,high
+body boundaries,true,Bounded body starts/trailers evaluated.,supported,none,additional_world_framing with concrete parser transform constraint,high
+derived transforms,true,No exact known text survived repeated validation.,weakened,explicit body transform/order,additional_world_framing with concrete parser transform constraint,high
+generated parsers,true,Real parsers generated and executed.,supported,none,additional_world_framing with concrete parser transform constraint,high
+negative controls,true,Unrelated windows executed.,supported,none,additional_world_framing with concrete parser transform constraint,high
+10242 content transport,true,No deterministic parser proof; remains heartbeat/control.,closed,none,additional_world_framing with concrete parser transform constraint,high
+static transform constraints,true,Exact missing constraint is concrete body transform/order from existing parser mapping.,open,explicit body transform/order,additional_world_framing with concrete parser transform constraint,high

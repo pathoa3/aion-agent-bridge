@@ -1,0 +1,7 @@
+branch_id,method,status,must_not_repeat,source,reason
+cb001,Pass635 packed recv/IAT broad scans,closed,true,Pass635/Pass654B/Pass655,Do not rerun broad Ghidra/import/IAT/call-RDX scans.
+cb002,public crypto/mask loops,closed,true,Pass635/Pass654B/Pass655,Do not rerun public-reference crypto loops.
+cb003,10242 content from timing,closed,true,Pass635/Pass654B/Pass655,10242 is heartbeat/control absent deterministic parser proof.
+cb004,manual timestamps,forbidden,true,Pass635/Pass654B/Pass655,Never score with manual marker timestamps.
+cb005,Pass655 nearest-96 parser evidence,invalidated,true,Pass635/Pass654B/Pass655,Numeric-only parsers and arbitrary target size are not evidence.
+cb006,Pass654B direct deterministic text tests,completed,true,Pass635/Pass654B/Pass655,Comparator only; not primary.

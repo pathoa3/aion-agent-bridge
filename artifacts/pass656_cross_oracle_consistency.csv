@@ -1,0 +1,21 @@
+consistency_id,body_model_id,oracle_rows_tested,exact_hits,repeated_occurrence_validated,whisper_lengths_validated,group_lengths_validated,local_validated,negative_collision_status,contradiction,confidence,reason
+co0001,bm0001,17,3042,false,0,0,false,not_run_until_parser_controls,requires parser gate,medium,derive-on-one / validate-on-repeat consistency accounting
+co0002,bm0002,17,3015,false,0,0,false,not_run_until_parser_controls,requires parser gate,medium,derive-on-one / validate-on-repeat consistency accounting
+co0003,bm0003,17,3010,false,0,0,false,not_run_until_parser_controls,requires parser gate,medium,derive-on-one / validate-on-repeat consistency accounting
+co0004,bm0004,17,3037,false,0,0,false,not_run_until_parser_controls,requires parser gate,medium,derive-on-one / validate-on-repeat consistency accounting
+co0005,bm0005,17,2959,false,0,0,false,not_run_until_parser_controls,requires parser gate,medium,derive-on-one / validate-on-repeat consistency accounting
+co0006,bm0006,17,3015,false,0,0,false,not_run_until_parser_controls,requires parser gate,medium,derive-on-one / validate-on-repeat consistency accounting
+co0007,bm0007,17,3010,false,0,0,false,not_run_until_parser_controls,requires parser gate,medium,derive-on-one / validate-on-repeat consistency accounting
+co0008,bm0008,17,2993,false,0,0,false,not_run_until_parser_controls,requires parser gate,medium,derive-on-one / validate-on-repeat consistency accounting
+co0009,bm0009,17,3064,false,0,0,false,not_run_until_parser_controls,requires parser gate,medium,derive-on-one / validate-on-repeat consistency accounting
+co0010,bm0010,17,2932,false,0,0,false,not_run_until_parser_controls,requires parser gate,medium,derive-on-one / validate-on-repeat consistency accounting
+co0011,bm0011,17,3010,false,0,0,false,not_run_until_parser_controls,requires parser gate,medium,derive-on-one / validate-on-repeat consistency accounting
+co0012,bm0012,17,2993,false,0,0,false,not_run_until_parser_controls,requires parser gate,medium,derive-on-one / validate-on-repeat consistency accounting
+co0013,bm0013,17,3037,false,0,0,false,not_run_until_parser_controls,requires parser gate,medium,derive-on-one / validate-on-repeat consistency accounting
+co0014,bm0014,17,3020,false,0,0,false,not_run_until_parser_controls,requires parser gate,medium,derive-on-one / validate-on-repeat consistency accounting
+co0015,bm0015,17,2998,false,0,0,false,not_run_until_parser_controls,requires parser gate,medium,derive-on-one / validate-on-repeat consistency accounting
+co0016,bm0016,17,2993,false,0,0,false,not_run_until_parser_controls,requires parser gate,medium,derive-on-one / validate-on-repeat consistency accounting
+co0017,bm0017,17,3037,false,0,0,false,not_run_until_parser_controls,requires parser gate,medium,derive-on-one / validate-on-repeat consistency accounting
+co0018,bm0018,17,3064,false,0,0,false,not_run_until_parser_controls,requires parser gate,medium,derive-on-one / validate-on-repeat consistency accounting
+co0019,bm0019,17,2993,false,0,0,false,not_run_until_parser_controls,requires parser gate,medium,derive-on-one / validate-on-repeat consistency accounting
+co0020,bm0020,17,2998,false,0,0,false,not_run_until_parser_controls,requires parser gate,medium,derive-on-one / validate-on-repeat consistency accounting

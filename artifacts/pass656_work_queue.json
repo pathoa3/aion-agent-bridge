@@ -1,0 +1,172 @@
+{
+  "phase": "pass656_sequence_correct_body_transform",
+  "updated": "2026-07-14T06:45:44",
+  "stages": [
+    {
+      "name": "bootstrap_contract_and_helpers",
+      "script": "tools/pass656_sequence_correct_body_transform/pass656_runner.py",
+      "status": "completed",
+      "attempts": 0,
+      "primary_result": "ok=True",
+      "fallback": "Fix locally and retest contract/helper syntax.",
+      "fallback_status": "not_needed",
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass656_bootstrap_contract_checks.csv"
+      ]
+    },
+    {
+      "name": "latest_state_and_closed_branch_guard",
+      "script": "tools/pass656_sequence_correct_body_transform/pass656_runner.py",
+      "status": "completed",
+      "attempts": 0,
+      "primary_result": "closed=6",
+      "fallback": "Bounded filename search under known workspaces.",
+      "fallback_status": "not_needed",
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass656_closed_branch_guard.csv"
+      ]
+    },
+    {
+      "name": "sequence_aware_tcp_reassembly",
+      "script": "tools/pass656_sequence_correct_body_transform/pass656_runner.py",
+      "status": "completed",
+      "attempts": 0,
+      "primary_result": "world=7780",
+      "fallback": "Use raw PCAPNG/TCP parser fallback before capture-order fallback.",
+      "fallback_status": "not_needed",
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass656_tcp_reassembly_audit.csv",
+        "artifacts/pass656_stream_difference_summary.json"
+      ]
+    },
+    {
+      "name": "stream_time_offset_index",
+      "script": "tools/pass656_sequence_correct_body_transform/pass656_runner.py",
+      "status": "completed",
+      "attempts": 0,
+      "primary_result": "rows=330 intervals=136",
+      "fallback": "Packet-range mapping with ambiguity counts.",
+      "fallback_status": "not_needed",
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass656_stream_time_offset_index.csv",
+        "artifacts/pass656_oracle_stream_intervals.csv"
+      ]
+    },
+    {
+      "name": "frame_model_revalidation",
+      "script": "tools/pass656_sequence_correct_body_transform/pass656_runner.py",
+      "status": "completed",
+      "attempts": 0,
+      "primary_result": "survivors=50",
+      "fallback": "Bounded packet-aware DP over evidence-supported dimensions.",
+      "fallback_status": "not_needed",
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass656_frame_models_revalidated.csv",
+        "artifacts/pass656_frame_tiling_diagnostics.csv"
+      ]
+    },
+    {
+      "name": "existing_transform_evidence_inventory",
+      "script": "tools/pass656_sequence_correct_body_transform/pass656_runner.py",
+      "status": "completed",
+      "attempts": 0,
+      "primary_result": "constraints=6",
+      "fallback": "Identify exact missing export/path.",
+      "fallback_status": "completed",
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass656_existing_transform_constraints.csv"
+      ]
+    },
+    {
+      "name": "body_boundary_grid",
+      "script": "tools/pass656_sequence_correct_body_transform/pass656_runner.py",
+      "status": "completed",
+      "attempts": 0,
+      "primary_result": "body_candidates=250",
+      "fallback": "Adjacent +/-1..8 boundary expansion.",
+      "fallback_status": "not_needed",
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass656_body_boundary_candidates.csv"
+      ]
+    },
+    {
+      "name": "derived_transform_grid",
+      "script": "tools/pass656_sequence_correct_body_transform/pass656_runner.py",
+      "status": "completed",
+      "attempts": 0,
+      "primary_result": "tests=835006 hits=60220",
+      "fallback": "Contradiction matrix for failed state assumptions.",
+      "fallback_status": "not_needed",
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass656_transform_model_results.csv",
+        "artifacts/pass656_transform_grid_summary.json"
+      ]
+    },
+    {
+      "name": "cross_oracle_state_validation",
+      "script": "tools/pass656_sequence_correct_body_transform/pass656_runner.py",
+      "status": "completed",
+      "attempts": 0,
+      "primary_result": "rows=20",
+      "fallback": "Contradiction matrix.",
+      "fallback_status": "completed",
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass656_cross_oracle_consistency.csv"
+      ]
+    },
+    {
+      "name": "real_parser_generation",
+      "script": "tools/pass656_sequence_correct_body_transform/pass656_runner.py",
+      "status": "completed",
+      "attempts": 0,
+      "primary_result": "parsers=10",
+      "fallback": "Parameterized parser plus complete manifest.",
+      "fallback_status": "not_needed",
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass656_generated_parser_inventory.csv"
+      ]
+    },
+    {
+      "name": "parser_execution_and_controls",
+      "script": "tools/pass656_sequence_correct_body_transform/pass656_runner.py",
+      "status": "completed",
+      "attempts": 0,
+      "primary_result": "executed=10 neg=34",
+      "fallback": "Batch execution through queue runner.",
+      "fallback_status": "completed",
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass656_parser_execution_results.csv",
+        "artifacts/pass656_positive_control_scores.csv",
+        "artifacts/pass656_negative_control_scores.csv"
+      ]
+    },
+    {
+      "name": "exact_acceptance_or_exhaustion",
+      "script": "tools/pass656_sequence_correct_body_transform/pass656_runner.py",
+      "status": "completed",
+      "attempts": 0,
+      "primary_result": "accepted=False",
+      "fallback": "Precise exhaustion and narrow next design.",
+      "fallback_status": "completed",
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass656_exact_message_validation.csv",
+        "artifacts/pass656_hypothesis_exhaustion.csv",
+        "artifacts/pass656_sequence_correct_body_transform_decision.json",
+        "artifacts/pass656_sequence_correct_body_transform_summary.md",
+        "inbox/codex_report.md"
+      ]
+    }
+  ]
+}

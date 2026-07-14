@@ -1,0 +1,3 @@
+flow_role,server_port,direction,segments,stream_bytes,capture_order_bytes,duplicates,overlaps,gaps,out_of_order,sequence_fields_recovered,fallback_used,confidence,reason
+world,7780,S2C,289,151079,151079,0,0,0,1,true,false,high,TCP sequence numbers parsed directly from PCAPNG
+world,7780,C2S,41,5703,596,0,0,1,0,true,false,high,TCP sequence numbers parsed directly from PCAPNG

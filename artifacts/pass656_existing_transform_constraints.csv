@@ -1,0 +1,7 @@
+constraint_id,source_file,exists,constraint_class,concrete_constraint,missing_export_or_path,confidence,reason
+tc001,artifacts/pass655_hypothesis_exhaustion.csv,true,S2C_supported,none_exact; no committed S2C body transform/order constraint,,medium,bounded existing transform evidence inventory; no broad static rescan
+tc002,artifacts/pass654b_hypothesis_status.csv,true,contradicted,none_exact; no committed S2C body transform/order constraint,,medium,bounded existing transform evidence inventory; no broad static rescan
+tc003,artifacts/pass655_local_control.csv,true,S2C_supported,none_exact; no committed S2C body transform/order constraint,,medium,bounded existing transform evidence inventory; no broad static rescan
+tc004,artifacts/pass653_c2s22_transform_feasibility.csv,true,comparator_only,none_exact; no committed S2C body transform/order constraint,,medium,bounded existing transform evidence inventory; no broad static rescan
+tc005,artifacts/pass622_codex_s2c_export_postprocess_decision.json,true,contradicted,none_exact; no committed S2C body transform/order constraint,,medium,bounded existing transform evidence inventory; no broad static rescan
+tc006,artifacts/pass618_sonnet_s2c_decoder_decision.json,true,contradicted,none_exact; no committed S2C body transform/order constraint,,medium,bounded existing transform evidence inventory; no broad static rescan

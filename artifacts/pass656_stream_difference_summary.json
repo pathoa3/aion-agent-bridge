@@ -1,0 +1,10 @@
+{
+  "world_port": 7780,
+  "s2c_sequence_bytes": 151079,
+  "s2c_capture_order_bytes": 151079,
+  "s2c_exact_equal": false,
+  "c2s_sequence_bytes": 5703,
+  "c2s_capture_order_bytes": 596,
+  "c2s_exact_equal": false,
+  "private_packet_data_committed": false
+}

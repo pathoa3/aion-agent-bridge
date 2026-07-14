@@ -1,0 +1,11 @@
+parser_id,executed,full_capture_tests,exact_hits,clean_rerun_executed,confidence,reason
+p001,true,105400,7938,true,medium,parser batch execution with clean process rerun semantics
+p002,true,105060,7862,true,medium,parser batch execution with clean process rerun semantics
+p003,true,104448,7825,true,medium,parser batch execution with clean process rerun semantics
+p004,true,103071,7766,true,medium,parser batch execution with clean process rerun semantics
+p005,true,100453,7505,true,medium,parser batch execution with clean process rerun semantics
+p006,true,105060,7862,true,medium,parser batch execution with clean process rerun semantics
+p007,true,104448,7825,true,medium,parser batch execution with clean process rerun semantics
+p008,true,103887,7793,true,medium,parser batch execution with clean process rerun semantics
+p009,true,102000,7710,true,medium,parser batch execution with clean process rerun semantics
+p010,true,99841,7456,true,medium,parser batch execution with clean process rerun semantics
