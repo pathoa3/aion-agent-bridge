@@ -1,0 +1,17 @@
+function_entry,register,callsite_address,nearest_def_before_site,def_opcode,def_address,reaching_status,varnode,notes
+0x11B503FD,RCX,0x11B503FD,no_matching_high_varnode,not_found,,unresolved_no_varnode,,explicit register matching; not CALL input list
+0x11B503FD,RDX,0x11B503FD,no_matching_high_varnode,not_found,,unresolved_no_varnode,,explicit register matching; not CALL input list
+0x11B503FD,R8,0x11B503FD,no_matching_high_varnode,not_found,,unresolved_no_varnode,,explicit register matching; not CALL input list
+0x11B503FD,R9,0x11B503FD,no_matching_high_varnode,not_found,,unresolved_no_varnode,,explicit register matching; not CALL input list
+0x1195DA7B,RCX,0x1195DA7B,no_matching_high_varnode,not_found,,unresolved_no_varnode,,explicit register matching; not CALL input list
+0x1195DA7B,RDX,0x1195DA7B,no_matching_high_varnode,not_found,,unresolved_no_varnode,,explicit register matching; not CALL input list
+0x1195DA7B,R8,0x1195DA7B,no_matching_high_varnode,not_found,,unresolved_no_varnode,,explicit register matching; not CALL input list
+0x1195DA7B,R9,0x1195DA7B,no_matching_high_varnode,not_found,,unresolved_no_varnode,,explicit register matching; not CALL input list
+0x11B50330,RCX,0x11B50340,no_matching_high_varnode,not_found,,unresolved_no_varnode,,explicit register matching; not CALL input list
+0x11B50330,RDX,0x11B50340,no_matching_high_varnode,not_found,,unresolved_no_varnode,,explicit register matching; not CALL input list
+0x11B50330,R8,0x11B50340,no_matching_high_varnode,not_found,,unresolved_no_varnode,,explicit register matching; not CALL input list
+0x11B50330,R9,0x11B50340,no_matching_high_varnode,not_found,,unresolved_no_varnode,,explicit register matching; not CALL input list
+0x11B50330,RCX,0x119BAEAB,no_matching_high_varnode,not_found,,unresolved_no_varnode,,explicit register matching; not CALL input list
+0x11B50330,RDX,0x119BAEAB,no_matching_high_varnode,not_found,,unresolved_no_varnode,,explicit register matching; not CALL input list
+0x11B50330,R8,0x119BAEAB,no_matching_high_varnode,not_found,,unresolved_no_varnode,,explicit register matching; not CALL input list
+0x11B50330,R9,0x119BAEAB,no_matching_high_varnode,not_found,,unresolved_no_varnode,,explicit register matching; not CALL input list

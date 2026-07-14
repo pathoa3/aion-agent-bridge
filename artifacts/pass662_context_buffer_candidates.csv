@@ -1,0 +1,2 @@
+transition,callsite_address,register,candidate_role,basis,varnode,confidence
+none,none,none,none,no RCX/RDX/R8/R9 matching HighFunction varnode with observed semantic use chain,none,none

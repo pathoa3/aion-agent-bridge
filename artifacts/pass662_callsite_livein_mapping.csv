@@ -1,0 +1,17 @@
+transition,function_entry,callsite_address,register,register_found,matching_high_varnode_found,varnode,input_or_defined,reaching_definition,uses_at_or_after_site,semantic_hint,confidence
+0x11B503FD->0x1195DA7B,0x11B503FD,0x11B503FD,RCX,true,false,,not_found,no_matching_high_varnode,,unresolved,none
+0x11B503FD->0x1195DA7B,0x11B503FD,0x11B503FD,RDX,true,false,,not_found,no_matching_high_varnode,,unresolved,none
+0x11B503FD->0x1195DA7B,0x11B503FD,0x11B503FD,R8,true,false,,not_found,no_matching_high_varnode,,unresolved,none
+0x11B503FD->0x1195DA7B,0x11B503FD,0x11B503FD,R9,true,false,,not_found,no_matching_high_varnode,,unresolved,none
+0x1195DA7B->0x11B50330,0x1195DA7B,0x1195DA7B,RCX,true,false,,not_found,no_matching_high_varnode,,unresolved,none
+0x1195DA7B->0x11B50330,0x1195DA7B,0x1195DA7B,RDX,true,false,,not_found,no_matching_high_varnode,,unresolved,none
+0x1195DA7B->0x11B50330,0x1195DA7B,0x1195DA7B,R8,true,false,,not_found,no_matching_high_varnode,,unresolved,none
+0x1195DA7B->0x11B50330,0x1195DA7B,0x1195DA7B,R9,true,false,,not_found,no_matching_high_varnode,,unresolved,none
+0x11B50330->0x11B56C63,0x11B50330,0x11B50340,RCX,true,false,,not_found,no_matching_high_varnode,,unresolved,none
+0x11B50330->0x11B56C63,0x11B50330,0x11B50340,RDX,true,false,,not_found,no_matching_high_varnode,,unresolved,none
+0x11B50330->0x11B56C63,0x11B50330,0x11B50340,R8,true,false,,not_found,no_matching_high_varnode,,unresolved,none
+0x11B50330->0x11B56C63,0x11B50330,0x11B50340,R9,true,false,,not_found,no_matching_high_varnode,,unresolved,none
+0x11B50330->0x11B56C63,0x11B50330,0x119BAEAB,RCX,true,false,,not_found,no_matching_high_varnode,,unresolved,none
+0x11B50330->0x11B56C63,0x11B50330,0x119BAEAB,RDX,true,false,,not_found,no_matching_high_varnode,,unresolved,none
+0x11B50330->0x11B56C63,0x11B50330,0x119BAEAB,R8,true,false,,not_found,no_matching_high_varnode,,unresolved,none
+0x11B50330->0x11B56C63,0x11B50330,0x119BAEAB,R9,true,false,,not_found,no_matching_high_varnode,,unresolved,none

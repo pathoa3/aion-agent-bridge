@@ -1,0 +1,9 @@
+transition,caller_function,callee_function,callsite_address,register,passthrough_status,evidence
+0x11B503FD->0x1195DA7B,0x11B503FD,0x1195DA7B,0x11B503FD,RCX,same_storage_live_through_if_present,target and thunk have no params; explicit register rows determine presence
+0x1195DA7B->0x11B50330,0x1195DA7B,0x11B50330,0x1195DA7B,RCX,same_storage_live_through_if_present,tail thunk/branch; explicit register rows determine presence
+0x11B503FD->0x1195DA7B,0x11B503FD,0x1195DA7B,0x11B503FD,RDX,same_storage_live_through_if_present,target and thunk have no params; explicit register rows determine presence
+0x1195DA7B->0x11B50330,0x1195DA7B,0x11B50330,0x1195DA7B,RDX,same_storage_live_through_if_present,tail thunk/branch; explicit register rows determine presence
+0x11B503FD->0x1195DA7B,0x11B503FD,0x1195DA7B,0x11B503FD,R8,same_storage_live_through_if_present,target and thunk have no params; explicit register rows determine presence
+0x1195DA7B->0x11B50330,0x1195DA7B,0x11B50330,0x1195DA7B,R8,same_storage_live_through_if_present,tail thunk/branch; explicit register rows determine presence
+0x11B503FD->0x1195DA7B,0x11B503FD,0x1195DA7B,0x11B503FD,R9,same_storage_live_through_if_present,target and thunk have no params; explicit register rows determine presence
+0x1195DA7B->0x11B50330,0x1195DA7B,0x11B50330,0x1195DA7B,R9,same_storage_live_through_if_present,tail thunk/branch; explicit register rows determine presence

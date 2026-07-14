@@ -1,0 +1,12 @@
+register,found,address_space,offset,size_bytes,bit_length
+RCX,true,register,8,8,64
+RDX,true,register,10,8,64
+R8,true,register,80,8,64
+R9,true,register,88,8,64
+RSI,true,register,30,8,64
+RDI,true,register,38,8,64
+RBP,true,register,28,8,64
+R12,true,register,a0,8,64
+R13,true,register,a8,8,64
+R14,true,register,b0,8,64
+R15,true,register,b8,8,64
