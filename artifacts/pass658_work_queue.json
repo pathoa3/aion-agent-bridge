@@ -1,0 +1,241 @@
+{
+  "phase": "pass658_s2c_key_setup_resolution",
+  "updated": "2026-07-14T08:51:55",
+  "stages": [
+    {
+      "name": "pass657_corrective_audit",
+      "script": "tools/pass658_s2c_key_setup_resolution/pass658_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "claims=7 zero_fallbacks=9; fallback=producing_queue_and_decision_rows_inspected",
+      "fallback": "Real fallback for pass657_corrective_audit",
+      "fallback_status": "completed",
+      "fallback_attempts": 1,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass658_pass657_claim_audit.csv"
+      ]
+    },
+    {
+      "name": "real_queue_integration_tests",
+      "script": "tools/pass658_s2c_key_setup_resolution/pass658_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "primary_exception; fallback=helper_repaired_and_tests_reran",
+      "fallback": "Real fallback for real_queue_integration_tests",
+      "fallback_status": "completed",
+      "fallback_attempts": 1,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass658_queue_integration_tests.csv"
+      ]
+    },
+    {
+      "name": "pass622_local_export_inventory",
+      "script": "tools/pass658_s2c_key_setup_resolution/pass658_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "files=94 coverage=37/37",
+      "fallback": "Real fallback for pass622_local_export_inventory",
+      "fallback_status": "not_needed",
+      "fallback_attempts": 0,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass658_pass622_export_inventory.csv",
+        "artifacts/pass658_pass622_target_coverage.csv"
+      ]
+    },
+    {
+      "name": "pass622_artifact_reconstruction",
+      "script": "tools/pass658_s2c_key_setup_resolution/pass658_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "pass622_artifacts_reconstructed",
+      "fallback": "Real fallback for pass622_artifact_reconstruction",
+      "fallback_status": "not_needed",
+      "fallback_attempts": 0,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass658_pass622_artifact_reconstruction.json"
+      ]
+    },
+    {
+      "name": "receive_handshake_graph_reconstruction",
+      "script": "tools/pass658_s2c_key_setup_resolution/pass658_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "edges=14 paths=10",
+      "fallback": "Real fallback for receive_handshake_graph_reconstruction",
+      "fallback_status": "not_needed",
+      "fallback_attempts": 0,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass658_receive_handshake_graph_edges.csv",
+        "artifacts/pass658_receive_handshake_ranked_paths.csv"
+      ]
+    },
+    {
+      "name": "keyslot_store_normalization",
+      "script": "tools/pass658_s2c_key_setup_resolution/pass658_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "normalized_store_rows=10; fallback=normalization_target_requests=10",
+      "fallback": "Real fallback for keyslot_store_normalization",
+      "fallback_status": "completed",
+      "fallback_attempts": 1,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass658_keyslot_store_normalization.csv",
+        "artifacts/pass658_targeted_export_requests.csv"
+      ]
+    },
+    {
+      "name": "seed_source_backward_slice",
+      "script": "tools/pass658_s2c_key_setup_resolution/pass658_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "slices=10 received_data_paths=0; fallback=bounded_unresolved_path_reported_no_whole_vm_restart",
+      "fallback": "Real fallback for seed_source_backward_slice",
+      "fallback_status": "completed",
+      "fallback_attempts": 1,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass658_seed_source_slices.csv"
+      ]
+    },
+    {
+      "name": "direction_context_layout_mapping",
+      "script": "tools/pass658_s2c_key_setup_resolution/pass658_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "layout_rows=10; fallback=offset_role_contradiction_matrix_written",
+      "fallback": "Real fallback for direction_context_layout_mapping",
+      "fallback_status": "completed",
+      "fallback_attempts": 1,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass658_direction_context_layout.csv"
+      ]
+    },
+    {
+      "name": "targeted_export_completion",
+      "script": "tools/pass658_s2c_key_setup_resolution/pass658_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "targeted_export_rows=10",
+      "fallback": "Real fallback for targeted_export_completion",
+      "fallback_status": "not_needed",
+      "fallback_attempts": 0,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass658_targeted_export_results.csv"
+      ]
+    },
+    {
+      "name": "current_capture_handshake_inventory",
+      "script": "tools/pass658_s2c_key_setup_resolution/pass658_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "world_port=7780 flows=4",
+      "fallback": "Real fallback for current_capture_handshake_inventory",
+      "fallback_status": "not_needed",
+      "fallback_attempts": 0,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass658_current_capture_handshake_inventory.csv",
+        "artifacts/pass658_static_to_packet_field_mapping.csv"
+      ]
+    },
+    {
+      "name": "current_session_initializer_candidates",
+      "script": "tools/pass658_s2c_key_setup_resolution/pass658_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "initializer_candidates=0; fallback=partial_symbolic_initializer_constraints_recorded",
+      "fallback": "Real fallback for current_session_initializer_candidates",
+      "fallback_status": "completed",
+      "fallback_attempts": 1,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass658_initializer_candidate_metadata.csv"
+      ]
+    },
+    {
+      "name": "pass618_decoder_reconstruction",
+      "script": "tools/pass658_s2c_key_setup_resolution/pass658_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "pass618_decoder_hypothesis_reconstructed_not_accepted; fallback=parameterized_local_manifest_written_no_decoder_success",
+      "fallback": "Real fallback for pass618_decoder_reconstruction",
+      "fallback_status": "completed",
+      "fallback_attempts": 1,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass658_pass618_decoder_reconstruction.csv"
+      ]
+    },
+    {
+      "name": "sequential_current_capture_validation",
+      "script": "tools/pass658_s2c_key_setup_resolution/pass658_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "sequential_candidates_executed=0 exact=0; fallback=bounded_start_phase_alternatives_not_run_without_static_graph_justification",
+      "fallback": "Real fallback for sequential_current_capture_validation",
+      "fallback_status": "completed",
+      "fallback_attempts": 1,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass658_sequential_decoder_results.csv"
+      ]
+    },
+    {
+      "name": "known_plaintext_constraint_solver",
+      "script": "tools/pass658_s2c_key_setup_resolution/pass658_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "solver_not_run_precondition_failed; fallback=unresolved_field_equation_reported",
+      "fallback": "Real fallback for known_plaintext_constraint_solver",
+      "fallback_status": "completed",
+      "fallback_attempts": 1,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass658_known_plaintext_constraint_results.csv"
+      ]
+    },
+    {
+      "name": "repeat_channel_negative_validation",
+      "script": "tools/pass658_s2c_key_setup_resolution/pass658_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "repeat_controls_completed_no_candidate; fallback=harness_aggregate_rerun_confirmed_no_candidate",
+      "fallback": "Real fallback for repeat_channel_negative_validation",
+      "fallback_status": "completed",
+      "fallback_attempts": 1,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass658_repeat_channel_validation.csv",
+        "artifacts/pass658_negative_control_results.csv",
+        "artifacts/pass658_clean_rerun_validation.csv"
+      ]
+    },
+    {
+      "name": "exact_acceptance_or_targeted_blocker",
+      "script": "tools/pass658_s2c_key_setup_resolution/pass658_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "accepted=False exact_blocker_recorded; fallback=corrected_exhaustion_and_targeted_blocker_complete",
+      "fallback": "Real fallback for exact_acceptance_or_targeted_blocker",
+      "fallback_status": "completed",
+      "fallback_attempts": 1,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass658_candidate_disposition.csv",
+        "artifacts/pass658_exact_message_validation.csv",
+        "artifacts/pass658_hypothesis_exhaustion.csv",
+        "artifacts/pass658_s2c_key_setup_resolution_decision.json",
+        "artifacts/pass658_s2c_key_setup_resolution_summary.md",
+        "inbox/codex_report.md"
+      ]
+    }
+  ]
+}

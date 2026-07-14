@@ -1,0 +1,11 @@
+candidate_id,function_address,candidate_context_base,candidate_offset,write_width,historical_c2s_role_match,shared_static_key_field,rolling_key_field,direction_specific_offset,sequence_or_counter_field,frame_length_or_complement_field,initialization_order,confidence,contradiction
+P622-KS-001,11B5863D,stack_pointer,not_recovered_from_safe_summary,unknown,unproven,unknown,unproven,unknown,unknown,unknown,unknown_before_static_slice,low,no explicit offset/source to compare
+P622-KS-002,11B559CD,stack_pointer,not_recovered_from_safe_summary,unknown,unproven,unknown,unproven,unknown,unknown,unknown,unknown_before_static_slice,low,no explicit offset/source to compare
+P622-KS-003,11B59392,stack_pointer,not_recovered_from_safe_summary,unknown,unproven,unknown,unproven,unknown,unknown,unknown,unknown_before_static_slice,low,no explicit offset/source to compare
+P622-KS-004,11B581C1,stack_pointer,not_recovered_from_safe_summary,unknown,unproven,unknown,unproven,unknown,unknown,unknown,unknown_before_static_slice,low,no explicit offset/source to compare
+P622-KS-005,11B57BDB,stack_pointer,not_recovered_from_safe_summary,unknown,unproven,unknown,unproven,unknown,unknown,unknown,unknown_before_static_slice,low,no explicit offset/source to compare
+P622-KS-006,11B56B2C,stack_pointer,not_recovered_from_safe_summary,unknown,unproven,unknown,unproven,unknown,unknown,unknown,unknown_before_static_slice,low,no explicit offset/source to compare
+P622-KS-007,11B564BE,stack_pointer,not_recovered_from_safe_summary,unknown,unproven,unknown,unproven,unknown,unknown,unknown,unknown_before_static_slice,low,no explicit offset/source to compare
+P622-KS-008,11B57075,stack_pointer,not_recovered_from_safe_summary,unknown,unproven,unknown,unproven,unknown,unknown,unknown,unknown_before_static_slice,low,no explicit offset/source to compare
+P622-KS-009,11B59765,stack_pointer,not_recovered_from_safe_summary,unknown,unproven,unknown,unproven,unknown,unknown,unknown,unknown_before_static_slice,low,no explicit offset/source to compare
+P622-KS-010,11B58D6C,stack_pointer,not_recovered_from_safe_summary,unknown,unproven,unknown,unproven,unknown,unknown,unknown,unknown_before_static_slice,low,no explicit offset/source to compare

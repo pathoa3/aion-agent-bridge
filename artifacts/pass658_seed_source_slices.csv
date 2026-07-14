@@ -1,0 +1,11 @@
+candidate_id,function_address,store_index,source_origin,depends_on_received_data,field_width,branch_conditions_preserved,slice_status,rejection_or_constraint,fallback_needed
+P622-KS-001,11B5863D,1,existing_context_or_local_arithmetic,false,unknown,safe_summary_only,bounded_slice_completed_unproven,no receive-buffer dependency proven,true
+P622-KS-002,11B559CD,1,context_or_memory_load,false,unknown,safe_summary_only,bounded_slice_completed_unproven,load not tied to receive buffer in existing exports,true
+P622-KS-003,11B59392,1,existing_context_or_local_arithmetic,false,unknown,safe_summary_only,bounded_slice_completed_unproven,no receive-buffer dependency proven,true
+P622-KS-004,11B581C1,1,context_or_memory_load,false,unknown,safe_summary_only,bounded_slice_completed_unproven,load not tied to receive buffer in existing exports,true
+P622-KS-005,11B57BDB,1,existing_context_or_local_arithmetic,false,unknown,safe_summary_only,bounded_slice_completed_unproven,no receive-buffer dependency proven,true
+P622-KS-006,11B56B2C,1,context_or_memory_load,false,unknown,safe_summary_only,bounded_slice_completed_unproven,load not tied to receive buffer in existing exports,true
+P622-KS-007,11B564BE,1,context_or_memory_load,false,unknown,safe_summary_only,bounded_slice_completed_unproven,load not tied to receive buffer in existing exports,true
+P622-KS-008,11B57075,1,existing_context_or_local_arithmetic,false,unknown,safe_summary_only,bounded_slice_completed_unproven,no receive-buffer dependency proven,true
+P622-KS-009,11B59765,1,existing_context_or_local_arithmetic,false,unknown,safe_summary_only,bounded_slice_completed_unproven,no receive-buffer dependency proven,true
+P622-KS-010,11B58D6C,1,existing_context_or_local_arithmetic,false,unknown,safe_summary_only,bounded_slice_completed_unproven,no receive-buffer dependency proven,true

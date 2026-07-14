@@ -1,0 +1,6 @@
+component,source,status,evidence,validated
+packet_frame_parsing,Pass618 decision plus historical C2S tools,hypothesis_only,S2C length mask unidentified; anchor not unique,false
+byte_transform,Pass618 formula statement,hypothesis_matches_c2s,True,false
+rolling_state_update,Pass618 implementation statement,implemented_historical_probe,True,false
+initial_state_injection,Pass658 static slice,missing_concrete_initializer,no receive-data-dependent key write/source path proven,false
+historical_c2s_positive_control,existing validated C2S artifacts,not_reexecuted_for_s2c_success,Pass658 did not alter historical C2S decoder,provisional

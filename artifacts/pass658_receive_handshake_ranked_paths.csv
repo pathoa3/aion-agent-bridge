@@ -1,0 +1,11 @@
+path_id,start_receive_target,end_keyslot_candidate,hop_count,path_functions,rank_reason,confidence
+P001,11B5863D,11B5863D,0,11B5863D,receive target is key-slot candidate export,low_until_source_slice
+P002,11B559CD,11B559CD,0,11B559CD,receive target is key-slot candidate export,low_until_source_slice
+P003,11B59392,11B59392,0,11B59392,receive target is key-slot candidate export,low_until_source_slice
+P004,11B581C1,11B581C1,0,11B581C1,receive target is key-slot candidate export,low_until_source_slice
+P005,11B57BDB,11B57BDB,0,11B57BDB,receive target is key-slot candidate export,low_until_source_slice
+P006,11B56B2C,11B56B2C,0,11B56B2C,receive target is key-slot candidate export,low_until_source_slice
+P007,11B564BE,11B564BE,0,11B564BE,receive target is key-slot candidate export,low_until_source_slice
+P008,11B57075,11B57075,0,11B57075,receive target is key-slot candidate export,low_until_source_slice
+P009,11B59765,11B59765,0,11B59765,receive target is key-slot candidate export,low_until_source_slice
+P010,11B58D6C,11B58D6C,0,11B58D6C,receive target is key-slot candidate export,low_until_source_slice

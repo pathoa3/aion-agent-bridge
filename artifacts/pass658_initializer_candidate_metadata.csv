@@ -1,0 +1,2 @@
+candidate_id,static_source_path,handshake_field_location,field_width,byte_order,derivation_operations_order,destination_s2c_context_offset,initialization_packet_or_frame,confidence,candidate_state_value_location
+no_concrete_initializer,no reachable receive-data-dependent key write,unresolved,unknown,unknown,not derived,unknown,unknown,none,not_generated

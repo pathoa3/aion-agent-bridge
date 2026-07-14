@@ -1,0 +1,38 @@
+kind,id,function_address,function_name,expected,export_types_present,covered,candidate_association
+receive_target,P622-GH-001,11B5625B,FUN_11b5625b,true,decompile;disassembly;p-code,True,
+receive_target,P622-GH-002,11B45846,FUN_11b45846,true,decompile;disassembly;p-code,True,
+receive_target,P622-GH-003,11B56C63,thunk_FUN_11b57075,true,decompile;disassembly;p-code,True,
+receive_target,P622-GH-004,11B56F43,FUN_11b56f43,true,decompile;disassembly;p-code,True,
+receive_target,P622-GH-005,11B5863D,FUN_11b5863d,true,decompile;disassembly;p-code,True,
+receive_target,P622-GH-006,11B559CD,FUN_11b559cd,true,decompile;disassembly;p-code,True,
+receive_target,P622-GH-007,11B59392,FUN_11b59392,true,decompile;disassembly;p-code,True,
+receive_target,P622-GH-008,11B5591A,FUN_11b5591a,true,decompile;disassembly;p-code,True,
+receive_target,P622-GH-009,11B581C1,FUN_11b581c1,true,decompile;disassembly;p-code,True,
+receive_target,P622-GH-010,11B57BDB,FUN_11b57bdb,true,decompile;disassembly;p-code,True,
+receive_target,P622-GH-011,11B5586B,FUN_11b5586b,true,decompile;disassembly;p-code,True,
+receive_target,P622-GH-012,11B56696,FUN_11b56696,true,decompile;disassembly;p-code,True,
+receive_target,P622-GH-013,11B56B2C,FUN_11b56b2c,true,decompile;disassembly;p-code,True,
+receive_target,P622-GH-014,11B564BE,FUN_11b564be,true,decompile;disassembly;p-code,True,
+receive_target,P622-GH-015,1195D94A,entry,true,decompile;disassembly;p-code,True,
+receive_target,P622-GH-016,11B59838,FUN_11b59838,true,decompile;disassembly;p-code,True,
+receive_target,P622-GH-017,11B503FD,tls_callback_0,true,decompile;disassembly;p-code,True,
+receive_target,P622-GH-018,11B57075,FUN_11b57075,true,decompile;disassembly;p-code,True,
+receive_target,P622-GH-019,11B52CE5,thunk_FUN_11b45846,true,decompile;disassembly;p-code,True,
+receive_target,P622-GH-020,11B50330,FUN_11b50330,true,decompile;disassembly;p-code,True,
+receive_target,P622-GH-021,1195DA7B,thunk_FUN_11b50330,true,decompile;disassembly;p-code,True,
+receive_target,P622-GH-022,11B59337,FUN_11b59337,true,decompile;disassembly;p-code,True,
+receive_target,P622-GH-023,11B59765,FUN_11b59765,true,decompile;disassembly;p-code,True,
+receive_target,P622-GH-024,11B566DD,FUN_11b566dd,true,decompile;disassembly;p-code,True,
+receive_target,P622-GH-025,11B56999,FUN_11b56999,true,decompile;disassembly;p-code,True,
+receive_target,P622-GH-026,11B56075,thunk_FUN_11b59337,true,decompile;disassembly;p-code,True,
+receive_target,P622-GH-027,11B58D6C,FUN_11b58d6c,true,decompile;disassembly;p-code,True,
+keyslot_candidate,P622-KS-001,11B5863D,FUN_11b5863d,true,decompile;disassembly;p-code,True,possible S2C rolling-key slot write if reachable from receive/world handshake path
+keyslot_candidate,P622-KS-002,11B559CD,FUN_11b559cd,true,decompile;disassembly;p-code,True,possible S2C rolling-key slot write if reachable from receive/world handshake path
+keyslot_candidate,P622-KS-003,11B59392,FUN_11b59392,true,decompile;disassembly;p-code,True,possible S2C rolling-key slot write if reachable from receive/world handshake path
+keyslot_candidate,P622-KS-004,11B581C1,FUN_11b581c1,true,decompile;disassembly;p-code,True,possible S2C rolling-key slot write if reachable from receive/world handshake path
+keyslot_candidate,P622-KS-005,11B57BDB,FUN_11b57bdb,true,decompile;disassembly;p-code,True,possible S2C rolling-key slot write if reachable from receive/world handshake path
+keyslot_candidate,P622-KS-006,11B56B2C,FUN_11b56b2c,true,decompile;disassembly;p-code,True,possible S2C rolling-key slot write if reachable from receive/world handshake path
+keyslot_candidate,P622-KS-007,11B564BE,FUN_11b564be,true,decompile;disassembly;p-code,True,possible S2C rolling-key slot write if reachable from receive/world handshake path
+keyslot_candidate,P622-KS-008,11B57075,FUN_11b57075,true,decompile;disassembly;p-code,True,possible S2C rolling-key slot write if reachable from receive/world handshake path
+keyslot_candidate,P622-KS-009,11B59765,FUN_11b59765,true,decompile;disassembly;p-code,True,possible S2C rolling-key slot write if reachable from receive/world handshake path
+keyslot_candidate,P622-KS-010,11B58D6C,FUN_11b58d6c,true,decompile;disassembly;p-code,True,possible S2C rolling-key slot write if reachable from receive/world handshake path

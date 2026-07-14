@@ -1,0 +1,5 @@
+flow_role,server_port,packet_count,payload_bytes,s2c_payload_bytes,c2s_payload_bytes,first_time,last_time,sequence_policy
+world,7780,623,151675,151079,596,2026-07-13 21:16:56.976,2026-07-13 21:25:08.837,sparse_sequence_no_synthetic_gap_fill
+login_or_aux,11000,72,25662,25466,196,2026-07-13 21:15:17.262,2026-07-13 21:15:34.682,sparse_sequence_no_synthetic_gap_fill
+side_control,10242,192,8582,6778,1804,2026-07-13 21:17:04.983,2026-07-13 21:25:05.193,sparse_sequence_no_synthetic_gap_fill
+login_or_aux,2106,23,778,506,272,2026-07-13 21:16:53.632,2026-07-13 21:16:57.007,sparse_sequence_no_synthetic_gap_fill

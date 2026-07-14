@@ -1,0 +1,11 @@
+function_address,function_name,requested_export_type,existing_export_available,targeted_export_ran,result,remaining_unavailable
+11B5863D,FUN_11b5863d,decompile+pcode+callers,True,false,existing exports inspected; no broad Ghidra rescan run,one-hop caller/callee and source/destination relation
+11B559CD,FUN_11b559cd,decompile+pcode+callers,True,false,existing exports inspected; no broad Ghidra rescan run,one-hop caller/callee and source/destination relation
+11B59392,FUN_11b59392,decompile+pcode+callers,True,false,existing exports inspected; no broad Ghidra rescan run,one-hop caller/callee and source/destination relation
+11B581C1,FUN_11b581c1,decompile+pcode+callers,True,false,existing exports inspected; no broad Ghidra rescan run,one-hop caller/callee and source/destination relation
+11B57BDB,FUN_11b57bdb,decompile+pcode+callers,True,false,existing exports inspected; no broad Ghidra rescan run,one-hop caller/callee and source/destination relation
+11B56B2C,FUN_11b56b2c,decompile+pcode+callers,True,false,existing exports inspected; no broad Ghidra rescan run,one-hop caller/callee and source/destination relation
+11B564BE,FUN_11b564be,decompile+pcode+callers,True,false,existing exports inspected; no broad Ghidra rescan run,one-hop caller/callee and source/destination relation
+11B57075,FUN_11b57075,decompile+pcode+callers,True,false,existing exports inspected; no broad Ghidra rescan run,one-hop caller/callee and source/destination relation
+11B59765,FUN_11b59765,decompile+pcode+callers,True,false,existing exports inspected; no broad Ghidra rescan run,one-hop caller/callee and source/destination relation
+11B58D6C,FUN_11b58d6c,decompile+pcode+callers,True,false,existing exports inspected; no broad Ghidra rescan run,one-hop caller/callee and source/destination relation

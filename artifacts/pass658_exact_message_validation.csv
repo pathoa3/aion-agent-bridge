@@ -1,0 +1,2 @@
+candidate_id,exact_visible_text_recovered,authoritative_interval_match,repeat_validated_same_state,negative_controls_clean,acceptance_gate_passed,reason
+none,false,false,false,not_applicable,false,No concrete initializer from static receive-data path; no sequential S2C decoder success claimed.

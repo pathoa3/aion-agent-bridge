@@ -1,0 +1,2 @@
+candidate_id,static_initializer_available,start_frame,continuous_state_used,oracle_window_reset_used,exact_message_recovered,repeat_recovered_same_state,confidence,reason
+no_concrete_initializer,False,not_run_without_static_initializer,false,false,false,false,none,No concrete receive-derived initializer and context offset; decoder execution intentionally not claimed.

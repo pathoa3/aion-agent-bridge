@@ -1,0 +1,8 @@
+claim,classification,evidence
+Pass656 invalidation,supported,Pass657 decision and audit superseded tautological fits.
+S2C sequence extraction,provisional,Reused until independently verified against current capture.
+queue integration semantics,not tested,"Pass657 used in-memory simulations, not helper processes."
+completed fallbacks with zero attempts,invalidated,frame_null_and_holdout_validation;frame_time_oracle_assignment;oracle_body_candidate_grid;frozen_train_holdout_transform_validation;cross_length_channel_validation;decoder_without_oracle_input;real_positive_negative_controls;targeted_existing_transform_mapping;corrected_acceptance_or_exhaustion
+explicit grid exhaustion,invalidated,First 2500 enumeration-order models only; no real tight-resync fallback.
+generic static mapping,invalidated,Did not inspect local p-code/decompile exports by content.
+exact decoder recovery,supported_false,exact_known_message_validated=false and no decoder generated.

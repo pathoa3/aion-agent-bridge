@@ -1,0 +1,11 @@
+function_address,function_name,needed_export_type,reason
+11B5863D,FUN_11b5863d,decompile+pcode+callers,recover STORE source/destination offset and reachability
+11B559CD,FUN_11b559cd,decompile+pcode+callers,recover STORE source/destination offset and reachability
+11B59392,FUN_11b59392,decompile+pcode+callers,recover STORE source/destination offset and reachability
+11B581C1,FUN_11b581c1,decompile+pcode+callers,recover STORE source/destination offset and reachability
+11B57BDB,FUN_11b57bdb,decompile+pcode+callers,recover STORE source/destination offset and reachability
+11B56B2C,FUN_11b56b2c,decompile+pcode+callers,recover STORE source/destination offset and reachability
+11B564BE,FUN_11b564be,decompile+pcode+callers,recover STORE source/destination offset and reachability
+11B57075,FUN_11b57075,decompile+pcode+callers,recover STORE source/destination offset and reachability
+11B59765,FUN_11b59765,decompile+pcode+callers,recover STORE source/destination offset and reachability
+11B58D6C,FUN_11b58d6c,decompile+pcode+callers,recover STORE source/destination offset and reachability

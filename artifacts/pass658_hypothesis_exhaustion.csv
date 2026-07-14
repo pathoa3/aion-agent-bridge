@@ -1,0 +1,5 @@
+branch,status,result
+Pass622 export content inspection,completed,all available exports inventoried and parsed safely
+receive-to-keyslot dataflow,blocked_after_fallback,no concrete receive-buffer/server-handshake seed dependency proven
+current session initializer,blocked_after_fallback,not generated because concrete source/offset/order missing
+sequential decoder validation,completed_no_success,not accepted; no per-message fitting used

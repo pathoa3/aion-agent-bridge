@@ -1,0 +1,2 @@
+candidate_id,partial_relation_available,unknown_field_count,solutions,contradictions,ran_known_plaintext_solver,reason
+no_concrete_initializer,false,unbounded_without_static_slice,0,0,false,Solver precondition failed: no static partial initializer relation to freeze from one occurrence.

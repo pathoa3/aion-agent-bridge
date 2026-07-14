@@ -1,0 +1,2 @@
+candidate_id,whisper_pairs_validated,group_pairs_validated,same_base_variants_validated,local_messages_validated,clean_runs,safe_aggregate_match,result
+no_surviving_candidate,0,0,0,0,2,true,not_applicable_no_decoder_candidate

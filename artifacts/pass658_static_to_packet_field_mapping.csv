@@ -1,0 +1,11 @@
+candidate_id,function_address,static_source_path,packet_range,field_width,byte_order,mapping_status,confidence
+P622-KS-001,11B5863D,existing_context_or_local_arithmetic,pre-world-entry/server-control-range,unknown,unknown,unresolved_static_source_not_receive_data,low
+P622-KS-002,11B559CD,context_or_memory_load,pre-world-entry/server-control-range,unknown,unknown,unresolved_static_source_not_receive_data,low
+P622-KS-003,11B59392,existing_context_or_local_arithmetic,pre-world-entry/server-control-range,unknown,unknown,unresolved_static_source_not_receive_data,low
+P622-KS-004,11B581C1,context_or_memory_load,pre-world-entry/server-control-range,unknown,unknown,unresolved_static_source_not_receive_data,low
+P622-KS-005,11B57BDB,existing_context_or_local_arithmetic,pre-world-entry/server-control-range,unknown,unknown,unresolved_static_source_not_receive_data,low
+P622-KS-006,11B56B2C,context_or_memory_load,pre-world-entry/server-control-range,unknown,unknown,unresolved_static_source_not_receive_data,low
+P622-KS-007,11B564BE,context_or_memory_load,pre-world-entry/server-control-range,unknown,unknown,unresolved_static_source_not_receive_data,low
+P622-KS-008,11B57075,existing_context_or_local_arithmetic,pre-world-entry/server-control-range,unknown,unknown,unresolved_static_source_not_receive_data,low
+P622-KS-009,11B59765,existing_context_or_local_arithmetic,pre-world-entry/server-control-range,unknown,unknown,unresolved_static_source_not_receive_data,low
+P622-KS-010,11B58D6C,existing_context_or_local_arithmetic,pre-world-entry/server-control-range,unknown,unknown,unresolved_static_source_not_receive_data,low

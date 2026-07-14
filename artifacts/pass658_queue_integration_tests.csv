@@ -1,0 +1,7 @@
+test,exit_code,passed,evidence
+primary success increments attempts and completes,1,False,real helper process
+primary failure runs real fallback and increments fallback attempts,1,False,fallback artifact validated
+fallback failure remains unresolved and returns non-zero,1,True,failing master propagated
+queue helper refuses zero-attempt fallback_status completed,1,True,validator rejected queue
+queue helper refuses completed stage with missing required artifacts,1,True,validator rejected missing artifact
+interruption resume and completed-stage skip,1,False,helper reran and preserved complete stage
