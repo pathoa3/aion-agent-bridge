@@ -1,0 +1,9 @@
+claim,classification,evidence
+export inventory,supported,Pass658 inventoried 94 files safely.
+27/10 accounting,supported_inventory_only,Coverage table accounts targets/candidates but not dataflow.
+receive graph,invalidated_as_proof,"Ranked paths are zero-hop overlap, not receive-to-keyslot paths."
+STORE normalization,invalidated_semantic_analysis,Text window STORE classifier did not parse pointer/value def-use.
+seed slices,not_executed_substantively,Fallback returned unresolved CSV.
+targeted export completion,invalidated,targeted_export_ran=false rows=10
+initializer/sequential decoder,correct_no_success_not_exhausted,No initializer and no continuous decoder success.
+negative controls,not_executed_no_decoder,No decoder candidate existed.

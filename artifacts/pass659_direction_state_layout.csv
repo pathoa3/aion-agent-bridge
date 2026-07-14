@@ -1,0 +1,2 @@
+function_entry,op_address,candidate_field_base,candidate_offset,write_width,shared_static_key_field,rolling_state_field,direction_specific_slot,sequence_or_counter,length_or_complement_field,initialization_order,confidence,contradiction
+none,,none,,,unknown,unknown,unknown,unknown,unknown,unknown,none,no received-data dependency or explicit offset

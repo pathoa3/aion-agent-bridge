@@ -1,0 +1,2 @@
+caller_entry,caller_name,callee_entry,callee_name,callsite_address,rcx_mapping,rdx_mapping,r8_mapping,r9_mapping,input_varnodes,vm_context_pointer,receive_input_pointer,session_object,direction_or_opcode_selector
+none,none,none,none,,none,none,none,none,,unresolved,unresolved,unresolved,unresolved

@@ -1,0 +1,5 @@
+test,passed,evidence
+targeted export cannot complete when targeted_export_ran=false,True,temporary CSV validator rejects false run
+requested export with no new file and no successful Ghidra exit remains unresolved,True,temporary CSV validator rejects no output
+fallback returning same unresolved artifact does not count,True,copy-only fallback detected
+completion requires validated new local files or exact unavailable blocker,True,new file plus exit 0 accepted

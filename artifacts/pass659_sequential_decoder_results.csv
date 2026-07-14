@@ -1,0 +1,2 @@
+candidate_id,decoder_hypothesis,continuous_decode_executed,start_frame,state_reset_at_oracle,expected_plaintext_fed,exact_text_recovered,repeat_validated,reason
+none,Pass618_C2S_like_transform,false,unresolved,false,false,false,false,no statically derived initializer candidate

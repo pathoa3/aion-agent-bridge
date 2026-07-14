@@ -1,0 +1,2 @@
+candidate_id,static_path_resolved,source_packet_field,width,byte_order,derivation_operations,destination_direction_slot,initialization_frame,rolling_state_rules,actual_value_location,confidence
+none,false,unresolved,unknown,unknown,unresolved,unresolved,unresolved,Pass618_hypothesis_only,not_generated,none

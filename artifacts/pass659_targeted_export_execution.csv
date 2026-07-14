@@ -1,0 +1,5 @@
+command_category,exit_code,start_time,end_time,targeted_export_ran,new_file_count,total_file_count,stdout_log,stderr_log,error_summary
+ghidra_analyzeHeadless_targeted_postScript,0,2026-07-14T11:34:51,2026-07-14T11:35:01,true,129,129,C:\AionTools\aion_decoder_agent\outbox\pass659_targeted_native_context_trace\pass659_ghidra_stdout.log,C:\AionTools\aion_decoder_agent\outbox\pass659_targeted_native_context_trace\pass659_ghidra_stderr.log,"Base/lib/org.apache.felix.framework-7.0.5.jar)
+WARNING: Please consider reporting this to the maintainers of class org.apache.felix.framework.util.SecureAction
+WARNING: sun.misc.Unsafe::staticFieldOffset will be removed in a future release
+"

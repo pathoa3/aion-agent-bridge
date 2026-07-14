@@ -1,0 +1,6 @@
+metadata_name,source_type,row_or_item_count,path,parse_status
+candidate_functions,csv,27,C:\AionTools\aion_decoder_agent\outbox\pass622_ghidra_s2c_receive_exports\candidate_functions.csv,parsed
+call_edges,csv,37,C:\AionTools\aion_decoder_agent\outbox\pass622_ghidra_s2c_receive_exports\call_edges.csv,parsed
+import_refs,csv,11,C:\AionTools\aion_decoder_agent\outbox\pass622_ghidra_s2c_receive_exports\import_refs.csv,parsed
+write_hints,csv,14,C:\AionTools\aion_decoder_agent\outbox\pass622_ghidra_s2c_receive_exports\write_hints.csv,parsed
+export_manifest,missing,0,C:\AionTools\aion_decoder_agent\outbox\pass622_ghidra_s2c_receive_exports\export_manifest.missing,missing_fallback_needed

@@ -1,0 +1,2 @@
+function_entry,op_address,slice_origin,received_data_dependency,field_width,byte_order,operation_order,branch_predicates,rejection_or_constraint
+none,,none,false,,unknown,none,none,no persistent non-stack context writes resolved

@@ -1,0 +1,5 @@
+item,path,exists,evidence
+analyzeHeadless.bat,C:\Users\patho\Downloads\ghidra_12.1.2_PUBLIC\support\analyzeHeadless.bat,True,Pass622 run script/log plus direct path check
+ghidra_project_dir,C:\AionTools\euroaion,True,Pass622 headless log opened existing project
+project_name,euroaion,True,Pass622 log: Opening existing project C:\AionTools\euroaion\euroaion
+program,game.dll,validated_by_prior_log_pending_run,Pass622 log processed /game.dll

@@ -1,0 +1,256 @@
+{
+  "phase": "pass659_targeted_native_context_trace",
+  "updated": "2026-07-14T11:37:07",
+  "stages": [
+    {
+      "name": "pass658_claim_audit",
+      "script": "tools/pass659_targeted_native_context_trace/pass659_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "claims=8 false_export_rows=10; fallback=exact_pass658_artifact_rows_inspected",
+      "fallback": "real fallback for pass658_claim_audit",
+      "fallback_status": "completed",
+      "fallback_attempts": 1,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass659_pass658_claim_audit.csv"
+      ]
+    },
+    {
+      "name": "queue_and_export_gate_tests",
+      "script": "tools/pass659_targeted_native_context_trace/pass659_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "tests=4",
+      "fallback": "real fallback for queue_and_export_gate_tests",
+      "fallback_status": "not_needed",
+      "fallback_attempts": 0,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass659_queue_export_gate_tests.csv"
+      ]
+    },
+    {
+      "name": "consume_pass622_metadata",
+      "script": "tools/pass659_targeted_native_context_trace/pass659_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "metadata=5 edges=37; fallback=missing_json_metadata_fallback_used_existing_csv_and_targeted_export_will_regenerate",
+      "fallback": "real fallback for consume_pass622_metadata",
+      "fallback_status": "completed",
+      "fallback_attempts": 1,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass659_pass622_metadata_manifest.csv",
+        "artifacts/pass659_pass622_call_edges.csv"
+      ]
+    },
+    {
+      "name": "apply_pass623_rejections",
+      "script": "tools/pass659_targeted_native_context_trace/pass659_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "rejections=3",
+      "fallback": "real fallback for apply_pass623_rejections",
+      "fallback_status": "not_needed",
+      "fallback_attempts": 0,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass659_pass623_rejections.csv"
+      ]
+    },
+    {
+      "name": "discover_ghidra_runtime_and_project",
+      "script": "tools/pass659_targeted_native_context_trace/pass659_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "ghidra=True project=True",
+      "fallback": "real fallback for discover_ghidra_runtime_and_project",
+      "fallback_status": "not_needed",
+      "fallback_attempts": 0,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass659_ghidra_runtime_project_discovery.csv"
+      ]
+    },
+    {
+      "name": "build_targeted_high_pcode_exporter",
+      "script": "tools/pass659_targeted_native_context_trace/pass659_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "targeted_exporter_created",
+      "fallback": "real fallback for build_targeted_high_pcode_exporter",
+      "fallback_status": "not_needed",
+      "fallback_attempts": 0,
+      "last_error": "",
+      "produced_artifacts": [
+        "tools/pass659_targeted_native_context_trace/ghidra_export_targeted_native_context.java",
+        "tools/pass659_targeted_native_context_trace/ghidra_export_targeted_native_context.py"
+      ]
+    },
+    {
+      "name": "execute_targeted_ghidra_export",
+      "script": "tools/pass659_targeted_native_context_trace/pass659_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "exit=0 new_files=129 seeds=7",
+      "fallback": "real fallback for execute_targeted_ghidra_export",
+      "fallback_status": "not_needed",
+      "fallback_attempts": 0,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass659_targeted_export_execution.csv",
+        "artifacts/pass659_targeted_export_seed_coverage.csv"
+      ]
+    },
+    {
+      "name": "targeted_graph_reconstruction",
+      "script": "tools/pass659_targeted_native_context_trace/pass659_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "edges=40 paths=3",
+      "fallback": "real fallback for targeted_graph_reconstruction",
+      "fallback_status": "not_needed",
+      "fallback_attempts": 0,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass659_targeted_graph_edges.csv",
+        "artifacts/pass659_targeted_ranked_paths.csv"
+      ]
+    },
+    {
+      "name": "high_pcode_store_classification",
+      "script": "tools/pass659_targeted_native_context_trace/pass659_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "stores=71 nonstack=0; fallback=ambiguous_store_blocks_need_deeper_def_use_export_or_no_nonstack_writes",
+      "fallback": "real fallback for high_pcode_store_classification",
+      "fallback_status": "completed",
+      "fallback_attempts": 1,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass659_store_classification.csv",
+        "artifacts/pass659_nonstack_context_writes.csv"
+      ]
+    },
+    {
+      "name": "callsite_argument_and_context_mapping",
+      "script": "tools/pass659_targeted_native_context_trace/pass659_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "callsites=1; fallback=one_callsite_ssa_slice_needed_arguments_unresolved",
+      "fallback": "real fallback for callsite_argument_and_context_mapping",
+      "fallback_status": "completed",
+      "fallback_attempts": 1,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass659_callsite_argument_mapping.csv"
+      ]
+    },
+    {
+      "name": "receive_buffer_dependency_slice",
+      "script": "tools/pass659_targeted_native_context_trace/pass659_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "slices=1 received=0; fallback=bounded_symbolic_slice_not_possible_without_resolved_argument_mapping",
+      "fallback": "real fallback for receive_buffer_dependency_slice",
+      "fallback_status": "completed",
+      "fallback_attempts": 1,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass659_receive_buffer_dependency_slices.csv"
+      ]
+    },
+    {
+      "name": "direction_state_layout_resolution",
+      "script": "tools/pass659_targeted_native_context_trace/pass659_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "layout_rows=1; fallback=offset_role_contradiction_matrix_written",
+      "fallback": "real fallback for direction_state_layout_resolution",
+      "fallback_status": "completed",
+      "fallback_attempts": 1,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass659_direction_state_layout.csv"
+      ]
+    },
+    {
+      "name": "current_capture_handshake_field_mapping",
+      "script": "tools/pass659_targeted_native_context_trace/pass659_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "world=7780 mapped_fields=0; fallback=bounded_candidate_packet_offsets_not_generated_without_static_source",
+      "fallback": "real fallback for current_capture_handshake_field_mapping",
+      "fallback_status": "completed",
+      "fallback_attempts": 1,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass659_current_capture_field_mapping.csv"
+      ]
+    },
+    {
+      "name": "initializer_candidate_generation",
+      "script": "tools/pass659_targeted_native_context_trace/pass659_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "initializer_candidates=0; fallback=partial_symbolic_candidates_not_generated_no_unknown_field_relation",
+      "fallback": "real fallback for initializer_candidate_generation",
+      "fallback_status": "completed",
+      "fallback_attempts": 1,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass659_initializer_candidate_metadata.csv"
+      ]
+    },
+    {
+      "name": "sequential_s2c_decoder_validation",
+      "script": "tools/pass659_targeted_native_context_trace/pass659_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "sequential_candidates=0 exact=0; fallback=bounded_start_phase_not_run_without_static_initializer",
+      "fallback": "real fallback for sequential_s2c_decoder_validation",
+      "fallback_status": "completed",
+      "fallback_attempts": 1,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass659_sequential_decoder_results.csv"
+      ]
+    },
+    {
+      "name": "repeat_channel_negative_controls",
+      "script": "tools/pass659_targeted_native_context_trace/pass659_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "controls_not_executed_no_candidate; fallback=control_harness_not_run_no_decoder_candidate_recorded",
+      "fallback": "real fallback for repeat_channel_negative_controls",
+      "fallback_status": "completed",
+      "fallback_attempts": 1,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass659_repeat_channel_validation.csv",
+        "artifacts/pass659_negative_control_results.csv",
+        "artifacts/pass659_clean_rerun_validation.csv"
+      ]
+    },
+    {
+      "name": "exact_acceptance_or_real_blocker",
+      "script": "tools/pass659_targeted_native_context_trace/pass659_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "accepted=False real_blocker_recorded; fallback=real_blocker_and_exact_local_file_recorded",
+      "fallback": "real fallback for exact_acceptance_or_real_blocker",
+      "fallback_status": "completed",
+      "fallback_attempts": 1,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass659_candidate_disposition.csv",
+        "artifacts/pass659_exact_message_validation.csv",
+        "artifacts/pass659_hypothesis_exhaustion.csv",
+        "artifacts/pass659_targeted_native_context_trace_decision.json",
+        "artifacts/pass659_targeted_native_context_trace_summary.md",
+        "inbox/codex_report.md"
+      ]
+    }
+  ]
+}

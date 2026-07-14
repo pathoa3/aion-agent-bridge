@@ -1,0 +1,2 @@
+candidate_id,fixed_decoder_survived,whisper_pairs,group_pairs,same_base_variants,local_rows,executed,result
+none,false,0,0,0,0,false,not_executed_no_candidate

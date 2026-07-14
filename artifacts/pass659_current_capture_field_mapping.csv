@@ -1,0 +1,5 @@
+flow_role,server_port,packet_count,payload_bytes,s2c_payload_bytes,c2s_payload_bytes,static_source_path,field_width,byte_order,packet_or_frame,sequence_policy
+world,7780,623,151675,151079,596,unresolved,unknown,unknown,unmapped_until_static_slice,sparse_no_synthetic_gap_fill
+other,11000,72,25662,25466,196,unresolved,unknown,unknown,unmapped_until_static_slice,sparse_no_synthetic_gap_fill
+side_control,10242,192,8582,6778,1804,unresolved,unknown,unknown,unmapped_until_static_slice,sparse_no_synthetic_gap_fill
+other,2106,23,778,506,272,unresolved,unknown,unknown,unmapped_until_static_slice,sparse_no_synthetic_gap_fill

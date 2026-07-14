@@ -1,0 +1,11 @@
+candidate_id,function_address,function_name,classification,preserve_as_waypoint,reason
+P622-KS-001,0x11B5863D,FUN_11b5863d,candidate_pending_nonstack_semantic_scan,False,not one of Pass623 permanent stack-save rejects
+P622-KS-002,0x11B559CD,FUN_11b559cd,rejected_stack_save,False,Pass623 rejected RSP stack/register-save pattern
+P622-KS-003,0x11B59392,FUN_11b59392,candidate_pending_nonstack_semantic_scan,False,not one of Pass623 permanent stack-save rejects
+P622-KS-004,0x11B581C1,FUN_11b581c1,candidate_pending_nonstack_semantic_scan,False,not one of Pass623 permanent stack-save rejects
+P622-KS-005,0x11B57BDB,FUN_11b57bdb,candidate_pending_nonstack_semantic_scan,False,not one of Pass623 permanent stack-save rejects
+P622-KS-006,0x11B56B2C,FUN_11b56b2c,candidate_pending_nonstack_semantic_scan,False,not one of Pass623 permanent stack-save rejects
+P622-KS-007,0x11B564BE,FUN_11b564be,rejected_stack_save,False,Pass623 rejected RSP stack/register-save pattern
+P622-KS-008,0x11B57075,FUN_11b57075,rejected_stack_save,True,Pass623 rejected RSP stack/register-save pattern
+P622-KS-009,0x11B59765,FUN_11b59765,candidate_pending_nonstack_semantic_scan,False,not one of Pass623 permanent stack-save rejects
+P622-KS-010,0x11B58D6C,FUN_11b58d6c,candidate_pending_nonstack_semantic_scan,False,not one of Pass623 permanent stack-save rejects

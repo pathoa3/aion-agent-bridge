@@ -1,0 +1,8 @@
+branch,status,result
+targeted_ghidra_export,completed,"Base/lib/org.apache.felix.framework-7.0.5.jar)
+WARNING: Please consider reporting this to the maintainers of class org.apache.felix.framework.util.SecureAction
+WARNING: sun.misc.Unsafe::staticFieldOffset will be removed in a future release
+"
+pass623_stack_rejections,completed,P622-KS-002/007/008 rejected_stack_save
+initializer_generation,blocked_after_fallback,no received-data-dependent non-stack state write resolved
+sequential_validation,not_executed_no_candidate,no decoder success claimed

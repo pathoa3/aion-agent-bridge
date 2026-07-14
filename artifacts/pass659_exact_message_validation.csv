@@ -1,0 +1,2 @@
+candidate_id,exact_visible_text_recovered,authoritative_interval,repeat_validated,negative_controls_clean,acceptance_gate_passed,reason
+none,false,false,false,not_executed_no_candidate,false,no initializer candidate from native context trace
