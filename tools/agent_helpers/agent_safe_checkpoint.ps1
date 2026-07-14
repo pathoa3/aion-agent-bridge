@@ -48,6 +48,7 @@ param(
         "artifacts/pass657_*",
         "artifacts/pass658_*",
         "artifacts/pass659_*",
+        "artifacts/pass660*",
         "inbox/codex_report.md"
     )
 )

@@ -1,0 +1,22 @@
+{
+  "phase": "pass660_callsite_ssa_correction",
+  "updated": "2026-07-14T12:10:58",
+  "stages": [
+    {
+      "name": "bounded_pass659_output_inspection",
+      "status": "completed",
+      "attempts": 1,
+      "fallback_status": "not_needed",
+      "fallback_attempts": 0,
+      "produced_artifacts": [
+        "artifacts/pass660_callsite_ssa_mapping.csv",
+        "artifacts/pass660_corrected_store_classification.csv",
+        "artifacts/pass660_nonstack_context_writes.csv",
+        "artifacts/pass660_argument_defuse_slices.csv",
+        "artifacts/pass660_exact_blocker.csv",
+        "artifacts/pass660_decision.json",
+        "inbox/codex_report.md"
+      ]
+    }
+  ]
+}
