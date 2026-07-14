@@ -1,0 +1,2 @@
+decoder_id,executed,full_capture_exact_matches,confidence,reason
+none,false,0,high,no frozen model passed holdout; contract forbids manufacturing oracle-fitting decoders

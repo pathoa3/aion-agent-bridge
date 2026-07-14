@@ -1,0 +1,10 @@
+branch,result,reason,remaining_unknown,confidence
+Pass656 claims,corrected,"Tautological hits, oracle-fitting parsers, and hard-coded controls superseded.",none,high
+queue semantics,supported,Attempts and fallback attempts increment; semantics tests pass.,none,high
+S2C sequence stream,supported,Independent sparse cross-check completed.,none,high
+C2S gap policy,closed,Synthetic gap bytes disallowed.,none,high
+explicit frame equations,supported,Single-equation grid executed; survivors are evidence only.,none,high
+frame holdout/null,supported,Train/holdout/null separation executed.,none,high
+frozen transforms,weakened,No model passed corrected acceptance gate.,concrete S2C body transform/order,high
+decoder generation,closed,No decoder generated because no frozen holdout survivor qualified.,none,high
+targeted static constraints,open,Exact body transform/order constraint remains missing.,concrete S2C body transform/order,high

@@ -1,0 +1,204 @@
+{
+  "phase": "pass657_corrective_holdout_validation",
+  "updated": "2026-07-14T07:53:45",
+  "stages": [
+    {
+      "name": "pass656_claim_audit",
+      "script": "tools/pass657_corrective_holdout_validation/pass657_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "invalidated=9",
+      "fallback": "Inspect exact producing function/artifact row.",
+      "fallback_status": "not_needed",
+      "fallback_attempts": 0,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass657_pass656_claim_audit.csv"
+      ]
+    },
+    {
+      "name": "queue_semantics_repair",
+      "script": "tools/pass657_corrective_holdout_validation/pass657_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "tests=5",
+      "fallback": "Fix and rerun semantics tests.",
+      "fallback_status": "not_needed",
+      "fallback_attempts": 0,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass657_queue_semantics_tests.csv"
+      ]
+    },
+    {
+      "name": "s2c_reassembly_crosscheck",
+      "script": "tools/pass657_corrective_holdout_validation/pass657_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "s2c_gaps=0 c2s_gaps=1",
+      "fallback": "Run alternate raw parser/capture-order comparison and sparse C2S policy.",
+      "fallback_status": "not_needed",
+      "fallback_attempts": 0,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass657_s2c_reassembly_crosscheck.csv",
+        "artifacts/pass657_c2s_gap_policy.csv"
+      ]
+    },
+    {
+      "name": "explicit_frame_equation_expansion",
+      "script": "tools/pass657_corrective_holdout_validation/pass657_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "equations=2500 survivors=100",
+      "fallback": "Staged prefix/holdout/full validation of survivors.",
+      "fallback_status": "not_needed",
+      "fallback_attempts": 0,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass657_explicit_frame_equations.csv",
+        "artifacts/pass657_frame_grid_summary.json",
+        "artifacts/pass657_frame_models_train.csv",
+        "artifacts/pass657_frame_models_holdout.csv"
+      ]
+    },
+    {
+      "name": "frame_null_and_holdout_validation",
+      "script": "tools/pass657_corrective_holdout_validation/pass657_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "survivors=0",
+      "fallback": "Require zero/tightly bounded resync subsets.",
+      "fallback_status": "completed",
+      "fallback_attempts": 0,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass657_frame_null_control_scores.csv",
+        "artifacts/pass657_explicit_frame_survivors.csv"
+      ]
+    },
+    {
+      "name": "frame_time_oracle_assignment",
+      "script": "tools/pass657_corrective_holdout_validation/pass657_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "frame_ranges=0 oracle_candidates=0",
+      "fallback": "Packet-overlap candidate sets with ambiguity counts.",
+      "fallback_status": "completed",
+      "fallback_attempts": 0,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass657_frame_time_ranges.csv",
+        "artifacts/pass657_oracle_frame_candidates.csv"
+      ]
+    },
+    {
+      "name": "oracle_body_candidate_grid",
+      "script": "tools/pass657_corrective_holdout_validation/pass657_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "body_candidates=0",
+      "fallback": "Bounded +/-1..8 expansion around candidates.",
+      "fallback_status": "completed",
+      "fallback_attempts": 0,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass657_oracle_body_candidates.csv"
+      ]
+    },
+    {
+      "name": "frozen_train_holdout_transform_validation",
+      "script": "tools/pass657_corrective_holdout_validation/pass657_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "frozen=0 passed=0",
+      "fallback": "Contradiction matrix for each transform family/key length.",
+      "fallback_status": "completed",
+      "fallback_attempts": 0,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass657_frozen_transform_candidates.csv",
+        "artifacts/pass657_train_holdout_validation.csv",
+        "artifacts/pass657_reverse_holdout_validation.csv",
+        "artifacts/pass657_transform_contradiction_matrix.csv"
+      ]
+    },
+    {
+      "name": "cross_length_channel_validation",
+      "script": "tools/pass657_corrective_holdout_validation/pass657_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "survivors=0",
+      "fallback": "Minimum missing constraint without per-message rederivation.",
+      "fallback_status": "completed",
+      "fallback_attempts": 0,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass657_cross_length_channel_validation.csv"
+      ]
+    },
+    {
+      "name": "decoder_without_oracle_input",
+      "script": "tools/pass657_corrective_holdout_validation/pass657_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "decoders=0",
+      "fallback": "Parameterized decoder only if a model passed holdout.",
+      "fallback_status": "completed",
+      "fallback_attempts": 0,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass657_decoder_inventory.csv"
+      ]
+    },
+    {
+      "name": "real_positive_negative_controls",
+      "script": "tools/pass657_corrective_holdout_validation/pass657_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "negative_windows=34",
+      "fallback": "Fix decoder/harness and rerun, no hard-coded outcomes.",
+      "fallback_status": "completed",
+      "fallback_attempts": 0,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass657_decoder_execution_results.csv",
+        "artifacts/pass657_positive_control_results.csv",
+        "artifacts/pass657_negative_control_results.csv",
+        "artifacts/pass657_clean_rerun_validation.csv"
+      ]
+    },
+    {
+      "name": "targeted_existing_transform_mapping",
+      "script": "tools/pass657_corrective_holdout_validation/pass657_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "constraints=5",
+      "fallback": "Identify exact missing export/path after independent analysis.",
+      "fallback_status": "completed",
+      "fallback_attempts": 0,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass657_targeted_transform_constraints.csv"
+      ]
+    },
+    {
+      "name": "corrected_acceptance_or_exhaustion",
+      "script": "tools/pass657_corrective_holdout_validation/pass657_runner.py",
+      "status": "completed",
+      "attempts": 1,
+      "primary_result": "accepted=False",
+      "fallback": "Corrected exhaustion and ranked next step.",
+      "fallback_status": "completed",
+      "fallback_attempts": 0,
+      "last_error": "",
+      "produced_artifacts": [
+        "artifacts/pass657_exact_message_validation.csv",
+        "artifacts/pass657_hypothesis_exhaustion.csv",
+        "artifacts/pass657_corrective_holdout_validation_decision.json",
+        "artifacts/pass657_corrective_holdout_validation_summary.md",
+        "inbox/codex_report.md"
+      ]
+    }
+  ]
+}

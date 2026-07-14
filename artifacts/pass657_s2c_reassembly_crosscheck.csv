@@ -1,0 +1,2 @@
+flow_role,server_port,direction,primary_segments,crosscheck_segments,primary_bytes,crosscheck_sparse_bytes,duplicates,overlaps,gaps,out_of_order,sequence_capture_equal_length,sequence_capture_equal_bytes,confidence,reason
+world,7780,S2C,289,289,151079,151079,0,0,0,1,true,false,high,independent sparse range accounting confirms S2C sequence stream without exposing bytes

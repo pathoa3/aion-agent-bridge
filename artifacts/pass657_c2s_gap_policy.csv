@@ -1,0 +1,2 @@
+flow_role,server_port,direction,captured_payload_bytes,sequence_reassembly_bytes_with_gaps,gaps,policy,usable_for_transform,confidence,reason
+world,7780,C2S,596,5703,1,sparse_ranges_only_no_synthetic_gap_bytes,false,high,synthetic zero-filled C2S gaps are disallowed for transform conclusions

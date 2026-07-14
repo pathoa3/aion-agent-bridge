@@ -1,0 +1,7 @@
+{
+  "explicit_equations": 2500,
+  "train_evaluated": 2500,
+  "holdout_evaluated": 100,
+  "private_bytes_committed": false,
+  "world_port": 7780
+}

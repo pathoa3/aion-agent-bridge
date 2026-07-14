@@ -1,0 +1,18 @@
+decoder_id,oracle_id,channel,executed,exact_output_match,collision,confidence,reason
+none,o001,whisper,false,false,false,high,actual decoder controls unavailable because no frozen model passed holdout
+none,o002,whisper,false,false,false,high,actual decoder controls unavailable because no frozen model passed holdout
+none,o003,whisper,false,false,false,high,actual decoder controls unavailable because no frozen model passed holdout
+none,o004,whisper,false,false,false,high,actual decoder controls unavailable because no frozen model passed holdout
+none,o005,whisper,false,false,false,high,actual decoder controls unavailable because no frozen model passed holdout
+none,o006,whisper,false,false,false,high,actual decoder controls unavailable because no frozen model passed holdout
+none,o007,whisper,false,false,false,high,actual decoder controls unavailable because no frozen model passed holdout
+none,o008,whisper,false,false,false,high,actual decoder controls unavailable because no frozen model passed holdout
+none,o009,group,false,false,false,high,actual decoder controls unavailable because no frozen model passed holdout
+none,o010,group,false,false,false,high,actual decoder controls unavailable because no frozen model passed holdout
+none,o011,group,false,false,false,high,actual decoder controls unavailable because no frozen model passed holdout
+none,o012,group,false,false,false,high,actual decoder controls unavailable because no frozen model passed holdout
+none,o013,group,false,false,false,high,actual decoder controls unavailable because no frozen model passed holdout
+none,o014,group,false,false,false,high,actual decoder controls unavailable because no frozen model passed holdout
+none,o015,group,false,false,false,high,actual decoder controls unavailable because no frozen model passed holdout
+none,o016,group,false,false,false,high,actual decoder controls unavailable because no frozen model passed holdout
+none,o017,local,false,false,false,high,actual decoder controls unavailable because no frozen model passed holdout

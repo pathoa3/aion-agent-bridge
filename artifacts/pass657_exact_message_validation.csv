@@ -1,0 +1,2 @@
+validation_id,explicit_frame_equation,explicit_body_boundary,frozen_A_to_B,reverse_or_independent_validation,decoder_without_oracle_text,negative_controls_collide,accepted,confidence,reason
+pass657_gate,false,false,false,false,false,false,false,high,"Corrected gate uses only frozen holdout validation and actual decoder eligibility, not Pass656 training hits"

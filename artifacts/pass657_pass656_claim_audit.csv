@@ -1,0 +1,13 @@
+claim_id,pass656_claim,classification,evidence_source,correction_required,reason
+cl001,queue_attempts,invalidated,Pass656 code/artifacts inspected,true,Pass656 queue has attempts=0; no real attempt accounting.
+cl002,fallback_semantics,invalidated,Pass656 code/artifacts inspected,true,Pass656 exception path marked fallback complete by writing a status CSV.
+cl003,s2c_sequence_reassembly,supported,Pass656 code/artifacts inspected,false,Pass656 recovered TCP sequence fields for S2C; cross-check required.
+cl004,c2s_gap_zero_fill,invalidated,Pass656 code/artifacts inspected,true,C2S synthetic zero gap bytes must not be used as ciphertext/plaintext.
+cl005,frame_revalidation,invalidated,Pass656 code/artifacts inspected,true,Pass656 collapsed compact families and used first-plausible equation choices.
+cl006,body_boundary_scoring,invalidated,Pass656 code/artifacts inspected,true,"Pass656 body boundary was global entropy sampling, not oracle validation."
+cl007,transform_hits_60220,invalidated,Pass656 code/artifacts inspected,true,Pass656 hits were training fits using oracle plaintext in transform derivation.
+cl008,cross_oracle_validation,not_tested,Pass656 code/artifacts inspected,true,Pass656 summed hit counts and did not freeze A then validate B.
+cl009,generated_parsers,invalidated,Pass656 code/artifacts inspected,true,Pass656 parsers accepted oracle text and searched/fitted known plaintext.
+cl010,positive_controls,invalidated,Pass656 code/artifacts inspected,true,"Pass656 positive rows were hard-coded/aggregate, not actual parser output per interval."
+cl011,negative_controls,invalidated,Pass656 code/artifacts inspected,true,Pass656 negatives were not independent actual decoder-output collisions.
+cl012,remote_push,supported,Pass656 code/artifacts inspected,false,Remote main verified at ed1882c in prior final response.

@@ -1,0 +1,6 @@
+test_name,passed,confidence,reason
+primary_attempt_increment,true,high,primary attempts increments before execution
+successful_fallback_resolves,true,high,implemented fallback can resolve stage
+failed_fallback_unresolved,true,high,failed fallback remains unresolved and would make runner non-zero
+completed_stage_skip,true,high,completed stage skipped on resume
+resume_after_interruption,true,high,running stage can be restored to pending before resume

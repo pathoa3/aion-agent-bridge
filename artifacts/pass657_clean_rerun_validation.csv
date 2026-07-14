@@ -1,0 +1,2 @@
+decoder_id,run1_executed,run2_executed,safe_aggregate_equal,confidence,reason
+none,false,false,true,high,no decoder generated; clean rerun not applicable without holdout survivor

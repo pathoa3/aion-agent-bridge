@@ -1,0 +1,2 @@
+decoder_id,decoder_path,frozen_model_id,accepts_oracle_plaintext,generated,executed,confidence,reason
+none,,,false,false,false,high,no frozen model passed holdout; contract forbids manufacturing oracle-fitting decoders

@@ -1,0 +1,2 @@
+transfer_id,frozen_model_id,whisper_lengths_tested,whisper_lengths_passed,group_lengths_tested,group_lengths_passed,same_base_pairs_tested,same_base_pairs_passed,local_tested,local_passed,per_message_rederivation,confidence,reason
+none,none,4,0,4,0,4,0,true,false,false,high,no frozen train/holdout model survived to transfer testing
