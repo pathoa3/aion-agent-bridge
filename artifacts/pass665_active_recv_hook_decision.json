@@ -1,0 +1,32 @@
+{
+  "acceptance_gate_passed": false,
+  "aeginit_candidate_count": 5,
+  "binaries_committed": false,
+  "crysystem_md5_matches_expected": true,
+  "crysystem_path": "C:\\Program Files (x86)\\EuroAion\\bin64\\crysystem.dll",
+  "crysystem_present": true,
+  "exact_active_hook_installer_and_target": false,
+  "exact_aeginit_callsite_and_args": false,
+  "exact_blocker": {
+    "exact_file": "C:\\AionTools\\aion_decoder_agent\\game_unpacked_background\\game_mapped.bin; C:\\Program Files (x86)\\EuroAion\\bin64\\crysystem.dll",
+    "exact_function_or_address": "CrySystem.dll export CreateSystemInterface / Game Winsock IAT slots",
+    "precise_next_operation": "run a bounded Ghidra headless export for CrySystem.dll CreateSystemInterface/CreateGame reachable callees plus xrefs to Game Winsock IAT slot VAs, then classify concrete write/call edges",
+    "unresolved_definition": "missing mapped Game import-slot proof in this workspace and no disassembly-backed write/call edge proving a recv/WSARecv hook installer, CrySystem security bootstrap, or exact AegInitEngine x64 arguments"
+  },
+  "exact_crysystem_security_bootstrap": false,
+  "game_mapped_path": "C:\\AionTools\\aion_decoder_agent\\game_unpacked_background\\game_mapped.bin",
+  "game_mapped_sha256_matches_expected": false,
+  "hook_write_candidate_count": 338,
+  "next_action": "run a bounded Ghidra headless export for CrySystem.dll CreateSystemInterface/CreateGame reachable callees plus xrefs to Game Winsock IAT slot VAs, then classify concrete write/call edges",
+  "outer_transform_model_generated": false,
+  "packet_hashes_committed": false,
+  "phase": "pass665_active_recv_hook",
+  "raw_ciphertext_committed": false,
+  "raw_payload_committed": false,
+  "raw_plaintext_blob_committed": false,
+  "reason": "Offline metadata confirms CrySystem is present. The expected mapped Game image was absent or unparsable in this local workspace, so no Game Winsock import slots were proven from that image; static metadata/pattern scans also did not prove an active hook installer, security bootstrap caller, exact AegInitEngine arguments, transform, or decoded plaintext.",
+  "s2c_decoder_success": false,
+  "sequential_real_capture_decode": false,
+  "winsock_import_slots_recorded": 0,
+  "worker": "codex"
+}

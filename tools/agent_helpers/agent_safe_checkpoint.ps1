@@ -34,6 +34,8 @@ param(
         "tools/pass661_livein_argument_resolution",
         "tools/pass662_*",
         "tools/pass662_explicit_register_liveins",
+        "tools/pass665_*",
+        "tools/pass665_active_recv_hook",
         "artifacts/pass638_dynamic_flow_context.csv",
         "artifacts/pass638_known_plaintext_log_status.csv",
         "artifacts/pass645_10242_*",
@@ -55,6 +57,7 @@ param(
         "artifacts/pass660*",
         "artifacts/pass661*",
         "artifacts/pass662*",
+        "artifacts/pass665*",
         "inbox/codex_report.md"
     )
 )
@@ -127,6 +130,7 @@ if ($pushExit -ne 0) {
 }
 
 exit 0
+
 
 
 

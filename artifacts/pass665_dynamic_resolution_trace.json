@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-07-15T23:15:27+0200",
+  "modules": [
+    {
+      "dynamic_resolution_string_hits": [
+        {
+          "encoding": "ascii",
+          "needle": "CreateSystemInterface",
+          "offset": "0x956F"
+        },
+        {
+          "encoding": "ascii",
+          "needle": "LoadLibrary",
+          "offset": "0x2B7B5D"
+        },
+        {
+          "encoding": "ascii",
+          "needle": "CrySystem",
+          "offset": "0xA210"
+        },
+        {
+          "encoding": "utf16le",
+          "needle": "CrySystem",
+          "offset": "0x318990"
+        },
+        {
+          "encoding": "utf16le",
+          "needle": "CrySystem",
+          "offset": "0x318A68"
+        }
+      ],
+      "exports_of_interest": [
+        {
+          "name": "CreateSystemInterface",
+          "ordinal": 18,
+          "rva": "0x1C2E0",
+          "va": "0x1001C2E0"
+        }
+      ],
+      "imports_of_interest": [
+        {
+          "dll": "WS2_32.dll",
+          "function": "ordinal_52",
+          "iat_slot_rva": "0x808000",
+          "iat_slot_va": "0x10808000",
+          "kind": "import",
+          "module_path": "C:\\Program Files (x86)\\EuroAion\\bin64\\crysystem.dll",
+          "ordinal": 52
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "function": "LoadLibraryA",
+          "iat_slot_rva": "0x808140",
+          "iat_slot_va": "0x10808140",
+          "kind": "import",
+          "module_path": "C:\\Program Files (x86)\\EuroAion\\bin64\\crysystem.dll",
+          "ordinal": ""
+        }
+      ],
+      "md5_matches_expected": true,
+      "module": "CrySystem.dll",
+      "path": "C:\\Program Files (x86)\\EuroAion\\bin64\\crysystem.dll"
+    }
+  ],
+  "phase": "pass665_dynamic_resolution_trace"
+}

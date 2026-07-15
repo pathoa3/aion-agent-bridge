@@ -1,0 +1,2 @@
+module,source_path,image_base,image_sha256_matches_expected,dll,function,ordinal,import_kind,iat_slot_rva,iat_slot_va,confidence,reason
+game_mapped,C:\AionTools\aion_decoder_agent\game_unpacked_background\game_mapped.bin,0x10000000,false,,,,,,,none,Game mapped PE absent or no target Winsock imports parsed

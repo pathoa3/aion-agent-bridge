@@ -1,0 +1,85 @@
+{
+  "created_at": "2026-07-15T23:15:27+0200",
+  "phase": "pass665_active_recv_hook",
+  "stages": [
+    {
+      "attempts": 1,
+      "fallback_attempts": 1,
+      "fallback_definition": "Record import slots and scan available modules for references/trampolines.",
+      "fallback_result": "static slot-reference/trampoline fallback completed across available modules",
+      "fallback_status": "completed",
+      "last_error": "",
+      "name": "stage1_winsock_import_hook_baseline",
+      "primary_result": "baseline_rows=1 hook_rows=338",
+      "produced_artifacts": [
+        "artifacts/pass665_winsock_slot_baseline.csv",
+        "artifacts/pass665_hook_write_candidates.csv"
+      ],
+      "script": "C:\\AionTools\\aion-agent-bridge\\tools\\pass665_active_recv_hook\\pass665_runner.py",
+      "status": "completed"
+    },
+    {
+      "attempts": 1,
+      "fallback_attempts": 1,
+      "fallback_definition": "Verify/inventory CrySystem and dynamic resolution evidence.",
+      "fallback_result": "startup-evidence fallback retained; no bootstrap claimed without call edge",
+      "fallback_status": "completed",
+      "last_error": "",
+      "name": "stage2_crysystem_inventory",
+      "primary_result": "crysystem_rows=3 dynamic_modules=1",
+      "produced_artifacts": [
+        "artifacts/pass665_crysystem_inventory.csv",
+        "artifacts/pass665_dynamic_resolution_trace.json"
+      ],
+      "script": "C:\\AionTools\\aion-agent-bridge\\tools\\pass665_active_recv_hook\\pass665_runner.py",
+      "status": "completed"
+    },
+    {
+      "attempts": 1,
+      "fallback_attempts": 1,
+      "fallback_definition": "Search offline modules for AegInitEngine evidence.",
+      "fallback_result": "ordinal/name/static-string fallback completed across installed and handover modules",
+      "fallback_status": "completed",
+      "last_error": "",
+      "name": "stage3_aeginit_argument_candidates",
+      "primary_result": "aeg_rows=5",
+      "produced_artifacts": [
+        "artifacts/pass665_aeginit_argument_candidates.csv"
+      ],
+      "script": "C:\\AionTools\\aion-agent-bridge\\tools\\pass665_active_recv_hook\\pass665_runner.py",
+      "status": "completed"
+    },
+    {
+      "attempts": 1,
+      "fallback_attempts": 1,
+      "fallback_definition": "Extract only proven hook target or record blocker.",
+      "fallback_result": "no emulator/decoder generated because no concrete hook/transform was recovered",
+      "fallback_status": "completed",
+      "last_error": "",
+      "name": "stage4_hook_target_extraction",
+      "primary_result": "no proven hook target; exact blocker recorded",
+      "produced_artifacts": [
+        "artifacts/pass665_active_recv_hook_decision.json"
+      ],
+      "script": "C:\\AionTools\\aion-agent-bridge\\tools\\pass665_active_recv_hook\\pass665_runner.py",
+      "status": "completed"
+    },
+    {
+      "attempts": 1,
+      "fallback_attempts": 1,
+      "fallback_definition": "Evaluate decode gate and report.",
+      "fallback_result": "exact blocker captured instead of claiming report-only success",
+      "fallback_status": "completed",
+      "last_error": "",
+      "name": "stage5_acceptance_gate",
+      "primary_result": "acceptance gate evaluated and report written",
+      "produced_artifacts": [
+        "artifacts/pass665_active_recv_hook_summary.md",
+        "inbox/codex_report.md"
+      ],
+      "script": "C:\\AionTools\\aion-agent-bridge\\tools\\pass665_active_recv_hook\\pass665_runner.py",
+      "status": "completed"
+    }
+  ],
+  "worker": "codex"
+}

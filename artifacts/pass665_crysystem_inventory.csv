@@ -1,0 +1,4 @@
+module,source_path,size,md5_matches_expected,sha256,is_pe,image_base,size_of_image,exports_count,imports_count,tls_present,interesting_string_hits,confidence,reason
+CrySystem.dll,C:\Program Files (x86)\EuroAion\bin64\crysystem.dll,3250752,true,3aee96a66cf05888545f4043558526122f04696354aa89f0450ff70586a9dfce,true,0x10000000,0x86E000,27,26,true,5,high,Installed CrySystem.dll parsed offline; metadata only
+CrySystem.dll,C:\Program Files (x86)\EuroAion\bin64\crysystem.dll,3250752,true,,true,0x10000000,0x86E000,,,,,medium,relevant import WS2_32.dll!ordinal_52 slot 0x10808000
+CrySystem.dll,C:\Program Files (x86)\EuroAion\bin64\crysystem.dll,3250752,true,,true,0x10000000,0x86E000,,,,,medium,relevant import KERNEL32.dll!LoadLibraryA slot 0x10808140
