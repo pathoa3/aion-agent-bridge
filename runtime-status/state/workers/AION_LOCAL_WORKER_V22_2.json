@@ -123,7 +123,7 @@
     }
   ],
   "available": true,
-  "elapsed_seconds": 4402.408972740173,
+  "elapsed_seconds": 4460.003648042679,
   "error": "",
   "event_count": 84,
   "events": [
@@ -564,9 +564,9 @@
   "process_alive": true,
   "reason": "running",
   "reconstruction_ready": false,
-  "rip": "0x18021f7e1",
+  "rip": "0x18021ff4f",
   "schema": "aion-local-worker-v22.2.2",
-  "status_age_seconds": 44.489272356033325,
+  "status_age_seconds": 49.16630029678345,
   "target_pages": {
     "0x10328de0": {
       "changed_bytes": null,
@@ -599,23 +599,23 @@
       "sha256": null
     }
   },
-  "total_instructions": 1320006268,
+  "total_instructions": 1330006268,
   "transform_progress_estimate": {
     "acceptance_signal": false,
     "allocation_base": "0x5000000000",
-    "bytes_per_million_instructions": 26780.346,
+    "bytes_per_million_instructions": 26806.769,
     "confidence": "low",
-    "estimated_percent": 67.59,
+    "estimated_percent": 68.54,
     "expected_game_size": 28692480,
     "kind": "inferred_linear_generated_output",
-    "max_linear_residual_bytes": 1336300.808,
-    "observed_instruction": 1320006268,
-    "observed_output_offset": 19392056,
-    "observed_output_offset_hex": "0x127E638",
-    "projected_instruction_milestone": 1672163403,
-    "sample_count": 41
+    "max_linear_residual_bytes": 1341697.869,
+    "observed_instruction": 1330006268,
+    "observed_output_offset": 19666028,
+    "observed_output_offset_hex": "0x12C146C",
+    "projected_instruction_milestone": 1671376939,
+    "sample_count": 42
   },
-  "updated_unix": 1784239705.0194278,
+  "updated_unix": 1784239762.6141028,
   "worker": "AION_LOCAL_WORKER_V22_2",
   "yog": "42011cde0000000000000000000000000000000000000000"
 }
