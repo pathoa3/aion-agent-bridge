@@ -128,37 +128,17 @@
     "last_error": "",
     "latest": {
       "name": "latest.aionckpt",
-      "saved_unix": 1784235793.2943285,
-      "sha256": "248f8b04994879a1ca98b9929831cda601f697e7f6beb5295809069ae5193c83",
-      "size": 6334236,
-      "total_instructions": 600006268
+      "saved_unix": 1784236164.854237,
+      "sha256": "0e94a649519415ba03efd4f02d35c54b36f44258bb6631c7a8302a3f4d1dbd4b",
+      "size": 7010448,
+      "total_instructions": 700006268
     },
     "resumed": false
   },
-  "elapsed_seconds": 756.2971315383911,
+  "elapsed_seconds": 862.2753462791443,
   "error": "",
-  "event_count": 77,
+  "event_count": 78,
   "events": [
-    {
-      "after": {
-        "rax": "0x3d",
-        "rcx": "0x1",
-        "rdx": "0x1801695f8",
-        "rip": "0x18016ae3d",
-        "rsp": "0x7000ffde18"
-      },
-      "kind": "api",
-      "new_api_calls": [
-        {
-          "dll": "kernel32.dll",
-          "i": 933,
-          "name": "GetModuleHandleA",
-          "ret": "0x6201400000"
-        }
-      ],
-      "seconds": 0.0015599727630615234,
-      "slice": 43794
-    },
     {
       "after": {
         "rax": "0x27",
@@ -650,6 +630,9 @@
       ],
       "seconds": 0.07688188552856445,
       "slice": 67674
+    },
+    {
+      "kind": "checkpoint"
     }
   ],
   "fatal_error_tail": "",
@@ -695,9 +678,9 @@
   "process_alive": true,
   "reason": "running",
   "reconstruction_ready": false,
-  "rip": "0x18027eb24",
+  "rip": "0x18021f33f",
   "schema": "aion-local-worker-v22.2.2",
-  "status_age_seconds": 48.05100655555725,
+  "status_age_seconds": 4.1818296909332275,
   "target_pages": {
     "0x10328de0": {
       "changed_bytes": null,
@@ -730,9 +713,9 @@
       "sha256": null
     }
   },
-  "total_instructions": 680006268,
+  "total_instructions": 700006268,
   "transform_progress_estimate": null,
-  "updated_unix": 1784236058.9075863,
+  "updated_unix": 1784236164.8858004,
   "worker": "AION_LOCAL_WORKER_V22_2",
   "yog": "42011cde0000000000000000000000000000000000000000"
 }
