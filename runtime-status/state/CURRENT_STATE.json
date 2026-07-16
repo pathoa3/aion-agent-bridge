@@ -12,7 +12,7 @@
   },
   "main_head": "3c635c7ba12de475fb95d50c6417512add28d8ea",
   "schema": "aion-github-sync-v1.6",
-  "updated_unix": 1784243732.0961246,
+  "updated_unix": 1784243794.5968995,
   "workers": [
     {
       "api_count": 964,
@@ -700,7 +700,7 @@
       "reconstruction_ready": false,
       "rip": "0x18021f34e",
       "schema": "aion-local-worker-v22",
-      "status_age_seconds": 14697.341938972473,
+      "status_age_seconds": 14759.853827953339,
       "target_pages": null,
       "total_instructions": 1471000000,
       "transform_progress_estimate": null,
@@ -833,13 +833,10 @@
         }
       ],
       "available": true,
-      "elapsed_seconds": 8428.98626947403,
+      "elapsed_seconds": 8491.49234366417,
       "error": "",
-      "event_count": 90,
+      "event_count": 91,
       "events": [
-        {
-          "kind": "checkpoint"
-        },
         {
           "after": {
             "rax": "0x18016960c",
@@ -1121,6 +1118,9 @@
         },
         {
           "kind": "checkpoint"
+        },
+        {
+          "kind": "checkpoint"
         }
       ],
       "fatal_error_tail": "",
@@ -1166,9 +1166,9 @@
       "process_alive": true,
       "reason": "running",
       "reconstruction_ready": false,
-      "rip": "0x18021e878",
+      "rip": "0x18021e9ea",
       "schema": "aion-local-worker-v22.2.2",
-      "status_age_seconds": 0.11951208114624023,
+      "status_age_seconds": 0.1222996711730957,
       "target_pages": {
         "0x10328de0": {
           "changed_bytes": null,
@@ -1201,7 +1201,7 @@
           "sha256": null
         }
       },
-      "total_instructions": 1990006268,
+      "total_instructions": 2000006268,
       "transform_progress_estimate": {
         "acceptance_signal": false,
         "allocation_base": "0x5000000000",
@@ -1217,7 +1217,7 @@
         "projected_instruction_milestone": 1660602469,
         "sample_count": 77
       },
-      "updated_unix": 1784243731.5967245,
+      "updated_unix": 1784243794.1027977,
       "worker": "AION_LOCAL_WORKER_V22_2",
       "yog": "42011cde0000000000000000000000000000000000000000"
     }
