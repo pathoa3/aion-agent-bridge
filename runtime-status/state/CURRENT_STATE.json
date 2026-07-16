@@ -12,7 +12,7 @@
   },
   "main_head": "3c635c7ba12de475fb95d50c6417512add28d8ea",
   "schema": "aion-github-sync-v1.3",
-  "updated_unix": 1784235362.6917527,
+  "updated_unix": 1784235424.6106327,
   "workers": [
     {
       "api_count": 964,
@@ -706,7 +706,7 @@
       "reconstruction_ready": false,
       "rip": "0x18021f34e",
       "schema": "aion-local-worker-v22",
-      "status_age_seconds": 6328.187936544418,
+      "status_age_seconds": 6390.080424308777,
       "target_pages": null,
       "total_instructions": 1471000000,
       "transform_progress_estimate": null,
@@ -715,127 +715,127 @@
       "yog": "42011cde0000000000000000000000000000000000000000"
     },
     {
-      "api_count": 871,
+      "api_count": 901,
       "api_tail": [
         {
           "dll": "kernel32.dll",
-          "i": 853,
-          "name": "IsDebuggerPresent",
-          "ret": "0x0"
-        },
-        {
-          "dll": "ntdll.dll",
-          "i": 854,
-          "name": "RtlGetCurrentPeb",
-          "ret": "0x7ffdf00000"
-        },
-        {
-          "dll": "user32.dll",
-          "i": 855,
-          "name": "FindWindowA",
-          "ret": "0x0"
-        },
-        {
-          "dll": "user32.dll",
-          "i": 856,
-          "name": "FindWindowA",
-          "ret": "0x0"
-        },
-        {
-          "dll": "user32.dll",
-          "i": 857,
-          "name": "FindWindowA",
-          "ret": "0x0"
-        },
-        {
-          "dll": "user32.dll",
-          "i": 858,
-          "name": "FindWindowA",
-          "ret": "0x0"
-        },
-        {
-          "dll": "kernel32.dll",
-          "i": 859,
-          "name": "VirtualAlloc",
-          "ret": "0x5000188000"
-        },
-        {
-          "dll": "kernel32.dll",
-          "i": 860,
+          "i": 883,
           "name": "GetModuleHandleA",
           "ret": "0x6200400000"
         },
         {
           "dll": "kernel32.dll",
-          "i": 861,
+          "i": 884,
           "name": "GetProcAddress",
-          "ret": "0x60000002d0"
+          "ret": "0x6000000300"
         },
         {
           "dll": "dynamic",
-          "i": 862,
+          "i": 885,
           "name": "NtQuerySystemInformation",
           "ret": "0x0"
         },
         {
           "dll": "kernel32.dll",
-          "i": 863,
+          "i": 886,
           "name": "IsBadReadPtr",
           "ret": "0x0"
         },
         {
           "dll": "kernel32.dll",
-          "i": 864,
+          "i": 887,
           "name": "VirtualFree",
           "ret": "0x1"
         },
         {
           "dll": "kernel32.dll",
-          "i": 865,
+          "i": 888,
           "name": "VirtualAlloc",
-          "ret": "0x5000198000"
+          "ret": "0x50001c8000"
         },
         {
           "dll": "kernel32.dll",
-          "i": 866,
+          "i": 889,
           "name": "GetModuleHandleA",
           "ret": "0x6200400000"
         },
         {
           "dll": "kernel32.dll",
-          "i": 867,
+          "i": 890,
           "name": "GetProcAddress",
-          "ret": "0x60000002e0"
+          "ret": "0x6000000310"
         },
         {
           "dll": "dynamic",
-          "i": 868,
+          "i": 891,
           "name": "NtQuerySystemInformation",
           "ret": "0x0"
         },
         {
           "dll": "kernel32.dll",
-          "i": 869,
+          "i": 892,
           "name": "IsBadReadPtr",
           "ret": "0x0"
         },
         {
           "dll": "kernel32.dll",
-          "i": 870,
+          "i": 893,
           "name": "VirtualFree",
           "ret": "0x1"
         },
         {
-          "dll": "ntdll.dll",
-          "i": 871,
-          "name": "ZwQueryInformationProcess",
+          "dll": "kernel32.dll",
+          "i": 894,
+          "name": "VirtualAlloc",
+          "ret": "0x50001d8000"
+        },
+        {
+          "dll": "kernel32.dll",
+          "i": 895,
+          "name": "GetModuleHandleA",
+          "ret": "0x6200400000"
+        },
+        {
+          "dll": "kernel32.dll",
+          "i": 896,
+          "name": "GetProcAddress",
+          "ret": "0x6000000320"
+        },
+        {
+          "dll": "dynamic",
+          "i": 897,
+          "name": "NtQuerySystemInformation",
           "ret": "0x0"
         },
         {
-          "dll": "ntdll.dll",
-          "i": 872,
-          "name": "ZwQueryInformationProcess",
-          "ret": "0xc0000353"
+          "dll": "kernel32.dll",
+          "i": 898,
+          "name": "IsBadReadPtr",
+          "ret": "0x0"
+        },
+        {
+          "dll": "kernel32.dll",
+          "i": 899,
+          "name": "VirtualFree",
+          "ret": "0x1"
+        },
+        {
+          "dll": "kernel32.dll",
+          "i": 900,
+          "name": "VirtualProtect",
+          "ret": "0x1"
+        },
+        {
+          "dll": "kernel32.dll",
+          "i": 901,
+          "name": "IsBadWritePtr",
+          "ret": "0x0"
+        },
+        {
+          "dll": "kernel32.dll",
+          "i": 902,
+          "name": "VirtualProtect",
+          "ret": "0x1"
         }
       ],
       "available": true,
@@ -844,37 +844,17 @@
         "last_error": "",
         "latest": {
           "name": "latest.aionckpt",
-          "saved_unix": 1784235353.3950913,
-          "sha256": "3fdfc0593a55bf9558b7787d15c8d14f69804faa2e990e31b28219a482b0e31d",
-          "size": 6211984,
-          "total_instructions": 100006268
+          "saved_unix": 1784235387.4023201,
+          "sha256": "af675aeb9a504d020d85ee1d836caeff98b79a9c6c1ad47adad378fb90a096dd",
+          "size": 6217259,
+          "total_instructions": 300006268
         },
         "resumed": false
       },
-      "elapsed_seconds": 56.107197761535645,
+      "elapsed_seconds": 101.89298558235168,
       "error": "",
-      "event_count": 12,
+      "event_count": 25,
       "events": [
-        {
-          "after": {
-            "rax": "0x18016950b",
-            "rcx": "0x8b",
-            "rdx": "0x180169618",
-            "rip": "0x18017cc30",
-            "rsp": "0x7000ffde20"
-          },
-          "kind": "api",
-          "new_api_calls": [
-            {
-              "dll": "kernel32.dll",
-              "i": 853,
-              "name": "IsDebuggerPresent",
-              "ret": "0x0"
-            }
-          ],
-          "seconds": 0.0030694007873535156,
-          "slice": 562
-        },
         {
           "after": {
             "rax": "0xdf",
@@ -1128,6 +1108,346 @@
           ],
           "seconds": 0.0010595321655273438,
           "slice": 13946
+        },
+        {
+          "after": {
+            "rax": "0xbe",
+            "rcx": "0x1",
+            "rdx": "0x1801696b8",
+            "rip": "0x180177d95",
+            "rsp": "0x7000ffde04"
+          },
+          "kind": "api",
+          "new_api_calls": [
+            {
+              "dll": "user32.dll",
+              "i": 873,
+              "name": "FindWindowA",
+              "ret": "0x0"
+            }
+          ],
+          "seconds": 0.00152587890625,
+          "slice": 16357
+        },
+        {
+          "after": {
+            "rax": "0x5b",
+            "rcx": "0x8b",
+            "rdx": "0x180169628",
+            "rip": "0x18016cd80",
+            "rsp": "0x7000ffddf8"
+          },
+          "kind": "api",
+          "new_api_calls": [
+            {
+              "dll": "user32.dll",
+              "i": 874,
+              "name": "FindWindowA",
+              "ret": "0x0"
+            }
+          ],
+          "seconds": 0.0011970996856689453,
+          "slice": 16383
+        },
+        {
+          "after": {
+            "rax": "0xdf",
+            "rcx": "0xa0",
+            "rdx": "0x180169640",
+            "rip": "0x1801736ee",
+            "rsp": "0x7000ffde10"
+          },
+          "kind": "api",
+          "new_api_calls": [
+            {
+              "dll": "user32.dll",
+              "i": 875,
+              "name": "FindWindowA",
+              "ret": "0x0"
+            }
+          ],
+          "seconds": 0.0011060237884521484,
+          "slice": 16410
+        },
+        {
+          "after": {
+            "rax": "0xb6",
+            "rcx": "0x7a",
+            "rdx": "0x1801695f8",
+            "rip": "0x18016d276",
+            "rsp": "0x7000ffddfc"
+          },
+          "kind": "api",
+          "new_api_calls": [
+            {
+              "dll": "kernel32.dll",
+              "i": 876,
+              "name": "VirtualAlloc",
+              "ret": "0x50001a8000"
+            },
+            {
+              "dll": "kernel32.dll",
+              "i": 877,
+              "name": "GetModuleHandleA",
+              "ret": "0x6200400000"
+            },
+            {
+              "dll": "kernel32.dll",
+              "i": 878,
+              "name": "GetProcAddress",
+              "ret": "0x60000002f0"
+            },
+            {
+              "dll": "dynamic",
+              "i": 879,
+              "name": "NtQuerySystemInformation",
+              "ret": "0x0"
+            },
+            {
+              "dll": "kernel32.dll",
+              "i": 880,
+              "name": "IsBadReadPtr",
+              "ret": "0x0"
+            },
+            {
+              "dll": "kernel32.dll",
+              "i": 881,
+              "name": "VirtualFree",
+              "ret": "0x1"
+            }
+          ],
+          "seconds": 0.003723621368408203,
+          "slice": 17949
+        },
+        {
+          "kind": "checkpoint"
+        },
+        {
+          "after": {
+            "rax": "0x2e",
+            "rcx": "0xd8",
+            "rdx": "0x180169618",
+            "rip": "0x18016b89e",
+            "rsp": "0x7000ffddfe"
+          },
+          "kind": "api",
+          "new_api_calls": [
+            {
+              "dll": "kernel32.dll",
+              "i": 882,
+              "name": "VirtualAlloc",
+              "ret": "0x50001b8000"
+            },
+            {
+              "dll": "kernel32.dll",
+              "i": 883,
+              "name": "GetModuleHandleA",
+              "ret": "0x6200400000"
+            },
+            {
+              "dll": "kernel32.dll",
+              "i": 884,
+              "name": "GetProcAddress",
+              "ret": "0x6000000300"
+            },
+            {
+              "dll": "dynamic",
+              "i": 885,
+              "name": "NtQuerySystemInformation",
+              "ret": "0x0"
+            },
+            {
+              "dll": "kernel32.dll",
+              "i": 886,
+              "name": "IsBadReadPtr",
+              "ret": "0x0"
+            },
+            {
+              "dll": "kernel32.dll",
+              "i": 887,
+              "name": "VirtualFree",
+              "ret": "0x1"
+            }
+          ],
+          "seconds": 0.0026955604553222656,
+          "slice": 20922
+        },
+        {
+          "after": {
+            "rax": "0x0",
+            "rcx": "0x50001c8030",
+            "rdx": "0x4",
+            "rip": "0x1801e328d",
+            "rsp": "0x7000ffdea8"
+          },
+          "kind": "api",
+          "new_api_calls": [
+            {
+              "dll": "kernel32.dll",
+              "i": 888,
+              "name": "VirtualAlloc",
+              "ret": "0x50001c8000"
+            },
+            {
+              "dll": "kernel32.dll",
+              "i": 889,
+              "name": "GetModuleHandleA",
+              "ret": "0x6200400000"
+            },
+            {
+              "dll": "kernel32.dll",
+              "i": 890,
+              "name": "GetProcAddress",
+              "ret": "0x6000000310"
+            },
+            {
+              "dll": "dynamic",
+              "i": 891,
+              "name": "NtQuerySystemInformation",
+              "ret": "0x0"
+            },
+            {
+              "dll": "kernel32.dll",
+              "i": 892,
+              "name": "IsBadReadPtr",
+              "ret": "0x0"
+            }
+          ],
+          "seconds": 0.0026459693908691406,
+          "slice": 23898
+        },
+        {
+          "after": {
+            "rax": "0x1",
+            "rcx": "0x1",
+            "rdx": "0x180169640",
+            "rip": "0x18016ebcc",
+            "rsp": "0x7000ffde00"
+          },
+          "kind": "api",
+          "new_api_calls": [
+            {
+              "dll": "kernel32.dll",
+              "i": 893,
+              "name": "VirtualFree",
+              "ret": "0x1"
+            }
+          ],
+          "seconds": 0.0013625621795654297,
+          "slice": 23899
+        },
+        {
+          "after": {
+            "rax": "0xb9",
+            "rcx": "0xa0",
+            "rdx": "0x180169618",
+            "rip": "0x18017f620",
+            "rsp": "0x7000ffddf8"
+          },
+          "kind": "api",
+          "new_api_calls": [
+            {
+              "dll": "kernel32.dll",
+              "i": 894,
+              "name": "VirtualAlloc",
+              "ret": "0x50001d8000"
+            },
+            {
+              "dll": "kernel32.dll",
+              "i": 895,
+              "name": "GetModuleHandleA",
+              "ret": "0x6200400000"
+            },
+            {
+              "dll": "kernel32.dll",
+              "i": 896,
+              "name": "GetProcAddress",
+              "ret": "0x6000000320"
+            },
+            {
+              "dll": "dynamic",
+              "i": 897,
+              "name": "NtQuerySystemInformation",
+              "ret": "0x0"
+            },
+            {
+              "dll": "kernel32.dll",
+              "i": 898,
+              "name": "IsBadReadPtr",
+              "ret": "0x0"
+            },
+            {
+              "dll": "kernel32.dll",
+              "i": 899,
+              "name": "VirtualFree",
+              "ret": "0x1"
+            }
+          ],
+          "seconds": 0.003227710723876953,
+          "slice": 26873
+        },
+        {
+          "kind": "checkpoint"
+        },
+        {
+          "after": {
+            "rax": "0xb9",
+            "rcx": "0x1",
+            "rdx": "0x1801695f8",
+            "rip": "0x18018285f",
+            "rsp": "0x7000ffde0c"
+          },
+          "kind": "api",
+          "new_api_calls": [
+            {
+              "dll": "kernel32.dll",
+              "i": 900,
+              "name": "VirtualProtect",
+              "ret": "0x1"
+            }
+          ],
+          "seconds": 0.0013554096221923828,
+          "slice": 30878
+        },
+        {
+          "after": {
+            "rax": "0xdf",
+            "rcx": "0x1",
+            "rdx": "0x180169640",
+            "rip": "0x18016f4b4",
+            "rsp": "0x7000ffde1e"
+          },
+          "kind": "api",
+          "new_api_calls": [
+            {
+              "dll": "kernel32.dll",
+              "i": 901,
+              "name": "IsBadWritePtr",
+              "ret": "0x0"
+            }
+          ],
+          "seconds": 0.001622915267944336,
+          "slice": 30900
+        },
+        {
+          "after": {
+            "rax": "0x6b",
+            "rcx": "0x1",
+            "rdx": "0x180169640",
+            "rip": "0x18016e133",
+            "rsp": "0x7000ffde18"
+          },
+          "kind": "api",
+          "new_api_calls": [
+            {
+              "dll": "kernel32.dll",
+              "i": 902,
+              "name": "VirtualProtect",
+              "ret": "0x1"
+            }
+          ],
+          "seconds": 0.0009698867797851562,
+          "slice": 30962
         }
       ],
       "fatal_error_tail": "",
@@ -1173,9 +1493,9 @@
       "process_alive": true,
       "reason": "running",
       "reconstruction_ready": false,
-      "rip": "0x180206ed7",
+      "rip": "0x18016a2df",
       "schema": "aion-local-worker-v22.2.2",
-      "status_age_seconds": 3.842405319213867,
+      "status_age_seconds": 19.964972972869873,
       "target_pages": {
         "0x10328de0": {
           "changed_bytes": null,
@@ -1208,9 +1528,9 @@
           "sha256": null
         }
       },
-      "total_instructions": 140006268,
+      "total_instructions": 310006268,
       "transform_progress_estimate": null,
-      "updated_unix": 1784235358.7176526,
+      "updated_unix": 1784235404.5034404,
       "worker": "AION_LOCAL_WORKER_V22_2",
       "yog": "42011cde0000000000000000000000000000000000000000"
     }
