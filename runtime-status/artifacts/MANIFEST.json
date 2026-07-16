@@ -1,0 +1,33 @@
+{
+  "artifacts": [
+    {
+      "location": "AION_LOCAL_WORKER_V22/results/final.json",
+      "mtime_unix": 1784223132.961617,
+      "name": "final.json",
+      "sha256": "349687bfa891edfea71f5c3ee221dd47195a6188364d1b26e0b67dfef9dae402",
+      "size": 13556,
+      "stored_in_git": true,
+      "worker": "AION_LOCAL_WORKER_V22"
+    },
+    {
+      "location": "AION_LOCAL_WORKER_V22/results/status.json",
+      "mtime_unix": 1784229034.3452477,
+      "name": "status.json",
+      "sha256": "556649644a1ea3f6311decf757789b3c4d623bbd81e5d4b7a857e93fa98605d1",
+      "size": 597878,
+      "stored_in_git": true,
+      "worker": "AION_LOCAL_WORKER_V22"
+    },
+    {
+      "location": "AION_LOCAL_WORKER_V22_2/results/status.json",
+      "mtime_unix": 1784232328.7152226,
+      "name": "status.json",
+      "sha256": "64ac40c2e5b867dbe92b758a005a78c1c0d86d36547c4c72e6cfb68ab02be15a",
+      "size": 373476,
+      "stored_in_git": true,
+      "worker": "AION_LOCAL_WORKER_V22_2"
+    }
+  ],
+  "schema": "aion-github-sync-v1.2",
+  "updated_unix": 1784232333.4703655
+}

@@ -1,0 +1,62 @@
+{
+  "schema": "aion-worker-sidecar-v1",
+  "updated_unix": 1784232327.2444186,
+  "workers": [
+    {
+      "api_count": 964,
+      "available": true,
+      "candidate_count": 0,
+      "candidates": [],
+      "elapsed_seconds": 5411.152285575867,
+      "game_mapped": false,
+      "new_milestone_event_count": 0,
+      "reason": "running",
+      "reconstruction_ready": false,
+      "rip": "0x18021f34e",
+      "schema": "aion-local-worker-v22",
+      "target_summary": {},
+      "total_instructions": 1471000000,
+      "worker": "AION_LOCAL_WORKER_V22",
+      "yog": "42011cde0000000000000000000000000000000000000000"
+    },
+    {
+      "api_count": 964,
+      "available": true,
+      "candidate_count": 0,
+      "candidates": [],
+      "elapsed_seconds": 3267.8800044059753,
+      "game_mapped": false,
+      "new_milestone_event_count": 0,
+      "reason": "running",
+      "reconstruction_ready": false,
+      "rip": "0x18022033e",
+      "schema": "aion-local-worker-v22.2",
+      "target_summary": {
+        "0x10328de0": {
+          "changed_bytes": null,
+          "changed_from_packed_baseline": null,
+          "coherent": false,
+          "head": null,
+          "mapped": false
+        },
+        "0x103294b0": {
+          "changed_bytes": null,
+          "changed_from_packed_baseline": null,
+          "coherent": false,
+          "head": null,
+          "mapped": false
+        },
+        "0x1120ae70": {
+          "changed_bytes": null,
+          "changed_from_packed_baseline": null,
+          "coherent": null,
+          "head": null,
+          "mapped": false
+        }
+      },
+      "total_instructions": 1115000000,
+      "worker": "AION_LOCAL_WORKER_V22_2",
+      "yog": "42011cde0000000000000000000000000000000000000000"
+    }
+  ]
+}

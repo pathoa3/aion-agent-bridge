@@ -1,0 +1,6188 @@
+{
+  "file_count": 882,
+  "files": [
+    {
+      "blob_sha": "5dd549a88000717308cd73e413738624859a7e5e",
+      "mode": "100644",
+      "path": ".gitignore",
+      "size": 125,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d2401c4ac9e08fb87d1071998f004073edb85fae",
+      "mode": "100644",
+      "path": "AGENT_PROTOCOL.md",
+      "size": 2007,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "2af839b32a2f453e58ee655053fc6c5bc01738d1",
+      "mode": "100644",
+      "path": "README.md",
+      "size": 1115,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "739f0527eb29885f553de0cc6a0bb37f0e248c34",
+      "mode": "100644",
+      "path": "README_BRIDGE_RELAY.md",
+      "size": 1091,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "bbb09283c4fe272c993cd30ffa54e143edca856e",
+      "mode": "100644",
+      "path": "artifacts/README.md",
+      "size": 138,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "3be7a196f0c61f7fbebca740286484d3a4f51b7b",
+      "mode": "100644",
+      "path": "artifacts/pass599_summary.md",
+      "size": 354,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "db61ebb97136808d39194da2e5b299fa3ffc8be2",
+      "mode": "100644",
+      "path": "artifacts/pass600_summary.md",
+      "size": 281,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "a5edd66bcd0e51a97f3b9a7dd24dc88f3e4061d1",
+      "mode": "100644",
+      "path": "artifacts/pass601_summary.md",
+      "size": 463,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6848e1b6dcfd5f70e3576d5eb9d0542d4b5843ac",
+      "mode": "100644",
+      "path": "artifacts/pass603_candidates.csv",
+      "size": 1003,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ca9827280af4bd21f045831f77fcc7b2959fcda9",
+      "mode": "100644",
+      "path": "artifacts/pass603_candidates.md",
+      "size": 3475,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "94b9b7dae669e439f202ea2a48b3291f9907fc7f",
+      "mode": "100644",
+      "path": "artifacts/pass603_decision.json",
+      "size": 83,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e8b2cee37ccb70a9d555ef540419e4d8575d0887",
+      "mode": "100644",
+      "path": "artifacts/pass604_binary_deep_static.csv",
+      "size": 689,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8bb0442ce57b8dc50e04c7dd4331fdcc23c05306",
+      "mode": "100644",
+      "path": "artifacts/pass604_binary_deep_static.md",
+      "size": 2050,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "929d8d8fa849793ee35d384f83d0f19d1b00937d",
+      "mode": "100644",
+      "path": "artifacts/pass604_codex_binary_deep_static.csv",
+      "size": 3167,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "92dfc4e4e7177adb6b31cc24194d281ccb398fd4",
+      "mode": "100644",
+      "path": "artifacts/pass604_codex_binary_deep_static.md",
+      "size": 2767,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "fa09ff3358919e1d8c115652ab772854b558ebeb",
+      "mode": "100644",
+      "path": "artifacts/pass604_codex_binary_deep_static_hits.csv",
+      "size": 298470,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "5f2a044769f46874abbe31ac0de8ffab15a6951c",
+      "mode": "100644",
+      "path": "artifacts/pass604_codex_decision.json",
+      "size": 661,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ed5f68a8f2765876b4af08dc79f92907651db9d6",
+      "mode": "100644",
+      "path": "artifacts/pass604_decision.json",
+      "size": 173,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e980d2d7c6f1ff4d074dd7f75e47192ab41dc941",
+      "mode": "100644",
+      "path": "artifacts/pass605_decision.json",
+      "size": 654,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "95af97d06b49146a7089e5bbfe8459094423cbed",
+      "mode": "100644",
+      "path": "artifacts/pass605_final_blocker_proof.md",
+      "size": 1073,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b248e42df740da707a783c4752b4dd424401c72d",
+      "mode": "100644",
+      "path": "artifacts/pass605_inventory.csv",
+      "size": 40460,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "99f9ce6cdea028ced2b544a390899a20abed585b",
+      "mode": "100644",
+      "path": "artifacts/pass606_openclaw_decision.json",
+      "size": 390,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ec326402a768ddf4ddf6c6afb3b6423561780e4c",
+      "mode": "100644",
+      "path": "artifacts/pass606_openclaw_handover_review.csv",
+      "size": 1485,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "07800f08d298e7f880fc756663026819ef0ef06e",
+      "mode": "100644",
+      "path": "artifacts/pass606_openclaw_handover_review.md",
+      "size": 4315,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c671e18f0e89043f6b4bfcf84197fad3f9c53b4a",
+      "mode": "100644",
+      "path": "artifacts/pass606_openclaw_source_hunt.csv",
+      "size": 1142,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "725b259971bb5d7a070c0398691693479ca03a2b",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_blowfish_options.csv",
+      "size": 338,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8122b5f9a39b0928a7707a5a616923f9b2eaa10a",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_blowfish_options.md",
+      "size": 1303,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "768df5ca900fbcea8a4653fd6df5196a66f49b3a",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_bounded_hypotheses_for_codex.md",
+      "size": 2664,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "027f3b3eb7c210ad70441116ccacfa563e7da583",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_codex_lobby_review.csv",
+      "size": 560,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6e51abd13963eca135a2c5a4fa2f36182157a303",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_codex_lobby_review.md",
+      "size": 839,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d89142bf817e8d3c0f32df94f4599b19a9ee3458",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_codex_lobby_seed_review.csv",
+      "size": 658,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "160dcfbc3d19a8fc0c3d066ec79d3c5d81063650",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_codex_lobby_seed_review.md",
+      "size": 1412,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e728fbe035f518dbf775938328bdc12eb5db5242",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_codex_seq_review.csv",
+      "size": 570,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4b197f81df7c7cfe2345d5cf5d9cf459dbad4cf7",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_codex_seq_review.md",
+      "size": 732,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6f1576f4274cce16cf2b744cf73b627a2a44d602",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_codex_startup_review.csv",
+      "size": 547,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "abac5c19c9ad50e152a217958af0bd2a7dc929b5",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_codex_startup_review.md",
+      "size": 1208,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ffecc79c42d4c2a19801ff049c7bc52372baedac",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_coordination_audit.csv",
+      "size": 1551,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "cadc28bfbbb799869b8be863d388f0440efc1e74",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_coordination_audit.md",
+      "size": 1694,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "06f53482d5493f9a196a42c57377ed08b4290628",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_decision.json",
+      "size": 649,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "956fb93f4de0c13f28a3ef50c1902173dd3b79b2",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_deep_decision.json",
+      "size": 961,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1bb4e7108c1146ba5afd4fa4fd88b6f2ccedd6e2",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_deeper_hypotheses_for_codex.csv",
+      "size": 622,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "2782e47600779c909907b6cad31341836a337108",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_deeper_hypotheses_for_codex.md",
+      "size": 1888,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "891738a5daeaee82ad044e7a21a9cb114d5c9c1a",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_followup_decision.json",
+      "size": 896,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "53ec303a06fd5493dc965f0e3ba689fb6a25a205",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_hypotheses_for_codex.md",
+      "size": 2313,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f7c4a84c6ba041f9f05e0a5de2f38899948e1e74",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_intermediate_c2s_inventory.csv",
+      "size": 2890,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b9f2dfc02c6bdc9076cf7f00990acf312d0f18df",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_intermediate_c2s_inventory.md",
+      "size": 4018,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "51322be632283bacfce0e1caa6c019a9307ec359",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_key_update_candidates.csv",
+      "size": 735,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "5b6bebc1aa050a1a3303a6187c23c66ccf79c814",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_key_update_research.md",
+      "size": 1270,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7e760f329b7255341b33c60e9725ee6d4138f301",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_lobby_chat_alignment.csv",
+      "size": 347,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f30f59e43c8fe0612a951b774d21b06e0721e14e",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_lobby_chat_alignment.md",
+      "size": 1568,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "5a9a6a8b7755a115e792bcd26db8099b80aa3198",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_lobby_followup_decision.json",
+      "size": 833,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "58b4b8bfba7cbbb984a4e8359976e65c690808af",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_lobby_seed_review_decision.json",
+      "size": 852,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "5dee31c305378cfa6f0b2cb80a3cf3f432017f0e",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_lobby_smkey_verify.csv",
+      "size": 563,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e0042a6da5edf540b29818ec833f1d8f0b2ad9f0",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_lobby_smkey_verify.md",
+      "size": 1325,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "dcd6dbdb71bf399788b33c95cbbefd481b93856e",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_minimal_capture_plan.md",
+      "size": 1254,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "24859434aa6cf050f1a1d96e4a93b3e5165afd9f",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_next_after_lobby_seed.md",
+      "size": 1177,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8c92332afc0df9b7b69c50c4712923da8980e8fb",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_next_hypotheses.md",
+      "size": 2418,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f7faadd3915c9892fc4b8ca004d3c69ee4842d3c",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_source_hunt.csv",
+      "size": 1243,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4cda0ad58b264e2aeede2d75ee1ac6b4af0b1fe1",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_source_hunt.md",
+      "size": 1572,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "bb43d15cd483b1c7214fcd2b2ec0e90a2fe4e53b",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_startup_oracle_plan.md",
+      "size": 2512,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "9f22c2dfe99ffcd0b1db981e5cfb4ea23fcc1c51",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_startup_timing_audit.csv",
+      "size": 568,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7f7151d59b27aecc38d22db701660b37f307af5c",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_startup_timing_audit.md",
+      "size": 1692,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ddda9fe0f4b012787a3179ebec1ee85fc5a80884",
+      "mode": "100644",
+      "path": "artifacts/pass607_antigravity_summary_report.md",
+      "size": 465,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "74dd6438fadc94ef0be737cec130ae4a7c6a8b18",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_audit.csv",
+      "size": 1014,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e03063d175cd89a5be4c9dc5100e60a9e8f80302",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_audit.md",
+      "size": 1297,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "2879dbaeed710218e14311c8dc883bd3fe85416d",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_blowfish_selftest.csv",
+      "size": 388,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "0cbb5f0caab62d974ff3051d54ff1f7c923ac266",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_blowfish_selftest.md",
+      "size": 170,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "34f8a02cd1e78395767b5b4fd639514492d4128c",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_decision.json",
+      "size": 1049,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "630ee8aa46eca6608e4960942a9cc7c715b3566f",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_decoder_attempts.csv",
+      "size": 336635,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7bbe36018915af94593499f84fc2d44b71a8c27e",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_decoder_summary.md",
+      "size": 328,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1100b4396c0312d72c8ce5b6e9008b5edc8f2356",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_final.md",
+      "size": 3863,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e9c39b82855e5d0b2d7eb98c937c89f686d1edff",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_inventory.csv",
+      "size": 6066,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "dcf777a1fc9aa5cc782f6da597743763f0ae9a45",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_lobby_blowfish_selftest.csv",
+      "size": 236,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "39e7872aeb50f823163310a43600ad14c7408a6d",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_lobby_blowfish_selftest.md",
+      "size": 226,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "3b3ed3cd4f38f3a101c0222ec7a38fa358e36bbb",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_lobby_seed_blowfish_decision.json",
+      "size": 1342,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b300298f6f902606827f0918997a70589729a395",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_lobby_seed_blowfish_summary.md",
+      "size": 1819,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4d43c109a758205c06cefb4dcfdd32357f3c6a5f",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_lobby_seed_blowfish_trials.csv",
+      "size": 1162618,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c3fffb123bbf928d7e8f7a12cb6b10376033d53c",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_lobby_seed_decision.json",
+      "size": 1077,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "69eea082f8122b6bd1d76efce8c439b1a590dc29",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_lobby_seed_summary.md",
+      "size": 1518,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8911e74ff4635d969557356b2310b72893014e7f",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_lobby_seed_trials.csv",
+      "size": 2164974,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8f4b151d4e77662f6ea8b871c58ff2761baf9987",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_lobby_seq_decision.json",
+      "size": 1276,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "9c27a5e8def8c336696fc8fb821627e1816898ef",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_lobby_seq_summary.md",
+      "size": 700,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "282972117946e48a8d7274cf6f42b1cde279a06d",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_oracle_analysis.md",
+      "size": 328,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "2ed70e25493de8282409ee92eaf2a6b033c4383f",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_oracle_frames.csv",
+      "size": 5370,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "a4b9b3dae6f8e8c6ab33b846c720208b8ebb8ea6",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_pass574_oracle_recheck.csv",
+      "size": 3302,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "a4b9b3dae6f8e8c6ab33b846c720208b8ebb8ea6",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_pass574_oracle_recheck_after_blowfish.csv",
+      "size": 3302,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6cb5565e2d540780cfd680292b91d072aae67c43",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_smkey_test.csv",
+      "size": 4419,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "09c4dd47b8f95bdd92dfc68bf45f9f38af398319",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_smkey_test.md",
+      "size": 383,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "cd919e015d05f1580469128bdeddac218daecaa9",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_startup_blowfish_decision.json",
+      "size": 1016,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7cf7bd0567b54aed75eac5856c251a82ecdbe7e4",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_startup_blowfish_final.md",
+      "size": 2366,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "85628c8ec9d65a24a454a9f6341e77970625fb6e",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_startup_blowfish_summary.md",
+      "size": 468,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "758cb00f20626f64490b59172c5f6530ff092c0b",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_startup_blowfish_trials.csv",
+      "size": 4270993,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ef4fd7ead7bf7a23670f38c3573dc2db2f7ff291",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_startup_decision.json",
+      "size": 1133,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "450f863812c866aba9d72eb1f879dcd3ec3b0ad8",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_startup_final.md",
+      "size": 1679,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "bd6f97d481f2518d9477797608737ec8f3fcfbfa",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_startup_key_trials.csv",
+      "size": 399333,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ca642b26b7a85631f6bff41ad9ff1dcf977149e1",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_startup_key_trials.md",
+      "size": 420,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e729243b96bd92613960b1fec4599a6441970592",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_startup_packet9740_verify.csv",
+      "size": 553,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "72b1a4ab17ffafbec6e8e57a4e212c68062cbefa",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_static_signature_hits.csv",
+      "size": 403202,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "501793bcfffbb70d2f36a48a01c9d142444711ca",
+      "mode": "100644",
+      "path": "artifacts/pass607_codex_static_signature_summary.md",
+      "size": 905,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "17e40dedd618826d2b8c569f5957ab6b70fe356a",
+      "mode": "100644",
+      "path": "artifacts/pass607_decision.json",
+      "size": 591,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ea21b333dbf33aba0d6f243c37b679b67b205802",
+      "mode": "100644",
+      "path": "artifacts/pass607_decoder_attempt_summary.md",
+      "size": 824,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8efa827826aae652454ad8c6a7d34cc7c5e92584",
+      "mode": "100644",
+      "path": "artifacts/pass607_decoder_attempts.csv",
+      "size": 639,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4075bcf0db21a85c211bfadfe0d9c09c5d8fadfb",
+      "mode": "100644",
+      "path": "artifacts/pass607_inventory.csv",
+      "size": 1387,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "be606dddd618d288a2b362b8ade617db98697fa9",
+      "mode": "100644",
+      "path": "artifacts/pass607_pcap_oracle_analysis.md",
+      "size": 1168,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "458ffe4f7e3177b2784dc4eb74cc72ffe77e2fff",
+      "mode": "100644",
+      "path": "artifacts/pass607_pcap_oracle_frames.csv",
+      "size": 2183,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "aaad53ecd5340761fe8b8ea95bade05751aebb20",
+      "mode": "100644",
+      "path": "artifacts/pass607_protected_boundary.md",
+      "size": 2947,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ab33263d1483f5d6c6585423019ae58c914c9fed",
+      "mode": "100644",
+      "path": "artifacts/pass607_public_control_reconstruction.md",
+      "size": 2309,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "98142ea7f1de3b38b32a349b2492d9b4fb7cf69f",
+      "mode": "100644",
+      "path": "artifacts/pass607_public_control_signatures.csv",
+      "size": 369,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ff67ada4a0132fadcd6388e01fc671779081143b",
+      "mode": "100644",
+      "path": "artifacts/pass607_target_static_candidates.csv",
+      "size": 55,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "951081ec945fe9037fc655dd8fcb58ef28afbb2f",
+      "mode": "100644",
+      "path": "artifacts/pass607_target_static_search.md",
+      "size": 1230,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d87c8ff59e3a27e7f2c08c22efa62448cfae65ce",
+      "mode": "100644",
+      "path": "artifacts/pass608_antigravity_codex_kxseq_review.csv",
+      "size": 600,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "cc5b38798754f2a902c15a9d95caa4b3ce096e61",
+      "mode": "100644",
+      "path": "artifacts/pass608_antigravity_codex_kxseq_review.md",
+      "size": 710,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "19997ea0f1683daf1e3489b31673aeb05edcf656",
+      "mode": "100644",
+      "path": "artifacts/pass608_antigravity_decrypt_world.py",
+      "size": 2968,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "06c61b9788de2d1b1890d183a88199875127b7a4",
+      "mode": "100644",
+      "path": "artifacts/pass608_antigravity_kxseq_capture_audit.csv",
+      "size": 824,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f1a4ba15c0ce54d9e55bfd801f4b9143eff4d1c4",
+      "mode": "100644",
+      "path": "artifacts/pass608_antigravity_kxseq_capture_audit.md",
+      "size": 1241,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "0658b5dc2fc63dc6dcbf1c5e8f09f64415098312",
+      "mode": "100644",
+      "path": "artifacts/pass608_antigravity_kxseq_decision.json",
+      "size": 1177,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b914e846df27ee81040b4fb1beeec9ee45590c11",
+      "mode": "100644",
+      "path": "artifacts/pass608_antigravity_next_hypotheses.md",
+      "size": 1616,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "bb922cb30fbcdec200a95edca18fac4e53c26923",
+      "mode": "100644",
+      "path": "artifacts/pass608_antigravity_old_vs_new_capture.md",
+      "size": 1256,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "0caec391ae31a117818cd494944d33d1bc5da3ea",
+      "mode": "100644",
+      "path": "artifacts/pass608_antigravity_stream_decision.json",
+      "size": 885,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "21e2823159edb5dfc3552d97b99402fecfd537e0",
+      "mode": "100644",
+      "path": "artifacts/pass608_antigravity_stream_review.csv",
+      "size": 873,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "2eb2627fde4066dd95c027874b7051c8d65bb3a8",
+      "mode": "100644",
+      "path": "artifacts/pass608_antigravity_stream_review.md",
+      "size": 1366,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "a98b2f4a86d5897eff63726a3081efca3c05f3da",
+      "mode": "100644",
+      "path": "artifacts/pass608_codex_kxseq_decision.json",
+      "size": 1454,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7c50a815218a62765d85a973d31a1ac022fafeb8",
+      "mode": "100644",
+      "path": "artifacts/pass608_codex_kxseq_summary.md",
+      "size": 759,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "0b869e62405162de8dbf289031441d06f2ef46c0",
+      "mode": "100644",
+      "path": "artifacts/pass608_codex_stream_decision.json",
+      "size": 1345,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1f5f8b125df2a27cbc7f34260fe4e4ad3ca31458",
+      "mode": "100644",
+      "path": "artifacts/pass608_codex_stream_summary.md",
+      "size": 1484,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "abf840ecafe6837269b00e577b2615e08fe97af9",
+      "mode": "100644",
+      "path": "artifacts/pass609_antigravity_longrun_candidates.csv",
+      "size": 971,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "0ee7bae3b0f8c8b711833e88aa870df51d95b12f",
+      "mode": "100644",
+      "path": "artifacts/pass609_antigravity_longrun_decision.json",
+      "size": 1398,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "aaa14365e1d99c8105cc62cdaff29e9a7264c966",
+      "mode": "100644",
+      "path": "artifacts/pass609_antigravity_longrun_summary.md",
+      "size": 1760,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "17d9d7c167b5342d62e66c172a416a1a2f61e34f",
+      "mode": "100644",
+      "path": "artifacts/pass609_codex_source_hunt_candidates.csv",
+      "size": 7580,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "fdc1e1d5df60c8fa4c8718591dbbb11efdc186f8",
+      "mode": "100644",
+      "path": "artifacts/pass609_codex_source_hunt_decision.json",
+      "size": 1487,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6766b7539edb364e3dbd858389c40fa3eb861412",
+      "mode": "100644",
+      "path": "artifacts/pass609_codex_source_hunt_summary.md",
+      "size": 3284,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "0e4e53b199bdaac0ee0cce708e9ab8fc8292afa8",
+      "mode": "100644",
+      "path": "artifacts/pass610_antigravity_handler_derived_trials_summary.md",
+      "size": 924,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "a57379181867f5e520ce545988c30977c6c91772",
+      "mode": "100644",
+      "path": "artifacts/pass610_antigravity_handler_trace_matrix.csv",
+      "size": 1745,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "9158d614a74ce520a10a190c5c66d32b6f00a958",
+      "mode": "100644",
+      "path": "artifacts/pass610_antigravity_p609012_dataflow.csv",
+      "size": 600,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "25565223be20445005f0247d60d335b6d7aa86cf",
+      "mode": "100644",
+      "path": "artifacts/pass610_antigravity_p609012_edge_trace.md",
+      "size": 1573,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "9115e9cbd0522f0633d095571e1b8e4dd85b0ef0",
+      "mode": "100644",
+      "path": "artifacts/pass610_antigravity_vm_cleartext_decision.json",
+      "size": 1342,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "230e7d4ea469a564f6cb38568e7bbc84443ed262",
+      "mode": "100644",
+      "path": "artifacts/pass610_antigravity_vm_cleartext_summary.md",
+      "size": 1989,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c03664888f55de63e78495a4c5237cc12d2c2a20",
+      "mode": "100644",
+      "path": "artifacts/pass610_antigravity_vm_execution_model.md",
+      "size": 1508,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "add4521d926436f45f300c6aa8c0f0c6d6914d43",
+      "mode": "100644",
+      "path": "artifacts/pass610_antigravity_vm_handler_classification.csv",
+      "size": 6581,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "edc45484d917073473c1e52c60f2e8bb6362bdcb",
+      "mode": "100644",
+      "path": "artifacts/pass610_antigravity_vm_handler_classification.md",
+      "size": 1003,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "dbc3505dff4dfb85975b4e98745446356c175911",
+      "mode": "100644",
+      "path": "artifacts/pass610_antigravity_vm_table_handlers.csv",
+      "size": 5746,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6bb1c6fc7456faf47f91cfe67c158b06c610d344",
+      "mode": "100644",
+      "path": "artifacts/pass610_antigravity_vm_table_progress.md",
+      "size": 654,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "09920508c782783a5377eefcea1c4a5f9d42f4b8",
+      "mode": "100644",
+      "path": "artifacts/pass610_antigravity_vm_transform_candidates.csv",
+      "size": 3087,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ed6f5da3b56afc301428ba4855d6b3f6ae859fe6",
+      "mode": "100644",
+      "path": "artifacts/pass610_codex_vm_decision.json",
+      "size": 1421,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "21225058de1a1ba8ce703b91512b31f7a25bf0a3",
+      "mode": "100644",
+      "path": "artifacts/pass610_codex_vm_emulation_plan.md",
+      "size": 1592,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "884c753052575835e2ac476643ac14ad577791f1",
+      "mode": "100644",
+      "path": "artifacts/pass610_codex_vm_execution_model.md",
+      "size": 1278,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6b2a4a0bf9281e121a8f53316bfaaa0c1a848791",
+      "mode": "100644",
+      "path": "artifacts/pass610_codex_vm_handler_classification.csv",
+      "size": 4922,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8e4c9810859f38abad4a1977757187dcdc97955f",
+      "mode": "100644",
+      "path": "artifacts/pass610_codex_vm_handler_classification.md",
+      "size": 947,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "cc91ee32eba6db5c3353655aedd1ceb0c3e791e8",
+      "mode": "100644",
+      "path": "artifacts/pass610_codex_vm_table_handlers.csv",
+      "size": 41824,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c32fc4c5b7f4f93f8afb9c739b0e7ac1161ae1e4",
+      "mode": "100644",
+      "path": "artifacts/pass610_codex_vm_table_verification.md",
+      "size": 1111,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "fd2c7dfd9a21926ddbd5715674e899350d169c60",
+      "mode": "100644",
+      "path": "artifacts/pass610_codex_vm_transform_candidates.csv",
+      "size": 1250,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b05e2887b98036815da8a15c4308abac24b29c15",
+      "mode": "100644",
+      "path": "artifacts/pass611_codex_ghidra_followup_decision.json",
+      "size": 1904,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "fe7514bd02a6c15235e6d2088d1ec21738ba28e1",
+      "mode": "100644",
+      "path": "artifacts/pass611_codex_ghidra_followup_dispatcher.csv",
+      "size": 515,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "14e17634ece2d1b6afd45c9eb5db30706c78d6ff",
+      "mode": "100644",
+      "path": "artifacts/pass611_codex_ghidra_followup_handlers.csv",
+      "size": 1209,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "379586b42fd79700ff3fd8a6fc59016e78bda404",
+      "mode": "100644",
+      "path": "artifacts/pass611_codex_ghidra_followup_summary.md",
+      "size": 1795,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8d4f405a74f879752a19dfc738e3f6ee643f5f30",
+      "mode": "100644",
+      "path": "artifacts/pass611_codex_handler_trace_matrix.csv",
+      "size": 4388,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "81ed59a46be12ae90c0b8f87c586406ad003866e",
+      "mode": "100644",
+      "path": "artifacts/pass611_codex_p609012_dataflow.csv",
+      "size": 863,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "daf59d8df51af6f2dd2a70422f9a2a9286f156b2",
+      "mode": "100644",
+      "path": "artifacts/pass611_codex_p609012_edge_trace.md",
+      "size": 843,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8598f698bae1c79ab96c317dbf293acc0d9e159d",
+      "mode": "100644",
+      "path": "artifacts/pass611_codex_vm_context_layout.csv",
+      "size": 1407,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4d26fe0a52ce49099e9be7cdb088647c02e29fcb",
+      "mode": "100644",
+      "path": "artifacts/pass611_codex_vm_solve_decision.json",
+      "size": 1746,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "51d140dd1afcd4dc1d60943ffefc83797daedc32",
+      "mode": "100644",
+      "path": "artifacts/pass611_codex_vm_solve_summary.md",
+      "size": 1479,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "a08f78ad23ce65d2a6ad94cacabf25466fa28ae7",
+      "mode": "100644",
+      "path": "artifacts/pass611_codex_vm_state_model.md",
+      "size": 1168,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f6fac4f247a13d2e32ed809a6a0e7d1cdf765844",
+      "mode": "100644",
+      "path": "artifacts/pass615_antigravity_full_kxseq_decision.json",
+      "size": 729,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8c8461b75ce5dc2d38b67bcf27f7a5574d9bc140",
+      "mode": "100644",
+      "path": "artifacts/pass615_antigravity_full_kxseq_summary.md",
+      "size": 1622,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "0717998932241e293beede7f934db37995384b14",
+      "mode": "100644",
+      "path": "artifacts/pass616_sonnet_c2s_decoder_decision.json",
+      "size": 955,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e8e786cd60ebf9316b911f953414c329c30ac5bf",
+      "mode": "100644",
+      "path": "artifacts/pass616_sonnet_c2s_decoder_summary.md",
+      "size": 2396,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "dead7348acf29c4ebe1395bf8adce94af1f920dd",
+      "mode": "100644",
+      "path": "artifacts/pass616_sonnet_kxseq_validation.csv",
+      "size": 699,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "a5a88cd4873fa8ebbb34afdc69cb7358d61027cf",
+      "mode": "100644",
+      "path": "artifacts/pass617_sonnet_c2s_chat_extractor_decision.json",
+      "size": 786,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "08c01fa3636459ba60c8b6d68ead8657176cc101",
+      "mode": "100644",
+      "path": "artifacts/pass617_sonnet_c2s_chat_extractor_summary.md",
+      "size": 2105,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "2521ca3e876c3a3a7363f16cee0cf9a685a69151",
+      "mode": "100644",
+      "path": "artifacts/pass617_sonnet_chat_validation.csv",
+      "size": 569,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6e6cc5dc55e18f7ab440aa89df8b9bff4f7f8ab8",
+      "mode": "100644",
+      "path": "artifacts/pass618_sonnet_s2c_anchor_candidates.csv",
+      "size": 942,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "cb1b7eb69e1a3d244d6ef0c4c62d53575b5c011b",
+      "mode": "100644",
+      "path": "artifacts/pass618_sonnet_s2c_decoder_decision.json",
+      "size": 1394,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7e306949405eda6889f6a5dc25df3e7bfaf56b83",
+      "mode": "100644",
+      "path": "artifacts/pass618_sonnet_s2c_decoder_summary.md",
+      "size": 3118,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "262c3099172ea1556ac5371f9a24fbf9350e0d2c",
+      "mode": "100644",
+      "path": "artifacts/pass618_sonnet_s2c_inventory_summary.csv",
+      "size": 647,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "10e6ca6b5f22e0615e8254c4fd47172e733975ac",
+      "mode": "100644",
+      "path": "artifacts/pass619_codex_s2c_next_task.md",
+      "size": 2007,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1031acdf499e6a446a110b791d94c1b4ca05cb33",
+      "mode": "100644",
+      "path": "artifacts/pass619_codex_s2c_next_task_decision.json",
+      "size": 502,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "9d1acac84ccdbfbb37407988a4dfa39ca75d4fc0",
+      "mode": "100644",
+      "path": "artifacts/pass620_codex_s2c_context_layout_notes.md",
+      "size": 1184,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "047c6f7cb269b8f53e8b14bab45e4f982a549550",
+      "mode": "100644",
+      "path": "artifacts/pass620_codex_s2c_key_candidates.csv",
+      "size": 6047,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "3113e95278be988398cc8f819b98a504f57c26e0",
+      "mode": "100644",
+      "path": "artifacts/pass620_codex_s2c_key_setup_decision.json",
+      "size": 946,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "35c62bcf725a71f53ab2286e3f2a464f3655f929",
+      "mode": "100644",
+      "path": "artifacts/pass620_codex_s2c_key_setup_summary.md",
+      "size": 1739,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "164a59df0ed5df05ce8fcb4d7cbe51dbbc86d9d2",
+      "mode": "100644",
+      "path": "artifacts/pass620_codex_static_search_hits.csv",
+      "size": 146928,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ce0ec414ee04ad0501bd0f4688ebcafb518f278e",
+      "mode": "100644",
+      "path": "artifacts/pass621_codex_s2c_receive_candidates.csv",
+      "size": 14573,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "42357e196a46e4255e9f9d8bcd486eb4a69052ed",
+      "mode": "100644",
+      "path": "artifacts/pass621_codex_s2c_receive_trace_decision.json",
+      "size": 1239,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "440ad9ce3a7726e7217bd6c08992c2d7555d6064",
+      "mode": "100644",
+      "path": "artifacts/pass621_codex_s2c_receive_trace_notes.md",
+      "size": 1600,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "2fdc078caee3017396e4ae50acdb930aeba3608e",
+      "mode": "100644",
+      "path": "artifacts/pass621_codex_static_export_inventory.csv",
+      "size": 8668,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8bc7add399da0317b08d7277143e9d6b81a24222",
+      "mode": "100644",
+      "path": "artifacts/pass622_codex_exact_ghidra_export_request.md",
+      "size": 2185,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "728d8466880f12c47daf8533bb35de4509157064",
+      "mode": "100644",
+      "path": "artifacts/pass622_codex_exact_missing_exports.md",
+      "size": 2471,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1897c9adecff7cceb5fcaf2fa186552e00ab1e1d",
+      "mode": "100644",
+      "path": "artifacts/pass622_codex_ghidra_export_plan.md",
+      "size": 1709,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "28cb18bdd09352e89e57e53f632329ffc9685646",
+      "mode": "100644",
+      "path": "artifacts/pass622_codex_s2c_export_decision.json",
+      "size": 1109,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b6c31f5661a469a0c1a17fea0cbf6ae71d9856b8",
+      "mode": "100644",
+      "path": "artifacts/pass622_codex_s2c_keyslot_write_candidates.csv",
+      "size": 4685,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8de748d59a86c57f7c416f869bf672186cc1d25c",
+      "mode": "100644",
+      "path": "artifacts/pass622_codex_s2c_receive_export_targets.csv",
+      "size": 3304,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "30455b8521fc0a7860503faefc71c99bc28c5afa",
+      "mode": "100644",
+      "path": "artifacts/pass622_codex_s2c_static_candidates.csv",
+      "size": 12897,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "a26bbbe34d6aab23cb89aa91e58e8e4306102048",
+      "mode": "100644",
+      "path": "artifacts/pass622_codex_s2c_static_trace_decision.json",
+      "size": 1092,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "169f8f4a653042197c81523253a6e0dc460f0b53",
+      "mode": "100644",
+      "path": "artifacts/pass622_codex_s2c_static_trace_notes.md",
+      "size": 1399,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "54f5d0d0bd7b142d826665315601f2542d33fba0",
+      "mode": "100644",
+      "path": "artifacts/pass622_codex_static_material_inventory.csv",
+      "size": 27217,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "34a0961b0494a9f63267d6d1db61749e02778e23",
+      "mode": "100644",
+      "path": "artifacts/pass623_antigravity_keyslot_candidate_decision.json",
+      "size": 844,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ef853c759ca2201fe07e28342d731dba616009e9",
+      "mode": "100644",
+      "path": "artifacts/pass623_antigravity_keyslot_candidate_review.csv",
+      "size": 496,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "64d00516f81310d592d3e2e6f7722d6f085ac8e0",
+      "mode": "100644",
+      "path": "artifacts/pass623_antigravity_keyslot_candidate_review.md",
+      "size": 2804,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4c32f8a0b3b1c35dc9a538f667932dc21ee796d4",
+      "mode": "100644",
+      "path": "artifacts/pass623_codex_keyslot_candidate_decision.json",
+      "size": 909,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4053636ad9f91029c46ccbee673888583e93ffaf",
+      "mode": "100644",
+      "path": "artifacts/pass623_codex_keyslot_candidate_review.csv",
+      "size": 1416,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "fb6bcebcacefab439b8e549adb205851cc72e32f",
+      "mode": "100644",
+      "path": "artifacts/pass623_codex_keyslot_candidate_review.md",
+      "size": 1835,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "40cea022943d37201874cb02e9e3d9d048798a50",
+      "mode": "100644",
+      "path": "artifacts/pass624_antigravity_remaining_keyslot_decision.json",
+      "size": 990,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ad7e31335601fe411f99898f1dc5a91b03cb4c5e",
+      "mode": "100644",
+      "path": "artifacts/pass624_antigravity_remaining_keyslot_review.csv",
+      "size": 782,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "a775a86d6b6c40026495f5eb8eadda9a35afa1df",
+      "mode": "100644",
+      "path": "artifacts/pass624_antigravity_remaining_keyslot_review.md",
+      "size": 4617,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "151f3e67ef2f0561b59201a8dcd3c496a7e4a603",
+      "mode": "100644",
+      "path": "artifacts/pass625_antigravity_vm_frame_decision.json",
+      "size": 1088,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1c4b8ade2f8d613586c8e5205dfa7131ebe30e4b",
+      "mode": "100644",
+      "path": "artifacts/pass625_antigravity_vm_frame_trace.md",
+      "size": 2825,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "feff2532ceb152880eecfea492ed232d674b30e3",
+      "mode": "100644",
+      "path": "artifacts/pass625_antigravity_vm_frame_variables.csv",
+      "size": 569,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "3c287fcb9733c405803a3b410f75e5d6c71472f3",
+      "mode": "100644",
+      "path": "artifacts/pass625_antigravity_vm_handler_effects.csv",
+      "size": 1754,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "00763ce2a68694832d744a066a4d3789bd8f2ef2",
+      "mode": "100644",
+      "path": "artifacts/pass626_antigravity_vm_bytecode_candidates.csv",
+      "size": 549,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "873a83afcd359a7a9ce6d913c7c61aefa5f93f89",
+      "mode": "100644",
+      "path": "artifacts/pass626_antigravity_vm_bytecode_decision.json",
+      "size": 899,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "69c38c0943d9cfd10351f444a9c62a826726081c",
+      "mode": "100644",
+      "path": "artifacts/pass626_antigravity_vm_bytecode_trace_plan.md",
+      "size": 960,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f49297f0ebe3d8bcce0ecd12aad349a6eb10ae8b",
+      "mode": "100644",
+      "path": "artifacts/pass626_antigravity_vm_entry_context.md",
+      "size": 1366,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d1d02bc77f115e02e4b2cd1a2f7f86d88f2bd1a1",
+      "mode": "100644",
+      "path": "artifacts/pass627_antigravity_bytecode_stream_candidates.csv",
+      "size": 888,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f517333168b021bcc131e66a859e1fe707845477",
+      "mode": "100644",
+      "path": "artifacts/pass627_antigravity_handler_table_status.csv",
+      "size": 802,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b68745a9714dea07388e6e50118c8d309cf4445b",
+      "mode": "100644",
+      "path": "artifacts/pass627_antigravity_trace_scores.csv",
+      "size": 10882,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "787b8bbdcda447588f804f17322c43e8df886908",
+      "mode": "100644",
+      "path": "artifacts/pass627_antigravity_vm_trace_decision.json",
+      "size": 2028,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4570074f6d77b0e6ffe50538f73db85e9faa8c39",
+      "mode": "100644",
+      "path": "artifacts/pass627_antigravity_vm_trace_run_summary.md",
+      "size": 3564,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "0f1f1a0cc7ad2534a527edd4a4ddceecbdbe493d",
+      "mode": "100644",
+      "path": "artifacts/pass628_antigravity_dispatcher_entry_candidates.csv",
+      "size": 919,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "3d5dd248f04455f52f4e25f9586e6b13b937443b",
+      "mode": "100644",
+      "path": "artifacts/pass628_antigravity_dispatcher_entry_regtrace.md",
+      "size": 4366,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "084e80e3df8da25be2e7c7a43d3a45693dfb8e47",
+      "mode": "100644",
+      "path": "artifacts/pass628_antigravity_register_sources.csv",
+      "size": 1800,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e52fc8474577197efb06eec7ba4061b91f6bdfa8",
+      "mode": "100644",
+      "path": "artifacts/pass628_antigravity_regtrace_decision.json",
+      "size": 2650,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4836681dbc7061633e636d4066548bc8bc433b86",
+      "mode": "100644",
+      "path": "artifacts/pass628_antigravity_vm_trace_validation.csv",
+      "size": 824,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "93c9545589a236051eb16b4b309dbc376701d610",
+      "mode": "100644",
+      "path": "artifacts/pass629_antigravity_context_register_sources.csv",
+      "size": 1593,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "2dfc74d5d34aabb33eb8f971819cf7948e8c3cce",
+      "mode": "100644",
+      "path": "artifacts/pass629_antigravity_decision.json",
+      "size": 1646,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "954c9faef2c5a3e399773aa24204d3e894fa88c1",
+      "mode": "100644",
+      "path": "artifacts/pass629_antigravity_dispatcher_context_findings.csv",
+      "size": 2679,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b9b320280016bc13f5afa70622b82eca9010bfb6",
+      "mode": "100644",
+      "path": "artifacts/pass629_antigravity_dispatcher_context_review.md",
+      "size": 3243,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4f3eaca5bb786ebec144d77a2ac05ff1af8bd51b",
+      "mode": "100644",
+      "path": "artifacts/pass629_antigravity_dispatcher_paths.csv",
+      "size": 1047,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "bfbc9489f6ad5185c741cd2a9a952dc353293f30",
+      "mode": "100644",
+      "path": "artifacts/pass629_antigravity_missing_export_manifest.csv",
+      "size": 972,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "dbddb1c910a7c7b051a43815e7d637e4ef65a355",
+      "mode": "100644",
+      "path": "artifacts/pass629_antigravity_vm_trace_validation.csv",
+      "size": 616,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "90a67accbb1e7448281abf532171b427a620078f",
+      "mode": "100644",
+      "path": "artifacts/pass630_codex_context_offsets.csv",
+      "size": 890,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d8b88d23683e91f8a19427a4cc8a41d5514406e4",
+      "mode": "100644",
+      "path": "artifacts/pass630_codex_decision.json",
+      "size": 1111,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "034994a3792d4db0ff8ff6b3456954a28f37c2f0",
+      "mode": "100644",
+      "path": "artifacts/pass630_codex_path_c_fun_11b581c1_review.md",
+      "size": 1891,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "99441f3dc2485e8acd4bd3f9c48e28271a8b09fe",
+      "mode": "100644",
+      "path": "artifacts/pass630_codex_path_c_register_sources.csv",
+      "size": 2746,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "cfe13db17a54bbbf2938f8bbc38993b97e15a364",
+      "mode": "100644",
+      "path": "artifacts/pass630_codex_path_d_dispatcher_review.md",
+      "size": 2095,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7618a26068e39d395e306160d978da18079e4edd",
+      "mode": "100644",
+      "path": "artifacts/pass630_codex_path_d_register_sources.csv",
+      "size": 2520,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "9fc3063a1c65bbcc88cd2b1c5a311ca2418b65cf",
+      "mode": "100644",
+      "path": "artifacts/pass630_codex_vm_trace_validation.csv",
+      "size": 803,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f1ecf71d3b710733b6732250e077a98f2bd53f1c",
+      "mode": "100644",
+      "path": "artifacts/pass631_codex_decision.json",
+      "size": 1054,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "447de6c5c0a6bf73a4285b81a4e92c77be7b2d3f",
+      "mode": "100644",
+      "path": "artifacts/pass631_codex_missing_exports.csv",
+      "size": 889,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "53edc5afab8e724f6ee45c9f1c111830e496a25c",
+      "mode": "100644",
+      "path": "artifacts/pass631_codex_path_b_callers.csv",
+      "size": 147,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "75bf92fee89cd0a064bb8115fe83ce59812b1ad7",
+      "mode": "100644",
+      "path": "artifacts/pass631_codex_path_b_xref_summary.md",
+      "size": 1298,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1be1e9507bffc54a61307ce5c49b90e63a46824a",
+      "mode": "100644",
+      "path": "artifacts/pass631_codex_register_sources.csv",
+      "size": 1651,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "839781ac8ae4eb601c1dfe82df77903f9072c188",
+      "mode": "100644",
+      "path": "artifacts/pass631_codex_vm_trace_validation.csv",
+      "size": 389,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "9d4048caea58c225f4b420f37a6c5c7e14f60a57",
+      "mode": "100644",
+      "path": "artifacts/pass632_codex_decision.json",
+      "size": 1067,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "dee7642bee87b84bc439227b9f75e8fc085dee60",
+      "mode": "100644",
+      "path": "artifacts/pass632_codex_export_diagnostics.md",
+      "size": 1556,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f89e4d0d926f91b582e2b4314eeb507835914104",
+      "mode": "100644",
+      "path": "artifacts/pass632_codex_missing_exports_fixed.csv",
+      "size": 757,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8bd5a4ee627fbc8a0392e05f5f53ee875bde031b",
+      "mode": "100644",
+      "path": "artifacts/pass632_codex_path_b_callers_fixed.csv",
+      "size": 1606,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b7a378232f1ea49fdbb2c92ea3f9caa60021f432",
+      "mode": "100644",
+      "path": "artifacts/pass632_codex_register_sources_fixed.csv",
+      "size": 1613,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b24b70e984e55789682dc4c42a2941c7316b929b",
+      "mode": "100644",
+      "path": "artifacts/pass632_codex_vm_trace_validation.csv",
+      "size": 373,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d0b8031e66beac61654d4b8c33cc9d3b8bec93e4",
+      "mode": "100644",
+      "path": "artifacts/pass633_codex_decision.json",
+      "size": 1144,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1dde63fa9e9dc758ac49cde579df1e9babad7ce4",
+      "mode": "100644",
+      "path": "artifacts/pass633_codex_exported_files.csv",
+      "size": 3835,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f8af56b2a011514f33882bff9872043b891ac27c",
+      "mode": "100644",
+      "path": "artifacts/pass633_codex_java_xref_review.md",
+      "size": 2855,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4abc35f8fb06bc8a8300f45bd12979d712b8b4a3",
+      "mode": "100644",
+      "path": "artifacts/pass633_codex_new_xrefs.csv",
+      "size": 447,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "879ea8b7ed0ff01d3d71f94a889c05a8a9069f7d",
+      "mode": "100644",
+      "path": "artifacts/pass633_codex_parser_findings.csv",
+      "size": 1571,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "780832bf7c49128ecb8cabed3c99eb438c587ce0",
+      "mode": "100644",
+      "path": "artifacts/pass634_codex_bounded_trace_validation.csv",
+      "size": 354,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "707abe42ead0d6c59192dcbe5169028abf7ecbcc",
+      "mode": "100644",
+      "path": "artifacts/pass634_codex_callgraph_edges.csv",
+      "size": 13373,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "65834d2dc569a5cb9e2e828b0992d36fa7e5f329",
+      "mode": "100644",
+      "path": "artifacts/pass634_codex_context_offsets.csv",
+      "size": 2487,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f467fbd28b8f87808402ee2bde4b1502eca588a2",
+      "mode": "100644",
+      "path": "artifacts/pass634_codex_decision.json",
+      "size": 1332,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d827d77aaac08c1ca95355a2a983772a5749ab6c",
+      "mode": "100644",
+      "path": "artifacts/pass634_codex_exported_recv_wrappers.csv",
+      "size": 1613,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "bcde99e1a6d471f6f1041466b5d3592e4965b8da",
+      "mode": "100644",
+      "path": "artifacts/pass634_codex_hard_blockers.csv",
+      "size": 1775,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "240062f0f37cc129b5e519e717f1f18d211bb2ae",
+      "mode": "100644",
+      "path": "artifacts/pass634_codex_overnight_summary.md",
+      "size": 2831,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f353bc84034e72012a8c36f0e4bec1d4c69afde4",
+      "mode": "100644",
+      "path": "artifacts/pass634_codex_path_b_predecessors.csv",
+      "size": 10918,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "71af78b174a5a5dd58b5dfdd90cb272f4d4c39b6",
+      "mode": "100644",
+      "path": "artifacts/pass634_codex_register_provenance.csv",
+      "size": 28462,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d42427eaafb4fcba32dc8fc73082d84af59b9bb6",
+      "mode": "100644",
+      "path": "artifacts/pass635_antigravity_decision.json",
+      "size": 3104,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "a9ceeb4a81ea3c2f091ba942ffadbb194812ee35",
+      "mode": "100644",
+      "path": "artifacts/pass635_antigravity_path_b_intersections.csv",
+      "size": 228,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d56b77d783c3b77bd3b59e9fa4134fcd49de0798",
+      "mode": "100644",
+      "path": "artifacts/pass635_antigravity_recv_wrapper_audit.md",
+      "size": 5427,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7bb4926bea193faede5eb1c775a89f62af6356d1",
+      "mode": "100644",
+      "path": "artifacts/pass635_antigravity_recv_wrapper_files.csv",
+      "size": 926,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "236fdaeb3dfd9610e2953241c28f10aaf58a2ddd",
+      "mode": "100644",
+      "path": "artifacts/pass635_antigravity_recv_xrefs.csv",
+      "size": 916,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e26a3f2949bf9855ced2fa57066ae1e83470defe",
+      "mode": "100644",
+      "path": "artifacts/pass635_antigravity_register_sources.csv",
+      "size": 1755,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e6afac4813a5fc873e02ccd40c2a267d641acad4",
+      "mode": "100644",
+      "path": "artifacts/pass636_antigravity_decision.json",
+      "size": 1316,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "bee0f9a26ebbc5a105e04962aa8566fab9b1c1eb",
+      "mode": "100644",
+      "path": "artifacts/pass636_antigravity_next_capture_plan.md",
+      "size": 1381,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b77edfc107a68a32603fa79372f962fc247322c0",
+      "mode": "100644",
+      "path": "artifacts/pass636_antigravity_s2c_crib_candidates.csv",
+      "size": 154,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "37624e688d4cd5b0bd13003ecfdec9d65409f4a2",
+      "mode": "100644",
+      "path": "artifacts/pass636_antigravity_s2c_decoder_status.csv",
+      "size": 531,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e0f588533a1c5fcce6e295a17e90807313660b7e",
+      "mode": "100644",
+      "path": "artifacts/pass636_antigravity_s2c_packet_inventory.csv",
+      "size": 15496,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8a7c408152ffdd7db4e01c9b7abc594e2dd4291e",
+      "mode": "100644",
+      "path": "artifacts/pass636_antigravity_s2c_top_candidates.csv",
+      "size": 12386,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "cbda92d484e4ed3aa9d924b0056fde0d4786650f",
+      "mode": "100644",
+      "path": "artifacts/pass636_antigravity_s2c_validation.csv",
+      "size": 85368,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e5eec177e0ab4472bf5eae503a89b4e7524c7c07",
+      "mode": "100644",
+      "path": "artifacts/pass637_c2s_stream_alignment.csv",
+      "size": 808,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "627b15c0ffaa89ac91cf51e06def572550484b49",
+      "mode": "100644",
+      "path": "artifacts/pass637_capture_kit_status.csv",
+      "size": 434,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "3bcf5c9a100d6816dc099d693d12d95962a94582",
+      "mode": "100644",
+      "path": "artifacts/pass637_decision.json",
+      "size": 1329,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "bc6b167fae7c44eba2ba2a9ec0ac282ac74755b5",
+      "mode": "100644",
+      "path": "artifacts/pass637_s2c_deframe_hypotheses.csv",
+      "size": 9451,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "0f47147c1cf0465455a6b5afc48f8cce18fe3965",
+      "mode": "100644",
+      "path": "artifacts/pass637_s2c_stream_crib_candidates.csv",
+      "size": 4743715,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "cd633f7832b163b618e1663e49d3898616cc7fb9",
+      "mode": "100644",
+      "path": "artifacts/pass637_s2c_stream_inventory.csv",
+      "size": 11824,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "3465d4e21969100ff965682bc3acc9508efa1931",
+      "mode": "100644",
+      "path": "artifacts/pass638_capture_readiness_decision.json",
+      "size": 891,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "28d1bfb7b5ab7fee208bd61f879299fd1775ee1c",
+      "mode": "100644",
+      "path": "artifacts/pass638_capture_readiness_summary.md",
+      "size": 1332,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "a02db5d6a42bda3507bf5f6cb28c276bc39528a3",
+      "mode": "100644",
+      "path": "artifacts/pass638_capture_tool_manifest.csv",
+      "size": 2306,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "5681bc90a85de688aca0b222c79b1f9b2502ac59",
+      "mode": "100644",
+      "path": "artifacts/pass638_dry_run_status.csv",
+      "size": 1670,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8c5ee5d44f4193c07a8c02499371c7cdb4cf156a",
+      "mode": "100644",
+      "path": "artifacts/pass638_dynamic_flow_context.csv",
+      "size": 321,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "043e1691f2e6d9f2ef20e664ed4c276d972b5324",
+      "mode": "100644",
+      "path": "artifacts/pass638_evening_capture_runbook.md",
+      "size": 1596,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e22855870aa13684f2197222f089476d55a274b7",
+      "mode": "100644",
+      "path": "artifacts/pass638_known_plaintext_log_status.csv",
+      "size": 416,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b77edfc107a68a32603fa79372f962fc247322c0",
+      "mode": "100644",
+      "path": "artifacts/pass638_s2c_crib_candidates.csv",
+      "size": 154,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4d6210e7de38a3449de6c03367e5efadeb12ada7",
+      "mode": "100644",
+      "path": "artifacts/pass638_s2c_window_inventory.csv",
+      "size": 84,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "0aa04e098eeddf34f4734f87e598793e3a0202f1",
+      "mode": "100644",
+      "path": "artifacts/pass641_10242_hello_hi_scan.csv",
+      "size": 308,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d04911681e0d6babfe1152e40f7bd7ae2d14f7b6",
+      "mode": "100644",
+      "path": "artifacts/pass641_capture_files.csv",
+      "size": 2467,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e1cb781b3e39cf40b09bd6035bc72a2f7d9d7dba",
+      "mode": "100644",
+      "path": "artifacts/pass641_frame370_c2s_validation.csv",
+      "size": 417,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "15ae43f49b0b7fe9c47c4863c10f72fb1986d4ae",
+      "mode": "100644",
+      "path": "artifacts/pass641_hello_hi_oracle_decision.json",
+      "size": 1179,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "5e26925b4c0a2c83840dab554fdc4b9ec7351c09",
+      "mode": "100644",
+      "path": "artifacts/pass641_hello_hi_oracle_summary.md",
+      "size": 837,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "bc226f13f2fa386d50b7209742cd46580017a86a",
+      "mode": "100644",
+      "path": "artifacts/pass641_hello_hi_timeline.csv",
+      "size": 996,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c38424cd9ddc289ff5f476e3cf8b96f6a9cbf493",
+      "mode": "100644",
+      "path": "artifacts/pass641_nearby_s2c_crib_candidates.csv",
+      "size": 3732,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c38424cd9ddc289ff5f476e3cf8b96f6a9cbf493",
+      "mode": "100644",
+      "path": "artifacts/pass641_nearby_s2c_validation.csv",
+      "size": 3732,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ab84506cfb8433a10d7e7578fb7e686696b416f8",
+      "mode": "100644",
+      "path": "artifacts/pass642_c2s_checkpoint_decision.json",
+      "size": 1137,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c124663a54885a0c8ec8620bf3ef3b8fbc080a88",
+      "mode": "100644",
+      "path": "artifacts/pass642_c2s_checkpoint_summary.md",
+      "size": 1062,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6b7b747bab7a76dd3288e24e1e173c1a454e41b4",
+      "mode": "100644",
+      "path": "artifacts/pass642_c2s_roll_validation.csv",
+      "size": 791,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "94a458bacc00ffea5f8f87cb76d9c74c0f92aa20",
+      "mode": "100644",
+      "path": "artifacts/pass642_frame370_decode_validation.csv",
+      "size": 1941,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "94a458bacc00ffea5f8f87cb76d9c74c0f92aa20",
+      "mode": "100644",
+      "path": "artifacts/pass642_frame370_key_derivation_candidates.csv",
+      "size": 1941,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "205cb05f718b5675b970f4e6a663f54a07c5c113",
+      "mode": "100644",
+      "path": "artifacts/pass642_frame370_metadata.csv",
+      "size": 1086,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "45a40caf1d6d8bd98fb8beef7b860957b90b2eea",
+      "mode": "100644",
+      "path": "artifacts/pass642_old_c2s_packet_labels.csv",
+      "size": 702,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e1ed909d62f76a7d3f1d964531182d27fe67803d",
+      "mode": "100644",
+      "path": "artifacts/pass643_evening_capture_operator_runbook.md",
+      "size": 1256,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "0b8310b043d5efad8fbccafaadc7ddb1173ea5f5",
+      "mode": "100644",
+      "path": "artifacts/pass643_operator_decision.json",
+      "size": 997,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ed350b183d448ab5138899dcca407cc327cecca7",
+      "mode": "100644",
+      "path": "artifacts/pass643_operator_dry_run_status.csv",
+      "size": 1268,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "14fe3f4546433bf9953817fc8ae250ca353e1173",
+      "mode": "100644",
+      "path": "artifacts/pass643_operator_kit_manifest.csv",
+      "size": 1259,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ff58b77da82856e43e16af1b4f0da8eb25e7926e",
+      "mode": "100644",
+      "path": "artifacts/pass645_10242_flow_inventory.csv",
+      "size": 371,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "0a779977ac6aa261db57a0c6413368cc61f05757",
+      "mode": "100644",
+      "path": "artifacts/pass645_10242_literal_text_hits.csv",
+      "size": 84,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "5eba44672411f158334b0574b32b26b69371c00b",
+      "mode": "100644",
+      "path": "artifacts/pass645_10242_marker_correlation.csv",
+      "size": 2287,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "2a3123cdb680529d2c6a34abae01160dfc77be22",
+      "mode": "100644",
+      "path": "artifacts/pass645_10242_oracle_decision.json",
+      "size": 1218,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "191674c05b14cad793d8f35c61d2ee78eb785326",
+      "mode": "100644",
+      "path": "artifacts/pass645_10242_oracle_summary.md",
+      "size": 625,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "677d2d7a970da18851ed5317d70b91fa30f54c9a",
+      "mode": "100644",
+      "path": "artifacts/pass645_10242_packet_timeline.csv",
+      "size": 16062,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f9daf3c42d092e537d5d2726bda7f14374371e6f",
+      "mode": "100644",
+      "path": "artifacts/pass646_10242_length_model_candidates.csv",
+      "size": 950,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "9b045a8ad2eb778edc8c0390e8b0b98035076f7b",
+      "mode": "100644",
+      "path": "artifacts/pass646_10242_marker_packet_correlation.csv",
+      "size": 2021,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "597ef0a7c6553a32942498ff7a87bbe18e81fce8",
+      "mode": "100644",
+      "path": "artifacts/pass646_10242_payload_classification.csv",
+      "size": 926,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "3f3f27867016a4185ebd6cbd0c8ce722248a9525",
+      "mode": "100644",
+      "path": "artifacts/pass646_10242_repeat_consistency.csv",
+      "size": 426,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7edb4f97404bb10bddb193f2c1deb8fd9e91f2db",
+      "mode": "100644",
+      "path": "artifacts/pass646_10242_structured_model_decision.json",
+      "size": 976,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c8331fcf9406851232c4830232927ae73c4d010d",
+      "mode": "100644",
+      "path": "artifacts/pass646_10242_structured_model_summary.md",
+      "size": 559,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8cf50a3fc587bd14b1d0051f21cbf5d6e7d4cdd6",
+      "mode": "100644",
+      "path": "artifacts/pass646_next_capture_plan_10242_vs_7785.md",
+      "size": 805,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "0961529a0af8e2c4798ef2bf5eed0d617c056895",
+      "mode": "100644",
+      "path": "artifacts/pass647_7780_s2c_oracle_readiness.csv",
+      "size": 307,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6023e9a8478fb1aa60190d8982a41fa5ace7f933",
+      "mode": "100644",
+      "path": "artifacts/pass647_broad_flow_inventory.csv",
+      "size": 1379,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4c0812d4467d949228a4f4f936cc9f495427ff7b",
+      "mode": "100644",
+      "path": "artifacts/pass647_dynamic_world_port_decision.json",
+      "size": 1192,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "bde654d290e6109c8f42ed644fbf5d0573d1d596",
+      "mode": "100644",
+      "path": "artifacts/pass647_dynamic_world_port_summary.md",
+      "size": 488,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4d44ef836ba654d0ad7b6d6a2269c8531b74c846",
+      "mode": "100644",
+      "path": "artifacts/pass647_flow_marker_evidence_summary.csv",
+      "size": 455,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "9aea228633ed765e6088b4d4e1d8d3a8fce5049a",
+      "mode": "100644",
+      "path": "artifacts/pass647_literal_text_hits_7780_10242.csv",
+      "size": 106,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "2d00cea23ed620acaea867163bcc43ed693c46f1",
+      "mode": "100644",
+      "path": "artifacts/pass647_marker_correlation_7780_10242.csv",
+      "size": 4385,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "5e949c65fecb3338332172a4451f9058dfeebe31",
+      "mode": "100644",
+      "path": "artifacts/pass647_world_flow_detection.json",
+      "size": 303,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "24e1c97fd80d2458454c636337873b2a413db103",
+      "mode": "100644",
+      "path": "artifacts/pass648_s2c_keyroll_validation.csv",
+      "size": 199,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d637ff2fa0170629a736d32a46786d782fafdde9",
+      "mode": "100644",
+      "path": "artifacts/pass648_s2c_oracle_candidates.csv",
+      "size": 197,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "2b66a590c4c648e8e2eb19dd479d536ca49604d7",
+      "mode": "100644",
+      "path": "artifacts/pass648_s2c_oracle_decision.json",
+      "size": 1066,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6e0f3ee1b21bbecbe639729e4dc10c3cd1ed51a5",
+      "mode": "100644",
+      "path": "artifacts/pass648_s2c_oracle_summary.md",
+      "size": 687,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "aef844d3e67a61b97c3301085e82d7c442d3f843",
+      "mode": "100644",
+      "path": "artifacts/pass649_current_capture_decision.json",
+      "size": 1092,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ad434fa4d0cd015a3969fd88cea586d618ac6bae",
+      "mode": "100644",
+      "path": "artifacts/pass649_current_capture_summary.md",
+      "size": 602,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "37a57ae36451fcb7b69040bc485bb4ff1822d9f8",
+      "mode": "100644",
+      "path": "artifacts/pass649_length_ladder_marker_correlation_7780_10242.csv",
+      "size": 4310,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8d6c4d400ad020b355259015a20897910e1cefa7",
+      "mode": "100644",
+      "path": "artifacts/pass649_length_ladder_model.csv",
+      "size": 2829,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b19d316b8ca63222501ffc1bd85699ec1eb84026",
+      "mode": "100644",
+      "path": "artifacts/pass649_length_ladder_s2c_candidates.csv",
+      "size": 183,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b19d316b8ca63222501ffc1bd85699ec1eb84026",
+      "mode": "100644",
+      "path": "artifacts/pass649_length_ladder_s2c_validation.csv",
+      "size": 183,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "817a7d4b0ef6a68728d789426d378246a51423e6",
+      "mode": "100644",
+      "path": "artifacts/pass650_candidates_leak.md",
+      "size": 2068,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4aa669449b3101db12ef64503a81842788cf8ee6",
+      "mode": "100644",
+      "path": "artifacts/pass650_decision_leak.json",
+      "size": 82,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ecb631e8778f89319c5bc83e74a3522af77d8507",
+      "mode": "100644",
+      "path": "artifacts/pass650_length_signal_model.csv",
+      "size": 3025,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "10bc29a13f9d67fd4f40a58b252100e8f5ca6570",
+      "mode": "100644",
+      "path": "artifacts/pass650_marker_packet_windows.csv",
+      "size": 24770,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "5a9239247b3130127b524d065a504177e000e091",
+      "mode": "100644",
+      "path": "artifacts/pass650_repeat_window_similarity.csv",
+      "size": 2462,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ab9bf2857b352e7ce061d94a6d5729ba0fdcae9e",
+      "mode": "100644",
+      "path": "artifacts/pass650_window_structure_decision.json",
+      "size": 856,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "a5fd0ea804d76175797881b4228e48dcafde7dac",
+      "mode": "100644",
+      "path": "artifacts/pass650_window_structure_summary.md",
+      "size": 507,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d6dca32f1487ff662d4d31fa9f9de9c6e9b1603d",
+      "mode": "100644",
+      "path": "artifacts/pass651_10242_event_model.csv",
+      "size": 1367,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7e3d8918336d5763e988ff5ee9d0a42991caccda",
+      "mode": "100644",
+      "path": "artifacts/pass651_extended_s2c_structure_decision.json",
+      "size": 1304,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ef87ebaa6ad86c92a24108db270bb6b60dfd0f2a",
+      "mode": "100644",
+      "path": "artifacts/pass651_extended_s2c_structure_summary.md",
+      "size": 672,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "0503627f3679cc45fad0d71952775193a2af01af",
+      "mode": "100644",
+      "path": "artifacts/pass651_framing_hypotheses.csv",
+      "size": 28326,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ada02e36480071ba464284a7a28ddc3724ae47e3",
+      "mode": "100644",
+      "path": "artifacts/pass651_local_payload_triage_summary.csv",
+      "size": 658,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "dc8e95427bbcf7d2218db138ecf91524f433b3d6",
+      "mode": "100644",
+      "path": "artifacts/pass651_sequence_crib_candidates.csv",
+      "size": 237,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d9109085a080af13b0e1c7a3de76e59541a5561b",
+      "mode": "100644",
+      "path": "artifacts/pass651_sequence_crib_validation.csv",
+      "size": 139,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c54d908a7a8349c71fd353be9f69dc5b42dcb073",
+      "mode": "100644",
+      "path": "artifacts/pass651_stage_a_freshness.csv",
+      "size": 773,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "de6a6a1861f3e285dfd78d7b00678abb40159f1f",
+      "mode": "100644",
+      "path": "artifacts/pass651_stage_a_marker_set.csv",
+      "size": 797,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "38085ca7460926eda84b999834e0b935d9a09e9f",
+      "mode": "100644",
+      "path": "artifacts/pass651_stream_marker_windows.csv",
+      "size": 4103,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "45460964f2f86fbc382e2e8f507a4d25c66f1682",
+      "mode": "100644",
+      "path": "artifacts/pass651_stream_window_index.csv",
+      "size": 612,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "96932507664509ec9939ce3ef4324c6cc9e3ae1c",
+      "mode": "100644",
+      "path": "artifacts/pass652_10242_event_model_decision.json",
+      "size": 1338,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6a77c319f6e1c6dbce5458fde55f50a34517b1a0",
+      "mode": "100644",
+      "path": "artifacts/pass652_10242_event_model_summary.md",
+      "size": 648,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e926c9e769dd93b2cdec91a0cb676aa59a3f5e58",
+      "mode": "100644",
+      "path": "artifacts/pass652_c2s22_field_model.csv",
+      "size": 322,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "bf6d737505a350a24e213b95c1445722ec9c55cc",
+      "mode": "100644",
+      "path": "artifacts/pass652_c2s22_marker_alignment.csv",
+      "size": 1302,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "563f7d07e2605c84c4d8cd14d71429a293d025a6",
+      "mode": "100644",
+      "path": "artifacts/pass652_event_fingerprints.csv",
+      "size": 1995,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f0d6a427c4eaef10f9946f23cb24dfc0fd2d048e",
+      "mode": "100644",
+      "path": "artifacts/pass652_extractor_design.md",
+      "size": 1545,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "a228f3c9919c9443200f41301d6361bb7d55c66f",
+      "mode": "100644",
+      "path": "artifacts/pass652_prototype_event_labels.csv",
+      "size": 1738,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4fcc20e43626e3100b06c51322f367dd54a10dfe",
+      "mode": "100644",
+      "path": "artifacts/pass652_request_response_pairs.csv",
+      "size": 1415,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "a403b6b52c114f734f9d7e1a3064d459d5801d7f",
+      "mode": "100644",
+      "path": "artifacts/pass652_s2c_batch_model.csv",
+      "size": 1583,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e5f66e6f812c0d5c7f30ea421f6ee7d7fa73f025",
+      "mode": "100644",
+      "path": "artifacts/pass652_stage_a_10242_windows.csv",
+      "size": 8944,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "184a164a5e8a649bef3bdcec9eb95444e84e9bfc",
+      "mode": "100644",
+      "path": "artifacts/pass652_text_feasibility.csv",
+      "size": 2845,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "a9c4720e06a870120250b95ad7bd2a6c9ae8b047",
+      "mode": "100644",
+      "path": "artifacts/pass653_10242_labeler_hardening_decision.json",
+      "size": 1370,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "fd43f9461775acc5c8eef9570bf0f4eb0bf91f30",
+      "mode": "100644",
+      "path": "artifacts/pass653_10242_labeler_hardening_summary.md",
+      "size": 553,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "26409ba33122a87caa363e5165e33cf9feee68a9",
+      "mode": "100644",
+      "path": "artifacts/pass653_10242_s2c_batch_clusters.csv",
+      "size": 1629,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "3e2e820022af4f8d6e06fc6551af91e72ebef97b",
+      "mode": "100644",
+      "path": "artifacts/pass653_c2s22_cadence_model.csv",
+      "size": 294,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "80ae91220d443e838a37af7f6da3c017dac1eb49",
+      "mode": "100644",
+      "path": "artifacts/pass653_c2s22_marker_alignment_detail.csv",
+      "size": 1260,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "3f03e9041705383d9cd06036b785f0acdce30383",
+      "mode": "100644",
+      "path": "artifacts/pass653_c2s22_transform_feasibility.csv",
+      "size": 758,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "540a172ede744949a34a9356798ca4a49e173fb1",
+      "mode": "100644",
+      "path": "artifacts/pass653_clean_capture_v2_runbook.md",
+      "size": 863,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "28a434d035044d903f82cd288e75585db7c29671",
+      "mode": "100644",
+      "path": "artifacts/pass653_cross_flow_timing.csv",
+      "size": 6291,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "0cd98b6d3976802ac77fa34f2d16f256002f07c3",
+      "mode": "100644",
+      "path": "artifacts/pass653_event_labeler_v2_known_markers.csv",
+      "size": 2710,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d396c6c11836761717e70e2d0de5f9c29441e642",
+      "mode": "100644",
+      "path": "artifacts/pass653_event_labeler_v2_metrics.csv",
+      "size": 496,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "18f671136579853de75f93462f30981cadce92b5",
+      "mode": "100644",
+      "path": "artifacts/pass653_event_to_batch_cluster.csv",
+      "size": 5208,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b1f69b52faa50fac8ecf816c728776422dd1d090",
+      "mode": "100644",
+      "path": "artifacts/pass653_false_positive_baseline.csv",
+      "size": 3392,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ec43eaf4e660ba0cc8781abfa0d08b2413208709",
+      "mode": "100644",
+      "path": "artifacts/pass653_marker_vs_baseline_score.csv",
+      "size": 350,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e530e0174b467ad8b9c199e44d3bf66304ea18a5",
+      "mode": "100644",
+      "path": "artifacts/pass653_stage_a_input_audit.csv",
+      "size": 664,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "bd1c4a4f6d39e977499a38ffceba1d335dcb7637",
+      "mode": "100644",
+      "path": "artifacts/pass653_unsupervised_10242_events.csv",
+      "size": 8074,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "538903d26231d8b86ce4f78dda30d959c143bcdd",
+      "mode": "100644",
+      "path": "artifacts/pass653_unsupervised_detector_metrics.csv",
+      "size": 599,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "018fad8ab983ffe54e52d44e17b86dc11fe2a6b5",
+      "mode": "100644",
+      "path": "artifacts/pass654b_10242_format_hypotheses.csv",
+      "size": 650,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "fe578dc549a7a5c6bc511c2d837533982c076aaa",
+      "mode": "100644",
+      "path": "artifacts/pass654b_10242_oracle_comparison.csv",
+      "size": 2050,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ff2acc7e7cc817a62c1dab272581d6be68b5cfcd",
+      "mode": "100644",
+      "path": "artifacts/pass654b_candidate_validation.csv",
+      "size": 320,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "5aa33adc9ddf985e8e29e45193b13685c04bd9ab",
+      "mode": "100644",
+      "path": "artifacts/pass654b_capture_consistency.csv",
+      "size": 499,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "0f6fd330f329aa373bd82bce9438b95fd223cac4",
+      "mode": "100644",
+      "path": "artifacts/pass654b_flow_inventory.csv",
+      "size": 1527,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1d3d09e477a7715ba2de9ed032473947a5a85947",
+      "mode": "100644",
+      "path": "artifacts/pass654b_hypothesis_status.csv",
+      "size": 1760,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "63aa900306353e3a137063d625a42d22428f4c0e",
+      "mode": "100644",
+      "path": "artifacts/pass654b_known_text_tests.csv",
+      "size": 1421067,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "213c43f155e1b7029d9bbecf9dc044762dd47073",
+      "mode": "100644",
+      "path": "artifacts/pass654b_local_message_control.csv",
+      "size": 1040,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ebd4cab68b864af08d3163934252482c7c1c9e30",
+      "mode": "100644",
+      "path": "artifacts/pass654b_offline_capture_validation_decision.json",
+      "size": 1054,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "3b3c1003b2fb420d507075b917667665b818b381",
+      "mode": "100644",
+      "path": "artifacts/pass654b_offline_capture_validation_summary.md",
+      "size": 608,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "be3ddebe4278751ba50eb06f38a5e7cb80444903",
+      "mode": "100644",
+      "path": "artifacts/pass654b_oracle_rows.csv",
+      "size": 5867,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c7c4e1b2775ba7a038f2a3962680f00cb005a258",
+      "mode": "100644",
+      "path": "artifacts/pass654b_oracle_stream_windows.csv",
+      "size": 32109,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7e47f40612bc1ea6010413507f83e48849b0af01",
+      "mode": "100644",
+      "path": "artifacts/pass654b_ranked_next_steps.csv",
+      "size": 698,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "42ae4a5c0b89e2b8f2c6f43e4df5fc3d7317e66f",
+      "mode": "100644",
+      "path": "artifacts/pass654b_stream_index.csv",
+      "size": 44087,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "77d5a627dc56fb4c6eb7733d8d9602f0c3d4ce44",
+      "mode": "100644",
+      "path": "artifacts/pass654b_text_finding_metadata.csv",
+      "size": 179,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f08001d698e52401c3da780e4e23fbee0ac5d862",
+      "mode": "100644",
+      "path": "artifacts/pass654b_whisper_group_differential.csv",
+      "size": 9639,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "a53d3da61324a5979b365d9638209ff91c417d0f",
+      "mode": "100644",
+      "path": "artifacts/pass654b_world_flow_hypotheses.csv",
+      "size": 2036,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "682318a4129dad3df8ea56aac7b871fc387a8e1f",
+      "mode": "100644",
+      "path": "artifacts/pass654b_world_flow_oracle_windows.csv",
+      "size": 22878,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "319031e1d450d465e278a903ccd209e2745ee519",
+      "mode": "100644",
+      "path": "artifacts/pass655_10242_role_decision.csv",
+      "size": 356,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "5b91d6eb468c86584c4d7117a04af0c226b177a6",
+      "mode": "100644",
+      "path": "artifacts/pass655_authoritative_oracles.csv",
+      "size": 4147,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "bb2c87777b6733b88931cad60aea2f453a48bc4f",
+      "mode": "100644",
+      "path": "artifacts/pass655_candidate_field_models.csv",
+      "size": 393570,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ba0eb319f5eb85681f5f731d9aae14a049cda3ff",
+      "mode": "100644",
+      "path": "artifacts/pass655_capture_audit.csv",
+      "size": 537,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "11364064bc326aae7e1f2c0c850d7c8554b06b1a",
+      "mode": "100644",
+      "path": "artifacts/pass655_channel_field_candidates.csv",
+      "size": 7078,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c420116bcfa9ec5220844cae704c13caf89ee0a9",
+      "mode": "100644",
+      "path": "artifacts/pass655_exact_message_validation.csv",
+      "size": 382,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "13486d013c9e1e4294a0a61e5e6af84fe032d296",
+      "mode": "100644",
+      "path": "artifacts/pass655_existing_parser_map.csv",
+      "size": 2753,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e4f34a318c1f7ea4b49608f370aadcced14a318d",
+      "mode": "100644",
+      "path": "artifacts/pass655_flow_inventory.csv",
+      "size": 1359,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "de083b7f6ceba0c77883422b0458a3d6143172b6",
+      "mode": "100644",
+      "path": "artifacts/pass655_frame_boundary_oracle_map.csv",
+      "size": 133609,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ec1715abc061be196fe9a080ef82ec02a1a8e0d4",
+      "mode": "100644",
+      "path": "artifacts/pass655_frame_model_grid_summary.json",
+      "size": 121,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "692a13433539fdf83f4bf2940c98c16b7430dccf",
+      "mode": "100644",
+      "path": "artifacts/pass655_frame_models_all.csv",
+      "size": 946983,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "36d39fdb4681cbca02df74aeb01d3bed86777b00",
+      "mode": "100644",
+      "path": "artifacts/pass655_frame_models_top.csv",
+      "size": 13416,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1c414c4715195e851e91bd4503c716b6feda943a",
+      "mode": "100644",
+      "path": "artifacts/pass655_frame_to_stream_offsets.csv",
+      "size": 52755,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b69db5d56cd3bceeb15a556b1b11089b931f1720",
+      "mode": "100644",
+      "path": "artifacts/pass655_generated_parser_inventory.csv",
+      "size": 4425,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7c484c6b17bb83e4cc9720f6e4e2d95dda3f900b",
+      "mode": "100644",
+      "path": "artifacts/pass655_hypothesis_exhaustion.csv",
+      "size": 2476,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c43bd3b2663b25e7bf0899b65bfba86f0f087c33",
+      "mode": "100644",
+      "path": "artifacts/pass655_known_message_match_metadata.csv",
+      "size": 54931,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "78b6808e81e9791f53ce15865790496fe131b7e6",
+      "mode": "100644",
+      "path": "artifacts/pass655_length_ladder_field_signal.csv",
+      "size": 47904,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "fa683357d8e25a9c3a853fad0aef215bbed37345",
+      "mode": "100644",
+      "path": "artifacts/pass655_local_control.csv",
+      "size": 1163,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "daf84ff82b4192b0dd7aad21f234fb36efcdddc1",
+      "mode": "100644",
+      "path": "artifacts/pass655_oracle_stream_intervals.csv",
+      "size": 38443,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "169c84ade4fc4d7942ccf0d6860d8011ef757b0e",
+      "mode": "100644",
+      "path": "artifacts/pass655_parser_execution_results.csv",
+      "size": 4031,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "aec9fb41859219a687852b3589fd5ec4d8d3f9d0",
+      "mode": "100644",
+      "path": "artifacts/pass655_parser_negative_control_scores.csv",
+      "size": 78959,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "fdf3e963b9faf4e2ec401553057d8badee3ab05d",
+      "mode": "100644",
+      "path": "artifacts/pass655_parser_oracle_scores.csv",
+      "size": 39450,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "28fb77b3159a93efe9cfbaf284094ecc46a1a139",
+      "mode": "100644",
+      "path": "artifacts/pass655_ranked_next_steps.csv",
+      "size": 975,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "13486d013c9e1e4294a0a61e5e6af84fe032d296",
+      "mode": "100644",
+      "path": "artifacts/pass655_receive_format_constraints.csv",
+      "size": 2753,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6a21d68ed2c209a1624e39f1ee7f186cfe833569",
+      "mode": "100644",
+      "path": "artifacts/pass655_repeat_candidate_ranking.csv",
+      "size": 5316,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ddd68c0f00e51b42ffba384b3aca7ffdb051b0f8",
+      "mode": "100644",
+      "path": "artifacts/pass655_repeat_pair_analysis.csv",
+      "size": 63647,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e1f1dcde5d09b9fd14fb790b22a566edc5d8ea71",
+      "mode": "100644",
+      "path": "artifacts/pass655_stream_validation.csv",
+      "size": 1080,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c95a0f70b3f617ee987da447b279caee827e2d2e",
+      "mode": "100644",
+      "path": "artifacts/pass655_timestamp_audit.csv",
+      "size": 406,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b67513aa7ecde4843fe842626ef381997f6214b2",
+      "mode": "100644",
+      "path": "artifacts/pass655_whisper_group_models.csv",
+      "size": 29312,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d24d94a150af8ff5b31069d5422d197694116a0f",
+      "mode": "100644",
+      "path": "artifacts/pass655_wire_parser_models.csv",
+      "size": 3747,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "a456046c790d6e7066b098440c2c9105fb5150d4",
+      "mode": "100644",
+      "path": "artifacts/pass655_work_queue.json",
+      "size": 4346,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6f930d37f133a19d493fba48908bb80ac2c43aeb",
+      "mode": "100644",
+      "path": "artifacts/pass655_world_framing_marathon_decision.json",
+      "size": 1540,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "82fa18b713e2547ee1f97b6b31e02fa39dfd83bb",
+      "mode": "100644",
+      "path": "artifacts/pass655_world_framing_marathon_summary.md",
+      "size": 711,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "03394de9c7be39445d871f8f9413a75072c3b627",
+      "mode": "100644",
+      "path": "artifacts/pass656_body_boundary_candidates.csv",
+      "size": 46614,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "de448ac89e4e02ddadd709596cc7257e52a90096",
+      "mode": "100644",
+      "path": "artifacts/pass656_bootstrap_contract_checks.csv",
+      "size": 129,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1473ecf932a51913dd50b9eee11798a7e2f8046d",
+      "mode": "100644",
+      "path": "artifacts/pass656_closed_branch_guard.csv",
+      "size": 801,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ec03fed9032829433514a2c8b3d104d2252161f3",
+      "mode": "100644",
+      "path": "artifacts/pass656_cross_oracle_consistency.csv",
+      "size": 3293,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "3403270393cc6fc066775d55d290964443f8dfc5",
+      "mode": "100644",
+      "path": "artifacts/pass656_exact_message_validation.csv",
+      "size": 293,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8e295747054cde0baeb132093e4544d96e804ce7",
+      "mode": "100644",
+      "path": "artifacts/pass656_existing_transform_constraints.csv",
+      "size": 1377,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "41d983877868f9e55309a8b96d37320dc42a2393",
+      "mode": "100644",
+      "path": "artifacts/pass656_frame_models_revalidated.csv",
+      "size": 7019,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6780e4645c4b868da46444f8ab386c905b6204a9",
+      "mode": "100644",
+      "path": "artifacts/pass656_frame_tiling_diagnostics.csv",
+      "size": 89549,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e2f1f9902769341cea19f3798b1b82df7deaed9a",
+      "mode": "100644",
+      "path": "artifacts/pass656_generated_parser_inventory.csv",
+      "size": 2655,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "cf87cf08aab7999b865230c8c414ee16e47dea03",
+      "mode": "100644",
+      "path": "artifacts/pass656_hypothesis_exhaustion.csv",
+      "size": 1471,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4e2fe5e2aec471349c32003624ce315c1be0e6e0",
+      "mode": "100644",
+      "path": "artifacts/pass656_negative_control_scores.csv",
+      "size": 28545,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "144fcd9976c9b5c9c4a4930e9aae3ac8bd1c480a",
+      "mode": "100644",
+      "path": "artifacts/pass656_oracle_stream_intervals.csv",
+      "size": 14794,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b8cc4101f93bd9e3304e54bbd420f7909d040dbc",
+      "mode": "100644",
+      "path": "artifacts/pass656_parser_execution_results.csv",
+      "size": 1007,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c9d06835d30aca27c279effa718727f678ec9b85",
+      "mode": "100644",
+      "path": "artifacts/pass656_positive_control_scores.csv",
+      "size": 17412,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "088ba19a1c7dc769d5948a42f9d41bc8ca708bce",
+      "mode": "100644",
+      "path": "artifacts/pass656_sequence_correct_body_transform_decision.json",
+      "size": 1384,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "2762aacba624bfa129aed54ba1937c065cd0a127",
+      "mode": "100644",
+      "path": "artifacts/pass656_sequence_correct_body_transform_summary.md",
+      "size": 614,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d086fd241e5cbcc37e5b300f5db869afef0c83a0",
+      "mode": "100644",
+      "path": "artifacts/pass656_stream_difference_summary.json",
+      "size": 256,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e27e9d6ba735f85b8296541ad39b067bd3fb5778",
+      "mode": "100644",
+      "path": "artifacts/pass656_stream_time_offset_index.csv",
+      "size": 45505,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "284d22eb5f6e61fd96b003858157dbd7103644a3",
+      "mode": "100644",
+      "path": "artifacts/pass656_tcp_reassembly_audit.csv",
+      "size": 376,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e904979605829dcb780abbb3f03016d2c8d1c5c3",
+      "mode": "100644",
+      "path": "artifacts/pass656_transform_grid_summary.json",
+      "size": 115,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "5da2d21ca22096f5587f51e944ced5d5f3f01879",
+      "mode": "100644",
+      "path": "artifacts/pass656_transform_model_results.csv",
+      "size": 65095,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6c71f621f50d9cd459e2c6901bf2c5f2ff3a6558",
+      "mode": "100644",
+      "path": "artifacts/pass656_work_queue.json",
+      "size": 6169,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7cdacbc3e23bf2d5d512a01c691dbc7045771455",
+      "mode": "100644",
+      "path": "artifacts/pass657_c2s_gap_policy.csv",
+      "size": 293,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "31cf06f0529bfc94c849273fc5a664a073274190",
+      "mode": "100644",
+      "path": "artifacts/pass657_clean_rerun_validation.csv",
+      "size": 179,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f52b1f470ab38357a88533b36a5456630d8e94ac",
+      "mode": "100644",
+      "path": "artifacts/pass657_corrective_holdout_validation_decision.json",
+      "size": 1371,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c59bac7ab0d98e6439a0d91e10c51138888bcb8f",
+      "mode": "100644",
+      "path": "artifacts/pass657_corrective_holdout_validation_summary.md",
+      "size": 640,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "222fcf0f56877d8e1f8d42d1232001b5e9def7c1",
+      "mode": "100644",
+      "path": "artifacts/pass657_cross_length_channel_validation.csv",
+      "size": 334,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f4ba0be5daf01bf645c2a0b45ea654251d973a5d",
+      "mode": "100644",
+      "path": "artifacts/pass657_decoder_execution_results.csv",
+      "size": 170,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f426485dd093f75ebdcbfccde62927664c12cbf1",
+      "mode": "100644",
+      "path": "artifacts/pass657_decoder_inventory.csv",
+      "size": 219,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b36ea511f4b1ab9995f51676e479a900fe6bdd2d",
+      "mode": "100644",
+      "path": "artifacts/pass657_exact_message_validation.csv",
+      "size": 361,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d7cc8f361a34139da0031d931c6bc63bab12bc7d",
+      "mode": "100644",
+      "path": "artifacts/pass657_explicit_frame_equations.csv",
+      "size": 118796,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ddd9323a0aec019c9e7698832ce3465fd25d6de5",
+      "mode": "100644",
+      "path": "artifacts/pass657_explicit_frame_survivors.csv",
+      "size": 88,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "5a02b0e7efc96cc1797a51fe93dd57fea2d44682",
+      "mode": "100644",
+      "path": "artifacts/pass657_frame_grid_summary.json",
+      "size": 146,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "bcc03d0118e98d982950ab92c0138507aa11cdab",
+      "mode": "100644",
+      "path": "artifacts/pass657_frame_models_holdout.csv",
+      "size": 9952,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "52547e06fed284dc1a754e08df1a9df2b099a833",
+      "mode": "100644",
+      "path": "artifacts/pass657_frame_models_train.csv",
+      "size": 341680,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "db0dc1c9b2cce6e1fb6893e24b75071508145a30",
+      "mode": "100644",
+      "path": "artifacts/pass657_frame_null_control_scores.csv",
+      "size": 5412,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "bfd11fd797f7c06fed9db1334df62090ba31a138",
+      "mode": "100644",
+      "path": "artifacts/pass657_frame_time_ranges.csv",
+      "size": 147,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4aed3dc288303e02b95f015082bfc3eb021c388b",
+      "mode": "100644",
+      "path": "artifacts/pass657_frozen_transform_candidates.csv",
+      "size": 180,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "32e271752c4ab0270c3040ce16295d8ea2f06d16",
+      "mode": "100644",
+      "path": "artifacts/pass657_hypothesis_exhaustion.csv",
+      "size": 935,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1dbc664e8d9d34bb74a358c2117f098f5c4012f2",
+      "mode": "100644",
+      "path": "artifacts/pass657_negative_control_results.csv",
+      "size": 5607,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "59bdc92eec59dfb576382a77ca0967e521ac464d",
+      "mode": "100644",
+      "path": "artifacts/pass657_oracle_body_candidates.csv",
+      "size": 191,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "40b70748a9d66342d1d227566d8c027ef6874efd",
+      "mode": "100644",
+      "path": "artifacts/pass657_oracle_frame_candidates.csv",
+      "size": 134,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "937415578436bcb8eeb3cdd41035334f46dc715b",
+      "mode": "100644",
+      "path": "artifacts/pass657_pass656_claim_audit.csv",
+      "size": 1841,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c5fc56480ae809c6f5b55064419036e9800a8154",
+      "mode": "100644",
+      "path": "artifacts/pass657_positive_control_results.csv",
+      "size": 2039,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "71204fc055c51a748f4429a03b1d8d0ab4f7327a",
+      "mode": "100644",
+      "path": "artifacts/pass657_queue_semantics_tests.csv",
+      "size": 453,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7e424007e38e47ea4b477c9be3123186b0fa108d",
+      "mode": "100644",
+      "path": "artifacts/pass657_reverse_holdout_validation.csv",
+      "size": 201,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "263942ca71c02c303ff16e089cf82afc06147fe5",
+      "mode": "100644",
+      "path": "artifacts/pass657_s2c_reassembly_crosscheck.csv",
+      "size": 371,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "516395a87f908420788a971ad8c268783a4d1968",
+      "mode": "100644",
+      "path": "artifacts/pass657_targeted_transform_constraints.csv",
+      "size": 1401,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "0a246dc0c156d98ec3b9dd2341a8d11a90260c07",
+      "mode": "100644",
+      "path": "artifacts/pass657_train_holdout_validation.csv",
+      "size": 124,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6cb6667902fb08ab50a2296fe11c88665347a451",
+      "mode": "100644",
+      "path": "artifacts/pass657_transform_contradiction_matrix.csv",
+      "size": 58,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "071c4e22c85aa4fbed7431ab23e106fd18574895",
+      "mode": "100644",
+      "path": "artifacts/pass657_work_queue.json",
+      "size": 7471,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4841ec19dda1fde52d69e52e1b571abd0b867f4c",
+      "mode": "100644",
+      "path": "artifacts/pass658_candidate_disposition.csv",
+      "size": 1965,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "2625340ee086c0ebb4b3f24da150c6dc6f83eee2",
+      "mode": "100644",
+      "path": "artifacts/pass658_clean_rerun_validation.csv",
+      "size": 81,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "238529c01330617da94124b5fd321571332b0fce",
+      "mode": "100644",
+      "path": "artifacts/pass658_current_capture_handshake_inventory.csv",
+      "size": 608,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7af1d6df28276e0dc633646b3697ec7e3bc95f05",
+      "mode": "100644",
+      "path": "artifacts/pass658_direction_context_layout.csv",
+      "size": 2221,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b2032924222313a3cd033b21097c5d99a8419c0d",
+      "mode": "100644",
+      "path": "artifacts/pass658_exact_message_validation.csv",
+      "size": 295,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ded39f15de007fb5c46a988fe26c9bb4d1c0ca59",
+      "mode": "100644",
+      "path": "artifacts/pass658_hypothesis_exhaustion.csv",
+      "size": 438,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "010614d60b12a125d022157f7eaf4f00e98afcb5",
+      "mode": "100644",
+      "path": "artifacts/pass658_initializer_candidate_metadata.csv",
+      "size": 356,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "79172cc18853cece67d61714284aef239e98f156",
+      "mode": "100644",
+      "path": "artifacts/pass658_keyslot_store_normalization.csv",
+      "size": 4250,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "044b866fe33fb14a921b8cbc7086ca389db744c3",
+      "mode": "100644",
+      "path": "artifacts/pass658_known_plaintext_constraint_results.csv",
+      "size": 288,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b9a462f500f8b24f6e79f780cc1dfc1755809c82",
+      "mode": "100644",
+      "path": "artifacts/pass658_negative_control_results.csv",
+      "size": 3693,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e74a95019080b4293db4399ff80ddd80594be16a",
+      "mode": "100644",
+      "path": "artifacts/pass658_pass618_decoder_reconstruction.csv",
+      "size": 634,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "355576d7b5f0176b2ae3133e3e11c0d2c7aa55b2",
+      "mode": "100644",
+      "path": "artifacts/pass658_pass622_artifact_reconstruction.json",
+      "size": 3426,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "85208b3bf0f39c88d25e3eab168b9d09605f22aa",
+      "mode": "100644",
+      "path": "artifacts/pass658_pass622_export_inventory.csv",
+      "size": 17205,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "da879b8a8548c15965a1be678ac8525f0a2bc68d",
+      "mode": "100644",
+      "path": "artifacts/pass658_pass622_target_coverage.csv",
+      "size": 4261,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "a7a500ea9606ff95264a3efd99485223d324d5fa",
+      "mode": "100644",
+      "path": "artifacts/pass658_pass657_claim_audit.csv",
+      "size": 966,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "717edc6ef4b08c6881f498b18ad4b226052d1f74",
+      "mode": "100644",
+      "path": "artifacts/pass658_queue_integration_tests.csv",
+      "size": 602,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "704160e3234c81a03981e019d46743fd8807fe3f",
+      "mode": "100644",
+      "path": "artifacts/pass658_receive_handshake_graph_edges.csv",
+      "size": 1292,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1ebe7f71b59da4d8da0dd1a406f43e1f04e43f37",
+      "mode": "100644",
+      "path": "artifacts/pass658_receive_handshake_ranked_paths.csv",
+      "size": 1109,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "90fe99284250a7b3383fffbc5cd4b7d58b6e067c",
+      "mode": "100644",
+      "path": "artifacts/pass658_repeat_channel_validation.csv",
+      "size": 226,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6c38586a2e2a1aa04c6b618bf64c44173856c3f6",
+      "mode": "100644",
+      "path": "artifacts/pass658_s2c_key_setup_resolution_decision.json",
+      "size": 1823,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e4dca9de766538a06df716f644125e450e1608ef",
+      "mode": "100644",
+      "path": "artifacts/pass658_s2c_key_setup_resolution_summary.md",
+      "size": 667,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7963ce4e2e7ba744cf41154b95e9accb122cee20",
+      "mode": "100644",
+      "path": "artifacts/pass658_seed_source_slices.csv",
+      "size": 1842,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6a87fc49ed499409660dccab449658d0fc141788",
+      "mode": "100644",
+      "path": "artifacts/pass658_sequential_decoder_results.csv",
+      "size": 370,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "fdcf640c1cf759bce59addefa744418395d50a46",
+      "mode": "100644",
+      "path": "artifacts/pass658_static_to_packet_field_mapping.csv",
+      "size": 1625,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "eb7d194971b6fea5707bb0e7de6fbf13debb22b4",
+      "mode": "100644",
+      "path": "artifacts/pass658_targeted_export_requests.csv",
+      "size": 1087,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "19748e7755796bab2e2b0a21898e7a0017fe2c39",
+      "mode": "100644",
+      "path": "artifacts/pass658_targeted_export_results.csv",
+      "size": 1788,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "fd09577f5393bc672041da2da0dfd89ffa42588a",
+      "mode": "100644",
+      "path": "artifacts/pass658_work_queue.json",
+      "size": 9465,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "98aaa8a7976467f6a1539db749f7d4d6205a0993",
+      "mode": "100644",
+      "path": "artifacts/pass659_callsite_argument_mapping.csv",
+      "size": 299,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "850c2dc043f09615facfb11c577356577c5ad3d4",
+      "mode": "100644",
+      "path": "artifacts/pass659_candidate_disposition.csv",
+      "size": 1109,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "fc527f3d9718a65ffdd711eca177442c6a849e45",
+      "mode": "100644",
+      "path": "artifacts/pass659_clean_rerun_validation.csv",
+      "size": 100,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "00f18c7630cb8f27a0847a6a26346f90915bd39c",
+      "mode": "100644",
+      "path": "artifacts/pass659_current_capture_field_mapping.csv",
+      "size": 623,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c3baf8206d922094ebc273edfff7d987a7685868",
+      "mode": "100644",
+      "path": "artifacts/pass659_direction_state_layout.csv",
+      "size": 350,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "44de477fcc7a7d818f246f8366dca2008a9d32a3",
+      "mode": "100644",
+      "path": "artifacts/pass659_exact_message_validation.csv",
+      "size": 242,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "28ad9c6c5484647f0ada93cd7b68c6d28a80fb4b",
+      "mode": "100644",
+      "path": "artifacts/pass659_ghidra_runtime_project_discovery.csv",
+      "size": 442,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c18d4fb8259e40e02c229dd43adce32d8b3b7bf7",
+      "mode": "100644",
+      "path": "artifacts/pass659_hypothesis_exhaustion.csv",
+      "size": 551,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "23aacb13549df37ce39938900b73884662cb7687",
+      "mode": "100644",
+      "path": "artifacts/pass659_initializer_candidate_metadata.csv",
+      "size": 308,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "29a4a6cdd507c8d29bc59324ced27b631590fda1",
+      "mode": "100644",
+      "path": "artifacts/pass659_negative_control_results.csv",
+      "size": 1842,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1dad789de01976c9a2f1e93b5ab3954b29cd2c4a",
+      "mode": "100644",
+      "path": "artifacts/pass659_nonstack_context_writes.csv",
+      "size": 123,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f1f9502fcb4e1843e91f5784c52587ae1e1f7bd2",
+      "mode": "100644",
+      "path": "artifacts/pass659_pass622_call_edges.csv",
+      "size": 2723,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4fce6610ec3b9543a2503e6e3da6892101fd848d",
+      "mode": "100644",
+      "path": "artifacts/pass659_pass622_metadata_manifest.csv",
+      "size": 688,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ff604b678f8fa21f840c3da629b6968b993f15aa",
+      "mode": "100644",
+      "path": "artifacts/pass659_pass623_rejections.csv",
+      "size": 1336,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "291d1ee9d8211178b55630c19bb2256ea8bf7885",
+      "mode": "100644",
+      "path": "artifacts/pass659_pass658_claim_audit.csv",
+      "size": 747,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "57e45341f18be7fc1ec5769372508b9db23c411c",
+      "mode": "100644",
+      "path": "artifacts/pass659_queue_export_gate_tests.csv",
+      "size": 463,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "91e907192f4c5fe63584a4884c527aac1c06e40f",
+      "mode": "100644",
+      "path": "artifacts/pass659_receive_buffer_dependency_slices.csv",
+      "size": 229,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "47cb198f3de7374f3b4348a6a173bf7d22bd63aa",
+      "mode": "100644",
+      "path": "artifacts/pass659_repeat_channel_validation.csv",
+      "size": 159,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1d17ce069bd5e39e109480cc65f8c29900b62e6a",
+      "mode": "100644",
+      "path": "artifacts/pass659_sequential_decoder_results.csv",
+      "size": 278,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "3b2431858cbd087966d4d1bec5ed56ca35d9985f",
+      "mode": "100644",
+      "path": "artifacts/pass659_store_classification.csv",
+      "size": 9486,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "bba1af852775b6eb8f9b3a0b3c99b1b6a8b6cd7b",
+      "mode": "100644",
+      "path": "artifacts/pass659_targeted_export_execution.csv",
+      "size": 682,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "a5760e89c1db5a5ca9f1ffa1d1d75feefa2c3627",
+      "mode": "100644",
+      "path": "artifacts/pass659_targeted_export_seed_coverage.csv",
+      "size": 419,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d5634d3e206af5e722862926e88763df9114bb39",
+      "mode": "100644",
+      "path": "artifacts/pass659_targeted_graph_edges.csv",
+      "size": 3433,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "95dc716443a36fc3245f9a58a2fc3661e25e0ce5",
+      "mode": "100644",
+      "path": "artifacts/pass659_targeted_native_context_trace_decision.json",
+      "size": 1934,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1587ce81715c335d68346f03b4c881c2164a6d56",
+      "mode": "100644",
+      "path": "artifacts/pass659_targeted_native_context_trace_summary.md",
+      "size": 712,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b8c5ff82c0205a4ddde042d78c132aae1fa8633d",
+      "mode": "100644",
+      "path": "artifacts/pass659_targeted_ranked_paths.csv",
+      "size": 424,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d00b8dcc27a62612f3d0829b1903ce465907d3f3",
+      "mode": "100644",
+      "path": "artifacts/pass659_work_queue.json",
+      "size": 10152,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b46874ab2b7efd400d9972d2b4dd0853b3d8f1f5",
+      "mode": "100644",
+      "path": "artifacts/pass660_argument_defuse_slices.csv",
+      "size": 5477,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "84f836332ab20e0ac67c122cb66044cf6b66541f",
+      "mode": "100644",
+      "path": "artifacts/pass660_callsite_ssa_mapping.csv",
+      "size": 2099,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "0e6deeb2071b2ba710f4051df910649b4193d6a5",
+      "mode": "100644",
+      "path": "artifacts/pass660_corrected_store_classification.csv",
+      "size": 5881,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "384b48533ecbf280a28df36a36be1abdd32ad1fd",
+      "mode": "100644",
+      "path": "artifacts/pass660_decision.json",
+      "size": 1341,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "637e4357078e4d5df4d10bc7c2f10f0b14be586c",
+      "mode": "100644",
+      "path": "artifacts/pass660_exact_blocker.csv",
+      "size": 700,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "db589a11de17d57fb5d102eb0fa9d3178847f276",
+      "mode": "100644",
+      "path": "artifacts/pass660_nonstack_context_writes.csv",
+      "size": 394,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "9da9925bc732dfda7b3b1ba2b992cecbc9f8203e",
+      "mode": "100644",
+      "path": "artifacts/pass660_work_queue.json",
+      "size": 677,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8d1265c6c4e8827d5bb91f8ff2784cf7aaf8a165",
+      "mode": "100644",
+      "path": "artifacts/pass661_argument_use_slices.csv",
+      "size": 4178,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "081264bc33bc2e9af377e34461fc136e42470fe7",
+      "mode": "100644",
+      "path": "artifacts/pass661_callsite_argument_mapping.csv",
+      "size": 5533,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4a03502d734d4c4b7ec85732e4fb9f1a9449435a",
+      "mode": "100644",
+      "path": "artifacts/pass661_context_buffer_candidates.csv",
+      "size": 219,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "aadfd2af723e5054618f3d52c240280ccdf11f75",
+      "mode": "100644",
+      "path": "artifacts/pass661_decision.json",
+      "size": 1159,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "cb4c84e6989d7e37c5f358f9cf364ac4c7a65a7e",
+      "mode": "100644",
+      "path": "artifacts/pass661_exact_blocker.csv",
+      "size": 521,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8ed752ba75797a53d766afa4f20cd0e23ddac086",
+      "mode": "100644",
+      "path": "artifacts/pass661_immediate_nonstack_relations.csv",
+      "size": 312,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "99e8ad9e83a4c3e053d5f25fe970cd8ba06bd3b2",
+      "mode": "100644",
+      "path": "artifacts/pass661_livein_varnodes.csv",
+      "size": 268,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "38ce7d154fb45c37f8c10f91d7f78c315e6803bf",
+      "mode": "100644",
+      "path": "artifacts/pass661_parameter_storage.csv",
+      "size": 127,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6794f806f25dca7611b7b73015e86f8f70b052e8",
+      "mode": "100644",
+      "path": "artifacts/pass661_target_function_prototypes.csv",
+      "size": 472,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e038a11c80f8cd2af1d2e269dd4996cbf4a801d7",
+      "mode": "100644",
+      "path": "artifacts/pass661_work_queue.json",
+      "size": 965,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e88add7f327439af0088e1ddef49db3a17bff76e",
+      "mode": "100644",
+      "path": "artifacts/pass662_callsite_livein_mapping.csv",
+      "size": 1987,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "91a5a6bd66d6192669125ce9e1d30ed314dbfb26",
+      "mode": "100644",
+      "path": "artifacts/pass662_context_buffer_candidates.csv",
+      "size": 187,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7a3a216320a6e4e2f7917b0077672cea25e7f646",
+      "mode": "100644",
+      "path": "artifacts/pass662_decision.json",
+      "size": 1722,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "64e08f3efe99ed1bc9cc96a77627b061b399317f",
+      "mode": "100644",
+      "path": "artifacts/pass662_exact_blocker.csv",
+      "size": 596,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "507dc909bf5e4fe70523c0dd37c2e9f436c6d872",
+      "mode": "100644",
+      "path": "artifacts/pass662_function_input_registers.csv",
+      "size": 2595,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e69d6b479caca8414801178c8eb7033ac93ab466",
+      "mode": "100644",
+      "path": "artifacts/pass662_register_inventory.csv",
+      "size": 341,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "bd3e5d975657b14e0cd03f65623974c271a0a583",
+      "mode": "100644",
+      "path": "artifacts/pass662_register_reaching_defs.csv",
+      "size": 2238,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c1ed5b5ff407b09b4c3bd16164faf3e9a80340b8",
+      "mode": "100644",
+      "path": "artifacts/pass662_semantic_use_classification.csv",
+      "size": 135,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7784afcc308efc42d2b7e9a6c4a1784cded762ca",
+      "mode": "100644",
+      "path": "artifacts/pass662_thunk_passthrough.csv",
+      "size": 1413,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e9a2a31e8c19f8a2f78ef1ca4c5581bc343ced87",
+      "mode": "100644",
+      "path": "artifacts/pass662_work_queue.json",
+      "size": 965,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "dae2130551b9886354e9087406a109ef6ffbad2e",
+      "mode": "100644",
+      "path": "artifacts/pass665_active_recv_hook_decision.json",
+      "size": 2262,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6f1b3dbc279414acd596f904f58aade8d1079ead",
+      "mode": "100644",
+      "path": "artifacts/pass665_active_recv_hook_summary.md",
+      "size": 1511,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4fbfab9cf3a597773b6ca120aff4b085666f34a4",
+      "mode": "100644",
+      "path": "artifacts/pass665_aeginit_argument_candidates.csv",
+      "size": 1448,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b8aa3908dfef15d3c84743eee8d22a1eb98c9f47",
+      "mode": "100644",
+      "path": "artifacts/pass665_crysystem_inventory.csv",
+      "size": 750,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "a57e26d082d392d2eb25582697576c9f16cd56e7",
+      "mode": "100644",
+      "path": "artifacts/pass665_dynamic_resolution_trace.json",
+      "size": 1742,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "747662e88f156e7dee95df7dfd671b58182cb44e",
+      "mode": "100644",
+      "path": "artifacts/pass665_hook_write_candidates.csv",
+      "size": 70584,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7023180fd0e5e0c628b2a7c08cecdeb41576a065",
+      "mode": "100644",
+      "path": "artifacts/pass665_winsock_slot_baseline.csv",
+      "size": 307,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "019227169e748b2ccb55cf8c6ff06a088f031d46",
+      "mode": "100644",
+      "path": "artifacts/pass665_work_queue.json",
+      "size": 3523,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "3051a6197f273b7228eb06dcafeb236ae443088d",
+      "mode": "100644",
+      "path": "docs/AGENT_WORK_CONTRACT.md",
+      "size": 10744,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "a05886eb5d937e1d48ac4cbf30872aeb924cdfa3",
+      "mode": "100644",
+      "path": "inbox/README.md",
+      "size": 202,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b7bd7748dfd4a19d8b40b230464a10df5c82d558",
+      "mode": "100644",
+      "path": "inbox/antigravity_report.md",
+      "size": 962,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6f1b3dbc279414acd596f904f58aade8d1079ead",
+      "mode": "100644",
+      "path": "inbox/codex_report.md",
+      "size": 1511,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "68f999d62f0fa01462b0fe7f4245d585bddd357d",
+      "mode": "100644",
+      "path": "inbox/openclaw_report.md",
+      "size": 1507,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ef905e4ed746a851d97603f87975d9bf9b9a040a",
+      "mode": "100644",
+      "path": "inbox/sonnet_report.md",
+      "size": 1640,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "3021c1d9ac8204ae82a9d7df0ff86c1a4cf66561",
+      "mode": "100644",
+      "path": "outbox/next_task_for_antigravity.md",
+      "size": 1130,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7513e1821bd16e18c3267c2f493709d047dd0414",
+      "mode": "100644",
+      "path": "outbox/next_task_for_codex.md",
+      "size": 1984,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f3999dac357515aa5be0cd70f222a9dfeea6ffe3",
+      "mode": "100644",
+      "path": "outbox/next_task_for_openclaw.md",
+      "size": 279,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "5569685f9bf855a1d4a3a9aad62a9d848179b054",
+      "mode": "100644",
+      "path": "outbox/supervisor_decision.json",
+      "size": 1299,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "229db7891d433a2a9548366ea9e8ec326d6d4974",
+      "mode": "100644",
+      "path": "outbox/supervisor_packet.json",
+      "size": 3681,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c4ecf8994648798c13c57503b904f39f31ce19ba",
+      "mode": "100644",
+      "path": "patch_pass603.py",
+      "size": 1548,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "75c81177daea422537caa2ad5d62198ad1fb8bfb",
+      "mode": "100644",
+      "path": "requirements_bridge.txt",
+      "size": 35,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "61d42202ae91bc9af3fcfb961bfa10590acbda19",
+      "mode": "100644",
+      "path": "run_bridge_loop.bat",
+      "size": 53,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1b9f47d74d47bb405c603c675df45471d3807489",
+      "mode": "100644",
+      "path": "run_bridge_once.bat",
+      "size": 53,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f7d0fef6d818d4be151fdf05783d01e43b839a54",
+      "mode": "100644",
+      "path": "scripts/bootstrap_repo.ps1",
+      "size": 665,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "0381b6f2ea93b5499d236ce7d64fa0389fd73ec3",
+      "mode": "100644",
+      "path": "scripts/push_bridge_bootstrap.bat",
+      "size": 258,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "461d4d98b30a8692e888be774ef44b6e4dc0fa33",
+      "mode": "100644",
+      "path": "state/accepted_baseline.md",
+      "size": 603,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f48792fcdf9595fced012ec596e6ca6d373c04b8",
+      "mode": "100644",
+      "path": "state/blocked_reasons.md",
+      "size": 714,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "0018484767e9804058daa0a25800904854607498",
+      "mode": "100644",
+      "path": "state/current_status.json",
+      "size": 357,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "48e2bd76a4229e6a7e61c98e80bc01ed18f895a4",
+      "mode": "100644",
+      "path": "state/guardrails.md",
+      "size": 661,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ab27895bcb8e68af31c7b294c5830d8d8b4e4ed2",
+      "mode": "100644",
+      "path": "state/task_queue.json",
+      "size": 584,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "cc8838d47e5b3d0956aaa998ec61f7a7a2648d04",
+      "mode": "100644",
+      "path": "templates/acquisition_candidate_template.csv",
+      "size": 165,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8dddcec171ddfc4d7da42504e0e6bc3a9d394a37",
+      "mode": "100644",
+      "path": "templates/agent_report_template.md",
+      "size": 386,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6c9e3f42872664115cd893853099fc86ac8d586b",
+      "mode": "100644",
+      "path": "templates/supervisor_decision_schema.json",
+      "size": 508,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7be65f6f21bd5bdb509544eaae3b8e65a2ce1008",
+      "mode": "100644",
+      "path": "templates/worker_task_template.md",
+      "size": 219,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "532263f53ef8915f2c80732e3e1f803d34826d38",
+      "mode": "100644",
+      "path": "tools/agent_helpers/agent_safe_checkpoint.ps1",
+      "size": 4368,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ff84112ed8c72ff2bbc91891587433bc0e98a26a",
+      "mode": "100644",
+      "path": "tools/agent_helpers/run_work_queue_until_empty.ps1",
+      "size": 2009,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6502bb2194f59a0ab1ecac8b4bfb74b95f1a68d2",
+      "mode": "100644",
+      "path": "tools/agent_helpers/work_queue_schema.json",
+      "size": 996,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "3531bda2632805133e8b32a1ded3ae043d017db3",
+      "mode": "100644",
+      "path": "tools/bridge_relay.py",
+      "size": 7039,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1a33c8ec718bd6699ba5fc7771e4575640253a2f",
+      "mode": "100644",
+      "path": "tools/pass607/audit_existing_pass607.py",
+      "size": 3935,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "be7127a68b1803a0962fe432d6ac1a6a0795638f",
+      "mode": "100644",
+      "path": "tools/pass607/common.py",
+      "size": 7683,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "76b7f3e2969898bc21c614596d74ce35007cb97c",
+      "mode": "100644",
+      "path": "tools/pass607/extract_pass574_oracle.py",
+      "size": 2795,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7350bb7ac081c1f7557cea5cac8a64467c32564a",
+      "mode": "100644",
+      "path": "tools/pass607/inventory_files.py",
+      "size": 894,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c5cf64c3dbafdc9df1957a311666aaee12af6dfe",
+      "mode": "100644",
+      "path": "tools/pass607/scan_static_signatures.py",
+      "size": 4462,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "471c962e8506c9b132f4c672f80355fde42329d4",
+      "mode": "100644",
+      "path": "tools/pass607/test_decoder_variants.py",
+      "size": 4651,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "bf407f54eb7dd9a940a56f0d6a86f82d6e068489",
+      "mode": "100644",
+      "path": "tools/pass607_codex_startup/blowfish_pure.py",
+      "size": 5286,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7e0a6e553e55a9dd2227ddb4661159fbe5bd2d75",
+      "mode": "100644",
+      "path": "tools/pass607_codex_startup/blowfish_selftest.py",
+      "size": 1467,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "60218f6d8a64e48cd0cdc8f38c6c1e160bc6100e",
+      "mode": "100644",
+      "path": "tools/pass607_codex_startup/finalize_startup_decision.py",
+      "size": 6578,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "0f877ba944a019b94905d06006bc03ecf84c469a",
+      "mode": "100644",
+      "path": "tools/pass607_codex_startup/pass574_oracle_recheck.py",
+      "size": 1995,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b9145f039bc6cfc856e109c1c31b0eade103ccf8",
+      "mode": "100644",
+      "path": "tools/pass607_codex_startup/pass574_oracle_recheck_after_blowfish.py",
+      "size": 2013,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f35363f470b04787b2850919189e6b687ffca00a",
+      "mode": "100644",
+      "path": "tools/pass607_codex_startup/pass607_codex_startup_common.py",
+      "size": 8468,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "fea745a4f548e9c89004f85dd1b6bae04b854fdf",
+      "mode": "100644",
+      "path": "tools/pass607_codex_startup/smkey_test.py",
+      "size": 4982,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "be73248057c478b5296863098a78d844162f55d4",
+      "mode": "100644",
+      "path": "tools/pass607_codex_startup/startup_key_trials.py",
+      "size": 4475,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8d5ffbb35f21ae5b55099d87dbbae204284148b5",
+      "mode": "100644",
+      "path": "tools/pass607_codex_startup/test_lobby_seed_blowfish.py",
+      "size": 13119,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "da7604ce599429832ae8ff2a3c0bd9475be96422",
+      "mode": "100644",
+      "path": "tools/pass607_codex_startup/test_lobby_sequential_state.py",
+      "size": 15422,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "2c3fe29c72ff78745a76d46227236cfa56873916",
+      "mode": "100644",
+      "path": "tools/pass607_codex_startup/test_startup_blowfish_trials.py",
+      "size": 9615,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "468da16536945bba01dfaad75c02f41ed1b2d1d9",
+      "mode": "100644",
+      "path": "tools/pass607_codex_startup/verify_packet9740.py",
+      "size": 2596,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "57c40980a9fa726ca00d5ae74218719c841f513d",
+      "mode": "100644",
+      "path": "tools/pass608_codex_kxseq/test_kxseq_startup_capture.py",
+      "size": 21082,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6e623572ea9f8365eb28a9e749179efd6a7b1d12",
+      "mode": "100644",
+      "path": "tools/pass608_codex_kxseq/test_kxseq_stream_hypotheses.py",
+      "size": 28575,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "745e128b2b48b3263a5ca076cddb5816de3e5c71",
+      "mode": "100644",
+      "path": "tools/pass608_codex_kxseq/test_kxseq_world_seed_seq.py",
+      "size": 17833,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "08d740977bbba5225547ccc9e5e4c415ac639dba",
+      "mode": "100644",
+      "path": "tools/pass609_codex_source_hunt/build_pass609_source_hunt_artifacts.py",
+      "size": 19093,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e904c3bcc194096b44d762aa60936f783bab13c6",
+      "mode": "100644",
+      "path": "tools/pass610_antigravity_vm_cleartext/classify_vm_handlers.py",
+      "size": 2221,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "deb69ae2d10e4bb402d12dc89bec8bdcc622401b",
+      "mode": "100644",
+      "path": "tools/pass610_antigravity_vm_cleartext/parse_vm_table.py",
+      "size": 2848,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f4bf744bd133cdab7feb188318e67a5073ac7850",
+      "mode": "100644",
+      "path": "tools/pass610_antigravity_vm_cleartext/test_derived_transforms.py",
+      "size": 3776,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7a2e199a554163dfefd9ad6d9309f4b1364b9dbe",
+      "mode": "100644",
+      "path": "tools/pass610_antigravity_vm_cleartext/vm_emulator_skeleton.py",
+      "size": 1457,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "9138c6ec342184d595fedbe347d8c5c567971b32",
+      "mode": "100644",
+      "path": "tools/pass610_antigravity_vm_cleartext/vm_model_notes.py",
+      "size": 592,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "fa3067dac8cc9f90e6c0423a278e6d284a4db4aa",
+      "mode": "100644",
+      "path": "tools/pass610_codex_vm_analysis/classify_handlers.py",
+      "size": 76,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "2a02e0b5f44c2a0579f6df1fe8ed8ea6a88d74ce",
+      "mode": "100644",
+      "path": "tools/pass610_codex_vm_analysis/optional_vm_skeleton.py",
+      "size": 646,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "95bb54983ad1f59b4957a1a33c24dd8a9c4f0fd5",
+      "mode": "100644",
+      "path": "tools/pass610_codex_vm_analysis/parse_vm_table.py",
+      "size": 18025,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "99ab6c9e325cbe67d63238b03a0966bf18852365",
+      "mode": "100644",
+      "path": "tools/pass611_codex_vm_solve/classify_transform_handlers.py",
+      "size": 2644,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c1f4254ff98da283e150767bdc44c7c457e21658",
+      "mode": "100644",
+      "path": "tools/pass611_codex_vm_solve/handler_derived_transform_tests.py",
+      "size": 1809,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "2aa00502f79207391117bb53bdeebc8b2ee3d795",
+      "mode": "100644",
+      "path": "tools/pass611_codex_vm_solve/parse_existing_vm_exports.py",
+      "size": 4415,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d962d71a85eea6d7f732c0e8659494768d2c4bab",
+      "mode": "100644",
+      "path": "tools/pass611_codex_vm_solve/run_pass611.py",
+      "size": 6379,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "5e20329c5cd10e7e567a056623827a6dd24f66ad",
+      "mode": "100644",
+      "path": "tools/pass611_codex_vm_solve/summarize_ghidra_followup.py",
+      "size": 9497,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d54802c5c2e96afa8322289579bc3f471498f3ed",
+      "mode": "100644",
+      "path": "tools/pass611_codex_vm_solve/trace_p609012_edge.py",
+      "size": 3505,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "465c43021bd2323c947634f7ed78309a06143c3e",
+      "mode": "100644",
+      "path": "tools/pass611_codex_vm_solve/vm_state_model.py",
+      "size": 3446,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1c26059cdc63568f1e6849388433811b41663214",
+      "mode": "100644",
+      "path": "tools/pass616_sonnet_c2s_decoder/README.md",
+      "size": 3377,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7e1a4cfe04d322564e1417d8cf27da3c5c547d2d",
+      "mode": "100644",
+      "path": "tools/pass616_sonnet_c2s_decoder/euroaion_c2s_decoder.py",
+      "size": 16210,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "cea177cc15f6d201eace8441fe3c1bed6fd4e626",
+      "mode": "100644",
+      "path": "tools/pass616_sonnet_c2s_decoder/run_decode_kxseq.py",
+      "size": 3459,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "48bbab5672f0be82e2d980403459e103ab23cbc0",
+      "mode": "100644",
+      "path": "tools/pass616_sonnet_c2s_decoder/validate_kxseq_oracle.py",
+      "size": 5283,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "228621bf4a5548d0ff31a6c6fa884b546064dbcb",
+      "mode": "100644",
+      "path": "tools/pass617_sonnet_c2s_chat_extractor/README.md",
+      "size": 2608,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f8d03152e60032cb542692085d3bad00da69fbb0",
+      "mode": "100644",
+      "path": "tools/pass617_sonnet_c2s_chat_extractor/euroaion_c2s_chat_extractor.py",
+      "size": 11137,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f339ff41c38316f6e3c5acb17f6878afce001690",
+      "mode": "100644",
+      "path": "tools/pass617_sonnet_c2s_chat_extractor/run_extract_chat.py",
+      "size": 6093,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f16103ffdf82951379f6fb2a731f957ea755dc02",
+      "mode": "100644",
+      "path": "tools/pass618_sonnet_s2c_decoder/README.md",
+      "size": 2947,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "bd6d68ecfbb0e3b5e2adf76c3773843da8e40421",
+      "mode": "100644",
+      "path": "tools/pass618_sonnet_s2c_decoder/euroaion_s2c_probe.py",
+      "size": 11751,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "37d147a1349c51c122028fc4e6fd730712dbec30",
+      "mode": "100644",
+      "path": "tools/pass618_sonnet_s2c_decoder/run_probe_s2c.py",
+      "size": 5714,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "82a95c693d9a5c61730171cdf9dc79eb7aab1124",
+      "mode": "100644",
+      "path": "tools/pass620_codex_s2c_key_setup_trace/compare_c2s_s2c_context_layout.py",
+      "size": 3411,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "3c98b047b592af6a365337f1471e790919ded5fb",
+      "mode": "100644",
+      "path": "tools/pass620_codex_s2c_key_setup_trace/find_s2c_key_artifacts.py",
+      "size": 6238,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f8e4392b008d0e6b88b0b78b8e25bebe7d8933a6",
+      "mode": "100644",
+      "path": "tools/pass620_codex_s2c_key_setup_trace/summarize_s2c_key_candidates.py",
+      "size": 4905,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e8b8ce4a4af0c0bc03236500e8752276cbc30003",
+      "mode": "100644",
+      "path": "tools/pass620_codex_s2c_key_setup_trace/trace_s2c_key_setup_static.py",
+      "size": 3734,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "87ad2d790c19cce2f53d5415fad7388728b9142d",
+      "mode": "100644",
+      "path": "tools/pass621_codex_s2c_receive_trace/inventory_static_exports.py",
+      "size": 4071,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7f091a1224bc069021273e085cf5c25469e3bd59",
+      "mode": "100644",
+      "path": "tools/pass621_codex_s2c_receive_trace/trace_receive_handshake_exports.py",
+      "size": 10659,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4b740f03407e7b63c56479cd5fab7330e9d0d58e",
+      "mode": "100644",
+      "path": "tools/pass622_codex_deep_s2c_static_trace/deep_static_trace.py",
+      "size": 18209,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "a516c385f017d68ab608bc2f24d807679d32dbd3",
+      "mode": "100644",
+      "path": "tools/pass622_codex_ghidra_s2c_export/README.md",
+      "size": 2418,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "370232c4ab0834ba488d02d5965ac40f0e11250c",
+      "mode": "100644",
+      "path": "tools/pass622_codex_ghidra_s2c_export/find_keyslot_writes.py",
+      "size": 1412,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c856cdf0b9152d1658affba09814ff69ce3c47dd",
+      "mode": "100644",
+      "path": "tools/pass622_codex_ghidra_s2c_export/ghidra_export_s2c_receive_path.java",
+      "size": 10588,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c550a8fcb9359f74603729e6e25994fe34bec3ed",
+      "mode": "100644",
+      "path": "tools/pass622_codex_ghidra_s2c_export/ghidra_export_s2c_receive_path.py",
+      "size": 8959,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "0a0d6dd41a4f1a9a95bb8439105bfdb57564a34d",
+      "mode": "100644",
+      "path": "tools/pass622_codex_ghidra_s2c_export/postprocess_s2c_exports.py",
+      "size": 6885,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "36368e20b3f63c17c840e4a37f16aadf3730f146",
+      "mode": "100644",
+      "path": "tools/pass622_codex_ghidra_s2c_export/run_headless_export_example.cmd",
+      "size": 736,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "378df46a3c6ab9a75584862075f72f6b8bc554a9",
+      "mode": "100644",
+      "path": "tools/pass622_codex_ghidra_s2c_export/summarize_pass622_exports.py",
+      "size": 11002,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "a58afa82315dc2c93e3d6c76a729dc0097696aa7",
+      "mode": "100644",
+      "path": "tools/pass626_antigravity_vm_bytecode_trace/README.md",
+      "size": 1370,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "5115441922761f3ae4d48643b4c4762dbf0bad8c",
+      "mode": "100644",
+      "path": "tools/pass626_antigravity_vm_bytecode_trace/extract_vm_entry_context.py",
+      "size": 2716,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "0784e84fb50391204a1c19209b9d198e8f4789f6",
+      "mode": "100644",
+      "path": "tools/pass626_antigravity_vm_bytecode_trace/trace_vm_bytecode_skeleton.py",
+      "size": 3009,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "93e7b3b5f29e34517756c4660d3bc6c1d87cf2b9",
+      "mode": "100644",
+      "path": "tools/pass627_antigravity_vm_trace_runner/README.md",
+      "size": 1587,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "a4cf801b5c22e0355489daeb4f6d1ea6c79e1f47",
+      "mode": "100644",
+      "path": "tools/pass627_antigravity_vm_trace_runner/extract_handler_table.py",
+      "size": 4493,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b418812d7d2d83c65e39624c62cba6aac512a8c5",
+      "mode": "100644",
+      "path": "tools/pass627_antigravity_vm_trace_runner/locate_vm_bytecode_stream.py",
+      "size": 9399,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "3c1cea29e8e6d4be70a660ef0650f59e8c1570da",
+      "mode": "100644",
+      "path": "tools/pass627_antigravity_vm_trace_runner/run_vm_trace_candidates.py",
+      "size": 9863,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "38d7d30466cf2b781ec8fccdb8d5d1595d93865c",
+      "mode": "100644",
+      "path": "tools/pass628_antigravity_vm_entry_regtrace/README.md",
+      "size": 1775,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "988efcb03e4cb10c9d0cd07ec4be2dec61313fad",
+      "mode": "100644",
+      "path": "tools/pass628_antigravity_vm_entry_regtrace/trace_dispatcher_entry_registers.py",
+      "size": 27206,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "01d68cf7b6b10047225d14d1aeaa9cfccdae7a67",
+      "mode": "100644",
+      "path": "tools/pass629_antigravity_missing_dispatcher_exports/ghidra_export_missing_dispatcher_context.py",
+      "size": 4609,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d2b75268d8c852a6609add562b304df6a74a4258",
+      "mode": "100644",
+      "path": "tools/pass629_antigravity_missing_dispatcher_exports/inspect_missing_dispatcher_context.py",
+      "size": 24819,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f48a451ee9f25837c21b113c77d35b070eca3300",
+      "mode": "100644",
+      "path": "tools/pass631_codex_path_b_xref_trace/README.md",
+      "size": 1176,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ebbbd397d0ba543743fbbbdffea0ee07b5da36f9",
+      "mode": "100644",
+      "path": "tools/pass631_codex_path_b_xref_trace/export_path_b_xrefs.py",
+      "size": 6642,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e559e31088eb2da923dd4662951f933ec0a6215d",
+      "mode": "100644",
+      "path": "tools/pass631_codex_path_b_xref_trace/inspect_path_b_callers.py",
+      "size": 12395,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e0a2a85adf1fa21ce05e21c6b28f92bc454a75ae",
+      "mode": "100644",
+      "path": "tools/pass632_codex_fix_path_b_export/README.md",
+      "size": 1277,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4aac282f6bb860b2a355833d442a5fd4be2c84e3",
+      "mode": "100644",
+      "path": "tools/pass632_codex_fix_path_b_export/ghidra_export_path_b_xrefs.java",
+      "size": 8979,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6410fddd736290147060b6a1fe491042e6b66e58",
+      "mode": "100644",
+      "path": "tools/pass632_codex_fix_path_b_export/inspect_path_b_xrefs_fixed.py",
+      "size": 14366,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "05383b38b9b91173ca2f2f26496ec6c7f8459b0a",
+      "mode": "100644",
+      "path": "tools/pass634_codex_overnight_s2c_solve/README.md",
+      "size": 1167,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "acddc987a05a223cbd6b7dd7563c12fa9fc98868",
+      "mode": "100644",
+      "path": "tools/pass634_codex_overnight_s2c_solve/build_static_callgraph.py",
+      "size": 5970,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "fc83671ae4a3f301e2ad812da9c13a793f5227c7",
+      "mode": "100644",
+      "path": "tools/pass634_codex_overnight_s2c_solve/export_recv_import_wrappers.java",
+      "size": 5386,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d10bb952e430ef01a344131de03eebff840908f4",
+      "mode": "100644",
+      "path": "tools/pass634_codex_overnight_s2c_solve/future_s2c_oracle_scaffold.py",
+      "size": 1651,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4133fec3f0583fc429ce24c93e59e74c49a32b3e",
+      "mode": "100644",
+      "path": "tools/pass634_codex_overnight_s2c_solve/inspect_context_offsets.py",
+      "size": 3544,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d738e30262237cd7897e1a919bd915cb91d9d06f",
+      "mode": "100644",
+      "path": "tools/pass634_codex_overnight_s2c_solve/run_bounded_s2c_trace_if_ready.py",
+      "size": 2065,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e21f8c8b945835e6678cf6d1ab447e38a18f7d4b",
+      "mode": "100644",
+      "path": "tools/pass634_codex_overnight_s2c_solve/trace_register_provenance.py",
+      "size": 4211,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ee83eedbb5a723b0dc70e62e1770002dcadee7d4",
+      "mode": "100644",
+      "path": "tools/pass635_antigravity_recv_wrapper_audit/README.md",
+      "size": 1659,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1638f8e37ca9e56d128567a984821a5326814e90",
+      "mode": "100644",
+      "path": "tools/pass635_antigravity_recv_wrapper_audit/export_recv_import_wrappers.java",
+      "size": 5457,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1436def3f6451225d35a5498b27a7377676aac0a",
+      "mode": "100644",
+      "path": "tools/pass635_antigravity_recv_wrapper_audit/run_ghidra_export.py",
+      "size": 2395,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4b802ea8da5730a922e06e0a5c0d2cdf3c6dec39",
+      "mode": "100644",
+      "path": "tools/pass636_antigravity_s2c_oracle/s2c_crib_drag_oracle.py",
+      "size": 18885,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "edf3f44207306cbe8dedeb054d418a9b1fb4d79c",
+      "mode": "100644",
+      "path": "tools/pass636_antigravity_s2c_oracle/s2c_decode_from_oracle.py",
+      "size": 12553,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "47fad4d277656d9988cf8afa44e7c09dfd4b78dc",
+      "mode": "100644",
+      "path": "tools/pass636_antigravity_s2c_oracle/s2c_keyroll_validate.py",
+      "size": 18105,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "103fec38cdbcecefd3fb5eebaec4ef6b51994a16",
+      "mode": "100644",
+      "path": "tools/pass636_antigravity_s2c_oracle/s2c_resume_diagnostics.py",
+      "size": 13249,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b0cc3a358137d3417352bf528ad5915f4900f5eb",
+      "mode": "100644",
+      "path": "tools/pass637_capture_kit/README.md",
+      "size": 950,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "2ad57d2065ab4efcf3c3c084e5dfeb9e7c64dc84",
+      "mode": "100644",
+      "path": "tools/pass637_capture_kit/s2c_known_plaintext_log_template.txt",
+      "size": 999,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "fa9993d3db5b49ffd66d84cf7bc28628d38ca6a2",
+      "mode": "100644",
+      "path": "tools/pass637_capture_kit/start_s2c_oracle_capture.ps1",
+      "size": 975,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "05b470a75daa82ab8cdb1e32ff93a9d3cd6ba107",
+      "mode": "100644",
+      "path": "tools/pass637_capture_kit/stop_s2c_oracle_capture.ps1",
+      "size": 423,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "56337abf785edaf844c9b04db84c06cb981af608",
+      "mode": "100644",
+      "path": "tools/pass637_capture_kit/validate_capture_presence.py",
+      "size": 1764,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "fa9503bdb9d14f91d952058798e011c38825baa6",
+      "mode": "100644",
+      "path": "tools/pass637_s2c_stream_oracle/README.md",
+      "size": 801,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "55671f9ef085a0d0f76e4c93d2f3c1df74e3ecec",
+      "mode": "100644",
+      "path": "tools/pass637_s2c_stream_oracle/s2c_deframe_hypotheses.py",
+      "size": 3747,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "70d6149d2f6d493de7a6cb12d649cf22c2f65359",
+      "mode": "100644",
+      "path": "tools/pass637_s2c_stream_oracle/s2c_stream_crib_drag.py",
+      "size": 7756,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "08e537de8c27449f4d2f5bae3b6d391a0bc03098",
+      "mode": "100644",
+      "path": "tools/pass637_s2c_stream_oracle/tcp_reassemble_7785.py",
+      "size": 6890,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "5df3315e2890f08d7d7fd435ba577b32cd912ab6",
+      "mode": "100644",
+      "path": "tools/pass637_s2c_stream_oracle/validate_c2s_stream_alignment.py",
+      "size": 2329,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ceb073239a852ac46bcaa982e433711957ae81ec",
+      "mode": "100644",
+      "path": "tools/pass638_after_capture/extract_s2c_window_metadata.py",
+      "size": 3217,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "09805b0a35e7cb750f25a8c2d223f82f8eebb139",
+      "mode": "100644",
+      "path": "tools/pass638_after_capture/report_dynamic_flow_context.py",
+      "size": 2006,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ef0bedb71f269a979449b6a93abf501c27d7b2f3",
+      "mode": "100644",
+      "path": "tools/pass638_after_capture/run_s2c_oracle_after_capture.ps1",
+      "size": 8043,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1c9f5a7a4ae81820b67456e5270ec8a067efcba5",
+      "mode": "100644",
+      "path": "tools/pass638_after_capture/validate_known_plaintext_log.py",
+      "size": 3643,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b4295bb214f1815f6ebad40f002cd394c52563e8",
+      "mode": "100644",
+      "path": "tools/pass641_hello_hi_oracle/README.md",
+      "size": 897,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "34a1bae808af51edac04e2caf186878115fb21ee",
+      "mode": "100644",
+      "path": "tools/pass641_hello_hi_oracle/audit_hello_hi_capture.py",
+      "size": 18509,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d4c4125ca5e223d485488843af7cf38c71b8f0c9",
+      "mode": "100644",
+      "path": "tools/pass641_hello_hi_oracle/test_nearby_s2c_cribs.py",
+      "size": 122,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d4c4125ca5e223d485488843af7cf38c71b8f0c9",
+      "mode": "100644",
+      "path": "tools/pass641_hello_hi_oracle/validate_frame370_c2s_candidate.py",
+      "size": 122,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d37d80b47f7f05b3a1f6c3f3936003bfac2aca0a",
+      "mode": "100644",
+      "path": "tools/pass642_c2s_checkpoint_from_hello_hi/README.md",
+      "size": 661,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "76d40916dc5da438bfeb719bf4ddd914d629e4bc",
+      "mode": "100644",
+      "path": "tools/pass642_c2s_checkpoint_from_hello_hi/derive_c2s_key_from_known_text.py",
+      "size": 18070,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d8d784ecac8a43d47abd9ffce7b39ac449cc5ab8",
+      "mode": "100644",
+      "path": "tools/pass642_c2s_checkpoint_from_hello_hi/roll_c2s_from_checkpoint.py",
+      "size": 131,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d8d784ecac8a43d47abd9ffce7b39ac449cc5ab8",
+      "mode": "100644",
+      "path": "tools/pass642_c2s_checkpoint_from_hello_hi/validate_c2s_checkpoint.py",
+      "size": 131,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "5abe0ef0d6c6e3ad2fc9da2eebe51759df954869",
+      "mode": "100644",
+      "path": "tools/pass643_evening_capture_operator/README.md",
+      "size": 1737,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c1db4c57845b765850fcc6486cdd77cf390e852d",
+      "mode": "100644",
+      "path": "tools/pass643_evening_capture_operator/create_marker_log_template.ps1",
+      "size": 825,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "08c7fdac601371c0744ef7fc8953c48c30217bce",
+      "mode": "100644",
+      "path": "tools/pass643_evening_capture_operator/log_s2c_marker.ps1",
+      "size": 1113,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "5c86290df10ed247dd070be385636178df923d20",
+      "mode": "100644",
+      "path": "tools/pass643_evening_capture_operator/run_after_capture_full.ps1",
+      "size": 1311,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "882cfab8e0d98ac6b18d32040c4f5ff82a1e3c85",
+      "mode": "100644",
+      "path": "tools/pass643_evening_capture_operator/start_s2c_oracle_capture.ps1",
+      "size": 2093,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "bca68415b43fab36532508dab3c6268cb3d2c73b",
+      "mode": "100644",
+      "path": "tools/pass643_evening_capture_operator/stop_s2c_oracle_capture.ps1",
+      "size": 1526,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d88e7d6dd7d2868251177f09eed102d375b56ab3",
+      "mode": "100644",
+      "path": "tools/pass643_evening_capture_operator/test_operator_kit.ps1",
+      "size": 1985,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "68358884c990c55e9f0b14edddf0fd6539603b88",
+      "mode": "100644",
+      "path": "tools/pass645_10242_oracle_analysis/README.md",
+      "size": 909,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ff19f1dcd15d772f33cb6c2b05dc1fd9f1ad09c6",
+      "mode": "100644",
+      "path": "tools/pass645_10242_oracle_analysis/build_10242_decision_report.py",
+      "size": 4705,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e67e53d2466a87bbd10d5dbd2874931a770383d0",
+      "mode": "100644",
+      "path": "tools/pass645_10242_oracle_analysis/correlate_10242_markers.py",
+      "size": 5128,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e02e8256960900ce94da53163787fda93de2cd80",
+      "mode": "100644",
+      "path": "tools/pass645_10242_oracle_analysis/inventory_10242_capture.py",
+      "size": 5165,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1f2d8fa29977a95d9d1915cedd9546bf4506ff44",
+      "mode": "100644",
+      "path": "tools/pass645_10242_oracle_analysis/pcap_metadata.py",
+      "size": 6442,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "aee3f52b1dbc3b3fc23919d72436fde7fffc1c2e",
+      "mode": "100644",
+      "path": "tools/pass645_10242_oracle_analysis/run_10242_oracle_analysis.ps1",
+      "size": 873,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e9ac0ca65cb54acb0fe1130da46447d8eb5c082c",
+      "mode": "100644",
+      "path": "tools/pass645_10242_oracle_analysis/scan_10242_known_text.py",
+      "size": 3964,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6bdacb60db0903fd17f0f969b47fe1b9000433ee",
+      "mode": "100644",
+      "path": "tools/pass646_10242_structured_model/README.md",
+      "size": 397,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "5689a328647f85ef4c96625caf320a4931180845",
+      "mode": "100644",
+      "path": "tools/pass646_10242_structured_model/build_pass646_10242_model.py",
+      "size": 13209,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "339b097fc4f134588cb89fc1d8cf821975fc6abd",
+      "mode": "100644",
+      "path": "tools/pass646_10242_structured_model/run_pass646_10242_model.ps1",
+      "size": 251,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8e7f907de62fbc1216acc35fa7687214a43c71db",
+      "mode": "100644",
+      "path": "tools/pass647_dynamic_world_port/README.md",
+      "size": 621,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "46fcf03a68ba7879775a3e7192ffd067e1f51b55",
+      "mode": "100644",
+      "path": "tools/pass647_dynamic_world_port/build_pass647_report.py",
+      "size": 4323,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "2b9a1b42e62b758301d27d163c0231f799c22a5f",
+      "mode": "100644",
+      "path": "tools/pass647_dynamic_world_port/correlate_markers_dynamic_flows.py",
+      "size": 5793,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d0eaa2656f03086df8c0930a77698b7a26697832",
+      "mode": "100644",
+      "path": "tools/pass647_dynamic_world_port/detect_world_flow.py",
+      "size": 1997,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b8bcf088337151eb81218407bb456977c22a9f33",
+      "mode": "100644",
+      "path": "tools/pass647_dynamic_world_port/inventory_broad_capture.py",
+      "size": 4206,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "70dffb68f144ab40b30fab5aa675c65c81da19f7",
+      "mode": "100644",
+      "path": "tools/pass647_dynamic_world_port/pcap_dynamic.py",
+      "size": 8628,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "667697246b114a5e3560dc1d4913d20ad4832369",
+      "mode": "100644",
+      "path": "tools/pass647_dynamic_world_port/prepare_7780_oracle_readiness.py",
+      "size": 2536,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "669de456aea51952b2612fe302091cf0ffcea6dd",
+      "mode": "100644",
+      "path": "tools/pass647_dynamic_world_port/run_pass647_dynamic_world_analysis.ps1",
+      "size": 628,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7903a93bb047915e0364632a9d7399997a2ebe28",
+      "mode": "100644",
+      "path": "tools/pass647_dynamic_world_port/scan_literal_text_dynamic_flows.py",
+      "size": 2153,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "82435530bdd87c3e3eb2c659c651f0197ce72500",
+      "mode": "100644",
+      "path": "tools/pass648_dynamic_world_s2c_oracle/README.md",
+      "size": 595,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "019fe492219ed75380e6611e9b5bc48cb979b67f",
+      "mode": "100644",
+      "path": "tools/pass648_dynamic_world_s2c_oracle/run_pass648_s2c_oracle.ps1",
+      "size": 335,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e6f3d90e93ce15469fa6ec2d43f61d559d6a666e",
+      "mode": "100644",
+      "path": "tools/pass648_dynamic_world_s2c_oracle/s2c_oracle_attempt_7780.py",
+      "size": 7706,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "74994a74efe5b0a2076c30c9617adf5dc22662d5",
+      "mode": "100644",
+      "path": "tools/pass648_dynamic_world_s2c_oracle/validate_pass648_candidates.py",
+      "size": 5664,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8c0f98ac542e06882d0c252481ed91d116f6299c",
+      "mode": "100644",
+      "path": "tools/pass649_current_length_ladder/README.md",
+      "size": 410,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c5d6bc9d8f879e9290770db3ac6156c6577b19f6",
+      "mode": "100644",
+      "path": "tools/pass649_current_length_ladder/run_pass649_length_ladder.ps1",
+      "size": 228,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "3e62704dd723067e828d6fe4df296ca720bb6eaf",
+      "mode": "100644",
+      "path": "tools/pass649_current_length_ladder/run_pass649_length_ladder.py",
+      "size": 16226,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ebddb9603d1b0e92d43df9b882be8a1d5bf220ba",
+      "mode": "100644",
+      "path": "tools/pass650_marker_window_structure/README.md",
+      "size": 411,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "568a1405a87ca3e7b9cc6367a65a025f7ff1d73b",
+      "mode": "100644",
+      "path": "tools/pass650_marker_window_structure/analyze_marker_windows.py",
+      "size": 14455,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "12da3bf77126ee9730c8cfda0aed37853b5e99a0",
+      "mode": "100644",
+      "path": "tools/pass650_marker_window_structure/run_pass650_window_structure.ps1",
+      "size": 227,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d45c175be2b602b35959baad5b9230903e4f0d10",
+      "mode": "100644",
+      "path": "tools/pass651_extended_s2c_structure/README.md",
+      "size": 479,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7decf592345801913ee9ed6dea6a89e318f21cd2",
+      "mode": "100644",
+      "path": "tools/pass651_extended_s2c_structure/pass651_common.py",
+      "size": 5479,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "33be24e376b80c2b1674a47e57dec5d1dc0fb9a6",
+      "mode": "100644",
+      "path": "tools/pass651_extended_s2c_structure/run_pass651_extended.ps1",
+      "size": 686,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "518ee21a92e9d30db95bd6174b0d5f3f8a440d7d",
+      "mode": "100644",
+      "path": "tools/pass651_extended_s2c_structure/stage_a_freshness.py",
+      "size": 2362,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "99f69c2639bc5964517b39f06913533fd5698cc0",
+      "mode": "100644",
+      "path": "tools/pass651_extended_s2c_structure/stage_b_stream_reassembly.py",
+      "size": 2402,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1ea3b247c012597b78316b9712cabd3dd07ebacb",
+      "mode": "100644",
+      "path": "tools/pass651_extended_s2c_structure/stage_c_framing_hypotheses.py",
+      "size": 2934,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f40735e84a2ddd12110bb4a21a30c9cf6fc5eb1c",
+      "mode": "100644",
+      "path": "tools/pass651_extended_s2c_structure/stage_d_sequence_crib_search.py",
+      "size": 3939,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "9f15856b6bcdfdc9a41204f454ddf2e196e8d706",
+      "mode": "100644",
+      "path": "tools/pass651_extended_s2c_structure/stage_e_10242_sidechannel_model.py",
+      "size": 2151,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "80964f9f12445c4e2afe97eaca1f52881481adff",
+      "mode": "100644",
+      "path": "tools/pass651_extended_s2c_structure/stage_f_next_capture_design.py",
+      "size": 2626,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "dca26b643e900614a0f51ae7b48d01a6ac14e28e",
+      "mode": "100644",
+      "path": "tools/pass651_extended_s2c_structure/stage_g_decision.py",
+      "size": 3601,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "088aeae2ff9028427cab1d3b2def85061ccccfc7",
+      "mode": "100644",
+      "path": "tools/pass652_10242_event_model/README.md",
+      "size": 410,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "61cb49e075e41a1d5c234410c997007d5c92301f",
+      "mode": "100644",
+      "path": "tools/pass652_10242_event_model/pass652_common.py",
+      "size": 3864,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "9f73e085d9edc3c8e93e3270575a15e86bc27f88",
+      "mode": "100644",
+      "path": "tools/pass652_10242_event_model/prototype_10242_event_labeler.py",
+      "size": 1179,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "2eb60f2666e12d9d43147c60cc626ac2c7fcec51",
+      "mode": "100644",
+      "path": "tools/pass652_10242_event_model/run_pass652_10242_event_model.ps1",
+      "size": 957,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7ee0364d5db63953ce1a6bbe2eb0d02cba574a7b",
+      "mode": "100644",
+      "path": "tools/pass652_10242_event_model/stage_a_isolate_windows.py",
+      "size": 1493,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "3c953821bf395e18892860754b3fdfcac7f379b4",
+      "mode": "100644",
+      "path": "tools/pass652_10242_event_model/stage_b_c2s22_field_model.py",
+      "size": 3142,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "49d49ebfe466470a6f49f5373273c4433c12ef41",
+      "mode": "100644",
+      "path": "tools/pass652_10242_event_model/stage_c_s2c_batch_model.py",
+      "size": 2038,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "776c39c62d9f1c6a7d31e858b068aa56859ee97b",
+      "mode": "100644",
+      "path": "tools/pass652_10242_event_model/stage_d_request_response_model.py",
+      "size": 1676,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "125f57baf69940ae2807d9a9e3773fbb1cf68e71",
+      "mode": "100644",
+      "path": "tools/pass652_10242_event_model/stage_e_event_fingerprint.py",
+      "size": 1974,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "df48fc63c0eea4181cbfce82936dcb2227e92c1f",
+      "mode": "100644",
+      "path": "tools/pass652_10242_event_model/stage_f_text_extraction_feasibility.py",
+      "size": 2517,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "3d3805856e55526c6b1caecd980d5b7a9e5312cf",
+      "mode": "100644",
+      "path": "tools/pass652_10242_event_model/stage_g_extractor_design.py",
+      "size": 1856,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "5fb777bc9e73a0c27180f4c87ce4cd662c96d7cb",
+      "mode": "100644",
+      "path": "tools/pass652_10242_event_model/stage_i_decision.py",
+      "size": 3659,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f25ff9903bde0db022977b8bb3cd3ac019347832",
+      "mode": "100644",
+      "path": "tools/pass653_10242_labeler_hardening/README.md",
+      "size": 461,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "0a566b1a31442ff1af0ef991943eaf1b8aa65a70",
+      "mode": "100644",
+      "path": "tools/pass653_10242_labeler_hardening/clean_capture_v2_marker_commands.ps1",
+      "size": 372,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "24575db63fbfa5c9979c866c2e6ff97276d12d19",
+      "mode": "100644",
+      "path": "tools/pass653_10242_labeler_hardening/clean_capture_v2_start.ps1",
+      "size": 838,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "001e1dd67c5aa4072444b5fc12b7b6f31f6962e8",
+      "mode": "100644",
+      "path": "tools/pass653_10242_labeler_hardening/clean_capture_v2_stop_and_analyze.ps1",
+      "size": 352,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "97806da55f57508225e899803b8c92146c3f838a",
+      "mode": "100644",
+      "path": "tools/pass653_10242_labeler_hardening/pass653_common.py",
+      "size": 6147,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e17c0e87b2b61fb57f46c09347c35335c1ad1115",
+      "mode": "100644",
+      "path": "tools/pass653_10242_labeler_hardening/run_pass653_hardening.ps1",
+      "size": 1018,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "0c7857d9076ca8a62ae674baeee7c65fd2346c75",
+      "mode": "100644",
+      "path": "tools/pass653_10242_labeler_hardening/stage_a_input_audit.py",
+      "size": 1721,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1f6d3520edccd56ba652137b9a370276d365ba7b",
+      "mode": "100644",
+      "path": "tools/pass653_10242_labeler_hardening/stage_b_false_positive_baseline.py",
+      "size": 3489,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8158e4f1da516ebb31c44a3e6deb50b859ccb47f",
+      "mode": "100644",
+      "path": "tools/pass653_10242_labeler_hardening/stage_c_event_labeler_v2.py",
+      "size": 2670,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "53db92e8c7bac1967ed1dc904e17abbd1109ef4d",
+      "mode": "100644",
+      "path": "tools/pass653_10242_labeler_hardening/stage_d_unsupervised_detector.py",
+      "size": 2775,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "20e9f9d07c084c35b63ec3926819af2c292c6f7c",
+      "mode": "100644",
+      "path": "tools/pass653_10242_labeler_hardening/stage_e_c2s22_cadence_model.py",
+      "size": 2619,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "797b6be6279a5ae13dcb85913b0b488499636428",
+      "mode": "100644",
+      "path": "tools/pass653_10242_labeler_hardening/stage_f_10242_s2c_batch_clustering.py",
+      "size": 2377,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7cf0ce96141ee11c4159e9d13bf0818620614140",
+      "mode": "100644",
+      "path": "tools/pass653_10242_labeler_hardening/stage_g_cross_flow_timing.py",
+      "size": 1716,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f1c770e94ecb82e9d7f4037dd4cee98b64eb93d2",
+      "mode": "100644",
+      "path": "tools/pass653_10242_labeler_hardening/stage_h_clean_capture_v2_kit.py",
+      "size": 2629,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4fd4a058206d23f730031fdd12c63fa39fb1876c",
+      "mode": "100644",
+      "path": "tools/pass653_10242_labeler_hardening/stage_i_final_decision.py",
+      "size": 4942,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "9e995f3497bca98819e9ffd933cd4f89aefcc26e",
+      "mode": "100644",
+      "path": "tools/pass654b_offline_capture_validation/README.md",
+      "size": 519,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ac99ed8399ad06bafc15367e62f2cf47c01d4d9d",
+      "mode": "100644",
+      "path": "tools/pass654b_offline_capture_validation/common.py",
+      "size": 8686,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "fd0b4c85a2a0b90e4b4b761e498304b7f354ad56",
+      "mode": "100644",
+      "path": "tools/pass654b_offline_capture_validation/run_pass654b_all.ps1",
+      "size": 1153,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "091ace5e3e8e404888efee6889ba4ed86e6bf878",
+      "mode": "100644",
+      "path": "tools/pass654b_offline_capture_validation/stage_a_input_and_oracle_merge.py",
+      "size": 621,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ce521404818ff4197d11a8fee069fdbd08c8ca4c",
+      "mode": "100644",
+      "path": "tools/pass654b_offline_capture_validation/stage_b_dynamic_flow_inventory.py",
+      "size": 2969,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6289705699ee1b4b5b4788b29569b651fb91475b",
+      "mode": "100644",
+      "path": "tools/pass654b_offline_capture_validation/stage_c_local_say_control.py",
+      "size": 1886,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "550db941a66b9b0879f42b1ce2e34d4561ae29ab",
+      "mode": "100644",
+      "path": "tools/pass654b_offline_capture_validation/stage_d_stream_reassembly.py",
+      "size": 2391,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "0a115c8dfa760e4670cc07958e2c178f8761a9ce",
+      "mode": "100644",
+      "path": "tools/pass654b_offline_capture_validation/stage_e_known_text_location.py",
+      "size": 3813,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4ca2959aa324d4a25164b3159c41b7a425843e96",
+      "mode": "100644",
+      "path": "tools/pass654b_offline_capture_validation/stage_f_10242_format_analysis.py",
+      "size": 3192,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "89d716be1b4e9b5df5a5076fb39890f5dd4b28e7",
+      "mode": "100644",
+      "path": "tools/pass654b_offline_capture_validation/stage_g_world_flow_format_analysis.py",
+      "size": 2857,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "9bcac91f432b7e529e8197ec091097b6c5bd3c2e",
+      "mode": "100644",
+      "path": "tools/pass654b_offline_capture_validation/stage_h_whisper_group_comparison.py",
+      "size": 2969,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "0138e314d54060c1ba5cef1d704bb0758336087c",
+      "mode": "100644",
+      "path": "tools/pass654b_offline_capture_validation/stage_i_cross_validation.py",
+      "size": 2051,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "73c51f9dbd5f3594d596d45278b53e457e548544",
+      "mode": "100644",
+      "path": "tools/pass654b_offline_capture_validation/stage_j_final_decision.py",
+      "size": 10526,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8b5b58beb17ed8d6feded5a5f6840d2aa6eda3c1",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/README.md",
+      "size": 458,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "20816a91ff32e7656955cf3f812b1c73729660ae",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm001.py",
+      "size": 1786,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8d85994307e252398f78a1584c27efc2a1d56b29",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm002.py",
+      "size": 1786,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "cda95dcbf9a55b53837f2009c234f705bd31db02",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm003.py",
+      "size": 1783,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1b104668c61c6e48198af0eb525b5e4ecb26fc7d",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm004.py",
+      "size": 1783,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "a2bdd813d2eba0a432f5af63b18fb5b327d9bda3",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm005.py",
+      "size": 1786,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "a31e150aa6ac76b520978a93989d9ee48bc646b2",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm006.py",
+      "size": 1786,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b651379cf391d2c0c14e0b3021f1e86cf24e4fa0",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm007.py",
+      "size": 1783,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "eeaa4ccf17857a00b7b28cca673eb45ba2803e23",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm008.py",
+      "size": 1783,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1ea2d2cb02345b97bc4b5d7e616b7be332eb9213",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm009.py",
+      "size": 1788,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c9244d190f04aef584683009d2b3c35a8a996a6e",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm010.py",
+      "size": 1788,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ee41df1a8ded2dfcecb573caaccae93635745b91",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm011.py",
+      "size": 1785,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "89449b52de7b9f40831cc0a21059dc0d142ad0d8",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm012.py",
+      "size": 1785,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "3c7fb14d34dec566bf7e90fd77bae43e61c5021a",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm013.py",
+      "size": 1786,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e7921fd46f039bf5ea19d20a5a4ddffea66f0617",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm014.py",
+      "size": 1786,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c438aeb5ef93d8f995798fdadf866c46124a0f92",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm015.py",
+      "size": 1783,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1e85a20e9f63e57d3df0b91fc7e7c35543bc2665",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm016.py",
+      "size": 1783,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "df8394656b0ece03e658477b25e46353e432ec22",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm017.py",
+      "size": 1788,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "cfb72fb27c56221f875d7dec5af1ffd9979cf0a8",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm018.py",
+      "size": 1785,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6590eb227cea4af2935dc804f3b2f1a150d18486",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm019.py",
+      "size": 1786,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "56280b7238b61eedb74349851f8448f90d1dc58c",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm020.py",
+      "size": 1783,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8d05f01726607fbb8eaebd84c0612faa331273a4",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/pass655_common.py",
+      "size": 7631,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4c2d70c6bbabd4ddb3332d7db2098e14624469ac",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/pass655_queue.py",
+      "size": 3962,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7a854770dc85f3257def599f1cf72f972f5f1829",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/run_pass655_marathon.ps1",
+      "size": 311,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e7d7084f14da34f400ea5fb969729dae3019f7c0",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/stage_00_timestamp_repair.py",
+      "size": 2194,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "9a114896410c0aa99bf972757eb99314ab76dcda",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/stage_01_capture_and_stream_audit.py",
+      "size": 3335,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "95670d02131ee6424b164331b73d758f3d235d12",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/stage_02_tcp_reassembly_validation.py",
+      "size": 3263,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "af96fd6c4c46e740fa74593ff98e8136a380139f",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/stage_03_frame_boundary_search.py",
+      "size": 4422,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "406ad8bbf82608b52ccc32956fed36eac19eb8e2",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/stage_04_length_field_models.py",
+      "size": 2559,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "2977d42aa8b62140292affb1464d2471c6dd86ee",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/stage_05_repeated_message_differential.py",
+      "size": 2517,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "89528d284b50dbdb2c5426a48df919b9de0ce720",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/stage_06_whisper_group_differential.py",
+      "size": 2766,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1a6627c8f3096751593d77cb3070f2056c13a011",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/stage_07_local_control_analysis.py",
+      "size": 1589,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "b28c4259d4c8281ae1b1c314120fbb705e7f19f4",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/stage_08_existing_static_export_mapping.py",
+      "size": 2195,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e99a816303be38dbd86e2cf12b4258fa407c4187",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/stage_09_wire_to_parser_correlation.py",
+      "size": 2038,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "95bb98e85e958e1d1e89aa804513a20c6abebd57",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/stage_10_candidate_parser_generation.py",
+      "size": 2288,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "8d98777abd7399962f63b6da5e63f2f3eec2fa7b",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/stage_11_candidate_parser_execution.py",
+      "size": 3172,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ecce9f1fde674faea040df3e01b3d45661a4441f",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/stage_12_negative_control_validation.py",
+      "size": 2449,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7e4d498adb28947f37b4400b12918de7dab3460d",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/stage_13_10242_role_closure.py",
+      "size": 1418,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7f649b6d41892ef92a050b76b30192445156ac50",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/stage_14_exact_message_validation.py",
+      "size": 2154,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1e4f1fca89012c3e9ae88a7e03ffe14ae2a67ee9",
+      "mode": "100644",
+      "path": "tools/pass655_world_framing_marathon/stage_15_exhaustion_and_ranked_plan.py",
+      "size": 9714,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6c09c291d8670e1e24e983c2d2e0e1e11ca32d62",
+      "mode": "100644",
+      "path": "tools/pass656_sequence_correct_body_transform/README.md",
+      "size": 415,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e279b5c83b689280f988ce62f2e8554939f57cdb",
+      "mode": "100644",
+      "path": "tools/pass656_sequence_correct_body_transform/generated_parsers/parser_p001.py",
+      "size": 1727,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "582c139a2d5700cace6b5c66a30b2c0c5b7fbd8d",
+      "mode": "100644",
+      "path": "tools/pass656_sequence_correct_body_transform/generated_parsers/parser_p002.py",
+      "size": 1726,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "bd83dcab9ba3caddb41b0db1abaa3bd5823715e5",
+      "mode": "100644",
+      "path": "tools/pass656_sequence_correct_body_transform/generated_parsers/parser_p003.py",
+      "size": 1728,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "f4614943ef97730679f6ff1838cf3f26d82e8f3e",
+      "mode": "100644",
+      "path": "tools/pass656_sequence_correct_body_transform/generated_parsers/parser_p004.py",
+      "size": 1728,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "90453a090bc23fff4cb18351c43bf25e406ce17e",
+      "mode": "100644",
+      "path": "tools/pass656_sequence_correct_body_transform/generated_parsers/parser_p005.py",
+      "size": 1728,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "227ce33e01a4779331a6f76dfd1d81b2a6bf4ba6",
+      "mode": "100644",
+      "path": "tools/pass656_sequence_correct_body_transform/generated_parsers/parser_p006.py",
+      "size": 1726,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7c690e09df19791ffb0ba26a5fd08b33c4fd1bd6",
+      "mode": "100644",
+      "path": "tools/pass656_sequence_correct_body_transform/generated_parsers/parser_p007.py",
+      "size": 1727,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "9fd27ba99153bbf807a65d3b9a2a920e39b92dcd",
+      "mode": "100644",
+      "path": "tools/pass656_sequence_correct_body_transform/generated_parsers/parser_p008.py",
+      "size": 1728,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "e96b71abfbf08eb6b3b6cca480329006447d0d09",
+      "mode": "100644",
+      "path": "tools/pass656_sequence_correct_body_transform/generated_parsers/parser_p009.py",
+      "size": 1728,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "081d00bb9cf7ec64394014e4aaa6ab83ae2436fe",
+      "mode": "100644",
+      "path": "tools/pass656_sequence_correct_body_transform/generated_parsers/parser_p010.py",
+      "size": 1728,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ac7a6526abbdad6082275e1d48c72bccc0cf48cb",
+      "mode": "100644",
+      "path": "tools/pass656_sequence_correct_body_transform/pass656_common.py",
+      "size": 12127,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "9acc713780f0506bb85776953972c9fb6d441db1",
+      "mode": "100644",
+      "path": "tools/pass656_sequence_correct_body_transform/pass656_runner.py",
+      "size": 28611,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "061bec58ddfb4903e68d7bac1aa5a4d1bab8cc2f",
+      "mode": "100644",
+      "path": "tools/pass656_sequence_correct_body_transform/run_pass656_all.ps1",
+      "size": 312,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "62f97303216a4dd61e742f8619e78537e784990c",
+      "mode": "100644",
+      "path": "tools/pass657_corrective_holdout_validation/README.md",
+      "size": 341,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "2f0d15c4be1c3d971b9f8642920af8bc990bb4d6",
+      "mode": "100644",
+      "path": "tools/pass657_corrective_holdout_validation/pass657_runner.py",
+      "size": 46306,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6cc6f608903749c64488afde336e11eebdadec50",
+      "mode": "100644",
+      "path": "tools/pass657_corrective_holdout_validation/run_pass657_all.ps1",
+      "size": 310,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "523c4b3d1bdab155c2f1a98adf6cd00394b95746",
+      "mode": "100644",
+      "path": "tools/pass658_s2c_key_setup_resolution/README.md",
+      "size": 210,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d16cec2e7ace33d366cc52039e962b90027949ce",
+      "mode": "100644",
+      "path": "tools/pass658_s2c_key_setup_resolution/pass658_runner.py",
+      "size": 43127,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "ac348d26bf9b815b0d15c623bf03261d07409cb0",
+      "mode": "100644",
+      "path": "tools/pass658_s2c_key_setup_resolution/run_pass658_all.ps1",
+      "size": 143,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "c3aa9df80f68a016b88d674b5baef209bd39a648",
+      "mode": "100644",
+      "path": "tools/pass659_targeted_native_context_trace/README.md",
+      "size": 225,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6fb4aed00c743c06cd0647f3e13d96b39151fe3e",
+      "mode": "100644",
+      "path": "tools/pass659_targeted_native_context_trace/ghidra_export_targeted_native_context.java",
+      "size": 12338,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "891e3830a4ec2b7643490ba24ad6a0527156ace6",
+      "mode": "100644",
+      "path": "tools/pass659_targeted_native_context_trace/ghidra_export_targeted_native_context.py",
+      "size": 149,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "36b7743fa3e19e3c29dcb27da811aef9aa9470da",
+      "mode": "100644",
+      "path": "tools/pass659_targeted_native_context_trace/pass659_runner.py",
+      "size": 37259,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "56def10099f4ee49089a9338a64c946713a88fc3",
+      "mode": "100644",
+      "path": "tools/pass659_targeted_native_context_trace/run_pass659_all.ps1",
+      "size": 147,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "d4368ef9b86c728fd6eec3e81c6e4a00eb5d047e",
+      "mode": "100644",
+      "path": "tools/pass661_livein_argument_resolution/README.md",
+      "size": 229,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "266318b7b3b41ae41218eab32dd168f15d675090",
+      "mode": "100644",
+      "path": "tools/pass661_livein_argument_resolution/ghidra_export_pass661_liveins.java",
+      "size": 9682,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "33aefa6a6dd3d3f2faf9114fc87c8918a7dbf7c2",
+      "mode": "100644",
+      "path": "tools/pass661_livein_argument_resolution/pass661_runner.py",
+      "size": 13551,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "7de813797d6c2bcc540c87977af8f07977f130bd",
+      "mode": "100644",
+      "path": "tools/pass661_livein_argument_resolution/run_pass661_all.ps1",
+      "size": 144,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "2fbd26fe6285835c22430bfdc84db61931be93eb",
+      "mode": "100644",
+      "path": "tools/pass662_explicit_register_liveins/README.md",
+      "size": 252,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "57e36e08d1aaade8c5f3ec6e105be7947e3e95db",
+      "mode": "100644",
+      "path": "tools/pass662_explicit_register_liveins/ghidra_export_pass662_register_liveins.java",
+      "size": 14700,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "3f4d246f1b5ffe0fad0bf5ddcebb7868a95bd09c",
+      "mode": "100644",
+      "path": "tools/pass662_explicit_register_liveins/pass662_runner.py",
+      "size": 11202,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "6f7c1d87dbb0d815784d2c5ad89e6c7885779ba6",
+      "mode": "100644",
+      "path": "tools/pass662_explicit_register_liveins/run_pass662_all.ps1",
+      "size": 143,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "076eb8b8d09316bdb521f99106207bac2f4e9a9f",
+      "mode": "100644",
+      "path": "tools/pass665_active_recv_hook/README.md",
+      "size": 589,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "1ea3d3590f997d9abcfc96bd7f3c30004ef2214c",
+      "mode": "100644",
+      "path": "tools/pass665_active_recv_hook/pass665_runner.py",
+      "size": 20412,
+      "type": "blob"
+    },
+    {
+      "blob_sha": "4be8cfcc4d2de954563c296cd9656deadb4975d3",
+      "mode": "100644",
+      "path": "tools/pass665_active_recv_hook/run_pass665_all.ps1",
+      "size": 198,
+      "type": "blob"
+    }
+  ],
+  "generated_unix": 1784232333.8125298,
+  "head": "3c635c7ba12de475fb95d50c6417512add28d8ea",
+  "latest_commit": {
+    "committed_at": "2026-07-15T23:16:17+02:00",
+    "sha": "3c635c7ba12de475fb95d50c6417512add28d8ea",
+    "subject": "Pass665 recover active recv hook and CrySystem bootstrap"
+  },
+  "ref": "origin/main",
+  "schema": "aion-github-sync-v1.2"
+}

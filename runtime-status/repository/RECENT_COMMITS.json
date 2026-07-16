@@ -1,0 +1,1830 @@
+{
+  "commits": [
+    {
+      "committed_at": "2026-07-15T23:16:17+02:00",
+      "files": [
+        {
+          "path": "artifacts/pass665_active_recv_hook_decision.json",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass665_active_recv_hook_summary.md",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass665_aeginit_argument_candidates.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass665_crysystem_inventory.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass665_dynamic_resolution_trace.json",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass665_hook_write_candidates.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass665_winsock_slot_baseline.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass665_work_queue.json",
+          "status": "A"
+        },
+        {
+          "path": "inbox/codex_report.md",
+          "status": "M"
+        },
+        {
+          "path": "tools/agent_helpers/agent_safe_checkpoint.ps1",
+          "status": "M"
+        },
+        {
+          "path": "tools/pass665_active_recv_hook/README.md",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass665_active_recv_hook/pass665_runner.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass665_active_recv_hook/run_pass665_all.ps1",
+          "status": "A"
+        }
+      ],
+      "sha": "3c635c7ba12de475fb95d50c6417512add28d8ea",
+      "subject": "Pass665 recover active recv hook and CrySystem bootstrap"
+    },
+    {
+      "committed_at": "2026-07-14T12:35:13+02:00",
+      "files": [
+        {
+          "path": "artifacts/pass662_callsite_livein_mapping.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass662_context_buffer_candidates.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass662_decision.json",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass662_exact_blocker.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass662_function_input_registers.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass662_register_inventory.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass662_register_reaching_defs.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass662_semantic_use_classification.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass662_thunk_passthrough.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass662_work_queue.json",
+          "status": "A"
+        },
+        {
+          "path": "inbox/codex_report.md",
+          "status": "M"
+        },
+        {
+          "path": "tools/agent_helpers/agent_safe_checkpoint.ps1",
+          "status": "M"
+        },
+        {
+          "path": "tools/pass662_explicit_register_liveins/README.md",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass662_explicit_register_liveins/ghidra_export_pass662_register_liveins.java",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass662_explicit_register_liveins/pass662_runner.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass662_explicit_register_liveins/run_pass662_all.ps1",
+          "status": "A"
+        }
+      ],
+      "sha": "d8838d02b691ea8d234303f33f4834d06414480f",
+      "subject": "Recover explicit VM entry register live-ins"
+    },
+    {
+      "committed_at": "2026-07-14T12:24:33+02:00",
+      "files": [
+        {
+          "path": "artifacts/pass661_argument_use_slices.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass661_callsite_argument_mapping.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass661_context_buffer_candidates.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass661_decision.json",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass661_exact_blocker.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass661_immediate_nonstack_relations.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass661_livein_varnodes.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass661_parameter_storage.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass661_target_function_prototypes.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass661_work_queue.json",
+          "status": "A"
+        },
+        {
+          "path": "inbox/codex_report.md",
+          "status": "M"
+        },
+        {
+          "path": "tools/agent_helpers/agent_safe_checkpoint.ps1",
+          "status": "M"
+        },
+        {
+          "path": "tools/pass661_livein_argument_resolution/README.md",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass661_livein_argument_resolution/ghidra_export_pass661_liveins.java",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass661_livein_argument_resolution/pass661_runner.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass661_livein_argument_resolution/run_pass661_all.ps1",
+          "status": "A"
+        }
+      ],
+      "sha": "0fc8138a2be855c09b26c4c693f8ff807c130550",
+      "subject": "Resolve VM entry live-in arguments"
+    },
+    {
+      "committed_at": "2026-07-14T12:11:41+02:00",
+      "files": [
+        {
+          "path": "artifacts/pass660_argument_defuse_slices.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass660_callsite_ssa_mapping.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass660_corrected_store_classification.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass660_decision.json",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass660_exact_blocker.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass660_nonstack_context_writes.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass660_work_queue.json",
+          "status": "A"
+        },
+        {
+          "path": "inbox/codex_report.md",
+          "status": "M"
+        },
+        {
+          "path": "tools/agent_helpers/agent_safe_checkpoint.ps1",
+          "status": "M"
+        }
+      ],
+      "sha": "2a6ee3c094bccc6cef33e6cd11ac1557225a33f1",
+      "subject": "Correct Pass659 callsite SSA and STORE classification"
+    },
+    {
+      "committed_at": "2026-07-14T11:39:12+02:00",
+      "files": [
+        {
+          "path": "artifacts/pass659_callsite_argument_mapping.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass659_candidate_disposition.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass659_clean_rerun_validation.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass659_current_capture_field_mapping.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass659_direction_state_layout.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass659_exact_message_validation.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass659_ghidra_runtime_project_discovery.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass659_hypothesis_exhaustion.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass659_initializer_candidate_metadata.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass659_negative_control_results.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass659_nonstack_context_writes.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass659_pass622_call_edges.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass659_pass622_metadata_manifest.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass659_pass623_rejections.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass659_pass658_claim_audit.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass659_queue_export_gate_tests.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass659_receive_buffer_dependency_slices.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass659_repeat_channel_validation.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass659_sequential_decoder_results.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass659_store_classification.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass659_targeted_export_execution.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass659_targeted_export_seed_coverage.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass659_targeted_graph_edges.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass659_targeted_native_context_trace_decision.json",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass659_targeted_native_context_trace_summary.md",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass659_targeted_ranked_paths.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass659_work_queue.json",
+          "status": "A"
+        },
+        {
+          "path": "inbox/codex_report.md",
+          "status": "M"
+        },
+        {
+          "path": "tools/agent_helpers/agent_safe_checkpoint.ps1",
+          "status": "M"
+        },
+        {
+          "path": "tools/pass659_targeted_native_context_trace/README.md",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass659_targeted_native_context_trace/ghidra_export_targeted_native_context.java",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass659_targeted_native_context_trace/ghidra_export_targeted_native_context.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass659_targeted_native_context_trace/pass659_runner.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass659_targeted_native_context_trace/run_pass659_all.ps1",
+          "status": "A"
+        }
+      ],
+      "sha": "ce0914903eb9d277a7f58f803893bd26fa395311",
+      "subject": "Execute targeted native context trace"
+    },
+    {
+      "committed_at": "2026-07-14T08:52:51+02:00",
+      "files": [
+        {
+          "path": "artifacts/pass658_candidate_disposition.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass658_clean_rerun_validation.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass658_current_capture_handshake_inventory.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass658_direction_context_layout.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass658_exact_message_validation.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass658_hypothesis_exhaustion.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass658_initializer_candidate_metadata.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass658_keyslot_store_normalization.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass658_known_plaintext_constraint_results.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass658_negative_control_results.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass658_pass618_decoder_reconstruction.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass658_pass622_artifact_reconstruction.json",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass658_pass622_export_inventory.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass658_pass622_target_coverage.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass658_pass657_claim_audit.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass658_queue_integration_tests.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass658_receive_handshake_graph_edges.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass658_receive_handshake_ranked_paths.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass658_repeat_channel_validation.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass658_s2c_key_setup_resolution_decision.json",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass658_s2c_key_setup_resolution_summary.md",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass658_seed_source_slices.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass658_sequential_decoder_results.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass658_static_to_packet_field_mapping.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass658_targeted_export_requests.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass658_targeted_export_results.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass658_work_queue.json",
+          "status": "A"
+        },
+        {
+          "path": "inbox/codex_report.md",
+          "status": "M"
+        },
+        {
+          "path": "tools/agent_helpers/agent_safe_checkpoint.ps1",
+          "status": "M"
+        },
+        {
+          "path": "tools/agent_helpers/run_work_queue_until_empty.ps1",
+          "status": "M"
+        },
+        {
+          "path": "tools/pass658_s2c_key_setup_resolution/README.md",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass658_s2c_key_setup_resolution/pass658_runner.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass658_s2c_key_setup_resolution/run_pass658_all.ps1",
+          "status": "A"
+        }
+      ],
+      "sha": "c385469f5de06bce6da93267e3421882386d1460",
+      "subject": "Resolve existing Pass622 S2C key setup exports"
+    },
+    {
+      "committed_at": "2026-07-14T07:55:27+02:00",
+      "files": [
+        {
+          "path": "artifacts/pass657_c2s_gap_policy.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_clean_rerun_validation.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_corrective_holdout_validation_decision.json",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_corrective_holdout_validation_summary.md",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_cross_length_channel_validation.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_decoder_execution_results.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_decoder_inventory.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_exact_message_validation.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_explicit_frame_equations.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_explicit_frame_survivors.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_frame_grid_summary.json",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_frame_models_holdout.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_frame_models_train.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_frame_null_control_scores.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_frame_time_ranges.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_frozen_transform_candidates.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_hypothesis_exhaustion.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_negative_control_results.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_oracle_body_candidates.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_oracle_frame_candidates.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_pass656_claim_audit.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_positive_control_results.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_queue_semantics_tests.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_reverse_holdout_validation.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_s2c_reassembly_crosscheck.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_targeted_transform_constraints.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_train_holdout_validation.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_transform_contradiction_matrix.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass657_work_queue.json",
+          "status": "A"
+        },
+        {
+          "path": "inbox/codex_report.md",
+          "status": "M"
+        },
+        {
+          "path": "tools/agent_helpers/agent_safe_checkpoint.ps1",
+          "status": "M"
+        },
+        {
+          "path": "tools/pass657_corrective_holdout_validation/README.md",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass657_corrective_holdout_validation/pass657_runner.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass657_corrective_holdout_validation/run_pass657_all.ps1",
+          "status": "A"
+        }
+      ],
+      "sha": "daaa158b2adcb7fc278150ef6235df55c25b866d",
+      "subject": "Correct explicit framing and frozen holdout validation"
+    },
+    {
+      "committed_at": "2026-07-14T06:46:28+02:00",
+      "files": [
+        {
+          "path": "artifacts/pass656_body_boundary_candidates.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass656_bootstrap_contract_checks.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass656_closed_branch_guard.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass656_cross_oracle_consistency.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass656_exact_message_validation.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass656_existing_transform_constraints.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass656_frame_models_revalidated.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass656_frame_tiling_diagnostics.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass656_generated_parser_inventory.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass656_hypothesis_exhaustion.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass656_negative_control_scores.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass656_oracle_stream_intervals.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass656_parser_execution_results.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass656_positive_control_scores.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass656_sequence_correct_body_transform_decision.json",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass656_sequence_correct_body_transform_summary.md",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass656_stream_difference_summary.json",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass656_stream_time_offset_index.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass656_tcp_reassembly_audit.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass656_transform_grid_summary.json",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass656_transform_model_results.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass656_work_queue.json",
+          "status": "A"
+        },
+        {
+          "path": "docs/AGENT_WORK_CONTRACT.md",
+          "status": "A"
+        },
+        {
+          "path": "inbox/codex_report.md",
+          "status": "M"
+        },
+        {
+          "path": "tools/agent_helpers/agent_safe_checkpoint.ps1",
+          "status": "M"
+        },
+        {
+          "path": "tools/agent_helpers/run_work_queue_until_empty.ps1",
+          "status": "A"
+        },
+        {
+          "path": "tools/agent_helpers/work_queue_schema.json",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass656_sequence_correct_body_transform/README.md",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass656_sequence_correct_body_transform/generated_parsers/parser_p001.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass656_sequence_correct_body_transform/generated_parsers/parser_p002.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass656_sequence_correct_body_transform/generated_parsers/parser_p003.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass656_sequence_correct_body_transform/generated_parsers/parser_p004.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass656_sequence_correct_body_transform/generated_parsers/parser_p005.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass656_sequence_correct_body_transform/generated_parsers/parser_p006.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass656_sequence_correct_body_transform/generated_parsers/parser_p007.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass656_sequence_correct_body_transform/generated_parsers/parser_p008.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass656_sequence_correct_body_transform/generated_parsers/parser_p009.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass656_sequence_correct_body_transform/generated_parsers/parser_p010.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass656_sequence_correct_body_transform/pass656_common.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass656_sequence_correct_body_transform/pass656_runner.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass656_sequence_correct_body_transform/run_pass656_all.ps1",
+          "status": "A"
+        }
+      ],
+      "sha": "ed1882c45d17bbd0da981d64aa3e9051efffdbe5",
+      "subject": "Sequence-correct world framing and real body transform validation"
+    },
+    {
+      "committed_at": "2026-07-14T00:45:48+02:00",
+      "files": [
+        {
+          "path": "artifacts/pass655_10242_role_decision.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_authoritative_oracles.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_candidate_field_models.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_capture_audit.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_channel_field_candidates.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_exact_message_validation.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_existing_parser_map.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_flow_inventory.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_frame_boundary_oracle_map.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_frame_model_grid_summary.json",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_frame_models_all.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_frame_models_top.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_frame_to_stream_offsets.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_generated_parser_inventory.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_hypothesis_exhaustion.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_known_message_match_metadata.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_length_ladder_field_signal.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_local_control.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_oracle_stream_intervals.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_parser_execution_results.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_parser_negative_control_scores.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_parser_oracle_scores.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_ranked_next_steps.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_receive_format_constraints.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_repeat_candidate_ranking.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_repeat_pair_analysis.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_stream_validation.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_timestamp_audit.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_whisper_group_models.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_wire_parser_models.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_work_queue.json",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_world_framing_marathon_decision.json",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass655_world_framing_marathon_summary.md",
+          "status": "A"
+        },
+        {
+          "path": "inbox/codex_report.md",
+          "status": "M"
+        },
+        {
+          "path": "tools/agent_helpers/agent_safe_checkpoint.ps1",
+          "status": "M"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/README.md",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm001.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm002.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm003.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm004.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm005.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm006.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm007.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm008.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm009.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm010.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm011.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm012.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm013.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm014.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm015.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm016.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm017.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm018.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm019.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/generated_parsers/parser_cm020.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/pass655_common.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/pass655_queue.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/run_pass655_marathon.ps1",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/stage_00_timestamp_repair.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/stage_01_capture_and_stream_audit.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/stage_02_tcp_reassembly_validation.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/stage_03_frame_boundary_search.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/stage_04_length_field_models.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/stage_05_repeated_message_differential.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/stage_06_whisper_group_differential.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/stage_07_local_control_analysis.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/stage_08_existing_static_export_mapping.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/stage_09_wire_to_parser_correlation.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/stage_10_candidate_parser_generation.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/stage_11_candidate_parser_execution.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/stage_12_negative_control_validation.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/stage_13_10242_role_closure.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/stage_14_exact_message_validation.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass655_world_framing_marathon/stage_15_exhaustion_and_ranked_plan.py",
+          "status": "A"
+        }
+      ],
+      "sha": "e5c610c564099239b66185b5e87f838544e634a0",
+      "subject": "Sustained world-flow framing and exact known-message validation"
+    },
+    {
+      "committed_at": "2026-07-13T23:56:59+02:00",
+      "files": [
+        {
+          "path": "artifacts/pass654b_10242_format_hypotheses.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass654b_10242_oracle_comparison.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass654b_candidate_validation.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass654b_capture_consistency.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass654b_flow_inventory.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass654b_hypothesis_status.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass654b_known_text_tests.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass654b_local_message_control.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass654b_offline_capture_validation_decision.json",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass654b_offline_capture_validation_summary.md",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass654b_oracle_rows.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass654b_oracle_stream_windows.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass654b_ranked_next_steps.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass654b_stream_index.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass654b_text_finding_metadata.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass654b_whisper_group_differential.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass654b_world_flow_hypotheses.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass654b_world_flow_oracle_windows.csv",
+          "status": "A"
+        },
+        {
+          "path": "inbox/codex_report.md",
+          "status": "M"
+        },
+        {
+          "path": "tools/agent_helpers/agent_safe_checkpoint.ps1",
+          "status": "M"
+        },
+        {
+          "path": "tools/pass654b_offline_capture_validation/README.md",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass654b_offline_capture_validation/common.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass654b_offline_capture_validation/run_pass654b_all.ps1",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass654b_offline_capture_validation/stage_a_input_and_oracle_merge.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass654b_offline_capture_validation/stage_b_dynamic_flow_inventory.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass654b_offline_capture_validation/stage_c_local_say_control.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass654b_offline_capture_validation/stage_d_stream_reassembly.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass654b_offline_capture_validation/stage_e_known_text_location.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass654b_offline_capture_validation/stage_f_10242_format_analysis.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass654b_offline_capture_validation/stage_g_world_flow_format_analysis.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass654b_offline_capture_validation/stage_h_whisper_group_comparison.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass654b_offline_capture_validation/stage_i_cross_validation.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass654b_offline_capture_validation/stage_j_final_decision.py",
+          "status": "A"
+        }
+      ],
+      "sha": "2aaa008503f340c62fc4f8e80b2e89dc242ad88b",
+      "subject": "Comprehensive offline validation of current chat capture"
+    },
+    {
+      "committed_at": "2026-07-13T23:27:14+02:00",
+      "files": [
+        {
+          "path": "tools/agent_helpers/agent_safe_checkpoint.ps1",
+          "status": "M"
+        },
+        {
+          "path": "tools/pass653_10242_labeler_hardening/README.md",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass653_10242_labeler_hardening/clean_capture_v2_marker_commands.ps1",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass653_10242_labeler_hardening/clean_capture_v2_start.ps1",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass653_10242_labeler_hardening/clean_capture_v2_stop_and_analyze.ps1",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass653_10242_labeler_hardening/pass653_common.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass653_10242_labeler_hardening/run_pass653_hardening.ps1",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass653_10242_labeler_hardening/stage_a_input_audit.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass653_10242_labeler_hardening/stage_b_false_positive_baseline.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass653_10242_labeler_hardening/stage_c_event_labeler_v2.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass653_10242_labeler_hardening/stage_d_unsupervised_detector.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass653_10242_labeler_hardening/stage_e_c2s22_cadence_model.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass653_10242_labeler_hardening/stage_f_10242_s2c_batch_clustering.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass653_10242_labeler_hardening/stage_g_cross_flow_timing.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass653_10242_labeler_hardening/stage_h_clean_capture_v2_kit.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass653_10242_labeler_hardening/stage_i_final_decision.py",
+          "status": "A"
+        }
+      ],
+      "sha": "430fe48ae3d25e6e52a46ab15d9a42849720c654",
+      "subject": "Add Pass653 hardening tools"
+    },
+    {
+      "committed_at": "2026-07-13T23:26:49+02:00",
+      "files": [
+        {
+          "path": "artifacts/pass653_10242_labeler_hardening_decision.json",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass653_10242_labeler_hardening_summary.md",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass653_10242_s2c_batch_clusters.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass653_c2s22_cadence_model.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass653_c2s22_marker_alignment_detail.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass653_c2s22_transform_feasibility.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass653_clean_capture_v2_runbook.md",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass653_cross_flow_timing.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass653_event_labeler_v2_known_markers.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass653_event_labeler_v2_metrics.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass653_event_to_batch_cluster.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass653_false_positive_baseline.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass653_marker_vs_baseline_score.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass653_stage_a_input_audit.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass653_unsupervised_10242_events.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass653_unsupervised_detector_metrics.csv",
+          "status": "A"
+        },
+        {
+          "path": "inbox/codex_report.md",
+          "status": "M"
+        },
+        {
+          "path": "tools/agent_helpers/agent_safe_checkpoint.ps1",
+          "status": "M"
+        }
+      ],
+      "sha": "db5937e44b97f3d953db066ffd50154c27476137",
+      "subject": "Harden 10242 event labeler and prepare clean capture v2"
+    },
+    {
+      "committed_at": "2026-07-13T22:59:53+02:00",
+      "files": [
+        {
+          "path": "artifacts/pass652_10242_event_model_decision.json",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass652_10242_event_model_summary.md",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass652_c2s22_field_model.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass652_c2s22_marker_alignment.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass652_event_fingerprints.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass652_extractor_design.md",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass652_prototype_event_labels.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass652_request_response_pairs.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass652_s2c_batch_model.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass652_stage_a_10242_windows.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass652_text_feasibility.csv",
+          "status": "A"
+        },
+        {
+          "path": "inbox/codex_report.md",
+          "status": "M"
+        },
+        {
+          "path": "tools/agent_helpers/agent_safe_checkpoint.ps1",
+          "status": "M"
+        },
+        {
+          "path": "tools/pass652_10242_event_model/README.md",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass652_10242_event_model/pass652_common.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass652_10242_event_model/prototype_10242_event_labeler.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass652_10242_event_model/run_pass652_10242_event_model.ps1",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass652_10242_event_model/stage_a_isolate_windows.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass652_10242_event_model/stage_b_c2s22_field_model.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass652_10242_event_model/stage_c_s2c_batch_model.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass652_10242_event_model/stage_d_request_response_model.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass652_10242_event_model/stage_e_event_fingerprint.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass652_10242_event_model/stage_f_text_extraction_feasibility.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass652_10242_event_model/stage_g_extractor_design.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass652_10242_event_model/stage_i_decision.py",
+          "status": "A"
+        }
+      ],
+      "sha": "a008de28e242dcc6d93577fd7832fa13c4e3d781",
+      "subject": "Deep model 10242 event channel"
+    },
+    {
+      "committed_at": "2026-07-13T22:39:44+02:00",
+      "files": [
+        {
+          "path": "artifacts/pass651_local_payload_triage_summary.csv",
+          "status": "A"
+        },
+        {
+          "path": "tools/agent_helpers/agent_safe_checkpoint.ps1",
+          "status": "M"
+        }
+      ],
+      "sha": "f45316d1bd2e24d5719849965a04a7951be37d99",
+      "subject": "Extended S2C receive structure investigation"
+    },
+    {
+      "committed_at": "2026-07-13T22:39:12+02:00",
+      "files": [
+        {
+          "path": "tools/agent_helpers/agent_safe_checkpoint.ps1",
+          "status": "M"
+        }
+      ],
+      "sha": "789b92bc0c82a72c70e9b0467466837b9adfa84f",
+      "subject": "Extended S2C receive structure investigation"
+    },
+    {
+      "committed_at": "2026-07-13T22:38:49+02:00",
+      "files": [
+        {
+          "path": "artifacts/pass651_10242_event_model.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass651_extended_s2c_structure_decision.json",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass651_extended_s2c_structure_summary.md",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass651_framing_hypotheses.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass651_sequence_crib_candidates.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass651_sequence_crib_validation.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass651_stage_a_freshness.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass651_stage_a_marker_set.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass651_stream_marker_windows.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass651_stream_window_index.csv",
+          "status": "A"
+        },
+        {
+          "path": "inbox/codex_report.md",
+          "status": "M"
+        },
+        {
+          "path": "tools/agent_helpers/agent_safe_checkpoint.ps1",
+          "status": "M"
+        },
+        {
+          "path": "tools/pass651_extended_s2c_structure/README.md",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass651_extended_s2c_structure/pass651_common.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass651_extended_s2c_structure/run_pass651_extended.ps1",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass651_extended_s2c_structure/stage_a_freshness.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass651_extended_s2c_structure/stage_b_stream_reassembly.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass651_extended_s2c_structure/stage_c_framing_hypotheses.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass651_extended_s2c_structure/stage_d_sequence_crib_search.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass651_extended_s2c_structure/stage_e_10242_sidechannel_model.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass651_extended_s2c_structure/stage_f_next_capture_design.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass651_extended_s2c_structure/stage_g_decision.py",
+          "status": "A"
+        }
+      ],
+      "sha": "87125c8a27db44ad8f5708635ef389bbd40e6556",
+      "subject": "Extended S2C receive structure investigation"
+    },
+    {
+      "committed_at": "2026-07-13T22:28:48+02:00",
+      "files": [
+        {
+          "path": "artifacts/pass650_length_signal_model.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass650_marker_packet_windows.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass650_repeat_window_similarity.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass650_window_structure_decision.json",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass650_window_structure_summary.md",
+          "status": "A"
+        },
+        {
+          "path": "inbox/codex_report.md",
+          "status": "M"
+        },
+        {
+          "path": "tools/agent_helpers/agent_safe_checkpoint.ps1",
+          "status": "M"
+        },
+        {
+          "path": "tools/pass650_marker_window_structure/README.md",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass650_marker_window_structure/analyze_marker_windows.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass650_marker_window_structure/run_pass650_window_structure.ps1",
+          "status": "A"
+        }
+      ],
+      "sha": "b098e87d0dc0950e63f49abe726807ed30579fc6",
+      "subject": "Analyze length ladder marker packet windows"
+    },
+    {
+      "committed_at": "2026-07-13T21:40:03+02:00",
+      "files": [
+        {
+          "path": "artifacts/pass649_current_capture_decision.json",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass649_current_capture_summary.md",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass649_length_ladder_marker_correlation_7780_10242.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass649_length_ladder_model.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass649_length_ladder_s2c_candidates.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass649_length_ladder_s2c_validation.csv",
+          "status": "A"
+        },
+        {
+          "path": "inbox/codex_report.md",
+          "status": "M"
+        },
+        {
+          "path": "tools/agent_helpers/agent_safe_checkpoint.ps1",
+          "status": "M"
+        },
+        {
+          "path": "tools/pass649_current_length_ladder/README.md",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass649_current_length_ladder/run_pass649_length_ladder.ps1",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass649_current_length_ladder/run_pass649_length_ladder.py",
+          "status": "A"
+        }
+      ],
+      "sha": "2b08176be77a46eaaabb41de00f6345b7c1099e7",
+      "subject": "Use current length ladder markers for capture analysis"
+    },
+    {
+      "committed_at": "2026-07-13T21:25:44+02:00",
+      "files": [
+        {
+          "path": "artifacts/pass647_broad_flow_inventory.csv",
+          "status": "M"
+        },
+        {
+          "path": "artifacts/pass647_world_flow_detection.json",
+          "status": "M"
+        }
+      ],
+      "sha": "32268a409050e0f6af947c3e866931fd17528d5a",
+      "subject": "Analyze one-click S2C oracle capture"
+    },
+    {
+      "committed_at": "2026-07-13T20:02:22+02:00",
+      "files": [
+        {
+          "path": "artifacts/pass648_s2c_keyroll_validation.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass648_s2c_oracle_candidates.csv",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass648_s2c_oracle_decision.json",
+          "status": "A"
+        },
+        {
+          "path": "artifacts/pass648_s2c_oracle_summary.md",
+          "status": "A"
+        },
+        {
+          "path": "inbox/codex_report.md",
+          "status": "M"
+        },
+        {
+          "path": "tools/agent_helpers/agent_safe_checkpoint.ps1",
+          "status": "M"
+        },
+        {
+          "path": "tools/pass648_dynamic_world_s2c_oracle/README.md",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass648_dynamic_world_s2c_oracle/run_pass648_s2c_oracle.ps1",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass648_dynamic_world_s2c_oracle/s2c_oracle_attempt_7780.py",
+          "status": "A"
+        },
+        {
+          "path": "tools/pass648_dynamic_world_s2c_oracle/validate_pass648_candidates.py",
+          "status": "A"
+        }
+      ],
+      "sha": "e388c0e50ce149bac0896df9a9a908a5dc2626b0",
+      "subject": "Run bounded S2C oracle attempt on dynamic world port"
+    }
+  ],
+  "generated_unix": 1784232333.8816018,
+  "schema": "aion-github-sync-v1.2"
+}
