@@ -690,7 +690,7 @@
   "reconstruction_ready": false,
   "rip": "0x18021f34e",
   "schema": "aion-local-worker-v22",
-  "status_age_seconds": 7570.133879899979,
+  "status_age_seconds": 7632.276521444321,
   "target_pages": null,
   "total_instructions": 1471000000,
   "transform_progress_estimate": null,
