@@ -128,37 +128,17 @@
     "last_error": "",
     "latest": {
       "name": "latest.aionckpt",
-      "saved_unix": 1784236164.854237,
-      "sha256": "0e94a649519415ba03efd4f02d35c54b36f44258bb6631c7a8302a3f4d1dbd4b",
-      "size": 7010448,
-      "total_instructions": 700006268
+      "saved_unix": 1784236740.2890804,
+      "sha256": "2961905ff0ff5d2bbbed8ff3c73ba1165d78317cc9ca78faac0f8f7f998108a6",
+      "size": 7060471,
+      "total_instructions": 800006268
     },
     "resumed": false
   },
-  "elapsed_seconds": 1380.111236333847,
+  "elapsed_seconds": 1437.7072355747223,
   "error": "",
-  "event_count": 78,
+  "event_count": 79,
   "events": [
-    {
-      "after": {
-        "rax": "0x27",
-        "rcx": "0x1",
-        "rdx": "0x180169628",
-        "rip": "0x18016df13",
-        "rsp": "0x7000ffde00"
-      },
-      "kind": "api",
-      "new_api_calls": [
-        {
-          "dll": "kernel32.dll",
-          "i": 934,
-          "name": "GetModuleHandleA",
-          "ret": "0x6203800000"
-        }
-      ],
-      "seconds": 0.0016047954559326172,
-      "slice": 43888
-    },
     {
       "after": {
         "rax": "0x3f",
@@ -633,6 +613,9 @@
     },
     {
       "kind": "checkpoint"
+    },
+    {
+      "kind": "checkpoint"
     }
   ],
   "fatal_error_tail": "",
@@ -678,9 +661,9 @@
   "process_alive": true,
   "reason": "running",
   "reconstruction_ready": false,
-  "rip": "0x18021f7e5",
+  "rip": "0x18021ff54",
   "schema": "aion-local-worker-v22.2.2",
-  "status_age_seconds": 46.10549879074097,
+  "status_age_seconds": 51.75099968910217,
   "target_pages": {
     "0x10328de0": {
       "changed_bytes": null,
@@ -713,23 +696,23 @@
       "sha256": null
     }
   },
-  "total_instructions": 790006268,
+  "total_instructions": 800006268,
   "transform_progress_estimate": {
     "acceptance_signal": false,
     "allocation_base": "0x5000000000",
-    "bytes_per_million_instructions": 15902.538,
+    "bytes_per_million_instructions": 17713.769,
     "confidence": "low",
-    "estimated_percent": 16.98,
+    "estimated_percent": 17.93,
     "expected_game_size": 28692480,
     "kind": "inferred_linear_generated_output",
-    "max_linear_residual_bytes": 705522.879,
-    "observed_instruction": 790006268,
-    "observed_output_offset": 4871508,
-    "observed_output_offset_hex": "0x4A5554",
-    "projected_instruction_milestone": 2315858238,
-    "sample_count": 9
+    "max_linear_residual_bytes": 724194.311,
+    "observed_instruction": 800006268,
+    "observed_output_offset": 5145480,
+    "observed_output_offset_hex": "0x4E8388",
+    "projected_instruction_milestone": 2150549964,
+    "sample_count": 10
   },
-  "updated_unix": 1784236682.7216914,
+  "updated_unix": 1784236740.3176904,
   "worker": "AION_LOCAL_WORKER_V22_2",
   "yog": "42011cde0000000000000000000000000000000000000000"
 }
