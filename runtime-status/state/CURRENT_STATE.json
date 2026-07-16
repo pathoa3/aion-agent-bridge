@@ -12,7 +12,7 @@
   },
   "main_head": "3c635c7ba12de475fb95d50c6417512add28d8ea",
   "schema": "aion-github-sync-v1.5",
-  "updated_unix": 1784237920.3310375,
+  "updated_unix": 1784237982.6329567,
   "workers": [
     {
       "api_count": 964,
@@ -700,7 +700,7 @@
       "reconstruction_ready": false,
       "rip": "0x18021f34e",
       "schema": "aion-local-worker-v22",
-      "status_age_seconds": 8885.602017879486,
+      "status_age_seconds": 8947.792941331863,
       "target_pages": null,
       "total_instructions": 1471000000,
       "transform_progress_estimate": null,
@@ -833,7 +833,7 @@
         }
       ],
       "available": true,
-      "elapsed_seconds": 2581.3271083831787,
+      "elapsed_seconds": 2638.030198574066,
       "error": "",
       "event_count": 81,
       "events": [
@@ -1325,9 +1325,9 @@
       "process_alive": true,
       "reason": "running",
       "reconstruction_ready": false,
-      "rip": "0x18021ff77",
+      "rip": "0x18022053f",
       "schema": "aion-local-worker-v22.2.2",
-      "status_age_seconds": 36.036848306655884,
+      "status_age_seconds": 41.53728532791138,
       "target_pages": {
         "0x10328de0": {
           "changed_bytes": null,
@@ -1360,23 +1360,23 @@
           "sha256": null
         }
       },
-      "total_instructions": 1000006268,
+      "total_instructions": 1010006268,
       "transform_progress_estimate": {
         "acceptance_signal": false,
         "allocation_base": "0x5000000000",
-        "bytes_per_million_instructions": 25319.194,
+        "bytes_per_million_instructions": 25466.584,
         "confidence": "low",
-        "estimated_percent": 37.03,
+        "estimated_percent": 37.99,
         "expected_game_size": 28692480,
         "kind": "inferred_linear_generated_output",
-        "max_linear_residual_bytes": 1137236.115,
-        "observed_instruction": 1000006268,
-        "observed_output_offset": 10624932,
-        "observed_output_offset_hex": "0xA21FA4",
-        "projected_instruction_milestone": 1722134927,
-        "sample_count": 22
+        "max_linear_residual_bytes": 1151669.911,
+        "observed_instruction": 1010006268,
+        "observed_output_offset": 10898904,
+        "observed_output_offset_hex": "0xA64DD8",
+        "projected_instruction_milestone": 1716612419,
+        "sample_count": 23
       },
-      "updated_unix": 1784237883.937563,
+      "updated_unix": 1784237940.6406534,
       "worker": "AION_LOCAL_WORKER_V22_2",
       "yog": "42011cde0000000000000000000000000000000000000000"
     }
