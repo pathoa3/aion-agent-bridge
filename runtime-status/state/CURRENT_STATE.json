@@ -12,7 +12,7 @@
   },
   "main_head": "3c635c7ba12de475fb95d50c6417512add28d8ea",
   "schema": "aion-github-sync-v1.3",
-  "updated_unix": 1784235672.9163616,
+  "updated_unix": 1784235734.7908902,
   "workers": [
     {
       "api_count": 964,
@@ -706,7 +706,7 @@
       "reconstruction_ready": false,
       "rip": "0x18021f34e",
       "schema": "aion-local-worker-v22",
-      "status_age_seconds": 6638.396971940994,
+      "status_age_seconds": 6700.267615556717,
       "target_pages": null,
       "total_instructions": 1471000000,
       "transform_progress_estimate": null,
@@ -715,32 +715,8 @@
       "yog": "42011cde0000000000000000000000000000000000000000"
     },
     {
-      "api_count": 941,
+      "api_count": 945,
       "api_tail": [
-        {
-          "dll": "kernel32.dll",
-          "i": 923,
-          "name": "LoadLibraryA",
-          "ret": "0x6204c00000"
-        },
-        {
-          "dll": "kernel32.dll",
-          "i": 924,
-          "name": "LoadLibraryA",
-          "ret": "0x6205000000"
-        },
-        {
-          "dll": "kernel32.dll",
-          "i": 925,
-          "name": "SetCurrentDirectoryA",
-          "ret": "0x1"
-        },
-        {
-          "dll": "kernel32.dll",
-          "i": 926,
-          "name": "GetProcAddress",
-          "ret": "0x6000000340"
-        },
         {
           "dll": "kernel32.dll",
           "i": 927,
@@ -836,6 +812,30 @@
           "i": 942,
           "name": "VirtualAlloc",
           "ret": "0x50001ea000"
+        },
+        {
+          "dll": "kernel32.dll",
+          "i": 943,
+          "name": "GetLocalTime",
+          "ret": "0x1"
+        },
+        {
+          "dll": "kernel32.dll",
+          "i": 944,
+          "name": "VirtualAlloc",
+          "ret": "0x50001ec000"
+        },
+        {
+          "dll": "kernel32.dll",
+          "i": 945,
+          "name": "VirtualAlloc",
+          "ret": "0x5000244000"
+        },
+        {
+          "dll": "kernel32.dll",
+          "i": 946,
+          "name": "VirtualProtect",
+          "ret": "0x1"
         }
       ],
       "available": true,
@@ -844,97 +844,17 @@
         "last_error": "",
         "latest": {
           "name": "latest.aionckpt",
-          "saved_unix": 1784235442.683435,
-          "sha256": "914727043e03014649d8dee2e1785496e813e3cb2c5de5e3422ca94fa8ed8b8e",
-          "size": 6321601,
-          "total_instructions": 400006268
+          "saved_unix": 1784235711.7153883,
+          "sha256": "546e777c1223b27e11ce7cf0de936bb74a81f26615646601b3e397a1e3adc933",
+          "size": 6331159,
+          "total_instructions": 500006268
         },
         "resumed": false
       },
-      "elapsed_seconds": 318.83193922042847,
+      "elapsed_seconds": 409.1301658153534,
       "error": "",
-      "event_count": 63,
+      "event_count": 67,
       "events": [
-        {
-          "after": {
-            "rax": "0xa7",
-            "rcx": "0x1",
-            "rdx": "0x180169640",
-            "rip": "0x18017463a",
-            "rsp": "0x7000ffde18"
-          },
-          "kind": "api",
-          "new_api_calls": [
-            {
-              "dll": "kernel32.dll",
-              "i": 918,
-              "name": "LoadLibraryA",
-              "ret": "0x6201c00000"
-            }
-          ],
-          "seconds": 0.0015833377838134766,
-          "slice": 36027
-        },
-        {
-          "after": {
-            "rax": "0x6",
-            "rcx": "0x1",
-            "rdx": "0x180169628",
-            "rip": "0x180186b4f",
-            "rsp": "0x7000ffddf6"
-          },
-          "kind": "api",
-          "new_api_calls": [
-            {
-              "dll": "kernel32.dll",
-              "i": 919,
-              "name": "LoadLibraryA",
-              "ret": "0x6203c00000"
-            }
-          ],
-          "seconds": 0.0047833919525146484,
-          "slice": 36600
-        },
-        {
-          "after": {
-            "rax": "0x18016960b",
-            "rcx": "0x8b",
-            "rdx": "0x100000000",
-            "rip": "0x180172ed6",
-            "rsp": "0x7000ffdde0"
-          },
-          "kind": "api",
-          "new_api_calls": [
-            {
-              "dll": "kernel32.dll",
-              "i": 920,
-              "name": "LoadLibraryA",
-              "ret": "0x6204000000"
-            }
-          ],
-          "seconds": 0.0060842037200927734,
-          "slice": 37337
-        },
-        {
-          "after": {
-            "rax": "0xdf",
-            "rcx": "0x1",
-            "rdx": "0x180169640",
-            "rip": "0x1801769a6",
-            "rsp": "0x7000ffde10"
-          },
-          "kind": "api",
-          "new_api_calls": [
-            {
-              "dll": "kernel32.dll",
-              "i": 921,
-              "name": "LoadLibraryA",
-              "ret": "0x6204400000"
-            }
-          ],
-          "seconds": 0.004637479782104492,
-          "slice": 38082
-        },
         {
           "after": {
             "rax": "0x3d",
@@ -1329,6 +1249,75 @@
           ],
           "seconds": 0.06255507469177246,
           "slice": 45311
+        },
+        {
+          "after": {
+            "rax": "0x8678",
+            "rcx": "0xffffc072",
+            "rdx": "0xffff0464",
+            "rip": "0x18015a50d",
+            "rsp": "0x7000ffde08"
+          },
+          "kind": "api",
+          "new_api_calls": [
+            {
+              "dll": "kernel32.dll",
+              "i": 943,
+              "name": "GetLocalTime",
+              "ret": "0x1"
+            }
+          ],
+          "seconds": 0.0022537708282470703,
+          "slice": 48064
+        },
+        {
+          "after": {
+            "rax": "0x0",
+            "rcx": "0x559bd",
+            "rdx": "0x16d647014",
+            "rip": "0x1802278eb",
+            "rsp": "0x7000ffde78"
+          },
+          "kind": "api",
+          "new_api_calls": [
+            {
+              "dll": "kernel32.dll",
+              "i": 944,
+              "name": "VirtualAlloc",
+              "ret": "0x50001ec000"
+            }
+          ],
+          "seconds": 0.2677168846130371,
+          "slice": 48065
+        },
+        {
+          "after": {
+            "rax": "0x6f4a",
+            "rcx": "0x8a7a0ff4",
+            "rdx": "0x1000",
+            "rip": "0x18022be02",
+            "rsp": "0x7000ffdeb8"
+          },
+          "kind": "api",
+          "new_api_calls": [
+            {
+              "dll": "kernel32.dll",
+              "i": 945,
+              "name": "VirtualAlloc",
+              "ret": "0x5000244000"
+            },
+            {
+              "dll": "kernel32.dll",
+              "i": 946,
+              "name": "VirtualProtect",
+              "ret": "0x1"
+            }
+          ],
+          "seconds": 0.03453207015991211,
+          "slice": 48101
+        },
+        {
+          "kind": "checkpoint"
         }
       ],
       "fatal_error_tail": "",
@@ -1374,9 +1363,9 @@
       "process_alive": true,
       "reason": "running",
       "reconstruction_ready": false,
-      "rip": "0x18017e7b6",
+      "rip": "0x1802362c7",
       "schema": "aion-local-worker-v22.2.2",
-      "status_age_seconds": 51.32661771774292,
+      "status_age_seconds": 22.89853835105896,
       "target_pages": {
         "0x10328de0": {
           "changed_bytes": null,
@@ -1409,9 +1398,9 @@
           "sha256": null
         }
       },
-      "total_instructions": 480006268,
+      "total_instructions": 500006268,
       "transform_progress_estimate": null,
-      "updated_unix": 1784235621.442394,
+      "updated_unix": 1784235711.7406201,
       "worker": "AION_LOCAL_WORKER_V22_2",
       "yog": "42011cde0000000000000000000000000000000000000000"
     }
