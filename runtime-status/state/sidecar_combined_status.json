@@ -1,6 +1,6 @@
 {
   "schema": "aion-worker-sidecar-v1.2",
-  "updated_unix": 1784237340.7730427,
+  "updated_unix": 1784237400.8742044,
   "workers": [
     {
       "api_count": 964,
@@ -139,12 +139,12 @@
           }
         }
       },
-      "elapsed_seconds": 2012.1852400302887,
+      "elapsed_seconds": 2069.5255999565125,
       "game_mapped": false,
       "new_milestone_event_count": 0,
       "reason": "running",
       "reconstruction_ready": false,
-      "rip": "0x18021f343",
+      "rip": "0x18021e56d",
       "schema": "aion-local-worker-v22.2.2",
       "target_summary": {
         "0x10328de0": {
@@ -169,7 +169,7 @@
           "mapped": false
         }
       },
-      "total_instructions": 900006268,
+      "total_instructions": 910006268,
       "worker": "AION_LOCAL_WORKER_V22_2",
       "yog": "42011cde0000000000000000000000000000000000000000"
     }
