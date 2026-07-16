@@ -1,18 +1,6 @@
 {
-  "api_count": 962,
+  "api_count": 964,
   "api_tail": [
-    {
-      "dll": "kernel32.dll",
-      "i": 944,
-      "name": "VirtualAlloc",
-      "ret": "0x50001ec000"
-    },
-    {
-      "dll": "kernel32.dll",
-      "i": 945,
-      "name": "VirtualAlloc",
-      "ret": "0x5000244000"
-    },
     {
       "dll": "kernel32.dll",
       "i": 946,
@@ -120,6 +108,18 @@
       "i": 963,
       "name": "VirtualAlloc",
       "ret": "0x5000265000"
+    },
+    {
+      "dll": "kernel32.dll",
+      "i": 964,
+      "name": "VirtualFree",
+      "ret": "0x1"
+    },
+    {
+      "dll": "kernel32.dll",
+      "i": 965,
+      "name": "VirtualAlloc",
+      "ret": "0x50003ba000"
     }
   ],
   "available": true,
@@ -135,50 +135,10 @@
     },
     "resumed": false
   },
-  "elapsed_seconds": 641.074807882309,
+  "elapsed_seconds": 756.2971315383911,
   "error": "",
-  "event_count": 75,
+  "event_count": 77,
   "events": [
-    {
-      "after": {
-        "rax": "0x66",
-        "rcx": "0x1",
-        "rdx": "0x180169618",
-        "rip": "0x1801771f4",
-        "rsp": "0x7000ffde08"
-      },
-      "kind": "api",
-      "new_api_calls": [
-        {
-          "dll": "kernel32.dll",
-          "i": 931,
-          "name": "GetModuleHandleA",
-          "ret": "0x6200c00000"
-        }
-      ],
-      "seconds": 0.0017189979553222656,
-      "slice": 43585
-    },
-    {
-      "after": {
-        "rax": "0x1",
-        "rcx": "0x1",
-        "rdx": "0x100000000",
-        "rip": "0x18016ac27",
-        "rsp": "0x7000ffdde0"
-      },
-      "kind": "api",
-      "new_api_calls": [
-        {
-          "dll": "kernel32.dll",
-          "i": 932,
-          "name": "GetModuleHandleA",
-          "ret": "0x6201000000"
-        }
-      ],
-      "seconds": 0.0017473697662353516,
-      "slice": 43679
-    },
     {
       "after": {
         "rax": "0x3d",
@@ -650,6 +610,46 @@
       ],
       "seconds": 0.05198216438293457,
       "slice": 66418
+    },
+    {
+      "after": {
+        "rax": "0x6200002a56",
+        "rcx": "0x5000265000",
+        "rdx": "0x9ca8b852",
+        "rip": "0x18015a4b5",
+        "rsp": "0x7000ffde68"
+      },
+      "kind": "api",
+      "new_api_calls": [
+        {
+          "dll": "kernel32.dll",
+          "i": 964,
+          "name": "VirtualFree",
+          "ret": "0x1"
+        }
+      ],
+      "seconds": 0.0697019100189209,
+      "slice": 67673
+    },
+    {
+      "after": {
+        "rax": "0x9e",
+        "rcx": "0x2",
+        "rdx": "0x180155080",
+        "rip": "0x18016934e",
+        "rsp": "0x7000ffde60"
+      },
+      "kind": "api",
+      "new_api_calls": [
+        {
+          "dll": "kernel32.dll",
+          "i": 965,
+          "name": "VirtualAlloc",
+          "ret": "0x50003ba000"
+        }
+      ],
+      "seconds": 0.07688188552856445,
+      "slice": 67674
     }
   ],
   "fatal_error_tail": "",
@@ -695,9 +695,9 @@
   "process_alive": true,
   "reason": "running",
   "reconstruction_ready": false,
-  "rip": "0x18016934e",
+  "rip": "0x18027eb24",
   "schema": "aion-local-worker-v22.2.2",
-  "status_age_seconds": 101.25021171569824,
+  "status_age_seconds": 48.05100655555725,
   "target_pages": {
     "0x10328de0": {
       "changed_bytes": null,
@@ -730,9 +730,9 @@
       "sha256": null
     }
   },
-  "total_instructions": 670006268,
+  "total_instructions": 680006268,
   "transform_progress_estimate": null,
-  "updated_unix": 1784235943.685263,
+  "updated_unix": 1784236058.9075863,
   "worker": "AION_LOCAL_WORKER_V22_2",
   "yog": "42011cde0000000000000000000000000000000000000000"
 }
