@@ -123,30 +123,10 @@
     }
   ],
   "available": true,
-  "elapsed_seconds": 3091.406989812851,
+  "elapsed_seconds": 3148.0850954055786,
   "error": "",
-  "event_count": 81,
+  "event_count": 82,
   "events": [
-    {
-      "after": {
-        "rax": "0x5a",
-        "rcx": "0x3b",
-        "rdx": "0x180169618",
-        "rip": "0x18016ec6d",
-        "rsp": "0x7000ffde10"
-      },
-      "kind": "api",
-      "new_api_calls": [
-        {
-          "dll": "kernel32.dll",
-          "i": 937,
-          "name": "GetModuleHandleA",
-          "ret": "0x6204000000"
-        }
-      ],
-      "seconds": 0.0015254020690917969,
-      "slice": 44171
-    },
     {
       "after": {
         "rax": "0x18016963f",
@@ -570,6 +550,9 @@
     },
     {
       "kind": "checkpoint"
+    },
+    {
+      "kind": "checkpoint"
     }
   ],
   "fatal_error_tail": "",
@@ -615,9 +598,9 @@
   "process_alive": true,
   "reason": "running",
   "reconstruction_ready": false,
-  "rip": "0x18022033e",
+  "rip": "0x18021f348",
   "schema": "aion-local-worker-v22.2.2",
-  "status_age_seconds": 48.649898052215576,
+  "status_age_seconds": 54.33035588264465,
   "target_pages": {
     "0x10328de0": {
       "changed_bytes": null,
@@ -650,7 +633,7 @@
       "sha256": null
     }
   },
-  "total_instructions": 1090006268,
+  "total_instructions": 1100006268,
   "transform_progress_estimate": {
     "acceptance_signal": false,
     "allocation_base": "0x5000000000",
@@ -666,7 +649,7 @@
     "projected_instruction_milestone": 1697479997,
     "sample_count": 27
   },
-  "updated_unix": 1784238394.0174444,
+  "updated_unix": 1784238450.6955497,
   "worker": "AION_LOCAL_WORKER_V22_2",
   "yog": "42011cde0000000000000000000000000000000000000000"
 }
