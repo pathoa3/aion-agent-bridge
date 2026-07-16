@@ -12,7 +12,7 @@
   },
   "main_head": "3c635c7ba12de475fb95d50c6417512add28d8ea",
   "schema": "aion-github-sync-v1.6",
-  "updated_unix": 1784243172.1777787,
+  "updated_unix": 1784243234.4211645,
   "workers": [
     {
       "api_count": 964,
@@ -700,7 +700,7 @@
       "reconstruction_ready": false,
       "rip": "0x18021f34e",
       "schema": "aion-local-worker-v22",
-      "status_age_seconds": 14137.450355768204,
+      "status_age_seconds": 14199.641401290894,
       "target_pages": null,
       "total_instructions": 1471000000,
       "transform_progress_estimate": null,
@@ -833,36 +833,10 @@
         }
       ],
       "available": true,
-      "elapsed_seconds": 7808.779979705811,
+      "elapsed_seconds": 7871.88943862915,
       "error": "",
-      "event_count": 89,
+      "event_count": 90,
       "events": [
-        {
-          "after": {
-            "rax": "0x6f4a",
-            "rcx": "0x8a7a0ff4",
-            "rdx": "0x1000",
-            "rip": "0x18022be02",
-            "rsp": "0x7000ffdeb8"
-          },
-          "kind": "api",
-          "new_api_calls": [
-            {
-              "dll": "kernel32.dll",
-              "i": 945,
-              "name": "VirtualAlloc",
-              "ret": "0x5000244000"
-            },
-            {
-              "dll": "kernel32.dll",
-              "i": 946,
-              "name": "VirtualProtect",
-              "ret": "0x1"
-            }
-          ],
-          "seconds": 0.03453207015991211,
-          "slice": 48101
-        },
         {
           "kind": "checkpoint"
         },
@@ -1144,6 +1118,9 @@
         },
         {
           "kind": "checkpoint"
+        },
+        {
+          "kind": "checkpoint"
         }
       ],
       "fatal_error_tail": "",
@@ -1189,9 +1166,9 @@
       "process_alive": true,
       "reason": "running",
       "reconstruction_ready": false,
-      "rip": "0x18021f0dd",
+      "rip": "0x18021f36c",
       "schema": "aion-local-worker-v22.2.2",
-      "status_age_seconds": 60.415778160095215,
+      "status_age_seconds": 59.51877737045288,
       "target_pages": {
         "0x10328de0": {
           "changed_bytes": null,
@@ -1224,7 +1201,7 @@
           "sha256": null
         }
       },
-      "total_instructions": 1890006268,
+      "total_instructions": 1900006268,
       "transform_progress_estimate": {
         "acceptance_signal": false,
         "allocation_base": "0x5000000000",
@@ -1240,7 +1217,7 @@
         "projected_instruction_milestone": 1660715677,
         "sample_count": 76
       },
-      "updated_unix": 1784243111.3904345,
+      "updated_unix": 1784243174.499893,
       "worker": "AION_LOCAL_WORKER_V22_2",
       "yog": "42011cde0000000000000000000000000000000000000000"
     }
