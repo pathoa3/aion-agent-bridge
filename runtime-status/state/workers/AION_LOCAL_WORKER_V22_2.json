@@ -123,30 +123,10 @@
     }
   ],
   "available": true,
-  "elapsed_seconds": 10312.878446340561,
+  "elapsed_seconds": 10377.846616506577,
   "error": "",
-  "event_count": 93,
+  "event_count": 94,
   "events": [
-    {
-      "after": {
-        "rax": "0x1",
-        "rcx": "0x1",
-        "rdx": "0x180169618",
-        "rip": "0x18018194d",
-        "rsp": "0x7000ffddf8"
-      },
-      "kind": "api",
-      "new_api_calls": [
-        {
-          "dll": "user32.dll",
-          "i": 949,
-          "name": "FindWindowA",
-          "ret": "0x0"
-        }
-      ],
-      "seconds": 0.001100778579711914,
-      "slice": 55402
-    },
     {
       "after": {
         "rax": "0x1",
@@ -377,6 +357,9 @@
     },
     {
       "kind": "checkpoint"
+    },
+    {
+      "kind": "checkpoint"
     }
   ],
   "fatal_error_tail": "",
@@ -422,9 +405,9 @@
   "process_alive": true,
   "reason": "running",
   "reconstruction_ready": false,
-  "rip": "0x1802207c3",
+  "rip": "0x18021f37f",
   "schema": "aion-local-worker-v22.2.2",
-  "status_age_seconds": 44.53436517715454,
+  "status_age_seconds": 41.74887537956238,
   "target_pages": {
     "0x10328de0": {
       "changed_bytes": null,
@@ -457,7 +440,7 @@
       "sha256": null
     }
   },
-  "total_instructions": 2290006268,
+  "total_instructions": 2300006268,
   "transform_progress_estimate": {
     "acceptance_signal": false,
     "allocation_base": "0x5000000000",
@@ -473,7 +456,7 @@
     "projected_instruction_milestone": 1660602469,
     "sample_count": 77
   },
-  "updated_unix": 1784245615.488901,
+  "updated_unix": 1784245680.457071,
   "worker": "AION_LOCAL_WORKER_V22_2",
   "yog": "42011cde0000000000000000000000000000000000000000"
 }
