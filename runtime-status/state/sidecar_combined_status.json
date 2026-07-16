@@ -1,6 +1,6 @@
 {
-  "schema": "aion-worker-sidecar-v1.1",
-  "updated_unix": 1784236963.29544,
+  "schema": "aion-worker-sidecar-v1.2",
+  "updated_unix": 1784237039.5888615,
   "workers": [
     {
       "api_count": 964,
@@ -25,13 +25,126 @@
       "available": true,
       "candidate_count": 0,
       "candidates": [],
-      "checkpoint_probe": null,
-      "elapsed_seconds": 1609.4188623428345,
+      "checkpoint_probe": {
+        "checkpoint_instructions": 800006268,
+        "checkpoint_sha256": "2961905ff0ff5d2bbbed8ff3c73ba1165d78317cc9ca78faac0f8f7f998108a6",
+        "game_snapshot": {
+          "available": false,
+          "changed_bytes": null,
+          "changed_pages": null,
+          "reason": "required target pages are not reconstruction-ready",
+          "sha256": null,
+          "size": null
+        },
+        "mapped_probe_pages": 12,
+        "reconstruction_ready": false,
+        "rip_coherent": true,
+        "rip_first_instructions": [
+          {
+            "address": "0x18021f37f",
+            "bytes": "e90a050000",
+            "mnemonic": "jmp",
+            "op_str": "0x18021f88e"
+          },
+          {
+            "address": "0x18021f384",
+            "bytes": "4983c108",
+            "mnemonic": "add",
+            "op_str": "r9, 8"
+          },
+          {
+            "address": "0x18021f388",
+            "bytes": "4152",
+            "mnemonic": "push",
+            "op_str": "r10"
+          },
+          {
+            "address": "0x18021f38a",
+            "bytes": "49c7c240a8bf7d",
+            "mnemonic": "mov",
+            "op_str": "r10, 0x7dbfa840"
+          },
+          {
+            "address": "0x18021f391",
+            "bytes": "4981caa2cacf3b",
+            "mnemonic": "or",
+            "op_str": "r10, 0x3bcfcaa2"
+          },
+          {
+            "address": "0x18021f398",
+            "bytes": "49ffc2",
+            "mnemonic": "inc",
+            "op_str": "r10"
+          },
+          {
+            "address": "0x18021f39b",
+            "bytes": "49c1ea08",
+            "mnemonic": "shr",
+            "op_str": "r10, 8"
+          },
+          {
+            "address": "0x18021f39f",
+            "bytes": "e9f7faffff",
+            "mnemonic": "jmp",
+            "op_str": "0x18021ee9b"
+          },
+          {
+            "address": "0x18021f3a4",
+            "bytes": "57",
+            "mnemonic": "push",
+            "op_str": "rdi"
+          },
+          {
+            "address": "0x18021f3a5",
+            "bytes": "48c7c7a489bf7e",
+            "mnemonic": "mov",
+            "op_str": "rdi, 0x7ebf89a4"
+          },
+          {
+            "address": "0x18021f3ac",
+            "bytes": "48c1ef05",
+            "mnemonic": "shr",
+            "op_str": "rdi, 5"
+          },
+          {
+            "address": "0x18021f3b0",
+            "bytes": "4881e74a81db7f",
+            "mnemonic": "and",
+            "op_str": "rdi, 0x7fdb814a"
+          }
+        ],
+        "status_rip": "0x18021f37f",
+        "target_pages_mapped": 0,
+        "target_summary": {
+          "0x10328de0": {
+            "changed_bytes": null,
+            "changed_from_packed_baseline": null,
+            "coherent": false,
+            "head": null,
+            "mapped": false
+          },
+          "0x103294b0": {
+            "changed_bytes": null,
+            "changed_from_packed_baseline": null,
+            "coherent": false,
+            "head": null,
+            "mapped": false
+          },
+          "0x1120ae70": {
+            "changed_bytes": null,
+            "changed_from_packed_baseline": null,
+            "coherent": null,
+            "head": null,
+            "mapped": false
+          }
+        }
+      },
+      "elapsed_seconds": 1723.4326701164246,
       "game_mapped": false,
       "new_milestone_event_count": 0,
       "reason": "running",
       "reconstruction_ready": false,
-      "rip": "0x1802207c3",
+      "rip": "0x18021f422",
       "schema": "aion-local-worker-v22.2.2",
       "target_summary": {
         "0x10328de0": {
@@ -56,7 +169,7 @@
           "mapped": false
         }
       },
-      "total_instructions": 830006268,
+      "total_instructions": 850006268,
       "worker": "AION_LOCAL_WORKER_V22_2",
       "yog": "42011cde0000000000000000000000000000000000000000"
     }
