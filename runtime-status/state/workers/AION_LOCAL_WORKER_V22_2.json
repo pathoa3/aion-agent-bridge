@@ -1,8 +1,500 @@
 {
-  "available": false,
+  "api_count": 871,
+  "api_tail": [
+    {
+      "dll": "kernel32.dll",
+      "i": 853,
+      "name": "IsDebuggerPresent",
+      "ret": "0x0"
+    },
+    {
+      "dll": "ntdll.dll",
+      "i": 854,
+      "name": "RtlGetCurrentPeb",
+      "ret": "0x7ffdf00000"
+    },
+    {
+      "dll": "user32.dll",
+      "i": 855,
+      "name": "FindWindowA",
+      "ret": "0x0"
+    },
+    {
+      "dll": "user32.dll",
+      "i": 856,
+      "name": "FindWindowA",
+      "ret": "0x0"
+    },
+    {
+      "dll": "user32.dll",
+      "i": 857,
+      "name": "FindWindowA",
+      "ret": "0x0"
+    },
+    {
+      "dll": "user32.dll",
+      "i": 858,
+      "name": "FindWindowA",
+      "ret": "0x0"
+    },
+    {
+      "dll": "kernel32.dll",
+      "i": 859,
+      "name": "VirtualAlloc",
+      "ret": "0x5000188000"
+    },
+    {
+      "dll": "kernel32.dll",
+      "i": 860,
+      "name": "GetModuleHandleA",
+      "ret": "0x6200400000"
+    },
+    {
+      "dll": "kernel32.dll",
+      "i": 861,
+      "name": "GetProcAddress",
+      "ret": "0x60000002d0"
+    },
+    {
+      "dll": "dynamic",
+      "i": 862,
+      "name": "NtQuerySystemInformation",
+      "ret": "0x0"
+    },
+    {
+      "dll": "kernel32.dll",
+      "i": 863,
+      "name": "IsBadReadPtr",
+      "ret": "0x0"
+    },
+    {
+      "dll": "kernel32.dll",
+      "i": 864,
+      "name": "VirtualFree",
+      "ret": "0x1"
+    },
+    {
+      "dll": "kernel32.dll",
+      "i": 865,
+      "name": "VirtualAlloc",
+      "ret": "0x5000198000"
+    },
+    {
+      "dll": "kernel32.dll",
+      "i": 866,
+      "name": "GetModuleHandleA",
+      "ret": "0x6200400000"
+    },
+    {
+      "dll": "kernel32.dll",
+      "i": 867,
+      "name": "GetProcAddress",
+      "ret": "0x60000002e0"
+    },
+    {
+      "dll": "dynamic",
+      "i": 868,
+      "name": "NtQuerySystemInformation",
+      "ret": "0x0"
+    },
+    {
+      "dll": "kernel32.dll",
+      "i": 869,
+      "name": "IsBadReadPtr",
+      "ret": "0x0"
+    },
+    {
+      "dll": "kernel32.dll",
+      "i": 870,
+      "name": "VirtualFree",
+      "ret": "0x1"
+    },
+    {
+      "dll": "ntdll.dll",
+      "i": 871,
+      "name": "ZwQueryInformationProcess",
+      "ret": "0x0"
+    },
+    {
+      "dll": "ntdll.dll",
+      "i": 872,
+      "name": "ZwQueryInformationProcess",
+      "ret": "0xc0000353"
+    }
+  ],
+  "available": true,
+  "checkpoint": {
+    "enabled": true,
+    "last_error": "",
+    "latest": {
+      "name": "latest.aionckpt",
+      "saved_unix": 1784235353.3950913,
+      "sha256": "3fdfc0593a55bf9558b7787d15c8d14f69804faa2e990e31b28219a482b0e31d",
+      "size": 6211984,
+      "total_instructions": 100006268
+    },
+    "resumed": false
+  },
+  "elapsed_seconds": 56.107197761535645,
+  "error": "",
+  "event_count": 12,
+  "events": [
+    {
+      "after": {
+        "rax": "0x18016950b",
+        "rcx": "0x8b",
+        "rdx": "0x180169618",
+        "rip": "0x18017cc30",
+        "rsp": "0x7000ffde20"
+      },
+      "kind": "api",
+      "new_api_calls": [
+        {
+          "dll": "kernel32.dll",
+          "i": 853,
+          "name": "IsDebuggerPresent",
+          "ret": "0x0"
+        }
+      ],
+      "seconds": 0.0030694007873535156,
+      "slice": 562
+    },
+    {
+      "after": {
+        "rax": "0xdf",
+        "rcx": "0x1",
+        "rdx": "0x180169640",
+        "rip": "0x18017c785",
+        "rsp": "0x7000ffde14"
+      },
+      "kind": "api",
+      "new_api_calls": [
+        {
+          "dll": "ntdll.dll",
+          "i": 854,
+          "name": "RtlGetCurrentPeb",
+          "ret": "0x7ffdf00000"
+        }
+      ],
+      "seconds": 0.0008959770202636719,
+      "slice": 598
+    },
+    {
+      "after": {
+        "rax": "0xde",
+        "rcx": "0x8b",
+        "rdx": "0x100000000",
+        "rip": "0x18017cc33",
+        "rsp": "0x7000ffde18"
+      },
+      "kind": "hotspot",
+      "seconds": 10.37593936920166
+    },
+    {
+      "after": {
+        "rax": "0x9b",
+        "rcx": "0x1",
+        "rdx": "0x100000000",
+        "rip": "0x180176d7a",
+        "rsp": "0x7000ffde00"
+      },
+      "kind": "api",
+      "new_api_calls": [
+        {
+          "dll": "user32.dll",
+          "i": 855,
+          "name": "FindWindowA",
+          "ret": "0x0"
+        }
+      ],
+      "seconds": 0.0015270709991455078,
+      "slice": 4365
+    },
+    {
+      "after": {
+        "rax": "0x66",
+        "rcx": "0x1",
+        "rdx": "0x100000000",
+        "rip": "0x18017ec47",
+        "rsp": "0x7000ffdde8"
+      },
+      "kind": "api",
+      "new_api_calls": [
+        {
+          "dll": "user32.dll",
+          "i": 856,
+          "name": "FindWindowA",
+          "ret": "0x0"
+        }
+      ],
+      "seconds": 0.0012602806091308594,
+      "slice": 4390
+    },
+    {
+      "after": {
+        "rax": "0x60",
+        "rcx": "0x1",
+        "rdx": "0x100000000",
+        "rip": "0x18016ec69",
+        "rsp": "0x7000ffde00"
+      },
+      "kind": "api",
+      "new_api_calls": [
+        {
+          "dll": "user32.dll",
+          "i": 857,
+          "name": "FindWindowA",
+          "ret": "0x0"
+        }
+      ],
+      "seconds": 0.0012667179107666016,
+      "slice": 4416
+    },
+    {
+      "after": {
+        "rax": "0xfb",
+        "rcx": "0x1",
+        "rdx": "0x100000061",
+        "rip": "0x18016cef8",
+        "rsp": "0x7000ffddf6"
+      },
+      "kind": "api",
+      "new_api_calls": [
+        {
+          "dll": "user32.dll",
+          "i": 858,
+          "name": "FindWindowA",
+          "ret": "0x0"
+        }
+      ],
+      "seconds": 0.0011425018310546875,
+      "slice": 4437
+    },
+    {
+      "after": {
+        "rax": "0x1",
+        "rcx": "0x1",
+        "rdx": "0x180169628",
+        "rip": "0x18016dc80",
+        "rsp": "0x7000ffddf0"
+      },
+      "kind": "api",
+      "new_api_calls": [
+        {
+          "dll": "kernel32.dll",
+          "i": 859,
+          "name": "VirtualAlloc",
+          "ret": "0x5000188000"
+        },
+        {
+          "dll": "kernel32.dll",
+          "i": 860,
+          "name": "GetModuleHandleA",
+          "ret": "0x6200400000"
+        },
+        {
+          "dll": "kernel32.dll",
+          "i": 861,
+          "name": "GetProcAddress",
+          "ret": "0x60000002d0"
+        },
+        {
+          "dll": "dynamic",
+          "i": 862,
+          "name": "NtQuerySystemInformation",
+          "ret": "0x0"
+        },
+        {
+          "dll": "kernel32.dll",
+          "i": 863,
+          "name": "IsBadReadPtr",
+          "ret": "0x0"
+        },
+        {
+          "dll": "kernel32.dll",
+          "i": 864,
+          "name": "VirtualFree",
+          "ret": "0x1"
+        }
+      ],
+      "seconds": 0.0032758712768554688,
+      "slice": 5990
+    },
+    {
+      "after": {
+        "rax": "0x3f",
+        "rcx": "0x18",
+        "rdx": "0x180169640",
+        "rip": "0x180180bde",
+        "rsp": "0x7000ffde08"
+      },
+      "kind": "api",
+      "new_api_calls": [
+        {
+          "dll": "kernel32.dll",
+          "i": 865,
+          "name": "VirtualAlloc",
+          "ret": "0x5000198000"
+        },
+        {
+          "dll": "kernel32.dll",
+          "i": 866,
+          "name": "GetModuleHandleA",
+          "ret": "0x6200400000"
+        },
+        {
+          "dll": "kernel32.dll",
+          "i": 867,
+          "name": "GetProcAddress",
+          "ret": "0x60000002e0"
+        },
+        {
+          "dll": "dynamic",
+          "i": 868,
+          "name": "NtQuerySystemInformation",
+          "ret": "0x0"
+        },
+        {
+          "dll": "kernel32.dll",
+          "i": 869,
+          "name": "IsBadReadPtr",
+          "ret": "0x0"
+        },
+        {
+          "dll": "kernel32.dll",
+          "i": 870,
+          "name": "VirtualFree",
+          "ret": "0x1"
+        }
+      ],
+      "seconds": 0.002805948257446289,
+      "slice": 8962
+    },
+    {
+      "kind": "checkpoint"
+    },
+    {
+      "after": {
+        "rax": "0x1801696d0",
+        "rcx": "0x1",
+        "rdx": "0x180169640",
+        "rip": "0x18017554e",
+        "rsp": "0x7000ffddf0"
+      },
+      "kind": "api",
+      "new_api_calls": [
+        {
+          "dll": "ntdll.dll",
+          "i": 871,
+          "name": "ZwQueryInformationProcess",
+          "ret": "0x0"
+        }
+      ],
+      "seconds": 0.0013086795806884766,
+      "slice": 13910
+    },
+    {
+      "after": {
+        "rax": "0x1",
+        "rcx": "0x1",
+        "rdx": "0x1801695f8",
+        "rip": "0x1801736ce",
+        "rsp": "0x7000ffddf0"
+      },
+      "kind": "api",
+      "new_api_calls": [
+        {
+          "dll": "ntdll.dll",
+          "i": 872,
+          "name": "ZwQueryInformationProcess",
+          "ret": "0xc0000353"
+        }
+      ],
+      "seconds": 0.0010595321655273438,
+      "slice": 13946
+    }
+  ],
   "fatal_error_tail": "",
-  "pid": null,
-  "process_alive": null,
-  "status_age_seconds": null,
-  "worker": "AION_LOCAL_WORKER_V22_2"
+  "game_candidate": null,
+  "game_diagnostics": {
+    "module_registered": false,
+    "reconstruction_ready": false,
+    "targets": {
+      "0x10328de0": {
+        "changed_bytes": null,
+        "changed_from_packed_baseline": null,
+        "coherent": false,
+        "head": null,
+        "instruction_count": 0,
+        "mapped": false,
+        "nonzero": null,
+        "sha256": null
+      },
+      "0x103294b0": {
+        "changed_bytes": null,
+        "changed_from_packed_baseline": null,
+        "coherent": false,
+        "head": null,
+        "instruction_count": 0,
+        "mapped": false,
+        "nonzero": null,
+        "sha256": null
+      },
+      "0x1120ae70": {
+        "changed_bytes": null,
+        "changed_from_packed_baseline": null,
+        "coherent": null,
+        "head": null,
+        "instruction_count": null,
+        "mapped": false,
+        "nonzero": null,
+        "sha256": null
+      }
+    }
+  },
+  "game_mapped": false,
+  "pid": 45796,
+  "process_alive": true,
+  "reason": "running",
+  "reconstruction_ready": false,
+  "rip": "0x180206ed7",
+  "schema": "aion-local-worker-v22.2.2",
+  "status_age_seconds": 3.842405319213867,
+  "target_pages": {
+    "0x10328de0": {
+      "changed_bytes": null,
+      "changed_from_packed_baseline": null,
+      "coherent": false,
+      "head": null,
+      "instruction_count": 0,
+      "mapped": false,
+      "nonzero": null,
+      "sha256": null
+    },
+    "0x103294b0": {
+      "changed_bytes": null,
+      "changed_from_packed_baseline": null,
+      "coherent": false,
+      "head": null,
+      "instruction_count": 0,
+      "mapped": false,
+      "nonzero": null,
+      "sha256": null
+    },
+    "0x1120ae70": {
+      "changed_bytes": null,
+      "changed_from_packed_baseline": null,
+      "coherent": null,
+      "head": null,
+      "instruction_count": null,
+      "mapped": false,
+      "nonzero": null,
+      "sha256": null
+    }
+  },
+  "total_instructions": 140006268,
+  "transform_progress_estimate": null,
+  "updated_unix": 1784235358.7176526,
+  "worker": "AION_LOCAL_WORKER_V22_2",
+  "yog": "42011cde0000000000000000000000000000000000000000"
 }
