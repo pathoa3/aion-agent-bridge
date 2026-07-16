@@ -2566,15 +2566,69 @@
       "worker": "AION_LOCAL_WORKER_V22"
     },
     {
-      "location": "AION_LOCAL_WORKER_V22_2/results/status.json",
-      "mtime_unix": 1784238054.031357,
+      "location": "sidecar/AION_LOCAL_WORKER_V22/20260716_214150_milestone/final.json",
+      "mtime_unix": 1784223132.961617,
+      "name": "final.json",
+      "sha256": "349687bfa891edfea71f5c3ee221dd47195a6188364d1b26e0b67dfef9dae402",
+      "size": 13556,
+      "stored_in_git": true,
+      "worker": "AION_LOCAL_WORKER_V22"
+    },
+    {
+      "location": "sidecar/AION_LOCAL_WORKER_V22/20260716_214150_milestone/status.json",
+      "mtime_unix": 1784238110.6355338,
       "name": "status.json",
-      "sha256": "9e6d400d55d8fd2fe7d734a3e83bc47ca2d47ef5f5ec1c83d14190296f851ad5",
-      "size": 323160,
+      "sha256": "556649644a1ea3f6311decf757789b3c4d623bbd81e5d4b7a857e93fa98605d1",
+      "size": 597878,
+      "stored_in_git": true,
+      "worker": "AION_LOCAL_WORKER_V22"
+    },
+    {
+      "location": "sidecar/AION_LOCAL_WORKER_V22/20260716_214210_milestone/final.json",
+      "mtime_unix": 1784223132.961617,
+      "name": "final.json",
+      "sha256": "349687bfa891edfea71f5c3ee221dd47195a6188364d1b26e0b67dfef9dae402",
+      "size": 13556,
+      "stored_in_git": true,
+      "worker": "AION_LOCAL_WORKER_V22"
+    },
+    {
+      "location": "sidecar/AION_LOCAL_WORKER_V22/20260716_214210_milestone/status.json",
+      "mtime_unix": 1784238130.6875384,
+      "name": "status.json",
+      "sha256": "556649644a1ea3f6311decf757789b3c4d623bbd81e5d4b7a857e93fa98605d1",
+      "size": 597878,
+      "stored_in_git": true,
+      "worker": "AION_LOCAL_WORKER_V22"
+    },
+    {
+      "location": "sidecar/AION_LOCAL_WORKER_V22/20260716_214230_milestone/final.json",
+      "mtime_unix": 1784223132.961617,
+      "name": "final.json",
+      "sha256": "349687bfa891edfea71f5c3ee221dd47195a6188364d1b26e0b67dfef9dae402",
+      "size": 13556,
+      "stored_in_git": true,
+      "worker": "AION_LOCAL_WORKER_V22"
+    },
+    {
+      "location": "sidecar/AION_LOCAL_WORKER_V22/20260716_214230_milestone/status.json",
+      "mtime_unix": 1784238150.7156136,
+      "name": "status.json",
+      "sha256": "556649644a1ea3f6311decf757789b3c4d623bbd81e5d4b7a857e93fa98605d1",
+      "size": 597878,
+      "stored_in_git": true,
+      "worker": "AION_LOCAL_WORKER_V22"
+    },
+    {
+      "location": "AION_LOCAL_WORKER_V22_2/results/status.json",
+      "mtime_unix": 1784238166.6887436,
+      "name": "status.json",
+      "sha256": "214f2083a8401a46e438ea6faace4ad6f53538b68e6f43621fd16289e7610c8c",
+      "size": 335874,
       "stored_in_git": true,
       "worker": "AION_LOCAL_WORKER_V22_2"
     }
   ],
   "schema": "aion-github-sync-v1.5",
-  "updated_unix": 1784238107.1515853
+  "updated_unix": 1784238169.4130802
 }
