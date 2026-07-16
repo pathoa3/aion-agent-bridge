@@ -2098,15 +2098,51 @@
       "worker": "AION_LOCAL_WORKER_V22"
     },
     {
-      "location": "AION_LOCAL_WORKER_V22_2/results/status.json",
-      "mtime_unix": 1784237544.2913883,
+      "location": "sidecar/AION_LOCAL_WORKER_V22/20260716_213321_milestone/final.json",
+      "mtime_unix": 1784223132.961617,
+      "name": "final.json",
+      "sha256": "349687bfa891edfea71f5c3ee221dd47195a6188364d1b26e0b67dfef9dae402",
+      "size": 13556,
+      "stored_in_git": true,
+      "worker": "AION_LOCAL_WORKER_V22"
+    },
+    {
+      "location": "sidecar/AION_LOCAL_WORKER_V22/20260716_213321_milestone/status.json",
+      "mtime_unix": 1784237601.193519,
       "name": "status.json",
-      "sha256": "e219e9ebf0fcf4d1224564fa04a23c4537c5f771086001ac013419a166c83a3a",
-      "size": 265456,
+      "sha256": "556649644a1ea3f6311decf757789b3c4d623bbd81e5d4b7a857e93fa98605d1",
+      "size": 597878,
+      "stored_in_git": true,
+      "worker": "AION_LOCAL_WORKER_V22"
+    },
+    {
+      "location": "sidecar/AION_LOCAL_WORKER_V22/20260716_213328_milestone/final.json",
+      "mtime_unix": 1784223132.961617,
+      "name": "final.json",
+      "sha256": "349687bfa891edfea71f5c3ee221dd47195a6188364d1b26e0b67dfef9dae402",
+      "size": 13556,
+      "stored_in_git": true,
+      "worker": "AION_LOCAL_WORKER_V22"
+    },
+    {
+      "location": "sidecar/AION_LOCAL_WORKER_V22/20260716_213328_milestone/status.json",
+      "mtime_unix": 1784237608.5157466,
+      "name": "status.json",
+      "sha256": "556649644a1ea3f6311decf757789b3c4d623bbd81e5d4b7a857e93fa98605d1",
+      "size": 597878,
+      "stored_in_git": true,
+      "worker": "AION_LOCAL_WORKER_V22"
+    },
+    {
+      "location": "AION_LOCAL_WORKER_V22_2/results/status.json",
+      "mtime_unix": 1784237601.0170405,
+      "name": "status.json",
+      "sha256": "1f959b4fc6e5998b3ad1123909bd9f4338fa901060701a50bfb7e6bda92e7dd7",
+      "size": 271820,
       "stored_in_git": true,
       "worker": "AION_LOCAL_WORKER_V22_2"
     }
   ],
-  "schema": "aion-github-sync-v1.4",
-  "updated_unix": 1784237600.495778
+  "schema": "aion-github-sync-v1.5",
+  "updated_unix": 1784237609.0697362
 }
