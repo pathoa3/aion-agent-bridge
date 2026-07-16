@@ -123,6 +123,12 @@
     }
   ],
   "available": true,
+  "checkpoint": {
+    "enabled": false,
+    "last_error": "",
+    "latest": null,
+    "resumed": false
+  },
   "elapsed_seconds": 5411.152285575867,
   "error": "",
   "event_count": 71,
@@ -674,13 +680,17 @@
       "slice": 67471
     }
   ],
+  "fatal_error_tail": "",
   "game_candidate": null,
   "game_diagnostics": {},
   "game_mapped": false,
-  "reason": "running",
+  "pid": 57944,
+  "process_alive": false,
+  "reason": "process_not_running",
   "reconstruction_ready": false,
   "rip": "0x18021f34e",
   "schema": "aion-local-worker-v22",
+  "status_age_seconds": 6266.2380537986755,
   "target_pages": null,
   "total_instructions": 1471000000,
   "transform_progress_estimate": null,
