@@ -2,12 +2,12 @@
 
 Repository: `https://github.com/pathoa3/aion-agent-bridge.git`
 Main head: `3c635c7ba12de475fb95d50c6417512add28d8ea`
-Updated (Unix): `1784260865`
+Updated (Unix): `1784260927`
 
 | Worker | Alive | Status age | Reason | Instructions | APIs | RIP | Output estimate | Projected instruction | Game mapped | Targets | Reconstructed |
 |---|---:|---:|---:|---:|---:|---|---:|---:|---:|---:|---:|
-| AION_LOCAL_WORKER_V22 | False | 31830.560959339142 | process_not_running | 1471000000 | 964 | `0x18021f34e` |  |  | False | 0/0 | False |
-| AION_LOCAL_WORKER_V22_2 | True | 67.29068517684937 | running | 4260006268 | 964 | `0x18021eb3a` | 100.0% | 1660602469 | False | 0/3 | False |
+| AION_LOCAL_WORKER_V22 | False | 31892.775931358337 | process_not_running | 1471000000 | 964 | `0x18021f34e` |  |  | False | 0/0 | False |
+| AION_LOCAL_WORKER_V22_2 | True | 34.74343800544739 | running | 4270006268 | 964 | `0x180221328` | 100.0% | 1660602469 | False | 0/3 | False |
 
 ## Acceptance targets
 
