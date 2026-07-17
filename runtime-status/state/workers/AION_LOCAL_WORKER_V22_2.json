@@ -123,60 +123,10 @@
     }
   ],
   "available": true,
-  "elapsed_seconds": 12278.317066431046,
+  "elapsed_seconds": 12347.375255584717,
   "error": "",
-  "event_count": 96,
+  "event_count": 97,
   "events": [
-    {
-      "after": {
-        "rax": "0x96",
-        "rcx": "0x1",
-        "rdx": "0x100000000",
-        "rip": "0x18017e266",
-        "rsp": "0x7000ffde00"
-      },
-      "kind": "api",
-      "new_api_calls": [
-        {
-          "dll": "kernel32.dll",
-          "i": 957,
-          "name": "VirtualAlloc",
-          "ret": "0x5000255000"
-        },
-        {
-          "dll": "kernel32.dll",
-          "i": 958,
-          "name": "GetModuleHandleA",
-          "ret": "0x6200400000"
-        },
-        {
-          "dll": "kernel32.dll",
-          "i": 959,
-          "name": "GetProcAddress",
-          "ret": "0x6000000380"
-        },
-        {
-          "dll": "dynamic",
-          "i": 960,
-          "name": "NtQuerySystemInformation",
-          "ret": "0x0"
-        },
-        {
-          "dll": "kernel32.dll",
-          "i": 961,
-          "name": "IsBadReadPtr",
-          "ret": "0x0"
-        },
-        {
-          "dll": "kernel32.dll",
-          "i": 962,
-          "name": "VirtualFree",
-          "ret": "0x1"
-        }
-      ],
-      "seconds": 0.002952098846435547,
-      "slice": 59942
-    },
     {
       "kind": "checkpoint"
     },
@@ -296,6 +246,9 @@
     },
     {
       "kind": "checkpoint"
+    },
+    {
+      "kind": "checkpoint"
     }
   ],
   "fatal_error_tail": "",
@@ -341,9 +294,9 @@
   "process_alive": true,
   "reason": "running",
   "reconstruction_ready": false,
-  "rip": "0x18021ff4a",
+  "rip": "0x18021eb2c",
   "schema": "aion-local-worker-v22.2.2",
-  "status_age_seconds": 7.305914878845215,
+  "status_age_seconds": 0.6254336833953857,
   "target_pages": {
     "0x10328de0": {
       "changed_bytes": null,
@@ -376,7 +329,7 @@
       "sha256": null
     }
   },
-  "total_instructions": 2590006268,
+  "total_instructions": 2600006268,
   "transform_progress_estimate": {
     "acceptance_signal": false,
     "allocation_base": "0x5000000000",
@@ -392,7 +345,7 @@
     "projected_instruction_milestone": 1660602469,
     "sample_count": 77
   },
-  "updated_unix": 1784247580.9275215,
+  "updated_unix": 1784247649.9857097,
   "worker": "AION_LOCAL_WORKER_V22_2",
   "yog": "42011cde0000000000000000000000000000000000000000"
 }
