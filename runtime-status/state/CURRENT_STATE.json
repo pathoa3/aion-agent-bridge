@@ -12,7 +12,7 @@
   },
   "main_head": "3c635c7ba12de475fb95d50c6417512add28d8ea",
   "schema": "aion-github-sync-v1.6",
-  "updated_unix": 1784246966.6410613,
+  "updated_unix": 1784247028.80096,
   "workers": [
     {
       "api_count": 964,
@@ -700,7 +700,7 @@
       "reconstruction_ready": false,
       "rip": "0x18021f34e",
       "schema": "aion-local-worker-v22",
-      "status_age_seconds": 17931.91638970375,
+      "status_age_seconds": 17994.08396434784,
       "target_pages": null,
       "total_instructions": 1471000000,
       "transform_progress_estimate": null,
@@ -833,60 +833,10 @@
         }
       ],
       "available": true,
-      "elapsed_seconds": 11611.073922395706,
+      "elapsed_seconds": 11678.56428694725,
       "error": "",
-      "event_count": 95,
+      "event_count": 96,
       "events": [
-        {
-          "after": {
-            "rax": "0xe8",
-            "rcx": "0x1",
-            "rdx": "0x180169618",
-            "rip": "0x180175cf6",
-            "rsp": "0x7000ffde10"
-          },
-          "kind": "api",
-          "new_api_calls": [
-            {
-              "dll": "kernel32.dll",
-              "i": 951,
-              "name": "VirtualAlloc",
-              "ret": "0x5000245000"
-            },
-            {
-              "dll": "kernel32.dll",
-              "i": 952,
-              "name": "GetModuleHandleA",
-              "ret": "0x6200400000"
-            },
-            {
-              "dll": "kernel32.dll",
-              "i": 953,
-              "name": "GetProcAddress",
-              "ret": "0x6000000370"
-            },
-            {
-              "dll": "dynamic",
-              "i": 954,
-              "name": "NtQuerySystemInformation",
-              "ret": "0x0"
-            },
-            {
-              "dll": "kernel32.dll",
-              "i": 955,
-              "name": "IsBadReadPtr",
-              "ret": "0x0"
-            },
-            {
-              "dll": "kernel32.dll",
-              "i": 956,
-              "name": "VirtualFree",
-              "ret": "0x1"
-            }
-          ],
-          "seconds": 0.004147052764892578,
-          "slice": 56970
-        },
         {
           "after": {
             "rax": "0x96",
@@ -1053,6 +1003,9 @@
         },
         {
           "kind": "checkpoint"
+        },
+        {
+          "kind": "checkpoint"
         }
       ],
       "fatal_error_tail": "",
@@ -1098,9 +1051,9 @@
       "process_alive": true,
       "reason": "running",
       "reconstruction_ready": false,
-      "rip": "0x1802207cb",
+      "rip": "0x18021f891",
       "schema": "aion-local-worker-v22.2.2",
-      "status_age_seconds": 52.58734107017517,
+      "status_age_seconds": 47.25653696060181,
       "target_pages": {
         "0x10328de0": {
           "changed_bytes": null,
@@ -1133,7 +1086,7 @@
           "sha256": null
         }
       },
-      "total_instructions": 2490006268,
+      "total_instructions": 2500006268,
       "transform_progress_estimate": {
         "acceptance_signal": false,
         "allocation_base": "0x5000000000",
@@ -1149,7 +1102,7 @@
         "projected_instruction_milestone": 1660602469,
         "sample_count": 77
       },
-      "updated_unix": 1784246913.6843765,
+      "updated_unix": 1784246981.174741,
       "worker": "AION_LOCAL_WORKER_V22_2",
       "yog": "42011cde0000000000000000000000000000000000000000"
     }
