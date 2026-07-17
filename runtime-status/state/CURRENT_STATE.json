@@ -12,7 +12,7 @@
   },
   "main_head": "3c635c7ba12de475fb95d50c6417512add28d8ea",
   "schema": "aion-github-sync-v1.6",
-  "updated_unix": 1784263106.1012044,
+  "updated_unix": 1784263168.7320962,
   "workers": [
     {
       "api_count": 964,
@@ -700,7 +700,7 @@
       "reconstruction_ready": false,
       "rip": "0x18021f34e",
       "schema": "aion-local-worker-v22",
-      "status_age_seconds": 34071.329907894135,
+      "status_age_seconds": 34133.95595383644,
       "target_pages": null,
       "total_instructions": 1471000000,
       "transform_progress_estimate": null,
@@ -833,13 +833,10 @@
         }
       ],
       "available": true,
-      "elapsed_seconds": 27733.353308916092,
+      "elapsed_seconds": 27835.541852235794,
       "error": "",
-      "event_count": 116,
+      "event_count": 117,
       "events": [
-        {
-          "kind": "checkpoint"
-        },
         {
           "kind": "checkpoint"
         },
@@ -924,6 +921,9 @@
         },
         {
           "kind": "checkpoint"
+        },
+        {
+          "kind": "checkpoint"
         }
       ],
       "fatal_error_tail": "",
@@ -969,9 +969,9 @@
       "process_alive": true,
       "reason": "running",
       "reconstruction_ready": false,
-      "rip": "0x18021f37f",
+      "rip": "0x18021f422",
       "schema": "aion-local-worker-v22.2.2",
-      "status_age_seconds": 69.71504497528076,
+      "status_age_seconds": 30.146355390548706,
       "target_pages": {
         "0x10328de0": {
           "changed_bytes": null,
@@ -1004,7 +1004,7 @@
           "sha256": null
         }
       },
-      "total_instructions": 4490006268,
+      "total_instructions": 4500006268,
       "transform_progress_estimate": {
         "acceptance_signal": false,
         "allocation_base": "0x5000000000",
@@ -1020,7 +1020,7 @@
         "projected_instruction_milestone": 1660602469,
         "sample_count": 77
       },
-      "updated_unix": 1784263035.9637637,
+      "updated_unix": 1784263138.1523068,
       "worker": "AION_LOCAL_WORKER_V22_2",
       "yog": "42011cde0000000000000000000000000000000000000000"
     }
