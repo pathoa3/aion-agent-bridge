@@ -1,6 +1,6 @@
 {
-  "schema": "aion-worker-sidecar-v1.5",
-  "updated_unix": 1784305913.3308394,
+  "schema": "aion-worker-sidecar-v1.4",
+  "updated_unix": 1784305989.7017539,
   "workers": [
     {
       "api_count": 964,
