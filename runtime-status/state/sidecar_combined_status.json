@@ -1,6 +1,6 @@
 {
   "schema": "aion-worker-sidecar-v1.4",
-  "updated_unix": 1784276977.9448674,
+  "updated_unix": 1784277058.1325312,
   "workers": [
     {
       "api_count": 964,
@@ -175,7 +175,7 @@
             }
           ]
         },
-        "checkpoint_delta_cache_reprobed": true,
+        "checkpoint_delta_cache_reprobed": false,
         "checkpoint_delta_previous_present": true,
         "checkpoint_instructions": 5600006268,
         "checkpoint_sha256": "6aa835f503567636e2a51e1d93b9a9a7d9bac7cfa8958c46cef03a5f55001c0e",
