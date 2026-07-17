@@ -12,7 +12,7 @@
   },
   "main_head": "3c635c7ba12de475fb95d50c6417512add28d8ea",
   "schema": "aion-github-sync-v1.6",
-  "updated_unix": 1784262109.7465427,
+  "updated_unix": 1784262171.9711561,
   "workers": [
     {
       "api_count": 964,
@@ -700,7 +700,7 @@
       "reconstruction_ready": false,
       "rip": "0x18021f34e",
       "schema": "aion-local-worker-v22",
-      "status_age_seconds": 33074.992557287216,
+      "status_age_seconds": 33137.20868682861,
       "target_pages": null,
       "total_instructions": 1471000000,
       "transform_progress_estimate": null,
@@ -833,13 +833,10 @@
         }
       ],
       "available": true,
-      "elapsed_seconds": 26745.177395105362,
+      "elapsed_seconds": 26844.15266275406,
       "error": "",
-      "event_count": 115,
+      "event_count": 116,
       "events": [
-        {
-          "kind": "checkpoint"
-        },
         {
           "kind": "checkpoint"
         },
@@ -924,6 +921,9 @@
           "kind": "slow",
           "seconds": 1.0687720775604248,
           "slice": 437401
+        },
+        {
+          "kind": "checkpoint"
         }
       ],
       "fatal_error_tail": "",
@@ -969,9 +969,9 @@
       "process_alive": true,
       "reason": "running",
       "reconstruction_ready": false,
-      "rip": "0x18021eb25",
+      "rip": "0x18021ece9",
       "schema": "aion-local-worker-v22.2.2",
-      "status_age_seconds": 61.527883529663086,
+      "status_age_seconds": 24.762997150421143,
       "target_pages": {
         "0x10328de0": {
           "changed_bytes": null,
@@ -1004,7 +1004,7 @@
           "sha256": null
         }
       },
-      "total_instructions": 4390006268,
+      "total_instructions": 4400006268,
       "transform_progress_estimate": {
         "acceptance_signal": false,
         "allocation_base": "0x5000000000",
@@ -1020,7 +1020,7 @@
         "projected_instruction_milestone": 1660602469,
         "sample_count": 77
       },
-      "updated_unix": 1784262047.78785,
+      "updated_unix": 1784262146.7631168,
       "worker": "AION_LOCAL_WORKER_V22_2",
       "yog": "42011cde0000000000000000000000000000000000000000"
     }
