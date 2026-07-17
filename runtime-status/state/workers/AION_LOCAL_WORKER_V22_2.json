@@ -123,7 +123,7 @@
     }
   ],
   "available": true,
-  "elapsed_seconds": 16455.92649626732,
+  "elapsed_seconds": 16529.95849251747,
   "error": "",
   "event_count": 102,
   "events": [
@@ -243,9 +243,9 @@
   "process_alive": true,
   "reason": "running",
   "reconstruction_ready": false,
-  "rip": "0x18021f7e8",
+  "rip": "0x18021ff77",
   "schema": "aion-local-worker-v22.2.2",
-  "status_age_seconds": 22.235639333724976,
+  "status_age_seconds": 10.397701740264893,
   "target_pages": {
     "0x10328de0": {
       "changed_bytes": null,
@@ -278,7 +278,7 @@
       "sha256": null
     }
   },
-  "total_instructions": 3180006268,
+  "total_instructions": 3190006268,
   "transform_progress_estimate": {
     "acceptance_signal": false,
     "allocation_base": "0x5000000000",
@@ -294,7 +294,7 @@
     "projected_instruction_milestone": 1660602469,
     "sample_count": 77
   },
-  "updated_unix": 1784251758.5369513,
+  "updated_unix": 1784251832.5689473,
   "worker": "AION_LOCAL_WORKER_V22_2",
   "yog": "42011cde0000000000000000000000000000000000000000"
 }
