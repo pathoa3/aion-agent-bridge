@@ -296,7 +296,7 @@
   "reconstruction_ready": false,
   "rip": "0x18021eb2c",
   "schema": "aion-local-worker-v22.2.2",
-  "status_age_seconds": 0.6254336833953857,
+  "status_age_seconds": 62.9292209148407,
   "target_pages": {
     "0x10328de0": {
       "changed_bytes": null,
