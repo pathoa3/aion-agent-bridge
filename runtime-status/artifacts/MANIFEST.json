@@ -2639,14 +2639,14 @@
     },
     {
       "location": "AION_LOCAL_WORKER_V22_2/results/status.json",
-      "mtime_unix": 1784281578.727528,
+      "mtime_unix": 1784281769.6387596,
       "name": "status.json",
-      "sha256": "9aa8e6866d2a0323355ce28903cab57e05d1bf90af629577024456b374ad8663",
-      "size": 3435219,
+      "sha256": "08c8020345aaea810b6775b5c77815bcfa0f5d1b95c57d18482849e653d3c894",
+      "size": 3441572,
       "stored_in_git": false,
       "worker": "AION_LOCAL_WORKER_V22_2"
     }
   ],
   "schema": "aion-github-sync-v1.6",
-  "updated_unix": 1784281736.2974105
+  "updated_unix": 1784281798.8155477
 }
