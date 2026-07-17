@@ -12,7 +12,7 @@
   },
   "main_head": "3c635c7ba12de475fb95d50c6417512add28d8ea",
   "schema": "aion-github-sync-v1.6",
-  "updated_unix": 1784249662.3783498,
+  "updated_unix": 1784249724.6773217,
   "workers": [
     {
       "api_count": 964,
@@ -700,7 +700,7 @@
       "reconstruction_ready": false,
       "rip": "0x18021f34e",
       "schema": "aion-local-worker-v22",
-      "status_age_seconds": 20627.61856198311,
+      "status_age_seconds": 20689.88919568062,
       "target_pages": null,
       "total_instructions": 1471000000,
       "transform_progress_estimate": null,
@@ -833,30 +833,10 @@
         }
       ],
       "available": true,
-      "elapsed_seconds": 14344.41946554184,
+      "elapsed_seconds": 14416.887243747711,
       "error": "",
-      "event_count": 99,
+      "event_count": 100,
       "events": [
-        {
-          "after": {
-            "rax": "0x6200002a56",
-            "rcx": "0x5000265000",
-            "rdx": "0x9ca8b852",
-            "rip": "0x18015a4b5",
-            "rsp": "0x7000ffde68"
-          },
-          "kind": "api",
-          "new_api_calls": [
-            {
-              "dll": "kernel32.dll",
-              "i": 964,
-              "name": "VirtualFree",
-              "ret": "0x1"
-            }
-          ],
-          "seconds": 0.0697019100189209,
-          "slice": 67673
-        },
         {
           "after": {
             "rax": "0x9e",
@@ -876,6 +856,9 @@
           ],
           "seconds": 0.07688188552856445,
           "slice": 67674
+        },
+        {
+          "kind": "checkpoint"
         },
         {
           "kind": "checkpoint"
@@ -987,9 +970,9 @@
       "process_alive": true,
       "reason": "running",
       "reconstruction_ready": false,
-      "rip": "0x18021f33f",
+      "rip": "0x18021f28e",
       "schema": "aion-local-worker-v22.2.2",
-      "status_age_seconds": 14.955829858779907,
+      "status_age_seconds": 4.753307580947876,
       "target_pages": {
         "0x10328de0": {
           "changed_bytes": null,
@@ -1022,7 +1005,7 @@
           "sha256": null
         }
       },
-      "total_instructions": 2890006268,
+      "total_instructions": 2900006268,
       "transform_progress_estimate": {
         "acceptance_signal": false,
         "allocation_base": "0x5000000000",
@@ -1038,7 +1021,7 @@
         "projected_instruction_milestone": 1660602469,
         "sample_count": 77
       },
-      "updated_unix": 1784249647.02992,
+      "updated_unix": 1784249719.497698,
       "worker": "AION_LOCAL_WORKER_V22_2",
       "yog": "42011cde0000000000000000000000000000000000000000"
     }
