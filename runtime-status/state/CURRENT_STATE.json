@@ -12,7 +12,7 @@
   },
   "main_head": "3c635c7ba12de475fb95d50c6417512add28d8ea",
   "schema": "aion-github-sync-v1.6",
-  "updated_unix": 1784287288.8549514,
+  "updated_unix": 1784287351.2669883,
   "workers": [
     {
       "api_count": 964,
@@ -700,7 +700,7 @@
       "reconstruction_ready": false,
       "rip": "0x18021f34e",
       "schema": "aion-local-worker-v22",
-      "status_age_seconds": 58254.05821752548,
+      "status_age_seconds": 58316.48489975929,
       "target_pages": null,
       "total_instructions": 1471000000,
       "transform_progress_estimate": null,
@@ -1339,7 +1339,7 @@
       "reconstruction_ready": false,
       "rip": "0x1802207cb",
       "schema": "aion-local-worker-v22.2.2",
-      "status_age_seconds": 70.88630962371826,
+      "status_age_seconds": 133.3071413040161,
       "target_pages": {
         "0x10328de0": {
           "changed_bytes": null,
