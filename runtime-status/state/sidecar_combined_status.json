@@ -1,6 +1,6 @@
 {
   "schema": "aion-worker-sidecar-v1.4",
-  "updated_unix": 1784293459.221505,
+  "updated_unix": 1784293521.6567075,
   "workers": [
     {
       "api_count": 964,
@@ -29,17 +29,17 @@
         "checkpoint_delta": {
           "added_regions": 669,
           "changed_address_max": "0x7000ffdfff",
-          "changed_address_min": "0x5009200000",
+          "changed_address_min": "0x500949d000",
           "changed_bytes": 2740238,
           "changed_pages": 670,
           "changed_regions": 1,
-          "current_instructions": 6300006268,
+          "current_instructions": 6400006268,
           "instruction_interval": 100000000,
           "largest_changed_runs": [
             {
-              "end": "0x500949cfff",
+              "end": "0x5009739fff",
               "pages": 669,
-              "start": "0x5009200000"
+              "start": "0x500949d000"
             },
             {
               "end": "0x7000ffdfff",
@@ -48,126 +48,126 @@
             }
           ],
           "memory_map_equal": false,
-          "previous_instructions": 6200006268,
-          "previous_sha256": "dbd904ccd51c40120f82c1ad98ef4f257bd083c3f3c975047420b9d6e3b4156b",
+          "previous_instructions": 6300006268,
+          "previous_sha256": "0cc8144ea3cbff8c73f853a89c1464744459ebe4390ae73432cf828fe388a38d",
           "probe_page_changes": [],
           "removed_regions": 0,
           "top_changed_regions": [
             {
-              "begin": "0x5009200000",
+              "begin": "0x500949d000",
               "changed_bytes": 4096,
               "changed_pages": 1,
-              "end": "0x5009200fff",
+              "end": "0x500949dfff",
               "perms_after": 7,
               "perms_before": null,
               "size": 4096,
               "state": "added"
             },
             {
-              "begin": "0x5009201000",
+              "begin": "0x500949e000",
               "changed_bytes": 4096,
               "changed_pages": 1,
-              "end": "0x5009201fff",
+              "end": "0x500949efff",
               "perms_after": 7,
               "perms_before": null,
               "size": 4096,
               "state": "added"
             },
             {
-              "begin": "0x5009202000",
+              "begin": "0x500949f000",
               "changed_bytes": 4096,
               "changed_pages": 1,
-              "end": "0x5009202fff",
+              "end": "0x500949ffff",
               "perms_after": 7,
               "perms_before": null,
               "size": 4096,
               "state": "added"
             },
             {
-              "begin": "0x5009203000",
+              "begin": "0x50094a0000",
               "changed_bytes": 4096,
               "changed_pages": 1,
-              "end": "0x5009203fff",
+              "end": "0x50094a0fff",
               "perms_after": 7,
               "perms_before": null,
               "size": 4096,
               "state": "added"
             },
             {
-              "begin": "0x5009204000",
+              "begin": "0x50094a1000",
               "changed_bytes": 4096,
               "changed_pages": 1,
-              "end": "0x5009204fff",
+              "end": "0x50094a1fff",
               "perms_after": 7,
               "perms_before": null,
               "size": 4096,
               "state": "added"
             },
             {
-              "begin": "0x5009205000",
+              "begin": "0x50094a2000",
               "changed_bytes": 4096,
               "changed_pages": 1,
-              "end": "0x5009205fff",
+              "end": "0x50094a2fff",
               "perms_after": 7,
               "perms_before": null,
               "size": 4096,
               "state": "added"
             },
             {
-              "begin": "0x5009206000",
+              "begin": "0x50094a3000",
               "changed_bytes": 4096,
               "changed_pages": 1,
-              "end": "0x5009206fff",
+              "end": "0x50094a3fff",
               "perms_after": 7,
               "perms_before": null,
               "size": 4096,
               "state": "added"
             },
             {
-              "begin": "0x5009207000",
+              "begin": "0x50094a4000",
               "changed_bytes": 4096,
               "changed_pages": 1,
-              "end": "0x5009207fff",
+              "end": "0x50094a4fff",
               "perms_after": 7,
               "perms_before": null,
               "size": 4096,
               "state": "added"
             },
             {
-              "begin": "0x5009208000",
+              "begin": "0x50094a5000",
               "changed_bytes": 4096,
               "changed_pages": 1,
-              "end": "0x5009208fff",
+              "end": "0x50094a5fff",
               "perms_after": 7,
               "perms_before": null,
               "size": 4096,
               "state": "added"
             },
             {
-              "begin": "0x5009209000",
+              "begin": "0x50094a6000",
               "changed_bytes": 4096,
               "changed_pages": 1,
-              "end": "0x5009209fff",
+              "end": "0x50094a6fff",
               "perms_after": 7,
               "perms_before": null,
               "size": 4096,
               "state": "added"
             },
             {
-              "begin": "0x500920a000",
+              "begin": "0x50094a7000",
               "changed_bytes": 4096,
               "changed_pages": 1,
-              "end": "0x500920afff",
+              "end": "0x50094a7fff",
               "perms_after": 7,
               "perms_before": null,
               "size": 4096,
               "state": "added"
             },
             {
-              "begin": "0x500920b000",
+              "begin": "0x50094a8000",
               "changed_bytes": 4096,
               "changed_pages": 1,
-              "end": "0x500920bfff",
+              "end": "0x50094a8fff",
               "perms_after": 7,
               "perms_before": null,
               "size": 4096,
@@ -177,8 +177,8 @@
         },
         "checkpoint_delta_cache_reprobed": false,
         "checkpoint_delta_previous_present": true,
-        "checkpoint_instructions": 6300006268,
-        "checkpoint_sha256": "0cc8144ea3cbff8c73f853a89c1464744459ebe4390ae73432cf828fe388a38d",
+        "checkpoint_instructions": 6400006268,
+        "checkpoint_sha256": "eab95744d0de6a9ab636a64e1c76afe254ecde8a9be963ce80284868f88bb4f9",
         "game_snapshot": {
           "available": false,
           "changed_bytes": null,
@@ -192,79 +192,79 @@
         "rip_coherent": true,
         "rip_first_instructions": [
           {
-            "address": "0x18021f7ed",
-            "bytes": "4883ec08",
-            "mnemonic": "sub",
-            "op_str": "rsp, 8"
+            "address": "0x180220344",
+            "bytes": "4c892c24",
+            "mnemonic": "mov",
+            "op_str": "qword ptr [rsp], r13"
           },
           {
-            "address": "0x18021f7f1",
+            "address": "0x180220348",
+            "bytes": "e90ce7ffff",
+            "mnemonic": "jmp",
+            "op_str": "0x18021ea59"
+          },
+          {
+            "address": "0x18022034d",
             "bytes": "48893424",
             "mnemonic": "mov",
             "op_str": "qword ptr [rsp], rsi"
           },
           {
-            "address": "0x18021f7f5",
-            "bytes": "e9ab010000",
+            "address": "0x180220351",
+            "bytes": "686b632243",
+            "mnemonic": "push",
+            "op_str": "0x4322636b"
+          },
+          {
+            "address": "0x180220356",
+            "bytes": "55",
+            "mnemonic": "push",
+            "op_str": "rbp"
+          },
+          {
+            "address": "0x180220357",
+            "bytes": "e99b070000",
             "mnemonic": "jmp",
-            "op_str": "0x18021f9a5"
+            "op_str": "0x180220af7"
           },
           {
-            "address": "0x18021f7fa",
-            "bytes": "4883c108",
-            "mnemonic": "add",
-            "op_str": "rcx, 8"
-          },
-          {
-            "address": "0x18021f7fe",
-            "bytes": "4883e908",
-            "mnemonic": "sub",
-            "op_str": "rcx, 8"
-          },
-          {
-            "address": "0x18021f802",
-            "bytes": "48870c24",
-            "mnemonic": "xchg",
-            "op_str": "qword ptr [rsp], rcx"
-          },
-          {
-            "address": "0x18021f806",
-            "bytes": "5c",
-            "mnemonic": "pop",
-            "op_str": "rsp"
-          },
-          {
-            "address": "0x18021f807",
-            "bytes": "48892424",
+            "address": "0x18022035c",
+            "bytes": "6641bcb61c",
             "mnemonic": "mov",
-            "op_str": "qword ptr [rsp], rsp"
+            "op_str": "r12w, 0x1cb6"
           },
           {
-            "address": "0x18021f80b",
-            "bytes": "68763bbb28",
-            "mnemonic": "push",
-            "op_str": "0x28bb3b76"
-          },
-          {
-            "address": "0x18021f810",
-            "bytes": "51",
-            "mnemonic": "push",
-            "op_str": "rcx"
-          },
-          {
-            "address": "0x18021f811",
-            "bytes": "8f0424",
-            "mnemonic": "pop",
-            "op_str": "qword ptr [rsp]"
-          },
-          {
-            "address": "0x18021f814",
-            "bytes": "e9e4030000",
+            "address": "0x180220361",
+            "bytes": "e9f1010000",
             "mnemonic": "jmp",
-            "op_str": "0x18021fbfd"
+            "op_str": "0x180220557"
+          },
+          {
+            "address": "0x180220366",
+            "bytes": "4131cd",
+            "mnemonic": "xor",
+            "op_str": "r13d, ecx"
+          },
+          {
+            "address": "0x180220369",
+            "bytes": "e9d0ffffff",
+            "mnemonic": "jmp",
+            "op_str": "0x18022033e"
+          },
+          {
+            "address": "0x18022036e",
+            "bytes": "48893c24",
+            "mnemonic": "mov",
+            "op_str": "qword ptr [rsp], rdi"
+          },
+          {
+            "address": "0x180220372",
+            "bytes": "56",
+            "mnemonic": "push",
+            "op_str": "rsi"
           }
         ],
-        "status_rip": "0x18021f7ed",
+        "status_rip": "0x180220344",
         "target_pages_mapped": 0,
         "target_summary": {
           "0x10328de0": {
@@ -290,12 +290,12 @@
           }
         }
       },
-      "elapsed_seconds": 57927.10056757927,
+      "elapsed_seconds": 58167.70482492447,
       "game_mapped": false,
       "new_milestone_event_count": 0,
       "reason": "running",
       "reconstruction_ready": false,
-      "rip": "0x18021ece5",
+      "rip": "0x180220344",
       "schema": "aion-local-worker-v22.2.2",
       "target_summary": {
         "0x10328de0": {
@@ -320,7 +320,7 @@
           "mapped": false
         }
       },
-      "total_instructions": 6390006268,
+      "total_instructions": 6400006268,
       "worker": "AION_LOCAL_WORKER_V22_2",
       "yog": "42011cde0000000000000000000000000000000000000000"
     }
