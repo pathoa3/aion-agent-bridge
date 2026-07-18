@@ -1,6 +1,6 @@
 # Aion Autonomous Worker Status
 
-Generated: 2026-07-18T22:52:52.4717886+02:00
+Generated: 2026-07-18T23:52:55.8296747+02:00
 
 Repository: pathoa3/aion-agent-bridge
 Branch: worker/runtime-status
@@ -12,11 +12,11 @@ files, credentials, and other large or sensitive artifacts.
 ## Supervisor heartbeat
 
 {
-    "timestamp":  "2026-07-18T18:09:53.1417895+02:00",
-    "phase":  "validation_stopped",
-    "cycle":  1,
-    "message":  "short background validation entered local_cycle but did not complete within observation window; stopped identified validation PIDs; no rapid provider failure loop observed",
-    "supervisor_pid":  38736,
+    "timestamp":  "2026-07-18T23:41:51.4868781+02:00",
+    "phase":  "local_cycle",
+    "cycle":  3,
+    "message":  "",
+    "supervisor_pid":  70476,
     "worker_root":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND",
     "project_root":  "C:\\AionTools",
     "hermes_home":  "C:\\Users\\patho\\AppData\\Local\\hermes",
@@ -25,49 +25,33 @@ files, credentials, and other large or sensitive artifacts.
     "local_endpoint":  "http://localhost:11434/v1",
     "codex_provider":  "openai-codex",
     "codex_model":  "gpt-5.6-sol",
+    "command_timeout_seconds":  1800,
     "last_cycle_mode":  "Local",
-    "last_cycle_exit":  null,
-    "consecutive_failure_count":  0,
-    "last_failure_signature":  ""
+    "last_cycle_exit":  1,
+    "consecutive_failure_count":  2,
+    "last_failure_signature":  "Local|ollama|gemma4:12b|http://localhost:11434/v1|System.Management.Automation.RuntimeException: The variable \u0027$timedOut\u0027 cannot be retrieved because it has not been set.\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r"
 }
 
 
 ## Background supervisor
 
-{
-    "timestamp":  "2026-07-18T18:07:12.3282484+02:00",
-    "pid":  38736,
-    "process_name":  "powershell",
-    "worker_root":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND",
-    "stdout":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND\\logs\\background-supervisor-20260718_180712.stdout.log",
-    "stderr":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND\\logs\\background-supervisor-20260718_180712.stderr.log",
-    "visible_window":  false,
-    "max_cycles":  1,
-    "local_max_turns":  1,
-    "codex_max_turns":  1,
-    "sleep_seconds":  5,
-    "local_provider":  "ollama",
-    "local_model":  "gemma4:12b",
-    "local_endpoint":  "http://localhost:11434/v1",
-    "codex_model":  "gpt-5.6-sol"
-}
-
+_Not available._
 
 ## Last completed Hermes cycle
 
 {
-    "timestamp":  "2026-07-18T17:53:49.0560463+02:00",
+    "timestamp":  "2026-07-18T23:41:41.0719657+02:00",
     "mode":  "Local",
-    "exit_code":  0,
-    "log":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND\\logs\\local-cycle-20260718_174720.log",
+    "exit_code":  1,
+    "log":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND\\logs\\local-cycle-20260718_233146.log",
     "hermes":  "C:\\Users\\patho\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.exe",
     "hermes_home":  "C:\\Users\\patho\\AppData\\Local\\hermes",
     "project_root":  "C:\\AionTools",
     "provider":  "ollama",
     "model":  "gemma4:12b",
     "endpoint":  "http://localhost:11434/v1",
-    "result_state":  "completed",
-    "failure":  ""
+    "result_state":  "failed",
+    "failure":  "System.Management.Automation.RuntimeException: The variable \u0027$timedOut\u0027 cannot be retrieved because it has not been set.\r\n   at System.Management.Automation.ExceptionHandlingOps.CheckActionPreference(FunctionContext funcContext, Exception exception)\r\n   at System.Management.Automation.Interpreter.ActionCallInstruction`2.Run(InterpretedFrame frame)\r\n   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)\r\n   at System.Management.Automation.Interpreter.EnterTryCatchFinallyInstruction.Run(InterpretedFrame frame)"
 }
 
 
@@ -75,16 +59,16 @@ files, credentials, and other large or sensitive artifacts.
 
 # Current Autonomous Worker State
 
-Directive: operator-20260718-integrate-call-rax-provenance-v1
-Reconciled: 2026-07-18T17:53:49+02:00
+Directive: operator-20260718-pass665-mapped-game-inventory-v1
+Reconciled: 2026-07-18T23:52:00+02:00
 
-## Status
+## Main project objective
 
-P0 integration is complete. The completed Codex handoff result is accepted as the current durable state for the null-call chain ending at `0x180166797`.
+Recover EuroAion's live receive/decryption boundary sufficiently to decode sequential world/chat traffic and feed plaintext chat into the automatic translation pipeline.
 
-## Latest proven result
+## Completed evidence
 
-The null indirect call is stack-derived, not a null import-slot hypothesis:
+The null indirect call chain ending at `0x180166797` is integrated and no longer the active worker target:
 
 - `0x180164106: mov rax, qword ptr [rsp]`
 - `0x18016410A: push rax`
@@ -93,17 +77,48 @@ The null indirect call is stack-derived, not a null import-slot hypothesis:
 - `0x180166797: call rax`
 - At `0x180166797`, `RAX = 0`.
 
-## Current focus
+The bounded P1 experiment is complete:
 
-P1: stop immediately before `0x180164106`, record the exact `RSP` and qword address read, then trace the last current-generation write to that address.
+- stop-before RIP: `0x180164106`;
+- `RSP/read address = 0x7000ffdc58`;
+- qword value: `0x0`;
+- last current-generation write: `0x18016773e: mov qword ptr [rsp], rax`;
+- writer `RAX = 0`;
+- classification: stack-pivot construction.
 
-## Immediate blocker
+## Alignment decision
 
-None for P1. Do not request another Codex escalation unless the next bounded experiment produces a genuine blocker.
+The H2 follow-up, "trace why `RAX` is already zero at `0x18016773e`", is classified as `3. Low-priority diagnostic tangent`.
 
-## Safety classification
+Evidence for the classification: P1 already proves the null-call value is stack-pivot construction. Tracing the earlier zero source does not currently produce a mapped runtime `game.dll`, prove Game Winsock IAT slots, prove the active recv/WSARecv hook installer, prove CrySystem/security bootstrap, or recover exact `AegInitEngine` x64 arguments. Pass665/Pass666 are blocked on those main-path artifacts instead.
 
-Diagnostic only. Baseline, production, `AION_LOCAL_WORKER_V22`, and `AION_LOCAL_WORKER_V22_2` remain untouched.
+## Current autonomous-worker supporting task
+
+Run exactly one bounded existing-artifact inventory for Pass665/Pass666:
+
+1. Read existing mapped `game.dll` candidate artifacts only.
+2. Hash each candidate and validate PE/image metadata when available.
+3. Identify whether the best mapped image is coherent enough for static IAT/xref work.
+4. Record missing or unproven mapped pages/ranges that block Game Winsock IAT proof.
+5. Preserve one concise durable result under `reports\`.
+
+## Acceptance gate
+
+Stop after writing one durable result that contains candidate path, SHA-256, size, PE validity, image base, image size, section/range summary, and an explicit yes/no answer for whether this artifact unblocks concrete Game Winsock IAT slot validation.
+
+## Escalation condition
+
+Escalate to Codex only if existing artifacts prove contradictory mapped images or a candidate needed for Pass665/Pass666 is absent, unreadable, or requires a new acquisition plan. Do not escalate merely to continue H2 provenance.
+
+## Prohibited actions
+
+- no production or guest-state mutation;
+- no invalid-page mapping;
+- no seeded values or forced control flow;
+- no binary patching, hooks, injection, or live process attachment;
+- do not modify or stop `AION_LOCAL_WORKER_V22` or `AION_LOCAL_WORKER_V22_2`;
+- do not delete evidence or historical results;
+- do not repeat completed P1 or redo the completed broad harness repair.
 
 ## Evidence
 
@@ -114,15 +129,13 @@ See `state\EVIDENCE_INDEX.md`.
 
 # Local Cycle Result
 
-Directive: operator-20260718-integrate-call-rax-provenance-v1
-Status: completed
-Time: 2026-07-18T17:53:49+02:00
+Directive: operator-20260718-pass665-mapped-game-inventory-v1
+Status: coordination_reconciled
+Time: 2026-07-18T23:52:00+02:00
 
-## Result
+## Completed evidence retained
 
-Integrated the completed Codex handoff result in `handoff\CODEX_RESULT.md`.
-
-Accepted stack-derived null-RAX chain:
+Integrated Codex handoff result and bounded P1 result remain accepted:
 
 - `0x180164106: mov rax, qword ptr [rsp]`
 - `0x18016410A: push rax`
@@ -130,94 +143,30 @@ Accepted stack-derived null-RAX chain:
 - `0x180166792: pop rax`
 - `0x180166797: call rax`
 - `RAX = 0` at `0x180166797`.
-
-## Next action
-
-Run exactly one bounded P1 experiment: stop before `0x180164106`, record `RSP` and the qword address read, trace the last current-generation write to that exact address, and classify the writer.
-
-## Bounded stack-write result
-
-Evidence: `reports\stack_write_180164106_bounded_20260718_1805.json`
-
-- Stopped before `0x180164106: mov rax, qword ptr [rsp]` in the preserved trace.
-- `RSP = 0x7000ffdc58`.
-- Exact qword address read: `0x7000ffdc58`.
-- Qword value before read: `0x0`.
-- Last current-generation write to that exact address: `0x18016773e: mov qword ptr [rsp], rax`.
-- Writer registers: `RSP = 0x7000ffdc58`, `RAX = 0x0`.
+- `RSP/read address = 0x7000ffdc58` before `0x180164106`.
+- Last current-generation write to the stack slot: `0x18016773e: mov qword ptr [rsp], rax`, with `RAX = 0`.
 - Classification: stack-pivot construction.
+
+## Alignment result
+
+H2 follow-up classification: `3. Low-priority diagnostic tangent`.
 
 ## Smallest next action
 
-Trace why `RAX` is zero at `0x18016773e` within the same current-generation trace window.
+Run one existing-artifact-only mapped `game.dll` inventory for Pass665/Pass666 and stop after a single durable report.
 
 
 ## Pending Codex request
 
-## Immediate P0 - Repair autonomous worker harness
+# Codex Request
 
-Before continuing the reverse-engineering request, repair and validate the
-autonomous-worker harness itself.
+Status: no active Codex request.
+Reconciled: 2026-07-18T23:52:00+02:00
 
-Observed failures:
+The previous harness-repair request is obsolete and fulfilled. The active worker target is local-only unless the escalation condition in `state\TASK_QUEUE.md` is met.
 
-1. `openai-codex` was invoked without an explicit model.
-2. An existing `control/request_codex.flag` did not take priority over a new
-   local Gemma cycle.
-3. Hermes CLI arguments had to be updated for the installed CLI:
-   global options before `chat`, prompt through `-z`, and unattended
-   `--cli --yolo`.
-4. Native failures were reduced to an unhelpful `hermes.exe :
-   NativeCommandError`.
-5. Failed cycles did not reliably update heartbeat/result state.
+Do not continue the retired H2 provenance request unless it supplies a concrete missing runtime image, page, state, call edge, or initializer needed by the live receive/decryption path.
 
-Make the smallest coherent patch that:
-
-- gives `request_codex.flag` priority before launching a local cycle;
-- preserves and forwards a configured Codex model;
-- validates both Local and Codex command construction;
-- captures native exit code and complete diagnostic output;
-- updates heartbeat/result state on success and failure;
-- removes a request flag only after a completed Codex cycle;
-- prevents overlapping supervisor or cycle processes;
-- adds focused PowerShell tests or dry-run command validation;
-- preserves all accepted H2 evidence and does not touch baseline,
-  production, AION_LOCAL_WORKER_V22, or AION_LOCAL_WORKER_V22_2.
-
-After the harness is repaired and validated, continue with the existing
-bounded H2 request below.
-
-Return changed files, exact commands, focused tests, hashes, and the next
-smallest action. Do not produce a broad report.
-
-Continue only from the isolated h2_exception_epoch_diagnostic.
-
-Do not touch baseline, production, AION_LOCAL_WORKER_V22, or
-AION_LOCAL_WORKER_V22_2.
-
-The prior 0x1801C06B5 second-boundary interpretation was stale stop
-accounting. The current deterministic blocker is:
-
-- 0x180166797: call rax
-- RAX = 0
-- final RIP/fetch 0x0
-- API count 1218
-- instruction count 725475268
-
-Make the smallest patch/test that:
-
-1. tags exception, dispatch, handler-entry, and checkpoint-restored events with
-   a run-generation ID;
-2. excludes restored historical events from current-run proof;
-3. stops immediately before 0x180166797;
-4. traces the exact producer and provenance of RAX;
-5. records the last write to any supplying slot or context field;
-6. determines whether the null target relates to 0x180159D1F;
-7. preserves first evidence without seeding, invalid-page mapping, forced flow,
-   or guest-state mutation.
-
-Return only: precise blocker, changed files, exact commands, focused tests,
-hashes, and the next smallest action. Do not produce a broad report.
 
 ## Latest Codex result
 
@@ -760,23 +709,33 @@ _Section truncated by the GitHub reporter._
 
 # Autonomous Task Queue
 
-Directive: operator-20260718-integrate-call-rax-provenance-v1
+Directive: operator-20260718-pass665-mapped-game-inventory-v1
 
-## P0 - Integrate completed Codex evidence
+## Completed
 
-DONE.
+- P0 Codex null-RAX chain integration is complete.
+- P1 stack-slot writer trace is complete.
+- Harness provider/model routing is complete: Local uses `--provider ollama --model gemma4:12b`; Codex uses `--provider openai-codex --model gpt-5.6-sol`.
+- Residual strict-mode crash in cycle result capture is fixed by initializing `$timedOut = $false`.
 
-- Verified `handoff\CODEX_RESULT.md` is present and contains the stack-derived null-RAX chain.
-- Recorded the chain in durable state.
-- Retired the prior null-slot hypothesis for this blocker.
+## Current bounded task - Pass665 mapped game image inventory
 
-## P1 - Trace the source stack write
+Perform one existing-artifact-only experiment:
 
-1. Stop immediately before `0x180164106`.
-2. Record `RSP` and the exact qword address read by `mov rax, [rsp]`.
-3. Trace the last current-generation write to that exact address.
-4. Classify the writer as guest logic, stack-pivot construction, exception-context restoration, unwinding, or unresolved.
-5. Preserve first observed evidence and report one bounded result.
+1. Inspect `C:\AionTools\aion_decoder_agent\outbox\pass666_recv_boundary\mapped_game_candidates.csv`.
+2. Verify the listed mapped image candidate files still exist and match their recorded SHA-256 values.
+3. Validate basic PE/image metadata for the best candidate.
+4. Compare the candidate state against `game_winsock_iat_slots.csv` and `game_iat_edges.csv`.
+5. Write one concise durable report under `reports\` that answers whether the mapped image currently unblocks concrete Game Winsock IAT slot validation.
+6. Stop after that one result.
+
+## Acceptance gate
+
+The report must include candidate path, SHA-256, size, PE validity, image base, size of image, section/range summary, Game Winsock IAT-slot status, and the smallest next action for the main decoder path.
+
+## Escalation condition
+
+Create `control\request_codex.flag` and a complete `handoff\CODEX_REQUEST.md` only if the existing mapped image artifacts are missing, contradictory, or insufficient in a way that blocks Pass665/Pass666 from proving concrete Game Winsock IAT slot VAs.
 
 ## Prohibited
 
@@ -784,5 +743,5 @@ DONE.
 - no value seeding;
 - no forced RIP/RSP/flags/branches;
 - no guest-state mutation;
-- no changes to baseline, production, V22, or V22_2;
-- no broad unrelated investigation.
+- no changes to baseline, production, `AION_LOCAL_WORKER_V22`, or `AION_LOCAL_WORKER_V22_2`;
+- no broad unpacking/H2 provenance continuation unless it supplies a concrete missing runtime image, page, state, call edge, or initializer needed by the main path.
