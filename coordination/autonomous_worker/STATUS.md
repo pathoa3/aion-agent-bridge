@@ -1,6 +1,6 @@
 # Aion Autonomous Worker Status
 
-Generated: 2026-07-18T16:07:57.5495241+02:00
+Generated: 2026-07-18T16:52:31.2311852+02:00
 
 Repository: pathoa3/aion-agent-bridge
 Branch: worker/runtime-status
@@ -12,11 +12,11 @@ files, credentials, and other large or sensitive artifacts.
 ## Supervisor heartbeat
 
 {
-    "timestamp":  "2026-07-18T16:06:52.5348127+02:00",
+    "timestamp":  "2026-07-18T16:30:03.5330269+02:00",
     "phase":  "local_cycle",
-    "cycle":  2,
+    "cycle":  1,
     "message":  "",
-    "supervisor_pid":  69252,
+    "supervisor_pid":  68792,
     "worker_root":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND",
     "project_root":  "C:\\AionTools",
     "hermes_home":  "C:\\Users\\patho\\AppData\\Local\\hermes"
@@ -25,68 +25,20 @@ files, credentials, and other large or sensitive artifacts.
 
 ## Background supervisor
 
-{
-    "timestamp":  "2026-07-18T16:03:59.9492232+02:00",
-    "pid":  69252,
-    "process_name":  "powershell",
-    "worker_root":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND",
-    "stdout":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND\\logs\\background-supervisor-20260718_160359.stdout.log",
-    "stderr":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND\\logs\\background-supervisor-20260718_160359.stderr.log",
-    "visible_window":  false,
-    "max_cycles":  0,
-    "local_max_turns":  90,
-    "codex_max_turns":  90,
-    "sleep_seconds":  10
-}
-
+_Not available._
 
 ## Last completed Hermes cycle
 
 {
-    "timestamp":  "2026-07-18T15:44:23.5817385+02:00",
-    "cycle":  -1,
-    "phase":  "deterministic_reconciliation",
-    "status":  "completed",
-    "directive_id":  "operator-20260718-h2-stale-stop-null-call-v1",
-    "feedback_id":  "feedback-20260718-stale-h2-second-epoch-v1",
-    "blocker":  "null_indirect_call",
-    "source_rip":  "0x180166797",
-    "rax":  "0x0",
-    "final_rip":  "0x0",
-    "api_count":  1218,
-    "instruction_count":  725475268,
-    "verified_second_exception_epoch":  false,
-    "evidence":  [
-                     {
-                         "name":  "diagnostic_result",
-                         "path":  "C:\\AionTools\\AION_SHADOW_API_CONTRACT_MATRIX_V1_12\\h2_exception_epoch_diagnostic\\results_h2\\exception_epochs\\exception_epoch_diagnostic.json",
-                         "expected_sha256":  "92772B48992521C3ABB4EAC480FB05215F1001DA42E35B426382AFAA32508DC9",
-                         "actual_sha256":  "92772B48992521C3ABB4EAC480FB05215F1001DA42E35B426382AFAA32508DC9",
-                         "strict":  true,
-                         "hash_matches":  true,
-                         "matching_reviewed_copy":  ""
-                     },
-                     {
-                         "name":  "null_fetch_checkpoint",
-                         "path":  "C:\\AionTools\\AION_SHADOW_API_CONTRACT_MATRIX_V1_12\\h2_exception_epoch_diagnostic\\results_h2\\exception_epochs\\checkpoints\\epoch_runner_null_fetch_after_stale_stop.aionckpt",
-                         "expected_sha256":  "B8B8AE6D09821E458E4EDF1AD1BD330CCC40FE92AECDC73C1F0E398D5E678A57",
-                         "actual_sha256":  "B8B8AE6D09821E458E4EDF1AD1BD330CCC40FE92AECDC73C1F0E398D5E678A57",
-                         "strict":  true,
-                         "hash_matches":  true,
-                         "matching_reviewed_copy":  ""
-                     },
-                     {
-                         "name":  "runner_current_copy",
-                         "path":  "C:\\AionTools\\AION_SHADOW_API_CONTRACT_MATRIX_V1_12\\h2_exception_epoch_diagnostic\\exception_epoch_runner.py",
-                         "expected_sha256":  "79A9B6F0C364B3A9BDD34D4A5ABC77606715BA97EEDD6586EAD395076C987EC0",
-                         "actual_sha256":  "B734A2D8107FD31270666A6A02A586C0127C1363AB69AE9098D3B14DFE0193D9",
-                         "strict":  false,
-                         "hash_matches":  false,
-                         "matching_reviewed_copy":  ""
-                     }
-                 ],
-    "production_untouched":  true
+    "timestamp":  "2026-07-18T16:34:42.0064861+02:00",
+    "mode":  "Local",
+    "exit_code":  0,
+    "log":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND\\logs\\local-cycle-20260718_163003.log",
+    "hermes":  "C:\\Users\\patho\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.exe",
+    "hermes_home":  "C:\\Users\\patho\\AppData\\Local\\hermes",
+    "project_root":  "C:\\AionTools"
 }
+
 
 ## Current accepted project state
 
@@ -178,6 +130,42 @@ Execute handoff\CODEX_REQUEST.md. Do not launch another broad Hermes
 investigation first.
 
 ## Pending Codex request
+
+## Immediate P0 - Repair autonomous worker harness
+
+Before continuing the reverse-engineering request, repair and validate the
+autonomous-worker harness itself.
+
+Observed failures:
+
+1. `openai-codex` was invoked without an explicit model.
+2. An existing `control/request_codex.flag` did not take priority over a new
+   local Gemma cycle.
+3. Hermes CLI arguments had to be updated for the installed CLI:
+   global options before `chat`, prompt through `-z`, and unattended
+   `--cli --yolo`.
+4. Native failures were reduced to an unhelpful `hermes.exe :
+   NativeCommandError`.
+5. Failed cycles did not reliably update heartbeat/result state.
+
+Make the smallest coherent patch that:
+
+- gives `request_codex.flag` priority before launching a local cycle;
+- preserves and forwards a configured Codex model;
+- validates both Local and Codex command construction;
+- captures native exit code and complete diagnostic output;
+- updates heartbeat/result state on success and failure;
+- removes a request flag only after a completed Codex cycle;
+- prevents overlapping supervisor or cycle processes;
+- adds focused PowerShell tests or dry-run command validation;
+- preserves all accepted H2 evidence and does not touch baseline,
+  production, AION_LOCAL_WORKER_V22, or AION_LOCAL_WORKER_V22_2.
+
+After the harness is repaired and validated, continue with the existing
+bounded H2 request below.
+
+Return changed files, exact commands, focused tests, hashes, and the next
+smallest action. Do not produce a broad report.
 
 Continue only from the isolated h2_exception_epoch_diagnostic.
 
