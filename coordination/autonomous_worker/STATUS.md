@@ -1,6 +1,6 @@
 # Aion Autonomous Worker Status
 
-Generated: 2026-07-18T17:52:34.8332367+02:00
+Generated: 2026-07-18T18:52:38.6534806+02:00
 
 Repository: pathoa3/aion-agent-bridge
 Branch: worker/runtime-status
@@ -12,51 +12,62 @@ files, credentials, and other large or sensitive artifacts.
 ## Supervisor heartbeat
 
 {
-    "timestamp":  "2026-07-18T17:30:01.4025506+02:00",
-    "phase":  "sleep",
-    "cycle":  100,
-    "message":  "10 seconds",
-    "supervisor_pid":  2336,
+    "timestamp":  "2026-07-18T18:09:53.1417895+02:00",
+    "phase":  "validation_stopped",
+    "cycle":  1,
+    "message":  "short background validation entered local_cycle but did not complete within observation window; stopped identified validation PIDs; no rapid provider failure loop observed",
+    "supervisor_pid":  38736,
     "worker_root":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND",
     "project_root":  "C:\\AionTools",
     "hermes_home":  "C:\\Users\\patho\\AppData\\Local\\hermes",
+    "local_provider":  "ollama",
+    "local_model":  "gemma4:12b",
+    "local_endpoint":  "http://localhost:11434/v1",
+    "codex_provider":  "openai-codex",
+    "codex_model":  "gpt-5.6-sol",
     "last_cycle_mode":  "Local",
-    "last_cycle_exit":  1
+    "last_cycle_exit":  null,
+    "consecutive_failure_count":  0,
+    "last_failure_signature":  ""
 }
 
 
 ## Background supervisor
 
 {
-    "timestamp":  "2026-07-18T17:07:58.3824040+02:00",
-    "pid":  2336,
+    "timestamp":  "2026-07-18T18:07:12.3282484+02:00",
+    "pid":  38736,
     "process_name":  "powershell",
     "worker_root":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND",
-    "stdout":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND\\logs\\background-supervisor-20260718_170758.stdout.log",
-    "stderr":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND\\logs\\background-supervisor-20260718_170758.stderr.log",
+    "stdout":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND\\logs\\background-supervisor-20260718_180712.stdout.log",
+    "stderr":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND\\logs\\background-supervisor-20260718_180712.stderr.log",
     "visible_window":  false,
-    "max_cycles":  0,
-    "local_max_turns":  90,
-    "codex_max_turns":  90,
-    "sleep_seconds":  10
+    "max_cycles":  1,
+    "local_max_turns":  1,
+    "codex_max_turns":  1,
+    "sleep_seconds":  5,
+    "local_provider":  "ollama",
+    "local_model":  "gemma4:12b",
+    "local_endpoint":  "http://localhost:11434/v1",
+    "codex_model":  "gpt-5.6-sol"
 }
 
 
 ## Last completed Hermes cycle
 
 {
-    "timestamp":  "2026-07-18T17:46:40.7325098+02:00",
+    "timestamp":  "2026-07-18T17:53:49.0560463+02:00",
     "mode":  "Local",
-    "exit_code":  2,
-    "log":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND\\logs\\local-cycle-20260718_174638.log",
+    "exit_code":  0,
+    "log":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND\\logs\\local-cycle-20260718_174720.log",
     "hermes":  "C:\\Users\\patho\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.exe",
     "hermes_home":  "C:\\Users\\patho\\AppData\\Local\\hermes",
     "project_root":  "C:\\AionTools",
     "provider":  "ollama",
     "model":  "gemma4:12b",
     "endpoint":  "http://localhost:11434/v1",
-    "result_state":  "failed",
-    "failure":  "usage: hermes [-h] [--version] [-z PROMPT] [--usage-file PATH] [-m MODEL]\r\n              [--provider PROVIDER] [-t TOOLSETS] [--resume SESSION]\r\n              [--no-restore-cwd] [--continue [SESSION_NAME]] [--worktree]\r\n              [--accept-hooks] [--skills SKILLS] [--yolo] [--pass-session-id]\r\n              [--ignore-user-config] [--ignore-rules] [--safe-mode] [--tui]\r\n              [--cli] [--dev]\r\n              {chat,model,moa,fallback,secrets,migrate,gateway,proxy,lsp,setup,postinstall,whatsapp,whatsapp-cloud,slack,send,login,logout,auth,status,cron,webhook,portal,kanban,project,hooks,doctor,security,dump,debug,backup,checkpoints,import,config,console,pairing,skills,bundles,plugins,curator,pets,journey,learning,memory-graph,memory,tools,computer-use,mcp,sessions,insights,claw,version,update,uninstall,acp,profile,completion,dashboard,serve,desktop,gui,logs,prompt-size}\r\n              ...\r\nhermes: error: argument command: invalid choice: \u0027are\u0027 (choose from \u0027chat\u0027, \u0027model\u0027, \u0027moa\u0027, \u0027fallback\u0027, \u0027secrets\u0027, \u0027migrate\u0027, \u0027gateway\u0027, \u0027proxy\u0027, \u0027lsp\u0027, \u0027setup\u0027, \u0027postinstall\u0027, \u0027whatsapp\u0027, \u0027whatsapp-cloud\u0027, \u0027slack\u0027, \u0027send\u0027, \u0027login\u0027, \u0027logout\u0027, \u0027auth\u0027, \u0027status\u0027, \u0027cron\u0027, \u0027webhook\u0027, \u0027portal\u0027, \u0027kanban\u0027, \u0027project\u0027, \u0027hooks\u0027, \u0027doctor\u0027, \u0027security\u0027, \u0027dump\u0027, \u0027debug\u0027, \u0027backup\u0027, \u0027checkpoints\u0027, \u0027import\u0027, \u0027config\u0027, \u0027console\u0027, \u0027pairing\u0027, \u0027skills\u0027, \u0027bundles\u0027, \u0027plugins\u0027, \u0027curator\u0027, \u0027pets\u0027, \u0027journey\u0027, \u0027learning\u0027, \u0027memory-graph\u0027, \u0027memory\u0027, \u0027tools\u0027, \u0027computer-use\u0027, \u0027mcp\u0027, \u0027sessions\u0027, \u0027insights\u0027, \u0027claw\u0027, \u0027version\u0027, \u0027update\u0027, \u0027uninstall\u0027, \u0027acp\u0027, \u0027profile\u0027, \u0027completion\u0027, \u0027dashboard\u0027, \u0027serve\u0027, \u0027desktop\u0027, \u0027gui\u0027, \u0027logs\u0027, \u0027prompt-size\u0027)"
+    "result_state":  "completed",
+    "failure":  ""
 }
 
 
@@ -64,90 +75,82 @@ files, credentials, and other large or sensitive artifacts.
 
 # Current Autonomous Worker State
 
-Directive: operator-20260718-h2-stale-stop-null-call-v1
-Reconciled: 2026-07-18T15:44:23.5632163+02:00
-Reconciliation mode: deterministic recovery after Hermes response truncation.
+Directive: operator-20260718-integrate-call-rax-provenance-v1
+Reconciled: 2026-07-18T17:53:49+02:00
 
-## Current milestone
+## Status
 
-Protected startup/unpacking and exception-dispatch fidelity analysis.
+P0 integration is complete. The completed Codex handoff result is accepted as the current durable state for the null-call chain ending at `0x180166797`.
 
 ## Latest proven result
 
-The supposed second allocation-boundary exception at 0x1801C06B5 is not
-verified. It was stale stop-state accounting. The preserved access remained the
-first boundary fault:
+The null indirect call is stack-derived, not a null import-slot hypothesis:
 
-- 0x18022131B: cmp dword ptr [rsi], ebx
-- read size 4 at 0x50003AC000
-- VirtualAlloc(0x360) -> 0x50003AB000
-- rounded allocation end 0x50003AC000
-- invalid page remained unmapped
+- `0x180164106: mov rax, qword ptr [rsp]`
+- `0x18016410A: push rax`
+- `0x18016155E: push qword ptr [rsp + 8]`
+- `0x180166792: pop rax`
+- `0x180166797: call rax`
+- At `0x180166797`, `RAX = 0`.
 
-After clearing the stale stop, the isolated diagnostic reached the deterministic
-blocker:
+## Current focus
 
-- source: 0x180166797: call rax
-- RAX = 0
-- final RIP/fetch address: 0x0
-- API count: 1218
-- instruction count: 725475268
-
-Same-run evidence proves 0x1801D857D, RtlLookupFunctionEntry, and
-MessageBoxExA. It does not prove current-run execution of 0x1801F9E46.
-Restored historical exception_dispatches must not be treated as
-current-generation evidence.
+P1: stop immediately before `0x180164106`, record the exact `RSP` and qword address read, then trace the last current-generation write to that address.
 
 ## Immediate blocker
 
-Recover the exact producer and provenance of the null RAX used by
-0x180166797, while separating checkpoint-restored historical events from
-events generated by the current run.
+None for P1. Do not request another Codex escalation unless the next bounded experiment produces a genuine blocker.
 
 ## Safety classification
 
-Diagnostic only. Baseline, production, AION_LOCAL_WORKER_V22, and
-AION_LOCAL_WORKER_V22_2 remain untouched.
+Diagnostic only. Baseline, production, `AION_LOCAL_WORKER_V22`, and `AION_LOCAL_WORKER_V22_2` remain untouched.
 
 ## Evidence
 
-See state\EVIDENCE_INDEX.md.
+See `state\EVIDENCE_INDEX.md`.
+
 
 ## Latest local-worker result
 
 # Local Cycle Result
 
-Directive: operator-20260718-h2-stale-stop-null-call-v1
-Status: reconciled by deterministic recovery
-Time: 2026-07-18T15:44:23.5652184+02:00
+Directive: operator-20260718-integrate-call-rax-provenance-v1
+Status: completed
+Time: 2026-07-18T17:53:49+02:00
 
 ## Result
 
-The prior 0x1801C06B5 second-epoch interpretation is invalidated as stale
-stop-state accounting.
+Integrated the completed Codex handoff result in `handoff\CODEX_RESULT.md`.
 
-The current deterministic blocker is:
+Accepted stack-derived null-RAX chain:
 
-- 0x180166797: call rax
-- RAX = 0
-- final RIP 0x0
-- API count 1218
-- instruction count 725475268
-
-There is no verified second exception epoch.
-
-## Validation
-
-- all three supplied evidence files exist;
-- all three SHA-256 hashes match;
-- previously reported parser and compile checks passed;
-- previously reported isolated test result was 38/38 OK;
-- production and V22/V22_2 were not modified.
+- `0x180164106: mov rax, qword ptr [rsp]`
+- `0x18016410A: push rax`
+- `0x18016155E: push qword ptr [rsp + 8]`
+- `0x180166792: pop rax`
+- `0x180166797: call rax`
+- `RAX = 0` at `0x180166797`.
 
 ## Next action
 
-Execute handoff\CODEX_REQUEST.md. Do not launch another broad Hermes
-investigation first.
+Run exactly one bounded P1 experiment: stop before `0x180164106`, record `RSP` and the qword address read, trace the last current-generation write to that exact address, and classify the writer.
+
+## Bounded stack-write result
+
+Evidence: `reports\stack_write_180164106_bounded_20260718_1805.json`
+
+- Stopped before `0x180164106: mov rax, qword ptr [rsp]` in the preserved trace.
+- `RSP = 0x7000ffdc58`.
+- Exact qword address read: `0x7000ffdc58`.
+- Qword value before read: `0x0`.
+- Last current-generation write to that exact address: `0x18016773e: mov qword ptr [rsp], rax`.
+- Writer registers: `RSP = 0x7000ffdc58`, `RAX = 0x0`.
+- Classification: stack-pivot construction.
+
+## Smallest next action
+
+Trace why `RAX` is zero at `0x18016773e` within the same current-generation trace window.
+
 
 ## Pending Codex request
 
@@ -761,18 +764,19 @@ Directive: operator-20260718-integrate-call-rax-provenance-v1
 
 ## P0 - Integrate completed Codex evidence
 
-1. Verify handoff/CODEX_RESULT.md and referenced hashes.
-2. Record the proven stack-derived RAX chain.
-3. Update durable state and evidence indexes.
-4. Explicitly retire the prior null-slot hypothesis.
+DONE.
+
+- Verified `handoff\CODEX_RESULT.md` is present and contains the stack-derived null-RAX chain.
+- Recorded the chain in durable state.
+- Retired the prior null-slot hypothesis for this blocker.
 
 ## P1 - Trace the source stack write
 
-1. Stop immediately before 0x180164106.
-2. Record RSP and the exact qword address read.
-3. Trace the last current-generation write to that address.
-4. Classify the writer without modifying guest state.
-5. Preserve evidence and report one bounded result.
+1. Stop immediately before `0x180164106`.
+2. Record `RSP` and the exact qword address read by `mov rax, [rsp]`.
+3. Trace the last current-generation write to that exact address.
+4. Classify the writer as guest logic, stack-pivot construction, exception-context restoration, unwinding, or unresolved.
+5. Preserve first observed evidence and report one bounded result.
 
 ## Prohibited
 
