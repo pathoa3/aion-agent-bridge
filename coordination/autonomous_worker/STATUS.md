@@ -1,6 +1,6 @@
 # Aion Autonomous Worker Status
 
-Generated: 2026-07-18T15:52:27.7845540+02:00
+Generated: 2026-07-18T16:07:57.5495241+02:00
 
 Repository: pathoa3/aion-agent-bridge
 Branch: worker/runtime-status
@@ -12,11 +12,11 @@ files, credentials, and other large or sensitive artifacts.
 ## Supervisor heartbeat
 
 {
-    "timestamp":  "2026-07-18T15:51:18.6711250+02:00",
+    "timestamp":  "2026-07-18T16:06:52.5348127+02:00",
     "phase":  "local_cycle",
     "cycle":  2,
     "message":  "",
-    "supervisor_pid":  3540,
+    "supervisor_pid":  69252,
     "worker_root":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND",
     "project_root":  "C:\\AionTools",
     "hermes_home":  "C:\\Users\\patho\\AppData\\Local\\hermes"
@@ -26,12 +26,12 @@ files, credentials, and other large or sensitive artifacts.
 ## Background supervisor
 
 {
-    "timestamp":  "2026-07-18T13:04:13.2467863+02:00",
-    "pid":  63556,
+    "timestamp":  "2026-07-18T16:03:59.9492232+02:00",
+    "pid":  69252,
     "process_name":  "powershell",
     "worker_root":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND",
-    "stdout":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND\\logs\\background-supervisor-20260718_130413.stdout.log",
-    "stderr":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND\\logs\\background-supervisor-20260718_130413.stderr.log",
+    "stdout":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND\\logs\\background-supervisor-20260718_160359.stdout.log",
+    "stderr":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND\\logs\\background-supervisor-20260718_160359.stderr.log",
     "visible_window":  false,
     "max_cycles":  0,
     "local_max_turns":  90,
