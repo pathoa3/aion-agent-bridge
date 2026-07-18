@@ -1,6 +1,6 @@
 # Aion Autonomous Worker Status
 
-Generated: 2026-07-18T17:04:28.1241701+02:00
+Generated: 2026-07-18T17:52:34.8332367+02:00
 
 Repository: pathoa3/aion-agent-bridge
 Branch: worker/runtime-status
@@ -12,31 +12,51 @@ files, credentials, and other large or sensitive artifacts.
 ## Supervisor heartbeat
 
 {
-    "timestamp":  "2026-07-18T16:30:03.5330269+02:00",
-    "phase":  "local_cycle",
-    "cycle":  1,
-    "message":  "",
-    "supervisor_pid":  68792,
+    "timestamp":  "2026-07-18T17:30:01.4025506+02:00",
+    "phase":  "sleep",
+    "cycle":  100,
+    "message":  "10 seconds",
+    "supervisor_pid":  2336,
     "worker_root":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND",
     "project_root":  "C:\\AionTools",
-    "hermes_home":  "C:\\Users\\patho\\AppData\\Local\\hermes"
+    "hermes_home":  "C:\\Users\\patho\\AppData\\Local\\hermes",
+    "last_cycle_mode":  "Local",
+    "last_cycle_exit":  1
 }
 
 
 ## Background supervisor
 
-_Not available._
+{
+    "timestamp":  "2026-07-18T17:07:58.3824040+02:00",
+    "pid":  2336,
+    "process_name":  "powershell",
+    "worker_root":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND",
+    "stdout":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND\\logs\\background-supervisor-20260718_170758.stdout.log",
+    "stderr":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND\\logs\\background-supervisor-20260718_170758.stderr.log",
+    "visible_window":  false,
+    "max_cycles":  0,
+    "local_max_turns":  90,
+    "codex_max_turns":  90,
+    "sleep_seconds":  10
+}
+
 
 ## Last completed Hermes cycle
 
 {
-    "timestamp":  "2026-07-18T16:56:46.5275420+02:00",
-    "mode":  "Codex",
-    "exit_code":  0,
-    "log":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND\\logs\\codex-cycle-20260718_164510.log",
+    "timestamp":  "2026-07-18T17:46:40.7325098+02:00",
+    "mode":  "Local",
+    "exit_code":  2,
+    "log":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND\\logs\\local-cycle-20260718_174638.log",
     "hermes":  "C:\\Users\\patho\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.exe",
     "hermes_home":  "C:\\Users\\patho\\AppData\\Local\\hermes",
-    "project_root":  "C:\\AionTools"
+    "project_root":  "C:\\AionTools",
+    "provider":  "ollama",
+    "model":  "gemma4:12b",
+    "endpoint":  "http://localhost:11434/v1",
+    "result_state":  "failed",
+    "failure":  "usage: hermes [-h] [--version] [-z PROMPT] [--usage-file PATH] [-m MODEL]\r\n              [--provider PROVIDER] [-t TOOLSETS] [--resume SESSION]\r\n              [--no-restore-cwd] [--continue [SESSION_NAME]] [--worktree]\r\n              [--accept-hooks] [--skills SKILLS] [--yolo] [--pass-session-id]\r\n              [--ignore-user-config] [--ignore-rules] [--safe-mode] [--tui]\r\n              [--cli] [--dev]\r\n              {chat,model,moa,fallback,secrets,migrate,gateway,proxy,lsp,setup,postinstall,whatsapp,whatsapp-cloud,slack,send,login,logout,auth,status,cron,webhook,portal,kanban,project,hooks,doctor,security,dump,debug,backup,checkpoints,import,config,console,pairing,skills,bundles,plugins,curator,pets,journey,learning,memory-graph,memory,tools,computer-use,mcp,sessions,insights,claw,version,update,uninstall,acp,profile,completion,dashboard,serve,desktop,gui,logs,prompt-size}\r\n              ...\r\nhermes: error: argument command: invalid choice: \u0027are\u0027 (choose from \u0027chat\u0027, \u0027model\u0027, \u0027moa\u0027, \u0027fallback\u0027, \u0027secrets\u0027, \u0027migrate\u0027, \u0027gateway\u0027, \u0027proxy\u0027, \u0027lsp\u0027, \u0027setup\u0027, \u0027postinstall\u0027, \u0027whatsapp\u0027, \u0027whatsapp-cloud\u0027, \u0027slack\u0027, \u0027send\u0027, \u0027login\u0027, \u0027logout\u0027, \u0027auth\u0027, \u0027status\u0027, \u0027cron\u0027, \u0027webhook\u0027, \u0027portal\u0027, \u0027kanban\u0027, \u0027project\u0027, \u0027hooks\u0027, \u0027doctor\u0027, \u0027security\u0027, \u0027dump\u0027, \u0027debug\u0027, \u0027backup\u0027, \u0027checkpoints\u0027, \u0027import\u0027, \u0027config\u0027, \u0027console\u0027, \u0027pairing\u0027, \u0027skills\u0027, \u0027bundles\u0027, \u0027plugins\u0027, \u0027curator\u0027, \u0027pets\u0027, \u0027journey\u0027, \u0027learning\u0027, \u0027memory-graph\u0027, \u0027memory\u0027, \u0027tools\u0027, \u0027computer-use\u0027, \u0027mcp\u0027, \u0027sessions\u0027, \u0027insights\u0027, \u0027claw\u0027, \u0027version\u0027, \u0027update\u0027, \u0027uninstall\u0027, \u0027acp\u0027, \u0027profile\u0027, \u0027completion\u0027, \u0027dashboard\u0027, \u0027serve\u0027, \u0027desktop\u0027, \u0027gui\u0027, \u0027logs\u0027, \u0027prompt-size\u0027)"
 }
 
 
@@ -737,35 +757,28 @@ _Section truncated by the GitHub reporter._
 
 # Autonomous Task Queue
 
-Directive: operator-20260718-h2-stale-stop-null-call-v1
+Directive: operator-20260718-integrate-call-rax-provenance-v1
 
-Work atomically. One cycle must complete one bounded artifact or one bounded
-experiment. Write durable files before the final response.
+## P0 - Integrate completed Codex evidence
 
-## P0 - Codex escalation: generation tags and null-call provenance
+1. Verify handoff/CODEX_RESULT.md and referenced hashes.
+2. Record the proven stack-derived RAX chain.
+3. Update durable state and evidence indexes.
+4. Explicitly retire the prior null-slot hypothesis.
 
-1. Continue only from isolated h2_exception_epoch_diagnostic.
-2. Add a run-generation ID to exception, dispatch, handler-entry, and
-   checkpoint-restored events.
-3. Stop immediately before 0x180166797.
-4. Recover the exact producer and provenance of RAX.
-5. Record the last write to the register, stack slot, callback slot, or restored
-   context field supplying RAX.
-6. Determine whether the null target is causally related to 0x180159D1F.
-7. Return changed files, exact commands, focused tests, and hashes.
+## P1 - Trace the source stack write
 
-## P1 - Hermes review after Codex
+1. Stop immediately before 0x180164106.
+2. Record RSP and the exact qword address read.
+3. Trace the last current-generation write to that address.
+4. Classify the writer without modifying guest state.
+5. Preserve evidence and report one bounded result.
 
-1. Verify the Codex result and hashes.
-2. Confirm historical events are excluded from current-run proof.
-3. Update durable state with only observed evidence.
-4. Select the smallest next bounded experiment.
-
-## Prohibited actions
+## Prohibited
 
 - no invalid-page mapping;
-- no reseeding 0x180159D1F;
-- no forced RIP, RSP, flags, branch, or guest-state mutation;
-- no mixing restored historical events with current-run evidence;
+- no value seeding;
+- no forced RIP/RSP/flags/branches;
+- no guest-state mutation;
 - no changes to baseline, production, V22, or V22_2;
-- no broad report or unrelated rescan.
+- no broad unrelated investigation.
