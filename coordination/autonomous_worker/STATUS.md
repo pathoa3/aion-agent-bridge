@@ -1,6 +1,6 @@
 # Aion Autonomous Worker Status
 
-Generated: 2026-07-19T03:53:10.1025871+02:00
+Generated: 2026-07-19T04:53:13.5291659+02:00
 
 Repository: pathoa3/aion-agent-bridge
 Branch: worker/runtime-status
@@ -12,10 +12,10 @@ files, credentials, and other large or sensitive artifacts.
 ## Supervisor heartbeat
 
 {
-    "timestamp":  "2026-07-19T03:52:57.4081655+02:00",
-    "phase":  "local_cycle",
-    "cycle":  38,
-    "message":  "",
+    "timestamp":  "2026-07-19T04:39:38.0411948+02:00",
+    "phase":  "circuit_breaker",
+    "cycle":  45,
+    "message":  "Local|ollama|gemma4:12b|http://localhost:11434/v1|",
     "supervisor_pid":  62088,
     "worker_root":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND",
     "project_root":  "C:\\AionTools",
@@ -27,9 +27,9 @@ files, credentials, and other large or sensitive artifacts.
     "codex_model":  "gpt-5.6-sol",
     "command_timeout_seconds":  1800,
     "last_cycle_mode":  "Local",
-    "last_cycle_exit":  0,
-    "consecutive_failure_count":  0,
-    "last_failure_signature":  ""
+    "last_cycle_exit":  2,
+    "consecutive_failure_count":  3,
+    "last_failure_signature":  "Local|ollama|gemma4:12b|http://localhost:11434/v1|"
 }
 
 
@@ -58,17 +58,17 @@ files, credentials, and other large or sensitive artifacts.
 ## Last completed Hermes cycle
 
 {
-    "timestamp":  "2026-07-19T03:52:46.6752548+02:00",
+    "timestamp":  "2026-07-19T04:39:37.6248026+02:00",
     "mode":  "Local",
-    "exit_code":  0,
-    "log":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND\\logs\\local-cycle-20260719_034745.log",
+    "exit_code":  2,
+    "log":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND\\logs\\local-cycle-20260719_043704.log",
     "hermes":  "C:\\Users\\patho\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.exe",
     "hermes_home":  "C:\\Users\\patho\\AppData\\Local\\hermes",
     "project_root":  "C:\\AionTools",
     "provider":  "ollama",
     "model":  "gemma4:12b",
     "endpoint":  "http://localhost:11434/v1",
-    "result_state":  "completed",
+    "result_state":  "failed",
     "failure":  ""
 }
 
