@@ -1,0 +1,18 @@
+Pass678 generic v2 segment validation
+=====================================
+Tests passed: 26
+Source checkpoint: checkpoint_0250000000_v2
+Source manifest SHA-256: da648ef3cb2cc9ad54aba41936a21b0b35c47dec55f0c1e07045cbcbb7dab212
+Source instruction count: 250,000,000
+Target checkpoint: checkpoint_0300000000_v2
+Target manifest SHA-256: f0af4c904ec7ec7beb8bc4c707a4db9eaf17bbb7688a890e980dcd75cb5b3977
+Final instruction count: 300000000
+RIP: 0x11b56759
+API count: 12
+Stop reason: segment_instruction_limit
+Exact state equivalence: True
+Changed pages: 1
+Receive candidates: 0
+Provider page nonzero: False
+Synthetic/file/mapping invariants: file handles 0, mapping handles 1, orphan mappings 0x8004
+No receive bridge is claimed without exact executable reader/callsite and buffer-handoff evidence.
