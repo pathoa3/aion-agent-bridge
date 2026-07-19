@@ -1,0 +1,10 @@
+{
+    "archive_sha256":  "5e894d94981e9c5c5362aaf7ef9e1252bc8459d7a9b78505e911cd96cf10d7c0",
+    "internal_hash_failures":  0,
+    "extracted_files":  [
+                            "CODEX_PROMPT.txt",
+                            "README.md",
+                            "resume_pass676_200m_to_250m.py",
+                            "SHA256SUMS.txt"
+                        ]
+}

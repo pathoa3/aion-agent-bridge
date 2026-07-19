@@ -1,0 +1,3 @@
+# Pass677 State Handoff
+
+Newest validated state: `checkpoint_0250000000_v2` at exactly 250,000,000 instructions, RIP `0x11B56756`, API count 12. Exact save/reload equivalence is proven. Mapping handle `0x8004` remains valid with zero open file handles. Provider page remains zero; the only changed page is non-executable; receive candidates are zero. Any later segment requires separate authorization.

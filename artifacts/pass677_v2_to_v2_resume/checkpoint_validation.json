@@ -1,0 +1,39 @@
+{
+    "source":  {
+                   "checkpoint_id":  "checkpoint_0200000000_v2",
+                   "manifest_sha256":  "3c95946844fe4ca09426feb309d9708b8b906183d0815d9d98f64cd7c0875270",
+                   "schema":  "aion-clean-checkpoint/v2",
+                   "loader_accepted":  true,
+                   "instruction_count":  200000000,
+                   "rip":  "0x11b5673f",
+                   "api_count":  12,
+                   "file_handle_count":  0,
+                   "mapping_handle_count":  1,
+                   "orphan_mapping_handles":  [
+                                                  "0x8004"
+                                              ]
+               },
+    "target":  {
+                   "checkpoint_id":  "checkpoint_0250000000_v2",
+                   "schema":  "aion-clean-checkpoint/v2",
+                   "manifest_sha256":  "da648ef3cb2cc9ad54aba41936a21b0b35c47dec55f0c1e07045cbcbb7dab212",
+                   "loader_accepted":  true,
+                   "exact_state_equivalence":  true,
+                   "instruction_count":  250000000,
+                   "rip":  "0x11b56756",
+                   "api_count":  12,
+                   "mapped_region_count":  9,
+                   "file_handle_count":  0,
+                   "mapping_handle_count":  1,
+                   "orphan_mapping_handles":  [
+                                                  "0x8004"
+                                              ],
+                   "payload_hashes_valid":  true,
+                   "synthetic_object_count":  1
+               },
+    "delta":  {
+                  "changed_pages":  1,
+                  "receive_candidates":  0,
+                  "provider_page_nonzero":  false
+              }
+}

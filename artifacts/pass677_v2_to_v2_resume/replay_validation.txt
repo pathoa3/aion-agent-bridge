@@ -1,0 +1,9 @@
+Pass677 v2-to-v2 single-segment validation
+==========================================
+Tests: syntax PASS; Pass674 7/7; Pass675 4/4; Pass676 9/9 (20/20 total).
+Source checkpoint: checkpoint_0200000000_v2, manifest SHA-256 3c95946844fe4ca09426feb309d9708b8b906183d0815d9d98f64cd7c0875270, schema v2, loader accepted, 200,000,000 instructions.
+Execution: exactly one 50,000,000-instruction segment; stop=segment_instruction_limit; no entry restart; no execution beyond 250M.
+Target checkpoint: checkpoint_0250000000_v2, manifest SHA-256 da648ef3cb2cc9ad54aba41936a21b0b35c47dec55f0c1e07045cbcbb7dab212; all payload hashes valid; loader accepted; exact state equivalence true.
+Final state: 250,000,000 instructions; RIP 0x11B56756; API count 12; mapped regions 9.
+Object invariant: one synthetic object, zero file handles, one mapping handle, orphan mapping handle 0x8004 preserved.
+Delta: one changed non-executable stack page 0x7000FFE000; provider page remains zero; receive candidates 0. No receive bridge is claimed.

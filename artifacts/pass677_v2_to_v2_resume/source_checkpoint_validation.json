@@ -1,0 +1,14 @@
+{
+  "checkpoint_id": "checkpoint_0200000000_v2",
+  "manifest_sha256": "3c95946844fe4ca09426feb309d9708b8b906183d0815d9d98f64cd7c0875270",
+  "schema": "aion-clean-checkpoint/v2",
+  "loader_accepted": true,
+  "instruction_count": 200000000,
+  "rip": "0x11b5673f",
+  "api_count": 12,
+  "file_handle_count": 0,
+  "mapping_handle_count": 1,
+  "orphan_mapping_handles": [
+    "0x8004"
+  ]
+}

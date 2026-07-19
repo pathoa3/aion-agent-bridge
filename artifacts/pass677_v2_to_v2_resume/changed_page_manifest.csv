@@ -1,0 +1,2 @@
+page_va,executable,before_sha256,after_sha256,before_nonzero,after_nonzero,change_reason,before_permissions,permissions
+0x7000ffe000,False,e729c76b511d3c4de111a218c650b37630d2ba1b3b6d1e61767596239876abfe,bf421890c886bc64355633b6371c62ae2d8e630769df0ae8558aee1fe3620dc9,True,True,,7,7
