@@ -1,0 +1,14 @@
+{
+    "archive_sha256":  "a207ef7862a4b62176f95ce43d0426c1bcae814c4c17730d170a3de121f64f19",
+    "internal_hash_failures":  0,
+    "extracted_files":  [
+                            "checkpoint_schema_v2.json",
+                            "clean_checkpoint_v2.py",
+                            "CODEX_PROMPT.txt",
+                            "README.md",
+                            "resume_pass675_150m_to_200m.py",
+                            "SHA256SUMS.txt",
+                            "test_clean_checkpoint_v2.py"
+                        ],
+    "bytecode_extracted":  false
+}

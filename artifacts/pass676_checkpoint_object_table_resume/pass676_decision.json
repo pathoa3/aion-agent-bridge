@@ -1,0 +1,24 @@
+{
+  "decision": "v2_checkpoint_object_graph_validated",
+  "source_checkpoint": "checkpoint_0150000000",
+  "target_checkpoint": "checkpoint_0200000000_v2",
+  "instruction_count": 200000000,
+  "provider_page_nonzero": false,
+  "receive_candidates": 0,
+  "changed_pages": 1,
+  "synthetic_object_result": {
+    "exact_equivalence": true,
+    "source_manifest_sha256": "09d08715a4ab3b5c62bc7f756f8e65fd2744dc970562ef36d3d55163a45315c7",
+    "target_manifest_sha256": "3c95946844fe4ca09426feb309d9708b8b906183d0815d9d98f64cd7c0875270",
+    "instruction_count": 200000000,
+    "rip": "0x11b5673f",
+    "api_count": 12,
+    "file_handle_count": 0,
+    "mapping_handle_count": 1,
+    "orphan_mapping_handles": [
+      "0x8004"
+    ]
+  },
+  "proven_fact": "The v1 failure was a serializer-model mismatch: a mapping-owned object survived CloseHandle after its file-handle table entry was removed.",
+  "claim_limit": "No receive bridge is claimed without exact executable reader/callsite and buffer-handoff evidence."
+}

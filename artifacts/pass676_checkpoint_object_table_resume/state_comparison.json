@@ -1,0 +1,13 @@
+{
+  "exact_equivalence": true,
+  "source_manifest_sha256": "09d08715a4ab3b5c62bc7f756f8e65fd2744dc970562ef36d3d55163a45315c7",
+  "target_manifest_sha256": "3c95946844fe4ca09426feb309d9708b8b906183d0815d9d98f64cd7c0875270",
+  "instruction_count": 200000000,
+  "rip": "0x11b5673f",
+  "api_count": 12,
+  "file_handle_count": 0,
+  "mapping_handle_count": 1,
+  "orphan_mapping_handles": [
+    "0x8004"
+  ]
+}

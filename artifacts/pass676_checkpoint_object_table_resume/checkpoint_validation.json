@@ -1,0 +1,55 @@
+{
+    "source":  {
+                   "checkpoint_id":  "checkpoint_0150000000",
+                   "schema":  "aion-clean-checkpoint/v1",
+                   "manifest_sha256":  "09d08715a4ab3b5c62bc7f756f8e65fd2744dc970562ef36d3d55163a45315c7",
+                   "hash_valid":  true,
+                   "unchanged_v1_loader_accepted":  true,
+                   "instruction_count":  150000000
+               },
+    "target":  {
+                   "checkpoint_id":  "checkpoint_0200000000_v2",
+                   "schema":  "aion-clean-checkpoint/v2",
+                   "manifest_sha256":  "3c95946844fe4ca09426feb309d9708b8b906183d0815d9d98f64cd7c0875270",
+                   "schema_valid":  true,
+                   "payloads":  [
+                                    {
+                                        "name":  "mapped_memory.bin",
+                                        "size":  61378560,
+                                        "expected_sha256":  "8826dbdb128d063bc35d3288953367a73fd9e9f01a17a15598c97353e58090ef",
+                                        "actual_sha256":  "8826dbdb128d063bc35d3288953367a73fd9e9f01a17a15598c97353e58090ef",
+                                        "valid":  true
+                                    },
+                                    {
+                                        "name":  "synthetic_objects.bin",
+                                        "size":  7249984,
+                                        "expected_sha256":  "c4b5ad116928685c0cd443bdb301e9fe04655d1129e9f9acad8254f68cc1846d",
+                                        "actual_sha256":  "c4b5ad116928685c0cd443bdb301e9fe04655d1129e9f9acad8254f68cc1846d",
+                                        "valid":  true
+                                    },
+                                    {
+                                        "name":  "unicorn_context.bin",
+                                        "size":  5608,
+                                        "expected_sha256":  "208774a9154825a5456088da780cfb5241f2ffc6381c8b90b4bde4975087ffa9",
+                                        "actual_sha256":  "208774a9154825a5456088da780cfb5241f2ffc6381c8b90b4bde4975087ffa9",
+                                        "valid":  true
+                                    }
+                                ],
+                   "loader_accepted":  true,
+                   "exact_state_equivalence":  true,
+                   "instruction_count":  200000000,
+                   "rip":  "0x11b5673f",
+                   "api_count":  12,
+                   "mapped_regions":  9,
+                   "synthetic_object_count":  1,
+                   "file_handle_count":  0,
+                   "mapping_handle_count":  1,
+                   "orphan_mapping_handle":  "0x8004",
+                   "closed_file_handle_reopened":  false,
+                   "synthetic_substitution":  false
+               },
+    "historical_failed_pass675_200m_destination":  {
+                                                       "unchanged":  true,
+                                                       "file_count":  0
+                                                   }
+}

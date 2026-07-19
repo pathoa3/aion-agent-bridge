@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "aion-clean-checkpoint-v2",
+  "title": "Pass676 immutable clean replay checkpoint with synthetic object graph",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "engine",
+    "identity",
+    "hook_configuration",
+    "registers",
+    "regions",
+    "python_state",
+    "payloads",
+    "immutability"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "aion-clean-checkpoint/v2"
+    },
+    "engine": {
+      "type": "object",
+      "required": [
+        "name",
+        "version",
+        "arch",
+        "mode",
+        "context_size"
+      ]
+    },
+    "identity": {
+      "type": "object"
+    },
+    "hook_configuration": {
+      "type": "object"
+    },
+    "registers": {
+      "type": "object",
+      "required": [
+        "UC_X86_REG_RIP",
+        "UC_X86_REG_RSP",
+        "UC_X86_REG_RFLAGS"
+      ]
+    },
+    "regions": {
+      "type": "array",
+      "minItems": 1
+    },
+    "python_state": {
+      "type": "object",
+      "required": [
+        "fields",
+        "synthetic_objects",
+        "file_handles",
+        "mapping_handles"
+      ]
+    },
+    "payloads": {
+      "type": "object",
+      "required": [
+        "mapped_memory.bin",
+        "unicorn_context.bin",
+        "synthetic_objects.bin"
+      ],
+      "additionalProperties": false
+    },
+    "immutability": {
+      "type": "object"
+    }
+  }
+}

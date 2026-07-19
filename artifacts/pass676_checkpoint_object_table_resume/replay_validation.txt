@@ -1,0 +1,52 @@
+Pass676 single-segment resume validation
+========================================
+Prepared patch archive SHA-256: a207ef7862a4b62176f95ce43d0426c1bcae814c4c17730d170a3de121f64f19
+Prepared source/schema internal hash failures: 0
+
+Tests:
+- Python syntax validation: PASS
+- Pass676 checkpoint-v2 tests: 9/9 PASS
+- existing Pass674 checkpoint tests: 7/7 PASS
+- existing Pass675 watcher/driver tests: 4/4 PASS
+
+Source checkpoint:
+- ID: checkpoint_0150000000
+- v1 manifest SHA-256: 09d08715a4ab3b5c62bc7f756f8e65fd2744dc970562ef36d3d55163a45315c7
+- unchanged Pass674 v1 loader and original Pass675 identity accepted it
+- source instruction count: 150,000,000
+
+Bounded replay:
+- only resume_pass675_150m_to_200m.py was run
+- exactly 50,000,000 additional clean instructions executed
+- final instruction count: 200,000,000
+- stop: segment_instruction_limit
+- no restart from entry and no execution beyond 200M
+
+Target v2 checkpoint:
+- ID: checkpoint_0200000000_v2
+- schema: aion-clean-checkpoint/v2
+- manifest SHA-256: 3c95946844fe4ca09426feb309d9708b8b906183d0815d9d98f64cd7c0875270
+- all three payload hashes valid
+- v2 loader accepted the checkpoint
+- pre-save and independently reloaded deterministic state are byte-equivalent
+- RIP: 0x11B5673F
+- API count: 12
+- mapped regions: 9
+
+Synthetic object invariant:
+- synthetic objects: 1
+- open file handles: 0
+- mapping handles: 1
+- orphan mapping handle 0x8004 references object_000000
+- the closed source file handle was not reopened
+- no object was substituted, recreated, or synthesized
+
+Receive-boundary delta scan (150M -> 200M only):
+- changed pages: 1
+- page VA: 0x7000FFE000
+- executable: false
+- receive pointer/reference candidates: 0
+- provider page remains zero
+- no receive bridge is claimed
+
+Historical Pass674/Pass675 artifacts and the empty failed Pass675 200M directory remain unchanged.
