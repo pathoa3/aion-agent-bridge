@@ -1,6 +1,6 @@
 # Aion Autonomous Worker Status
 
-Generated: 2026-07-19T09:53:31.0738322+02:00
+Generated: 2026-07-19T10:53:34.7498862+02:00
 
 Repository: pathoa3/aion-agent-bridge
 Branch: worker/runtime-status
@@ -12,9 +12,9 @@ files, credentials, and other large or sensitive artifacts.
 ## Supervisor heartbeat
 
 {
-    "timestamp":  "2026-07-19T09:52:09.7393403+02:00",
-    "phase":  "local_cycle",
-    "cycle":  27,
+    "timestamp":  "2026-07-19T10:40:06.3328585+02:00",
+    "phase":  "codex_cycle",
+    "cycle":  45,
     "message":  "",
     "supervisor_pid":  56336,
     "worker_root":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND",
@@ -58,10 +58,10 @@ files, credentials, and other large or sensitive artifacts.
 ## Last completed Hermes cycle
 
 {
-    "timestamp":  "2026-07-19T09:51:59.3016458+02:00",
+    "timestamp":  "2026-07-19T10:39:55.9776944+02:00",
     "mode":  "Local",
     "exit_code":  0,
-    "log":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND\\logs\\local-cycle-20260719_095057.log",
+    "log":  "C:\\AionTools\\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND\\logs\\local-cycle-20260719_103623.log",
     "hermes":  "C:\\Users\\patho\\AppData\\Local\\hermes\\hermes-agent\\venv\\Scripts\\hermes.exe",
     "hermes_home":  "C:\\Users\\patho\\AppData\\Local\\hermes",
     "project_root":  "C:\\AionTools",
@@ -69,8 +69,8 @@ files, credentials, and other large or sensitive artifacts.
     "model":  "gemma4:12b",
     "endpoint":  "http://localhost:11434/v1",
     "result_state":  "completed",
-    "diagnostic_category":  "success",
-    "elapsed_seconds":  61.292,
+    "diagnostic_category":  "no_durable_output",
+    "elapsed_seconds":  212.712,
     "failure":  ""
 }
 
@@ -111,570 +111,190 @@ C:\AionTools\reports\pass666_receive_resolution_REJECTED_OVERCLAIM.md is rejecte
 
 Run exactly one bounded existing-artifact-only Pass667 indirect receive dispatch pass from state\TASK_QUEUE.md.
 
+## Pass667 runtime-image recovery update (2026-07-19)
+Active task: operator-20260719-pass667-runtime-image-recovery-v2. Inventory candidate Game images and decisive target pages; classify a6417733c712f36253c410462b49de65677b22f0f8618fe288f4d04c25dde04b as packed premapped baseline; do not infer receive callsites from IAT data. Codex authoritative output: C:\AionTools\aion_decoder_agent\outbox\pass667_runtime_image_recovery\pass667_runtime_image_recovery.json. Search: 13 candidate files, 34 ZIPs; expected hash absent; no trusted runtime image. Route A offline replay required; live process dumping prohibited.
+
+## Pass667 partial-runtime IAT scan (2026-07-19)
+
+Codex statically scanned verified partial image `game_until_text_550m_v2\image.bin` (SHA-256 `b10939faba9584e99f975e340cca1753f0bad41f9f8d36f64b5ceffcf76f9b8c`). Its receive IAT slots contain emulator pointers, but each pointer occurs only in its original IAT data slot. No RIP-relative reference, direct `FF 15` call, `FF 25` jump, absolute slot-address occurrence, copied pointer, reader, or candidate indirect callsite was found in materialized executable pages. This is artifact-limited and does not prove whole-runtime absence. Exact missing evidence: a trusted complete offline runtime image or incremental Route A checkpoint with relevant code and IAT pages coexisting. Evidence: `C:\AionTools\AION_SHADOW_API_CONTRACT_MATRIX_V1_12\pass667_codex_indirect_receive_static_20260719\results\pass667_partial_runtime_iat_scan.json`.
+
 
 ## Latest local-worker result
 
-# Local Cycle Result
+# Cycle Result - 2026-07-19T10:39:55+02:00
 
-## Active Task Artifact Check
-**Task**: Pass667 Indirect Receive Dispatch
-**Action**: Perform exactly one tiny existing-artifact check for the active task.
-**Findings**:
-- Target IAT slots (0x119fd030, 0x119fd040, 0x119fd108, 0x119fd138) are confirmed as validated evidence items in `EVIDENCE_INDEX.md` and `TASK_QUEUE.md`.
-- Search for these specific addresses across the project indicates they appear primarily in report/metadata files (e.g., `.md`, `.csv`) rather than as direct executable offset references or code comments in assembly source unless manually audited in reports like `report-20260719_094840_cycle_23`.
-- Current status: Requirement "Code that reads or copies ranges containing [the IAT slots]" is identified but the specific *caller* or *loader logic* providing and utilizing these addresses is not yet isolated as a primary code structure.
+## Harness Result
 
-**Selected Evidence/Missing Artifact**:
-The core finding for this cycle is the confirmation of the physical existence of 0x119fd030, 0x119fd040, 0x119fd108, and 0x119fd138 as the primary targets. However, a **direct executable dereference or copy loop** involving these specific values is still missing from current high-confidence highlights in automated searches of raw code files.
+Hermes Local cycle exited 0 but did not create or materially update LOCAL_CYCLE_RESULT.md or another declared output artifact. This cycle is classified as no_durable_output and is not accepted as research progress.
 
-**Next Action**: Analyze surrounding memory (neighboring 0x100 bytes) and related logic to find any hardcoded offset calculations that resolve to these IAT slots.
+## Count
+
+consecutive_no_output_count: 2
+
+## Next Step
+
+The prompt scope has been reduced. After the second consecutive no-output cycle, the harness creates a focused Codex escalation request and stops Local repetition via request_codex.flag.
 
 
 ## Pending Codex request
 
 # Codex Request
 
-Status: no active Codex request.
+Status: active
+Reason: Local worker produced two consecutive exit-0 cycles without creating or materially updating LOCAL_CYCLE_RESULT.md or another declared output artifact.
 
-The stale H2 provenance request is retired. The overclaimed Pass666 report has been rejected as accepted evidence. Local worker target: operator-20260719-pass667-indirect-receive-dispatch-v1.
+Directive: operator-20260719-pass667-indirect-receive-dispatch-v1
+
+Request:
+Inspect the latest Local cycle logs and existing Pass667 artifacts. Determine why Local is not producing a durable evidence report, reduce the task to the smallest concrete static-analysis step, and produce or specify the exact evidence artifact needed next.
+
+Constraints:
+- Do not treat model prose as research progress.
+- Do not claim IAT data slots are executable callsites.
+- Do not restart or stop unrelated workers.
+- Use existing artifacts only unless a bounded static script is required.
+
+Trigger log: C:\AionTools\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND\logs\local-cycle-20260719_103623.log
 
 
 ## Latest Codex result
 
-{
-  "schema": "aion-h2-call-rax-preblocker-trace-v1",
-  "created_unix": 1784379067.0480409,
-  "checkpoint": "C:\\AionTools\\AION_SHADOW_API_CONTRACT_MATRIX_V1_12\\h2_exception_epoch_diagnostic\\results_h2\\exception_epochs\\checkpoints\\epoch_001_post_redirect_1801f9e07.aionckpt",
-  "checkpoint_sha256": "80c829f236d50e3fbbc6cceb74d49fd4228edfdd8ed79895fa1da06468744ca0",
-  "checkpoint_worker": {
-    "total": 725424268,
-    "api_count": 1218,
-    "reason": "post_context_redirect",
-    "source": "exception_epoch_runner",
-    "diagnostic_label": "DIAGNOSTIC_SLOT_SEED_NOT_PROMOTABLE"
-  },
-  "metadata_refresh": {
-    "changed": true,
-    "name": "MessageBoxExA",
-    "base": "0x6200800000",
-    "address": "0x6200820e40",
-    "export_count": 356,
-    "slot_refresh": {
-      "slot": "0x1801595c5",
-      "expected": "0x6200820e40",
-      "before": "0x6200820e40",
-      "writer": "refresh_user32_messageboxexa_export",
-      "python_stack": [
-        "  File \"C:\\AionTools\\AION_SHADOW_API_CONTRACT_MATRIX_V1_12\\h2_exception_epoch_diagnostic\\call_rax_preblocker_trace.py\", line 169, in <module>\n    raise SystemExit(main())\n",
-        "  File \"C:\\AionTools\\AION_SHADOW_API_CONTRACT_MATRIX_V1_12\\h2_exception_epoch_diagnostic\\call_rax_preblocker_trace.py\", line 68, in main\n    em, worker, meta = restore_checkpoint(CHECKPOINT, make_emulator, expected_hashes(), INPUTS)\n",
-        "  File \"C:\\AionTools\\AION_SHADOW_API_CONTRACT_MATRIX_V1_12\\h2_exception_epoch_diagnostic\\durable_checkpoint.py\", line 217, in restore_checkpoint\n    metadata[\"post_restore_contract_refresh\"] = em.refresh_user32_messageboxexa_export()\n",
-        "  File \"C:\\AionTools\\AION_SHADOW_API_CONTRACT_MATRIX_V1_12\\h2_exception_epoch_diagnostic\\work\\frozen_v19_loader.py\", line 170, in refresh_user32_messageboxexa_export\n    slot_refresh = self._write_known_messageboxexa_slot(slot)\n",
-        "  File \"C:\\AionTools\\AION_SHADOW_API_CONTRACT_MATRIX_V1_12\\h2_exception_epoch_diagnostic\\work\\frozen_v19_loader.py\", line 73, in _write_known_messageboxexa_slot\n    'python_stack': traceback.format_stack(limit=8),\n"
-      ],
-      "after": "0x6200820e40",
-      "changed": false,
-      "reason": "refreshed known MessageBoxExA resolver slot after checkpoint restore"
-    },
-    "known_slot_integrity": {
-      "0x1801595c5": {
-        "name": "user32.dll!MessageBoxExA",
-        "classification": "must remain nonzero after checkpoint restore",
-        "qword": "0x6200820e40",
-        "ok": true
-      },
-      "0x180159d1f": {
-        "name": "RtlLookupFunctionEntry diagnostic scratch / guest-cleared lifecycle slot",
-        "classification": "guest intentionally zero",
-        "qword": "0x62004205f0",
-        "ok": false
-      }
-    }
-  },
-  "restored_historical_exception_dispatches": [
-    {
-      "phase": "raise",
-      "code": "0x40010006",
-      "flags": "0x0",
-      "caller_rip": "0x1801f9df8",
-      "caller_rsp": "0x7000ffde90",
-      "handlers": [
-        "0x1801f9e46",
-        "0x1801d857d"
-      ]
-    },
-    {
-      "phase": "handler_return",
-      "handler": "0x1801f9e46",
-      "result": "0xffffffff",
-      "context_rip": "0x1801f9e07",
-      "context_rsp": "0x7000ffdec0"
-    },
-    {
-      "generation": 1,
-      "phase": "hardware_av_dispatch",
-      "code": "0xc0000005",
-      "fault_rip": "0x18022131b",
-      "fault_rsp": "0x7000ffdea0",
-      "fault_address": "0x50003ac000",
-      "record": "0x7000ff9ea0",
-      "context": "0x7000ff9fa0",
-      "context_sha256_before_handlers": "a20a512ed7b8d55ff905a2dd540f9d9a3814ef18c89e3959df520c7622a4a858",
-      "pointers": "0x7000ffa5a0",
-      "return_stub": "0x60000002c0",
-      "handlers_snapshot": [
-        {
-          "handle": "0x5000182000",
-          "first": 1,
-          "handler": "0x1801d857d"
-        }
-      ],
-      "scratch": {
-        "base": "0x7000ff9ea0",
-        "source": "existing_stack_page"
-      },
-      "exception_record_sha256": "da0092d11999d3664b73f507c6fbd0fc86f474d9524377369de81d971e51dc49"
-    }
-  ],
-  "current_run_exception_dispatches": [],
-  "reason": "pre_call_rax",
-  "error": "",
-  "total": 725476268,
-  "pre_call": {
-    "rip": "0x180166797",
-    "bytes": "ffd0",
-    "disassembly": "call rax",
-    "registers_before": {
-      "rip": "0x180166797",
-      "rsp": "0x7000ffdc60",
-      "rbp": "0x16d647014",
-      "rax": "0x0",
-      "rbx": "0xb9867f6f",
-      "rcx": "0x0",
-      "rdx": "0x1801d7916",
-      "rsi": "0x1801d7b0e",
-      "rdi": "0x0",
-      "r8": "0x180157781",
-      "r9": "0x0",
-      "r10": "0x7000ffdf40",
-      "r11": "0xffffffff",
-      "r12": "0x400000",
-      "r13": "0x2",
-      "r14": "0x0",
-      "r15": "0x0",
-      "eflags": "0x216"
-    },
-    "rsp_stack_12_before": [
-      {
-        "address": "0x7000ffdc60",
-        "value": "0x1801d7b0e"
-      },
-      {
-        "address": "0x7000ffdc68",
-        "value": "0xffffffff8006678c"
-      },
-      {
-        "address": "0x7000ffdc70",
-        "value": "0x0"
-      },
-      {
-        "address": "0x7000ffdc78",
-        "value": "0x7000ffdc90"
-      },
-      {
-        "address": "0x7000ffdc80",
-        "value": "0x7000ffdc90"
-      },
-      {
-        "address": "0x7000ffdc88",
-        "value": "0x7000ffdc90"
-      },
-      {
-        "address": "0x7000ffdc90",
-        "value": "0x1801d7b0e"
-      },
-      {
-        "address": "0x7000ffdc98",
-        "value": "0x60000002c0"
-      },
-      {
-        "address": "0x7000ffdca0",
-        "value": "0x0"
-      },
-      {
-        "address": "0x7000ffdca8",
-        "value": "0x0"
-      },
-      {
-        "address": "0x7000ffdcb0",
-        "value": "0x0"
-      },
-      {
-        "address": "0x7000ffdcb8",
-        "value": "0x0"
-      }
-    ],
-    "slot_state": {
-      "0x180159d1f": "0x62004205f0",
-      "0x1801595c5": "0x6200820e40"
-    },
-    "last_relevant_writes": [
-      {
-        "address": "0x7000ffdc30",
-        "size": 8,
-        "value": "0x6200001918",
-        "rip": "0x18015a4d4",
-        "instruction": "push rsi",
-        "registers": {
-          "rip": "0x18015a4d4",
-          "rsp": "0x7000ffdc38",
-          "rbp": "0x16d647014",
-          "rax": "0x6200002745",
-          "rbx": "0x6200000000",
-          "rcx": "0x5484",
-          "rdx": "0xda6038c2",
-          "rsi": "0x6200001918",
-          "rdi": "0x62000027c4",
-          "r8": "0x180157781",
-          "r9": "0x0",
-          "r10": "0x7000ffdf40",
-          "r11": "0xffffffff",
-          "r12": "0x400000",
-          "r13": "0x2",
-          "r14": "0x0",
-          "r15": "0x0",
-          "eflags": "0x206"
-        }
-      },
-      {
-        "address": "0x7000ffdc30",
-        "size": 8,
-        "value": "0x620000191c",
-        "rip": "0x18015a4d4",
-        "instruction": "push rsi",
-        "registers": {
-          "rip": "0x18015a4d4",
-          "rsp": "0x7000ffdc38",
-          "rbp": "0x16d647014",
-          "rax": "0x6200002745",
-          "rbx": "0x6200000000",
-          "rcx": "0x5484",
-          "rdx": "0xda6038c2",
-          "rsi": "0x620000191c",
-          "rdi": "0x62000027d1",
-          "r8": "0x180157781",
-          "r9": "0x0",
-          "r10": "0x7000ffdf40",
-          "r11": "0xffffffff",
-          "r12": "0x400000",
-          "r13": "0x2",
-          "r14": "0x0",
-          "r15": "0x0",
-          "eflags": "0x206"
-        }
-      },
-      {
-        "address": "0x7000ffdc30",
-        "size": 8,
-        "value": "0x6200001920",
-        "rip": "0x18015a4d4",
-        "instruction": "push rsi",
-        "registers": {
-          "rip": "0x18015a4d4",
-          "rsp": "0x7000ffdc38",
-          "rbp": "0x16d647014",
-          "rax": "0x6200002745",
-          "rbx": "0x6200000000",
-          "rcx": "0x5484",
-          "rdx": "0xda6038c2",
-          "rsi": "0x6200001920",
-          "rdi": "0x62000027e0",
-          "r8": "0x180157781",
-          "r9": "0x0",
-          "r10": "0x7000ffdf40",
-          "r11": "0xffffffff",
-          "r12": "0x400000",
-          "r13": "0x2",
-          "r14": "0x0",
-          "r15": "0x0",
-          "eflags": "0x202"
-        }
-      },
-      {
-        "address": "0x7000ffdc30",
-        "size": 8,
-        "value": "0x6200001924",
-        "rip": "0x18015a4d4",
-        "instruction": "push rsi",
-        "registers": {
-          "rip": "0x18015a4d4",
-          "rsp": "0x7000ffdc38",
-          "rbp": "0x16d647014",
-          "rax": "0x6200002745",
-          "rbx": "0x6200000000",
-          "rcx": "0x5484",
-          "rdx": "0xda6038c2",
-          "rsi": "0x6200001924",
-          "rdi": "0x62000027ef",
-          "r8": "0x180157781",
-          "r9": "0x0",
-          "r10": "0x7000ffdf40",
-          "r11": "0xffffffff",
-          "r12": "0x400000",
-          "r13": "0x2",
-          "r14": "0x0",
-          "r15": "0x0",
-          "eflags": "0x206"
-        }
-      },
-      {
-        "address": "0x7000ffdc30",
-        "size": 8,
-        "value": "0x6200001928",
-        "rip": "0x18015a4d4",
-        "instruction": "push rsi",
-        "registers": {
-          "rip": "0x18015a4d4",
-          "rsp": "0x7000ffdc38",
-          "rbp": "0x16d647014",
-          "rax": "0x6200002745",
-          "rbx": "0x6200000000",
-          "rcx": "0x5484",
-          "rdx": "0xda6038c2",
-          "rsi": "0x6200001928",
-          "rdi": "0x6200002804",
-          "r8": "0x180157781",
-          "r9": "0x0",
-          "r10": "0x7000ffdf40",
-          "r11": "0xffffffff",
-          "r12": "0x400000",
-          "r13": "0x2",
-          "r14": "0x0",
-          "r15": "0x0",
-          "eflags": "0x202"
-        }
-      },
-      {
-        "address": "0x7000ffdc30",
-        "size": 8,
-        "value": "0x620000192c",
-        "rip": "0x18015a4d4",
-        "instruction": "push rsi",
-        "registers": {
-          "rip": "0x18015a4d4",
-          "rsp": "0x7000ffdc38",
-          "rbp": "0x16d647014",
-          "rax": "0x6200002845",
-          "rbx": "0x6200000000",
-          "rcx": "0x5484",
-          "rdx": "0xda6038c2",
-          "rsi": "0x620000192c",
-          "rdi": "0x620000281b",
-          "r8": "0x180157781",
-          "r9": "0x0",
-          "r10": "0x7000ffdf40",
-          "r11": "0xffffffff",
-          "r12": "0x400000",
-          "r13": "0x2",
-          "r14": "0x0",
-          "r15": "0x0",
-          "eflags": "0x202"
-        }
-      },
-      {
-        "address": "0x7000ffdc30",
-        "size": 8,
-        "value": "0x6200001930",
-        "rip": "0x18015a4d4",
-        "instruction": "push rsi",
-        "registers": {
-          "rip": "0x18015a4d4",
-          "rsp": "0x7000ffdc38",
-          "rbp": "0x16d647014",
-          "rax": "0x6200002845",
-          "rbx": "0x6200000000",
-          "rcx": "0x5484",
-          "rdx": "0xda6038c2",
-          "rsi": "0x6200001930",
-          "rdi": "0x620000282f",
-          "r8": "0x180157781",
-          "r9": "0x0",
-          "r10": "0x7000ffdf40",
-          "r11": "0xffffffff",
-          "r12": "0x400000",
-          "r13": "0x2",
-          "r14": "0x0",
-          "r15": "0x0",
-          "eflags": "0x206"
-        }
-      },
-      {
-        "address": "0x7000ffdc30",
-        "size": 8,
-        "value": "0x6200001934",
-        "rip": "0x18015a4d4",
-        "instruction": "push rsi",
-        "registers": {
-          "rip": "0x18015a4d4",
-          "rsp": "0x7000ffdc38",
-          "rbp": "0x16d647014",
-          "rax": "0x6200002845",
-          "rbx": "0x6200000000",
-          "rcx": "0x5484",
-          "rdx": "0xda6038c2",
-          "rsi": "0x6200001934",
-          "rdi": "0x6200002843",
-          "r8": "0x180157781",
-          "r9": "0x0",
-          "r10": "0x7000ffdf40",
-          "r11": "0xffffffff",
-          "r12": "0x400000",
-          "r13": "0x2",
-          "r14": "0x0",
-          "r15": "0x0",
-          "eflags": "0x206"
-        }
-      },
-      {
-        "address": "0x7000ffdc30",
-        "size": 8,
-        "value": "0x6200001938",
-        "rip": "0x18015a4d4",
-        "instruction": "push rsi",
-        "registers": {
-          "rip": "0x18015a4d4",
-          "rsp": "0x7000ffdc38",
-          "rbp": "0x16d647014",
-          "rax": "0x6200002845",
-          "rbx": "0x6200000000",
-          "rcx": "0x5484",
-          "rdx": "0xda6038c2",
-          "rsi": "0x6200001938",
-          "rdi": "0x6200002851",
-          "r8": "0x180157781",
-          "r9": "0x0",
-          "r10": "0x7000ffdf40",
-          "r11": "0xffffffff",
-          "r12": "0x400000",
-          "r13": "0x2",
-          "r14": "0x0",
-          "r15": "0x0",
-          "eflags": "0x202"
-        }
-      },
-      {
-        "address": "0x7000ffdc30",
-        "size": 8,
-        "value": "0x620000193c",
-        "rip": "0x18015a4d4",
-        "instruction": "push rsi",
-        "registers": {
-          "rip": "0x18015a4d4",
-          "rsp": "0x7000ffdc38",
-          "rbp": "0x16d647014",
-          "rax": "0x6200002845",
-          "rbx": "0x6200000000",
-          "rcx": "0x5484",
-          "rdx": "0xda6038c2",
-          "rsi": "0x620000193c",
-          "rdi": "0x6200002869",
-          "r8": "0x180157781",
-          "r9": "0x0",
-          "r10": "0x7000ffdf40",
-          "r11": "0xffffffff",
-          "r12": "0x400000",
-          "r13": "0x2",
-          "r14": "0x0",
-          "r15": "0x0",
-          "eflags": "0x202"
-        }
-      },
-      {
-        "address": "0x7000ffdc30",
-        "size": 8,
-        "value": "0x6200001940",
-        "rip": "0x18015a4d4",
-        "instruction": "push rsi",
-        "registers": {
-          "rip": "0x18015a4d4",
-          "rsp": "0x7000ffdc38",
-          "rbp": "0x16d647014",
-          "rax": "0x6200002845",
-          "rbx": "0x6200000000",
-          "rcx": "0x5484",
-          "rdx": "0xda6038c2",
-          "rsi": "0x6200001940",
-          "rdi": "0x620000287a",
-          "r8": "0x180157781",
-          "r9": "0x0",
-          "r10": "0x7000ffdf40",
-          "r11": "0xffffffff",
-          "r12": "0x400000",
-          "r13": "0x2",
-          "r14": "0x0",
-          "r15": "0x0",
-          "eflags": "0x206"
-        }
-      },
-      {
-        "address": "0x7000ffdc30",
-        "size": 8,
-        "value": "0x6200001944",
-        "rip": "0x18015a4d4",
-        "instruction": "push rsi",
-        "registers": {
-          "rip": "0x18015a4d4",
-          "rsp": "0x7000ffdc38",
-          "rbp": "0x16d647014",
-          "rax": "0x6200002845",
-          "rbx": "0x6200000000",
-          "rcx": "0x5484",
-          "rdx": "0xda6038c2",
-          "rsi": "0x6200001944",
-          "rdi": "0x620000288b",
-          "r8": "0x180157781",
-          "r9": "0x0",
-          "r10": "0x7000ffdf40",
-          "r11": "0xffffffff",
-          "r12": "0x400000",
-          "r13": "0x2",
-          "r14": "0x0",
-          "r15": "0x0",
-          "eflags": "0x202"
-        }
-      },
-      {
-        "address": "0x7000ffdc30",
-        "size": 8,
-        "value": "0x6200001948",
-        "rip": "0x18015a4d4",
-        "instruction": "push rsi",
-        "registers": {
-          "rip": "0x18015a4d4",
-          "rsp": "0x7000ffdc38",
-          "rbp": "0x16d647014",
-          "rax": "0x6200002845",
-          "rbx": "0x6200000000",
-          "rcx": "0x5484",
-          "rdx": "0xda6038c2",
-          "rsi": "0x6200001948",
-          "rdi": "0x6200002898",
-          "r8": "0x180157781",
-          "r9": "0x0",
-          "r10": "0x7000ffdf40",
-          "r11": "0xffffffff",
-          "r12": "0x400000",
-          "r13": "0x2",
-          "r14": "0x0",
-          "r15": "0x0",
-          "eflags": "0x206"
-        }
-      },
-      {
-        "address": "0x7000ffdc30",
-        "size": 8,
-      
+# Codex Result
 
-_Section truncated by the GitHub reporter._
+Status: completed
+Directive: operator-20260719-pass667-indirect-receive-dispatch-v1
+Date: 2026-07-19
+
+## Executive result
+
+The Local worker produced no durable evidence because it never invoked a file or analysis tool. The trigger log's stdout repeatedly promises a search and `LOCAL_CYCLE_RESULT.md` write, then exits 0 without either operation. Its claim that the receive IAT area is a "jump table" is unsupported and is not accepted.
+
+I reduced the task to one bounded existing-artifact static experiment against the best already-materialized Game candidate relevant to receive dispatch: `C:\AionTools\aion_decoder_agent\outbox\game_until_text_550m_v2\image.bin`.
+
+The scan found populated receive IAT data slots but no copied receive pointer and no disassembly-backed reference or direct call/jump in materialized executable pages. This is an artifact-limited negative result, not proof of absence in the complete runtime.
+
+## Cause of Local no-output cycles
+
+Verified trigger log:
+
+- path: `C:\AionTools\AION_HERMES_AUTONOMOUS_WORKER_V1_4_WINDOWS_BACKGROUND\logs\local-cycle-20260719_100925.log`
+- SHA-256: `ee623e9a325ba8039939af64d9c82d9e02dd7f1d099a6db655295d5a8f816475`
+- process exit: 0
+- stdout behavior: lines 57-84 assert a jump-table interpretation and say "I'll now write" / "I will draft the report now"
+- actual behavior: no tool call or file write appears before exit
+
+The preceding no-output log has the same failure mode:
+
+- `local-cycle-20260719_100321.log`
+- SHA-256: `04ee8f675b2a045f89aa31947f6ef78e48d7f4b0eef51b14f6bd6075bf2e2794`
+- stdout consists of repeated planning loops; no search or write occurs
+
+The harness correctly rejected both cycles as `no_durable_output`.
+
+## Path and hash verification
+
+Active request:
+
+- `handoff\CODEX_REQUEST.md` exists; SHA-256 `16ef06e6ca5c7393834745d50d05ed0f66473428a0ec7fcd6ede938af44f7d8e`.
+- Trigger log exists and matches the hash above.
+- `handoff\LOCAL_CYCLE_RESULT.md` was present before changes; preserved SHA-256 `e70ea0f11b45b581a0abf057ee5a1661969652eb876b69d2c4134ff3722869e3`.
+
+Accepted/runtime evidence:
+
+- packed baseline path exists and hashes to `a6417733c712f36253c410462b49de65677b22f0f8618fe288f4d04c25dde04b`, matching state and Pass666.
+- v2 partial runtime input hashes to `b10939faba9584e99f975e340cca1753f0bad41f9f8d36f64b5ceffcf76f9b8c`, matching the Pass667 inventory.
+- all 10 entries in `outbox\pass667_runtime_image_recovery\SHA256SUMS.txt` passed after normalizing its CRLF line endings for GNU `sha256sum -c`.
+- the five `C:\AionTools\Sources` module hashes used by the ownership inventory all match its JSON: aegisty64, aion.bin, euroaion.dll, libeay32.dll, and version.dll.
+- the inventory's expected trusted runtime hash `e4039ec811a46d3a42c256527133fc389ac74f3cb07c521e4dde76963b83a540` remains absent according to the verified 13-file/34-archive inventory. No contrary artifact was found or claimed.
+
+## Evidence preservation
+
+Before state changes, the request, prior Local result, both Local logs, Pass667 checksum manifest, and four prior state files were copied without removal to:
+
+`C:\AionTools\AION_SHADOW_API_CONTRACT_MATRIX_V1_12\pass667_codex_indirect_receive_static_20260719\evidence_before`
+
+Preserved hashes are recorded in `evidence_before\SHA256SUMS_ALL.txt`. No original evidence was removed or overwritten.
+
+## Bounded implementation and result
+
+Scanner:
+
+- path: `C:\AionTools\AION_SHADOW_API_CONTRACT_MATRIX_V1_12\pass667_codex_indirect_receive_static_20260719\scan_partial_runtime_iat_refs.py`
+- SHA-256: `e4316125f88d3b301aaaa7f570ec29827ff36ab75290f2d861624fc3ae1cf904`
+
+Authoritative output:
+
+- path: `C:\AionTools\AION_SHADOW_API_CONTRACT_MATRIX_V1_12\pass667_codex_indirect_receive_static_20260719\results\pass667_partial_runtime_iat_scan.json`
+- SHA-256: `1ef0c43f0604b240521270f1ab8bf27c51d01bb87ade0f3079c7db8ecd1f7746`
+
+Concise report:
+
+- path: `C:\AionTools\AION_SHADOW_API_CONTRACT_MATRIX_V1_12\pass667_codex_indirect_receive_static_20260719\results\PASS667_PARTIAL_RUNTIME_IAT_SCAN.md`
+- SHA-256: `2b470ec5c92a780f8affdcd5de3397f8e660ee23e68b5f25aee1952cbf7ed14e`
+
+Observed IAT values:
+
+- `0x119fd030` WSARecvFrom -> `0x6000000050`
+- `0x119fd040` WSARecv -> `0x6000000070`
+- `0x119fd108` recv -> `0x6000000200`
+- `0x119fd138` recvfrom -> `0x6000000260`
+
+Scan result:
+
+- current pointer occurrences: exactly 4, each at its original IAT data slot only
+- non-IAT copies of current receive pointers: 0
+- absolute 4-byte/8-byte slot-address occurrences: 0
+- decoded RIP-relative references from materialized executable pages: 0
+- encoding-level `FF 15` calls to receive slots: 0
+- encoding-level `FF 25` jumps to receive slots: 0
+- candidate indirect callsite: none proven
+- buffer-handoff tracing: still blocked
+- confidence: high for this image's materialized bytes; no whole-runtime absence claim
+
+The slot values are evidence about IAT data only. They are not executable callsites or proof of a jump table.
+
+## Tests
+
+Focused assertions verified 9 invariants: input hash, four expected populated slots, zero decoded references, zero direct call/jump encodings, zero absolute slot-address occurrences, and exactly four current-pointer occurrences all at original slots.
+
+Relevant regression command:
+
+`python -m unittest tests.test_validate_game_runtime_image tests.test_recreate_game_runtime_v6_clean`
+
+Result: 6 tests ran, all passed (`OK`).
+
+Test log:
+
+- `C:\AionTools\AION_SHADOW_API_CONTRACT_MATRIX_V1_12\pass667_codex_indirect_receive_static_20260719\results\tests.txt`
+- SHA-256: `317b6cfcd95ab2ae9e6ab408c53876266b5a4423b1b1a3ff7eaa689be1a6b2cf`
+
+The scanner also passed `py_compile`.
+
+## Accepted-state updates
+
+Updated after preserving prior versions:
+
+- `state\CURRENT_STATE.md` — records the artifact-limited negative result and exact missing evidence.
+- `state\TASK_QUEUE.md` — prevents repeated prose/address searches and narrows the next action.
+- `state\DECISION_LOG.md` — explicitly rejects the unsupported Local jump-table claim.
+- `state\EVIDENCE_INDEX.md` — indexes the JSON and report with acceptance scope.
+
+## Exact blocker and smallest next experiment
+
+Exact missing evidence: a trusted complete offline runtime image, or an immutable Route A offline checkpoint snapshot in which the relevant executable pages and receive-IAT page coexist.
+
+Smallest next experiment:
+
+1. Continue only the approved offline Route A replay from a verified existing checkpoint.
+2. Preserve each new checkpoint/image; never overwrite prior evidence.
+3. At each newly materialized executable page, scan for the four current pointer qwords and RIP-relative references to `0x119fd030`, `0x119fd040`, `0x119fd108`, and `0x119fd138`.
+4. Stop at the first non-IAT pointer copy or disassembly-backed reader/callsite and trace only that candidate.
+5. Do not seed values, force guest state/control flow, map a proven invalid boundary page, attach to a process, or infer code from IAT data.
+
+## Repository and safety status
+
+`C:\AionTools` and `C:\AionTools\aion_decoder_agent` are not Git working trees, so no local commit was appropriate or possible. No remote operation was attempted. Production, baseline trees, AION_LOCAL_WORKER_V22, and AION_LOCAL_WORKER_V22_2 were untouched. No guest execution or mutation occurred.
+
 
 ## Current task queue
 
@@ -715,3 +335,10 @@ Create control\request_codex.flag and a complete handoff\CODEX_REQUEST.md only i
 ## Prohibited
 
 No production/guest-state mutation, invalid-page mapping, value seeding, forced control flow, binary patching, hooks, injection, live process attachment, H2 null-RAX continuation, or changes to AION_LOCAL_WORKER_V22/AION_LOCAL_WORKER_V22_2.
+
+## Pass667 runtime-image recovery update (2026-07-19)
+Active task: operator-20260719-pass667-runtime-image-recovery-v2. Inventory candidate Game images and decisive target pages; classify a6417733c712f36253c410462b49de65677b22f0f8618fe288f4d04c25dde04b as packed premapped baseline; do not infer receive callsites from IAT data. Codex authoritative output: C:\AionTools\aion_decoder_agent\outbox\pass667_runtime_image_recovery\pass667_runtime_image_recovery.json. Search: 13 candidate files, 34 ZIPs; expected hash absent; no trusted runtime image. Route A offline replay required; live process dumping prohibited.
+
+## Bounded static step completed (2026-07-19)
+
+The verified v2 partial-runtime image contains populated receive IAT slots but no copied current pointer and no disassembly-backed reference/callsite in materialized executable pages. Do not repeat address/prose searches on this image. Next: obtain an immutable Route A offline checkpoint with relevant executable pages plus the IAT page, then incrementally scan each newly materialized page for current pointer qwords and RIP-relative references. Stop at the first non-IAT pointer copy or reader/callsite. No live acquisition or guest mutation.
