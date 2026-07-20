@@ -1,0 +1,23 @@
+pass687 generic v2 segment validation
+=====================================
+Tests passed: 26
+Runner commit: 58899b4e627e72486eda6b3c1fe259ec51a16283
+Runner SHA-256: 3466ef20954f14fa74ce2eda08deee5a681f2b79271af875d75a45130cbac9d0
+Source checkpoint: checkpoint_0700000000_v2
+Source manifest SHA-256: e766fc4eceb6bf08a8745aa43a98320e9dc8940b0f7d26690404a0c7c964c2dc
+Source instruction count: 700000000
+Requested target instruction count: 750000000
+Target checkpoint: checkpoint_0750000000_v2
+Target manifest SHA-256: b845d64f2bc9abc1b642c467521af229e87e642fe317234b9aec51e03ce91eb1
+Final instruction count: 750000000
+RIP: 0x11b515f0
+API count: 18
+Stop reason: segment_instruction_limit
+Exact state equivalence: True
+Changed pages: 289
+Receive candidates: 0
+Provider page nonzero: False
+File handles: 0
+Mapping handles: 1
+Orphan mapping handles: 0x8004
+No receive bridge is claimed without exact executable reader/callsite and buffer-handoff evidence.
