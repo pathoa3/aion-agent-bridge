@@ -1,0 +1,17 @@
+{
+  "exact_equivalence": true,
+  "source_manifest_sha256": "c88f7d7f433f2f761848ca38deef4f39ecc38046e42d8c588d6903da89251b8c",
+  "target_manifest_sha256": "beda59210bec6a8cea30ea549e377f9fe9adefd57bf65b53880c6bd22b77fde7",
+  "requested_target_instruction_count": 1000000000,
+  "actual_instruction_count": 1000000000,
+  "segment_stop_reason": "segment_instruction_limit",
+  "exact_requested_boundary": true,
+  "rip": "0x11b5673f",
+  "api_count": 25,
+  "mapped_region_count": 10,
+  "file_handle_count": 0,
+  "mapping_handle_count": 1,
+  "orphan_mapping_handles": [
+    "0x8004"
+  ]
+}
