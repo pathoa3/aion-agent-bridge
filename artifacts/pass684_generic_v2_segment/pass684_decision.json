@@ -1,0 +1,45 @@
+{
+  "decision": "requested_v2_boundary_checkpoint_validated",
+  "source_checkpoint": "checkpoint_0550000000_v2",
+  "target_checkpoint": "checkpoint_0600000000_v2",
+  "source_instruction_count": 550000000,
+  "requested_target_instruction_count": 600000000,
+  "actual_instruction_count": 600000000,
+  "segment_stop_reason": "segment_instruction_limit",
+  "exact_state_equivalence": true,
+  "provider_page_nonzero": false,
+  "receive_candidates": 0,
+  "changed_pages": 289,
+  "source_object_invariant": {
+    "checkpoint_id": "checkpoint_0550000000_v2",
+    "manifest_sha256": "8cc6ac58ff0b0d931220fbf1060694f93da7b1f1d9ce09009a7eee92f8f4662e",
+    "schema": "aion-clean-checkpoint/v2",
+    "loader_accepted": true,
+    "instruction_count": 550000000,
+    "rip": "0x11b476bf",
+    "api_count": 18,
+    "file_handle_count": 0,
+    "mapping_handle_count": 1,
+    "orphan_mapping_handles": [
+      "0x8004"
+    ]
+  },
+  "target_object_invariant": {
+    "exact_equivalence": true,
+    "source_manifest_sha256": "8cc6ac58ff0b0d931220fbf1060694f93da7b1f1d9ce09009a7eee92f8f4662e",
+    "target_manifest_sha256": "3b2a0d568185a91de81ae2acabe5cf320e5f617a34af782603de6612f9953653",
+    "requested_target_instruction_count": 600000000,
+    "actual_instruction_count": 600000000,
+    "segment_stop_reason": "segment_instruction_limit",
+    "exact_requested_boundary": true,
+    "rip": "0x119bd829",
+    "api_count": 18,
+    "mapped_region_count": 9,
+    "file_handle_count": 0,
+    "mapping_handle_count": 1,
+    "orphan_mapping_handles": [
+      "0x8004"
+    ]
+  },
+  "claim_limit": "No receive bridge is claimed without an exact executable reader/callsite and buffer-handoff evidence."
+}

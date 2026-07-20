@@ -1,0 +1,55 @@
+syntax_validation=PASS
+
+TEST_FILE=test_resume_v2_segment.py
+......
+----------------------------------------------------------------------
+Ran 6 tests in 0.035s
+
+OK
+EXIT_CODE=0
+
+TEST_FILE=test_clean_checkpoint_roundtrip.py
+test_complete_roundtrip_and_alias (__main__.CheckpointTests.test_complete_roundtrip_and_alias) ... ok
+test_conflicting_region_rejected (__main__.CheckpointTests.test_conflicting_region_rejected) ... ok
+test_corrupt_payload_rejected (__main__.CheckpointTests.test_corrupt_payload_rejected) ... ok
+test_immutable_nonoverwrite (__main__.CheckpointTests.test_immutable_nonoverwrite) ... ok
+test_incomplete_checkpoint_rejected (__main__.CheckpointTests.test_incomplete_checkpoint_rejected) ... ok
+test_wrong_script_and_wrong_input_identities_rejected (__main__.CheckpointTests.test_wrong_script_and_wrong_input_identities_rejected) ... ok
+test_wrong_version_rejected (__main__.CheckpointTests.test_wrong_version_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.310s
+
+OK
+EXIT_CODE=0
+
+TEST_FILE=test_pass675_checkpointed_replay.py
+test_bounded_configuration (__main__.Tests.test_bounded_configuration) ... ok
+test_exact_copied_pointer_consumer (__main__.Tests.test_exact_copied_pointer_consumer) ... ok
+test_nearby_consumer_rejected (__main__.Tests.test_nearby_consumer_rejected) ... ok
+test_pass674_command_is_read_not_reconstructed (__main__.Tests.test_pass674_command_is_read_not_reconstructed) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.052s
+
+OK
+EXIT_CODE=0
+
+TEST_FILE=test_clean_checkpoint_v2.py
+test_corrupt_object_payload_rejected (__main__.CheckpointV2Tests.test_corrupt_object_payload_rejected) ... ok
+test_dangling_object_reference_rejected (__main__.CheckpointV2Tests.test_dangling_object_reference_rejected) ... ok
+test_distinct_equal_objects_remain_distinct (__main__.CheckpointV2Tests.test_distinct_equal_objects_remain_distinct) ... ok
+test_duplicate_object_id_rejected (__main__.CheckpointV2Tests.test_duplicate_object_id_rejected) ... ok
+test_immutable_nonoverwrite (__main__.CheckpointV2Tests.test_immutable_nonoverwrite) ... ok
+test_mapping_survives_closed_file_handle_roundtrip (__main__.CheckpointV2Tests.test_mapping_survives_closed_file_handle_roundtrip) ... ok
+test_open_file_and_mapping_alias_roundtrip (__main__.CheckpointV2Tests.test_open_file_and_mapping_alias_roundtrip) ... ok
+test_two_mapping_handles_preserve_orphan_alias (__main__.CheckpointV2Tests.test_two_mapping_handles_preserve_orphan_alias) ... ok
+test_v1_schema_rejected_by_v2_loader (__main__.CheckpointV2Tests.test_v1_schema_rejected_by_v2_loader) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.278s
+
+OK
+EXIT_CODE=0
+
+TOTAL_TESTS_PASSED=26
