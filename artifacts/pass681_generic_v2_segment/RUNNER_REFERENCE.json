@@ -1,0 +1,12 @@
+{
+    "runner_git_commit":  "58899b4e627e72486eda6b3c1fe259ec51a16283",
+    "repository_path":  "artifacts/pass678_generic_v2_segment/resume_v2_segment.py",
+    "runner_sha256":  "3466ef20954f14fa74ce2eda08deee5a681f2b79271af875d75a45130cbac9d0",
+    "test_repository_path":  "artifacts/pass678_generic_v2_segment/test_resume_v2_segment.py",
+    "test_sha256":  "5c45c417d036ddd5b0df3fe72fdc06d594f472ac364763f927c5c2fbdd11f96a",
+    "source_checkpoint_id":  "checkpoint_0400000000_v2",
+    "source_manifest_sha256":  "5b2c8f520486d17825a2a48a74bf288fe0394dfa7d8ced162fcf88ca8fb4f231",
+    "source_instruction_count":  400000000,
+    "requested_segment_instructions":  50000000,
+    "requested_target_instruction_count":  450000000
+}
